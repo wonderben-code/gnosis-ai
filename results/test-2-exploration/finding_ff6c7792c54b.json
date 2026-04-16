@@ -1,0 +1,15 @@
+{
+  "structural_finding": "Structure and constraint are identical: mathematical and physical reality consists entirely of limitations, with all apparent properties and complexity being different views of fundamental constraints",
+  "level": 3,
+  "source_convergence_ids": [
+    "b7aa3c75a4a9",
+    "0ebd0da598e6"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Constraint Identity Principle",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_275ec92f734f",
+  "timestamp": "2026-04-16T18:37:24.263443+00:00",
+  "id": "ff6c7792c54b"
+}

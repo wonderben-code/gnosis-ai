@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Mathematical objects are fundamentally determined by their relational structure rather than intrinsic properties, with local data determining global behavior through universal construction principles.",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Grothendieck's Theory of Schemes",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic varieties are fundamentally local-global objects understood through their local rings and morphisms between them"
+    },
+    {
+      "result_id": "",
+      "result_name": "Yoneda Lemma",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Objects are completely determined by their relationships (morphisms) to all other objects"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cohomology of Coherent Sheaves",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Global geometric properties are encoded in local algebraic data that can be assembled through sheaf cohomology"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kan Extension Formula",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Mathematical structures can be universally extended while preserving essential relational properties"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "category_theory"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Category Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.39199999999999996,
+    "independence": 0.6,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48009999999999997,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:03.502355+00:00",
+  "id": "798982b510ad"
+}

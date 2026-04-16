@@ -1,0 +1,171 @@
+{
+  "id": "analysis",
+  "name": "Analysis",
+  "category": "Mathematics",
+  "description": "Real, complex, functional analysis, operator theory, spectral theory",
+  "results": [
+    {
+      "name": "Fundamental Theorem of Calculus",
+      "authors": "Newton, Leibniz (1665-1676)",
+      "year": 1665,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Integration and differentiation are inverse operations, revealing that the continuous and the discrete aspects of change are fundamentally unified through accumulation processes.",
+      "source_citation": "Newton, I. Method of Fluxions (1665-1676)",
+      "id": "85ab534a5394"
+    },
+    {
+      "name": "Intermediate Value Theorem",
+      "authors": "Bolzano (1817)",
+      "year": 1817,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Continuous functions on connected domains cannot skip values, establishing that continuity preserves connectedness and revealing the topological nature of real analysis.",
+      "source_citation": "Bolzano, B. Rein analytischer Beweis (1817)",
+      "id": "baa0d7eb7ed5"
+    },
+    {
+      "name": "Extreme Value Theorem",
+      "authors": "Weierstrass (1860s)",
+      "year": 1860,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Continuous functions on compact sets achieve their extrema, demonstrating that compactness provides the structural constraint needed to guarantee optimization solutions.",
+      "source_citation": "Weierstrass, K. Lectures on function theory (1860s)",
+      "id": "32067d7b656c"
+    },
+    {
+      "name": "Heine-Borel Theorem",
+      "authors": "Heine (1872), Borel (1895)",
+      "year": 1895,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "In Euclidean spaces, compactness is equivalent to being closed and bounded, revealing that geometric finiteness and topological completeness are fundamentally the same structural property.",
+      "source_citation": "Borel, \u00c9. Le\u00e7ons sur la th\u00e9orie des fonctions (1895)",
+      "id": "6092be90f86f"
+    },
+    {
+      "name": "Cauchy-Riemann Equations",
+      "authors": "Cauchy (1814), Riemann (1851)",
+      "year": 1851,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Complex differentiability requires satisfaction of a rigid system of partial differential equations, showing that holomorphic functions have an infinitely more constrained structure than real differentiable functions.",
+      "source_citation": "Riemann, B. Grundlagen f\u00fcr eine allgemeine Theorie der Functionen (1851)",
+      "id": "0ccdba386d50"
+    },
+    {
+      "name": "Cauchy's Integral Theorem",
+      "authors": "Cauchy (1825)",
+      "year": 1825,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Holomorphic functions have path-independent integrals over closed curves, revealing that complex analyticity creates a topological rigidity that eliminates local irregularities.",
+      "source_citation": "Cauchy, A.L. M\u00e9moire sur les int\u00e9grales d\u00e9finies (1825)",
+      "id": "abf8b39f0cec"
+    },
+    {
+      "name": "Residue Theorem",
+      "authors": "Cauchy (1826)",
+      "year": 1826,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Global properties of holomorphic functions are completely determined by their local singularities, demonstrating that complex analysis exhibits a profound local-to-global principle.",
+      "source_citation": "Cauchy, A.L. Sur un nouveau genre de calcul (1826)",
+      "id": "330ba94d414f"
+    },
+    {
+      "name": "Liouville's Theorem",
+      "authors": "Liouville (1844)",
+      "year": 1844,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Bounded entire functions must be constant, showing that global boundedness and local analyticity together impose maximal rigidity on complex functions.",
+      "source_citation": "Liouville, J. Le\u00e7ons sur les fonctions doublement p\u00e9riodiques (1844)",
+      "id": "f223f33d3ce0"
+    },
+    {
+      "name": "Riemann Mapping Theorem",
+      "authors": "Riemann (1851)",
+      "year": 1851,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "All simply connected proper subsets of the complex plane are conformally equivalent to the unit disk, revealing that complex analysis reduces all planar geometry to a single canonical form.",
+      "source_citation": "Riemann, B. Grundlagen f\u00fcr eine allgemeine Theorie der Functionen (1851)",
+      "id": "e6f13b6162a6"
+    },
+    {
+      "name": "Lebesgue Dominated Convergence Theorem",
+      "authors": "Lebesgue (1904)",
+      "year": 1904,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Integration and limits commute under domination conditions, establishing that measure theory provides the correct structural framework for handling infinite processes in analysis.",
+      "source_citation": "Lebesgue, H. Le\u00e7ons sur l'int\u00e9gration (1904)",
+      "id": "0e2bcf223282"
+    },
+    {
+      "name": "Riesz Representation Theorem",
+      "authors": "Riesz (1907)",
+      "year": 1907,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Continuous linear functionals on Hilbert spaces are represented by inner products, revealing that geometric structure (inner product) and analytic structure (continuous functionals) are equivalent.",
+      "source_citation": "Riesz, F. Sur les op\u00e9rations fonctionnelles lin\u00e9aires (1907)",
+      "id": "8042a906c148"
+    },
+    {
+      "name": "Hahn-Banach Theorem",
+      "authors": "Hahn (1927), Banach (1929)",
+      "year": 1929,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Linear functionals can always be extended while preserving their norm, demonstrating that the dual space structure is as rich as the original space regardless of geometric constraints.",
+      "source_citation": "Banach, S. Sur les op\u00e9rations dans les ensembles abstraits (1929)",
+      "id": "c9c356274a13"
+    },
+    {
+      "name": "Uniform Boundedness Principle",
+      "authors": "Banach, Steinhaus (1927)",
+      "year": 1927,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Pointwise boundedness of operators implies uniform boundedness, showing that completeness creates automatic regularity that prevents pathological accumulations of singularities.",
+      "source_citation": "Banach, S. & Steinhaus, H. Sur le principe de la condensation (1927)",
+      "id": "c062211f50b8"
+    },
+    {
+      "name": "Open Mapping Theorem",
+      "authors": "Banach (1929)",
+      "year": 1929,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Continuous linear surjections between Banach spaces are open maps, revealing that completeness forces topological regularity in the behavior of linear transformations.",
+      "source_citation": "Banach, S. Sur les op\u00e9rations dans les ensembles abstraits (1929)",
+      "id": "b4fc49c8d0d7"
+    },
+    {
+      "name": "Spectral Theorem for Self-Adjoint Operators",
+      "authors": "Hilbert (1906), von Neumann (1929)",
+      "year": 1929,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Self-adjoint operators can be diagonalized through spectral measures, showing that symmetry in infinite dimensions creates the same structural decomposition as in finite dimensions but requires measure-theoretic tools.",
+      "source_citation": "von Neumann, J. Zur Algebra der Funktionaloperationen (1929)",
+      "id": "2b9455e59feb"
+    },
+    {
+      "name": "Stone-Weierstrass Theorem",
+      "authors": "Weierstrass (1885), Stone (1937)",
+      "year": 1937,
+      "domain_id": "analysis",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Algebras of functions satisfying minimal separation conditions are dense in continuous functions, revealing that approximation theory has an algebraic foundation that transcends specific function types.",
+      "source_citation": "Stone, M.H. Applications of Boolean algebras to topology (1937)",
+      "id": "b8c8c579d75c"
+    }
+  ],
+  "structural_conclusion": "Analysis reveals that continuity, completeness, and compactness are the fundamental organizing principles that create rigidity and regularity in infinite-dimensional spaces. The field demonstrates that local properties (differentiability, boundedness) interact with global topological structure to produce powerful constraints, while measure theory provides the correct framework for handling limiting processes. Complex analysis shows that additional structure (holomorphicity) creates extraordinary rigidity, reducing geometric diversity to canonical forms.",
+  "surveyed": true,
+  "survey_timestamp": "85ab534a"
+}

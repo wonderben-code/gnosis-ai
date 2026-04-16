@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Duality principles are fundamental to mathematical structure, with complementary perspectives providing complete characterizations of mathematical objects.",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Grothendieck-Riemann-Roch Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Topological and algebraic invariants are fundamentally connected through characteristic classes, establishing geometric-algebraic duality"
+    },
+    {
+      "result_id": "",
+      "result_name": "Adjoint Functor Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Adjunctions capture fundamental mathematical dualities where optimization problems and solutions form universal complementary patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "Tannaka-Krein Duality",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic structures can be completely reconstructed from their representation categories, establishing object-representation duality"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "category_theory"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Category Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.294,
+    "independence": 0.7,
+    "adversarial": 0.3,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.50195,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:03.502410+00:00",
+  "id": "1d260de6cfc3"
+}

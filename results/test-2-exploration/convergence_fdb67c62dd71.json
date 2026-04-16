@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Modular and automorphic forms provide a universal language connecting geometry, arithmetic, and representation theory",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Modularity Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Elliptic curves correspond to modular forms, bridging algebraic geometry and automorphic forms"
+    },
+    {
+      "result_id": "",
+      "result_name": "Monstrous Moonshine",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Modular forms encode representation theory of finite groups through their coefficients"
+    },
+    {
+      "result_id": "",
+      "result_name": "Langlands Reciprocity Conjecture",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Galois representations correspond to automorphic representations, unifying number theory and harmonic analysis"
+    },
+    {
+      "result_id": "",
+      "result_name": "Mirror Symmetry Conjecture",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Calabi-Yau manifolds exhibit modular-like dualities that connect to automorphic forms through string theory"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.39199999999999996,
+    "independence": 0.6,
+    "adversarial": 0.4,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5302874999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:23.941824+00:00",
+  "id": "fdb67c62dd71"
+}

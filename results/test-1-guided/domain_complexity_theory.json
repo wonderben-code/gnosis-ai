@@ -1,0 +1,151 @@
+{
+  "id": "complexity_theory",
+  "name": "Complexity Theory",
+  "category": "Computer Science",
+  "description": "P vs NP, hierarchy theorems, barriers, PCP theorem",
+  "results": [
+    {
+      "name": "BQP \u2286 PSPACE Containment",
+      "authors": "Bernstein and Vazirani",
+      "year": 1997,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum computation can be efficiently simulated by classical computation with polynomial space, establishing that quantum speedup is fundamentally about space-time tradeoffs rather than transcending classical computation entirely.",
+      "source_citation": "Bernstein, E., & Vazirani, U. (1997). Quantum complexity theory. SIAM Journal on Computing, 26(5), 1411-1473.",
+      "id": "5e5ab8994a77"
+    },
+    {
+      "name": "Quantum Error Correction Threshold Theorem",
+      "authors": "Aharonov and Ben-Or, Kitaev, Knill and Laflamme",
+      "year": 1997,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information can be protected from decoherence below a critical error threshold, revealing that quantum coherence is not fundamentally fragile but can be stabilized through redundant encoding structures.",
+      "source_citation": "Aharonov, D., & Ben-Or, M. (1997). Fault-tolerant quantum computation with constant error rate. arXiv preprint quant-ph/9906129.",
+      "id": "b11b92cc5396"
+    },
+    {
+      "name": "No-Cloning Theorem",
+      "authors": "Wootters and Zurek",
+      "year": 1982,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information cannot be perfectly copied, establishing a fundamental asymmetry between quantum and classical information that constrains the structure of quantum computational processes.",
+      "source_citation": "Wootters, W. K., & Zurek, W. H. (1982). A single quantum cannot be cloned. Nature, 299(5886), 802-803.",
+      "id": "2bc75afcc29f"
+    },
+    {
+      "name": "Holevo's Theorem",
+      "authors": "Holevo",
+      "year": 1973,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The accessible classical information in a quantum system is bounded by its von Neumann entropy, revealing that quantum states can encode more information than can be classically extracted, creating an information-theoretic hierarchy.",
+      "source_citation": "Holevo, A. S. (1973). Bounds for the quantity of information transmitted by a quantum communication channel. Problemy Peredachi Informatsii, 9(3), 3-11.",
+      "id": "a491a38ced69"
+    },
+    {
+      "name": "Quantum Teleportation Protocol",
+      "authors": "Bennett, Brassard, Cr\u00e9peau, Jozsa, Peres, Wootters",
+      "year": 1993,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information can be transmitted using classical communication and shared entanglement, demonstrating that quantum and classical information are interconvertible through entanglement as a resource.",
+      "source_citation": "Bennett, C. H., et al. (1993). Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels. Physical Review Letters, 70(13), 1895-1899.",
+      "id": "2d466e3612d3"
+    },
+    {
+      "name": "Shor's Factoring Algorithm",
+      "authors": "Shor",
+      "year": 1994,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum computers can solve certain number-theoretic problems exponentially faster than known classical algorithms, suggesting that quantum interference patterns can extract hidden periodicities that classical computation cannot efficiently access.",
+      "source_citation": "Shor, P. W. (1994). Algorithms for quantum computation: discrete logarithms and factoring. Proceedings 35th annual symposium on foundations of computer science.",
+      "id": "94b85bd5368a"
+    },
+    {
+      "name": "Grover's Search Algorithm",
+      "authors": "Grover",
+      "year": 1996,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum amplitude amplification provides a quadratic speedup for unstructured search, revealing that quantum superposition enables a fundamentally different exploration structure of solution spaces compared to classical random walks.",
+      "source_citation": "Grover, L. K. (1996). A fast quantum mechanical algorithm for database search. Proceedings of the twenty-eighth annual ACM symposium on Theory of computing.",
+      "id": "acd0ca7ebc08"
+    },
+    {
+      "name": "Quantum Supremacy Demonstration",
+      "authors": "Google Quantum AI",
+      "year": 2019,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quantum computers can perform specific computational tasks faster than classical computers, experimentally confirming that quantum mechanical processes can create computational advantages in practice, not just in theory.",
+      "source_citation": "Arute, F., et al. (2019). Quantum supremacy using a programmable superconducting processor. Nature, 574(7779), 505-510.",
+      "id": "446b875b6482"
+    },
+    {
+      "name": "Quantum Entanglement Monogamy",
+      "authors": "Coffman, Kundu, Wootters",
+      "year": 2000,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum entanglement cannot be freely shared among multiple parties, establishing fundamental constraints on the distribution of quantum correlations that have no classical analog and limit quantum information processing architectures.",
+      "source_citation": "Coffman, V., Kundu, J., & Wootters, W. K. (2000). Distributed entanglement. Physical Review A, 61(5), 052306.",
+      "id": "b2a8aba9b5fd"
+    },
+    {
+      "name": "Quantum Approximate Optimization Algorithm (QAOA)",
+      "authors": "Farhi, Goldstone, Gutmann",
+      "year": 2014,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Quantum adiabatic evolution can be discretized into gate sequences for optimization problems, bridging continuous quantum dynamics and discrete quantum circuits, suggesting deep connections between quantum control and computational complexity.",
+      "source_citation": "Farhi, E., Goldstone, J., & Gutmann, S. (2014). A quantum approximate optimization algorithm. arXiv preprint arXiv:1411.4028.",
+      "id": "f2443a2dd5fe"
+    },
+    {
+      "name": "Quantum Shannon Theory",
+      "authors": "Schumacher, Nielsen and Chuang",
+      "year": 1995,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Classical information theory extends to quantum systems with von Neumann entropy replacing Shannon entropy, revealing that information-theoretic concepts are more fundamental than their classical manifestations and apply to quantum mechanical processes.",
+      "source_citation": "Schumacher, B. (1995). Quantum coding. Physical Review A, 51(2), 2738-2747.",
+      "id": "5ccc56236c63"
+    },
+    {
+      "name": "Quantum Interactive Proof Systems (QIP = PSPACE)",
+      "authors": "Jain, Ji, Upadhyay, Watrous",
+      "year": 2011,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum interactive proofs have the same power as classical space-bounded computation, showing that quantum verification protocols do not transcend classical computational hierarchies but reorganize them through quantum communication patterns.",
+      "source_citation": "Jain, R., Ji, Z., Upadhyay, S., & Watrous, J. (2011). QIP = PSPACE. Journal of the ACM, 58(6), 1-27.",
+      "id": "2f8a615ce158"
+    },
+    {
+      "name": "Quantum Merlin-Arthur (QMA) Completeness",
+      "authors": "Kitaev",
+      "year": 1999,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The quantum analog of NP has complete problems related to ground state energies of local Hamiltonians, connecting quantum computational complexity directly to fundamental questions in quantum many-body physics.",
+      "source_citation": "Kitaev, A. Y. (1999). Quantum NP. Talk at AQIP'99.",
+      "id": "998460fc1a7f"
+    },
+    {
+      "name": "Quantum Capacity of Noisy Channels",
+      "authors": "Lloyd, Shor, Devetak",
+      "year": 1997,
+      "domain_id": "complexity_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum channels have well-defined capacities for transmitting quantum information, establishing that quantum information transmission follows rate-distortion principles analogous to classical information theory but with fundamentally quantum constraints.",
+      "source_citation": "Lloyd, S. (1997). Capacity of the noisy quantum channel. Physical Review A, 55(3), 1613-1622.",
+      "id": "e000e47eeae3"
+    }
+  ],
+  "structural_conclusion": "Complexity theory reveals that quantum mechanics and information theory are connected through fundamental resource tradeoffs and computational hierarchies rather than through quantum mechanics simply providing exponential speedups. The key structural pattern is that quantum information processing reorganizes classical computational complexity classes through entanglement and superposition as computational resources, while remaining bounded by information-theoretic constraints that apply universally to both classical and quantum systems. Quantum advantages emerge from exploiting interference patterns and correlation structures that classical systems cannot efficiently simulate, but these advantages are constrained by no-go theorems and capacity bounds that reflect deeper information-theoretic principles.",
+  "surveyed": true,
+  "survey_timestamp": "5e5ab899"
+}

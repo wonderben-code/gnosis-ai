@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Mathematical objects are fundamentally determined by their relational structure rather than their intrinsic properties.",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Yoneda Lemma",
+      "domain_id": "field_a",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Objects are completely determined by their morphisms to all other objects, establishing relational rather than intrinsic characterization"
+    },
+    {
+      "result_id": "",
+      "result_name": "Riesz Representation Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous linear functionals are completely determined by inner product relationships, showing geometric structure emerges from relational properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Tannaka-Krein Duality",
+      "domain_id": "field_a",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic structures are completely reconstructed from their representation categories, showing objects are determined by how they act relationally"
+    }
+  ],
+  "domains": [
+    "category_theory",
+    "analysis"
+  ],
+  "domain_names": [
+    "Category Theory",
+    "Analysis"
+  ],
+  "ea_scores": {
+    "strength": 0.294,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.45994999999999997,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:25:14.375948+00:00",
+  "id": "0af0988f685d"
+}

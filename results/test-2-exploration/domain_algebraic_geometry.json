@@ -1,0 +1,161 @@
+{
+  "id": "algebraic_geometry",
+  "name": "Algebraic Geometry",
+  "category": "Mathematics",
+  "description": "Schemes, sheaves, cohomology, moduli spaces, mirror symmetry",
+  "results": [
+    {
+      "name": "Grothendieck's Theory of Schemes",
+      "authors": "Grothendieck (1960-1967)",
+      "year": 1960,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Algebraic varieties are fundamentally local-global objects that can be understood through their local rings, unifying algebraic and geometric perspectives. The scheme-theoretic approach reveals that geometric objects naturally carry arithmetic information through their coordinate rings.",
+      "source_citation": "Grothendieck, A. \u00c9l\u00e9ments de g\u00e9om\u00e9trie alg\u00e9brique, Publ. Math. IH\u00c9S",
+      "id": "b27bee27ee7d"
+    },
+    {
+      "name": "Grothendieck-Riemann-Roch Theorem",
+      "authors": "Grothendieck (1957)",
+      "year": 1957,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Topological and algebraic invariants of algebraic varieties are fundamentally connected through characteristic classes. This reveals that geometric properties can be computed through purely algebraic cohomological methods.",
+      "source_citation": "Grothendieck, A. Sur quelques points d'alg\u00e8bre homologique, Tohoku Math. J.",
+      "id": "eece8a96e48f"
+    },
+    {
+      "name": "Cohomology of Coherent Sheaves",
+      "authors": "Serre (1955)",
+      "year": 1955,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Global geometric properties of algebraic varieties are encoded in the cohomology of their structure sheaves. This establishes that local algebraic data can be assembled to recover global geometric invariants.",
+      "source_citation": "Serre, J.-P. Faisceaux alg\u00e9briques coh\u00e9rents, Ann. of Math.",
+      "id": "535e09114b91"
+    },
+    {
+      "name": "Resolution of Singularities",
+      "authors": "Hironaka (1964)",
+      "year": 1964,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Every algebraic variety can be transformed into a smooth variety through a sequence of blowups, revealing that singularities are not fundamental obstructions but can be systematically resolved. This shows that smooth varieties are the natural building blocks of algebraic geometry.",
+      "source_citation": "Hironaka, H. Resolution of singularities of an algebraic variety, Ann. of Math.",
+      "id": "dbde610f97ff"
+    },
+    {
+      "name": "Riemann-Roch Theorem for Curves",
+      "authors": "Riemann (1857), Roch (1865)",
+      "year": 1857,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The dimension of spaces of meromorphic functions on algebraic curves is governed by a universal arithmetic formula involving genus and divisor degree. This reveals that complex analysis and algebraic geometry share fundamental structural principles.",
+      "source_citation": "Riemann, B. Theorie der Abel'schen Funktionen, J. Reine Angew. Math.",
+      "id": "183323702313"
+    },
+    {
+      "name": "Weil Conjectures",
+      "authors": "Weil (1949), Deligne (1974)",
+      "year": 1974,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The arithmetic properties of algebraic varieties over finite fields are controlled by topological invariants, establishing a deep connection between number theory and algebraic topology. This reveals that geometric and arithmetic structures are fundamentally intertwined.",
+      "source_citation": "Deligne, P. La conjecture de Weil I, Publ. Math. IH\u00c9S",
+      "id": "6cd7f03b542d"
+    },
+    {
+      "name": "Kodaira Vanishing Theorem",
+      "authors": "Kodaira (1953)",
+      "year": 1953,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Positivity conditions on line bundles force the vanishing of higher cohomology groups, establishing that geometric positivity translates directly into algebraic simplification. This reveals a fundamental duality between geometric and cohomological complexity.",
+      "source_citation": "Kodaira, K. On a differential-geometric method in the theory of analytic stacks, Proc. Nat. Acad. Sci.",
+      "id": "a7c49936509c"
+    },
+    {
+      "name": "Moduli of Curves",
+      "authors": "Mumford (1965), Deligne-Mumford (1969)",
+      "year": 1969,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Families of algebraic curves can themselves be parametrized by algebraic varieties, revealing that moduli spaces have natural geometric structures. This establishes that classification problems in algebraic geometry have geometric solutions.",
+      "source_citation": "Deligne, P. and Mumford, D. The irreducibility of the space of curves of given genus, Publ. Math. IH\u00c9S",
+      "id": "5faad69c3e0f"
+    },
+    {
+      "name": "Intersection Theory",
+      "authors": "Fulton (1984), building on Chow (1956)",
+      "year": 1984,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "The intersection of algebraic subvarieties can be computed through purely algebraic methods using Chow rings, revealing that geometric intersection is fundamentally an algebraic operation. This shows that geometric intuition can be made completely rigorous through commutative algebra.",
+      "source_citation": "Fulton, W. Intersection Theory, Springer-Verlag",
+      "id": "95f3d3a59006"
+    },
+    {
+      "name": "Flat Morphisms and Base Change",
+      "authors": "Grothendieck (1961)",
+      "year": 1961,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Families of algebraic varieties behave continuously when the family is flat, establishing the correct notion of continuous variation in algebraic geometry. This reveals that algebraic families have well-defined geometric limits and deformation theory.",
+      "source_citation": "Grothendieck, A. \u00c9l\u00e9ments de g\u00e9om\u00e9trie alg\u00e9brique III, Publ. Math. IH\u00c9S",
+      "id": "7dbfe87e65ba"
+    },
+    {
+      "name": "Minimal Model Program",
+      "authors": "Mori (1982), Kawamata-Koll\u00e1r-Shokurov (1987)",
+      "year": 1987,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Every algebraic variety can be transformed through a canonical sequence of operations to a minimal model or Mori fiber space, revealing that varieties have canonical forms determined by their intrinsic geometry. This establishes a fundamental classification structure for higher-dimensional varieties.",
+      "source_citation": "Koll\u00e1r, J. et al. Flips and abundance for algebraic threefolds, Ast\u00e9risque",
+      "id": "58d5fe56e138"
+    },
+    {
+      "name": "Mirror Symmetry Conjecture",
+      "authors": "Candelas-de la Ossa-Green-Parkes (1991)",
+      "year": 1991,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Calabi-Yau manifolds come in mirror pairs where complex and K\u00e4hler geometry are exchanged, suggesting a fundamental duality in the structure of these spaces. This reveals deep connections between algebraic geometry and mathematical physics through string theory.",
+      "source_citation": "Candelas, P. et al. A pair of Calabi-Yau manifolds as an exactly soluble superconformal theory, Nuclear Phys. B",
+      "id": "853e40111d2c"
+    },
+    {
+      "name": "Hodge Theory for Algebraic Varieties",
+      "authors": "Hodge (1950), Deligne (1971)",
+      "year": 1971,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The cohomology of smooth projective varieties carries a natural mixed Hodge structure that encodes both topological and algebraic information. This reveals that algebraic varieties have intrinsic harmonic structures that bridge complex analysis and algebraic geometry.",
+      "source_citation": "Deligne, P. Th\u00e9orie de Hodge II, Publ. Math. IH\u00c9S",
+      "id": "9f0b6e6b39e2"
+    },
+    {
+      "name": "Derived Categories of Coherent Sheaves",
+      "authors": "Verdier (1967), Bondal-Orlov (1995)",
+      "year": 1995,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Algebraic varieties can be reconstructed from their derived categories of coherent sheaves, revealing that geometric objects are completely determined by their categorical structure. This establishes that algebraic geometry can be reformulated in purely categorical terms.",
+      "source_citation": "Bondal, A. and Orlov, D. Semiorthogonal decomposition for algebraic varieties, arXiv:alg-geom/9506012",
+      "id": "01a53d3b7d5b"
+    },
+    {
+      "name": "\u00c9tale Cohomology",
+      "authors": "Grothendieck (1963), Artin-Grothendieck-Verdier (1972)",
+      "year": 1972,
+      "domain_id": "algebraic_geometry",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Algebraic varieties over arbitrary fields carry topological invariants through \u00e9tale cohomology, extending classical topology to arithmetic geometry. This reveals that geometric intuition from complex varieties applies universally across all ground fields.",
+      "source_citation": "Artin, M., Grothendieck, A., Verdier, J.L. Th\u00e9orie des topos et cohomologie \u00e9tale des sch\u00e9mas, Lecture Notes in Math.",
+      "id": "5f743963fa1e"
+    }
+  ],
+  "structural_conclusion": "Algebraic geometry reveals that geometric objects are fundamentally algebraic in nature, with local algebraic data determining global geometric properties through sheaf cohomology and scheme theory. The field establishes deep dualities between geometric intuition and algebraic computation, showing that topological, arithmetic, and categorical structures are intimately connected. Modern developments suggest that algebraic varieties may be most naturally understood through their derived categories and moduli spaces, pointing toward a fully categorical foundation for geometry.",
+  "surveyed": true,
+  "survey_timestamp": "b27bee27"
+}

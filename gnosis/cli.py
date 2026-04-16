@@ -25,12 +25,15 @@ def cli(ctx):
 @click.option("--question", "-q", required=True, help="The foundational question to investigate")
 @click.option("--domains", "-d", required=True, help="Comma-separated domain IDs or categories")
 @click.option("--max-depth", default=5, help="Maximum descent depth")
+@click.option("--max-cost", type=float, default=None, help="Maximum API cost in USD")
 @click.pass_context
-def guided(ctx, question: str, domains: str, max_depth: int):
+def guided(ctx, question: str, domains: str, max_depth: int, max_cost: float | None):
     """Guided mode: question + domains → findings."""
     from gnosis.orchestrator import Orchestrator
 
     config = ctx.obj["config"]
+    if max_cost:
+        config.max_cost_usd = max_cost
     orch = Orchestrator(config)
     domain_list = [d.strip() for d in domains.split(",")]
     orch.guided(question=question, domain_specs=domain_list, max_depth=max_depth)
@@ -38,12 +41,15 @@ def guided(ctx, question: str, domains: str, max_depth: int):
 
 @cli.command()
 @click.option("--domains", "-d", required=True, help="Comma-separated domain IDs or categories")
+@click.option("--max-cost", type=float, default=None, help="Maximum API cost in USD")
 @click.pass_context
-def explore(ctx, domains: str):
+def explore(ctx, domains: str, max_cost: float | None):
     """Exploration mode: domains → convergences (no question needed)."""
     from gnosis.orchestrator import Orchestrator
 
     config = ctx.obj["config"]
+    if max_cost:
+        config.max_cost_usd = max_cost
     orch = Orchestrator(config)
     domain_list = [d.strip() for d in domains.split(",")]
     orch.explore(domain_specs=domain_list)

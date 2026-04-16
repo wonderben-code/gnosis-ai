@@ -1,0 +1,151 @@
+{
+  "id": "quantum_foundations",
+  "name": "Quantum Foundations",
+  "category": "Physics",
+  "description": "Measurement, entanglement, no-go theorems, quantum information foundations",
+  "results": [
+    {
+      "name": "Bell's Theorem",
+      "authors": "John Stewart Bell",
+      "year": 1964,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum mechanics cannot be explained by any local hidden variable theory, establishing that quantum correlations represent a fundamentally non-classical information structure. This reveals that quantum information exhibits non-local dependencies that classical information theory cannot capture.",
+      "source_citation": "Bell, J.S. (1964). On the Einstein Podolsky Rosen paradox. Physics 1, 195-200.",
+      "id": "e8020261c14e"
+    },
+    {
+      "name": "No-Cloning Theorem",
+      "authors": "William Wootters and Wojciech Zurek",
+      "year": 1982,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information cannot be perfectly copied, unlike classical information. This establishes a fundamental structural difference where quantum information has built-in protection against duplication, creating unique information-theoretic constraints.",
+      "source_citation": "Wootters, W.K. & Zurek, W.H. (1982). A single quantum cannot be cloned. Nature 299, 802-803.",
+      "id": "b7dd4cfbca27"
+    },
+    {
+      "name": "Quantum Teleportation Protocol",
+      "authors": "Charles Bennett, Gilles Brassard, Claude Cr\u00e9peau, Richard Jozsa, Asher Peres, William Wootters",
+      "year": 1993,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information can be transmitted using classical communication and shared entanglement, revealing that quantum states can be decomposed into classical and quantum informational components. This demonstrates a deep structural connection between quantum mechanics and information transmission.",
+      "source_citation": "Bennett, C.H. et al. (1993). Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels. Phys. Rev. Lett. 70, 1895-1899.",
+      "id": "68db32a2c1ea"
+    },
+    {
+      "name": "Holevo's Theorem",
+      "authors": "Alexander Holevo",
+      "year": 1973,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The accessible classical information in a quantum system is bounded by the von Neumann entropy, establishing fundamental limits on quantum-to-classical information extraction. This reveals that quantum systems can store more information than can be classically accessed.",
+      "source_citation": "Holevo, A.S. (1973). Bounds for the quantity of information transmitted by a quantum communication channel. Probl. Inf. Transm. 9, 177-183.",
+      "id": "58a97df46b40"
+    },
+    {
+      "name": "Schumacher's Quantum Source Coding Theorem",
+      "authors": "Benjamin Schumacher",
+      "year": 1995,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Von Neumann entropy determines the optimal compression rate for quantum information, directly paralleling Shannon's classical result. This establishes that quantum mechanics has its own information-theoretic entropy measure with operational meaning.",
+      "source_citation": "Schumacher, B. (1995). Quantum coding. Phys. Rev. A 51, 2738-2747.",
+      "id": "cf5e21986818"
+    },
+    {
+      "name": "Aspect's Bell Test Experiments",
+      "authors": "Alain Aspect, Jean Dalibard, G\u00e9rard Roger",
+      "year": 1982,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Experimental violation of Bell inequalities confirms that quantum correlations are non-local and cannot be explained by classical information processing. This validates that quantum information exhibits fundamentally different structural properties than classical information.",
+      "source_citation": "Aspect, A., Dalibard, J. & Roger, G. (1982). Experimental test of Bell's inequalities using time-varying analyzers. Phys. Rev. Lett. 49, 1804-1807.",
+      "id": "404a07d3c555"
+    },
+    {
+      "name": "Quantum Error Correction Threshold Theorem",
+      "authors": "Peter Shor, Andrew Steane, and others",
+      "year": 1996,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum information can be protected from decoherence if error rates are below a threshold, showing that quantum information has error correction properties analogous to but structurally different from classical codes. This reveals quantum information can be made robust through redundancy despite the no-cloning theorem.",
+      "source_citation": "Shor, P.W. (1996). Fault-tolerant quantum computation. Proc. 37th FOCS, 56-65.",
+      "id": "06114dac3e06"
+    },
+    {
+      "name": "Entanglement Monogamy",
+      "authors": "Tobias Osborne and Frank Verstraete",
+      "year": 2006,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum entanglement cannot be freely shared among multiple parties, unlike classical correlations. This establishes that quantum information has built-in exclusivity constraints that fundamentally limit how quantum correlations can be distributed.",
+      "source_citation": "Osborne, T.J. & Verstraete, F. (2006). General monogamy inequality for bipartite qubit entanglement. Phys. Rev. Lett. 96, 220503.",
+      "id": "f6e90b44e089"
+    },
+    {
+      "name": "Quantum Dense Coding",
+      "authors": "Charles Bennett and Stephen Wiesner",
+      "year": 1992,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Two classical bits can be transmitted using one qubit when sender and receiver share entanglement, showing that quantum correlations can enhance classical information transmission. This demonstrates that entanglement acts as an information resource that amplifies communication capacity.",
+      "source_citation": "Bennett, C.H. & Wiesner, S.J. (1992). Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states. Phys. Rev. Lett. 69, 2881-2884.",
+      "id": "63fe3c90709b"
+    },
+    {
+      "name": "CHSH Inequality",
+      "authors": "John Clauser, Michael Horne, Abner Shimony, Richard Holt",
+      "year": 1969,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Provides a quantitative bound on classical correlations that quantum mechanics can violate, establishing precise mathematical limits on classical information processing. This creates a sharp distinction between classical and quantum information-theoretic capabilities.",
+      "source_citation": "Clauser, J.F. et al. (1969). Proposed experiment to test local hidden-variable theories. Phys. Rev. Lett. 23, 880-884.",
+      "id": "c98b46b2fe8e"
+    },
+    {
+      "name": "Quantum Key Distribution Security Proof",
+      "authors": "Dominic Mayers",
+      "year": 2001,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum mechanics enables unconditionally secure key distribution, providing information-theoretic security impossible with classical methods alone. This shows quantum information can achieve security guarantees that transcend computational assumptions.",
+      "source_citation": "Mayers, D. (2001). Unconditional security in quantum cryptography. J. ACM 48, 351-406.",
+      "id": "6da8de1693be"
+    },
+    {
+      "name": "Kochen-Specker Theorem",
+      "authors": "Simon Kochen and Ernst Specker",
+      "year": 1967,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum systems cannot have definite pre-existing values for all observables, establishing that quantum information is contextual and cannot be reduced to classical bit assignments. This reveals that quantum information has inherent contextuality that classical information lacks.",
+      "source_citation": "Kochen, S. & Specker, E.P. (1967). The problem of hidden variables in quantum mechanics. J. Math. Mech. 17, 59-87.",
+      "id": "14af7f7ee9a1"
+    },
+    {
+      "name": "Quantum Entanglement Distillation",
+      "authors": "Charles Bennett, Gilles Brassard, Sandu Popescu, Benjamin Schumacher, John Smolin, William Wootters",
+      "year": 1996,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Mixed entangled states can be converted to pure entanglement through local operations and classical communication, showing that entanglement behaves as a quantifiable information resource. This establishes that quantum correlations can be purified and concentrated like classical information resources.",
+      "source_citation": "Bennett, C.H. et al. (1996). Purification of noisy entanglement and faithful teleportation via noisy channels. Phys. Rev. Lett. 76, 722-725.",
+      "id": "43609f7d1e7c"
+    },
+    {
+      "name": "Quantum Capacity Theorem",
+      "authors": "Seth Lloyd",
+      "year": 1997,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The quantum capacity of a noisy quantum channel is given by the coherent information, establishing the fundamental limit for quantum information transmission. This provides the quantum analog of Shannon's channel capacity theorem, showing quantum information has its own transmission limits.",
+      "source_citation": "Lloyd, S. (1997). Capacity of the noisy quantum channel. Phys. Rev. A 55, 1613-1622.",
+      "id": "1bc9e987a760"
+    }
+  ],
+  "structural_conclusion": "Quantum mechanics and information theory are structurally unified through fundamental constraints and resources that have no classical analog: quantum information cannot be cloned or freely shared, exhibits non-local correlations, and requires contextual rather than definite-value descriptions. These quantum information-theoretic principles reveal that quantum mechanics is not just a physical theory but a distinct information processing framework with its own entropy measures, error correction capabilities, and communication protocols that transcend classical limitations.",
+  "surveyed": true,
+  "survey_timestamp": "e8020261"
+}

@@ -1,0 +1,20 @@
+{
+  "structural_finding": "Local singularities and obstructions completely determine global properties through systematic procedures, representing a fundamental principle where microscopic structure encodes macroscopic behavior",
+  "level": 1,
+  "source_convergence_ids": [
+    "2674bcdafb4c",
+    "f7fe79e51b41",
+    "20b1c27e4643",
+    "753539f1fd90",
+    "798982b510ad",
+    "b4958fb4b591",
+    "bfb71be2f99b"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Local-Global Determination Principle",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_275ec92f734f",
+  "timestamp": "2026-04-16T18:35:42.223171+00:00",
+  "id": "9c8904c4153b"
+}

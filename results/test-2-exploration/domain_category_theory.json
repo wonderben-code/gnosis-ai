@@ -1,0 +1,161 @@
+{
+  "id": "category_theory",
+  "name": "Category Theory",
+  "category": "Mathematics",
+  "description": "Adjunctions, topoi, higher categories, cobordism hypothesis",
+  "results": [
+    {
+      "name": "Yoneda Lemma",
+      "authors": "Yoneda (1954)",
+      "year": 1954,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Objects in a category are completely determined by their relationships to all other objects, establishing that structure is fundamentally relational rather than intrinsic. This reveals that mathematical objects are best understood through their morphisms rather than their internal composition.",
+      "source_citation": "Yoneda, N. (1954). On the homology theory of modules. Journal of the Faculty of Science, University of Tokyo",
+      "id": "fee5840dea6d"
+    },
+    {
+      "name": "Adjoint Functor Theorem",
+      "authors": "Freyd (1964)",
+      "year": 1964,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Adjunctions capture the most fundamental form of duality in mathematics, showing that optimization problems and their solutions form universal patterns. This establishes that mathematical structures naturally organize into complementary pairs that preserve essential information.",
+      "source_citation": "Freyd, P. (1964). Abelian Categories. Harper & Row",
+      "id": "51844f97ef78"
+    },
+    {
+      "name": "Kan Extension Formula",
+      "authors": "Kan (1958)",
+      "year": 1958,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Any functor can be universally extended along another functor, revealing that mathematical structures can be systematically transported between different contexts while preserving their essential properties. This shows that mathematical concepts have canonical ways of being generalized.",
+      "source_citation": "Kan, D.M. (1958). Adjoint functors. Transactions of the American Mathematical Society",
+      "id": "d024b466568b"
+    },
+    {
+      "name": "Monadicity Theorem",
+      "authors": "Beck (1967)",
+      "year": 1967,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Algebraic structures can be completely characterized by their underlying computational patterns (monads), showing that algebra and computation are fundamentally unified. This reveals that mathematical structures are determined by their operational behavior rather than their static properties.",
+      "source_citation": "Beck, J. (1967). Triples, algebras and cohomology. Dissertation, Columbia University",
+      "id": "9ee7fcad4781"
+    },
+    {
+      "name": "Grothendieck Topos Theory",
+      "authors": "Grothendieck, Verdier (1963-1972)",
+      "year": 1963,
+      "domain_id": "category_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Topoi provide a unified foundation for geometry, logic, and set theory, showing that these apparently distinct areas share the same categorical structure. This reveals that mathematical universes are characterized by their internal logic rather than their specific objects.",
+      "source_citation": "Grothendieck, A. et al. (1972). Th\u00e9orie des topos et cohomologie \u00e9tale des sch\u00e9mas (SGA 4). Springer",
+      "id": "06b634de0e5f"
+    },
+    {
+      "name": "Elementary Topos Axioms",
+      "authors": "Lawvere, Tierney (1970)",
+      "year": 1970,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The structure of mathematical reasoning itself can be axiomatized categorically, showing that logic emerges from categorical structure rather than being imposed externally. This establishes that mathematical foundations are inherently categorical.",
+      "source_citation": "Lawvere, F.W., Tierney, M. (1970). An axiomatic approach to topos theory. Proceedings of the National Academy of Sciences",
+      "id": "799c7f45c937"
+    },
+    {
+      "name": "Coherence Theorem for Monoidal Categories",
+      "authors": "Mac Lane (1963)",
+      "year": 1963,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "All ways of parenthesizing and associating operations yield the same result, revealing that mathematical structures have canonical forms that eliminate arbitrary choices. This shows that apparent complexity in mathematical expressions often reduces to essential simplicity.",
+      "source_citation": "Mac Lane, S. (1963). Natural associativity and commutativity. Rice University Studies",
+      "id": "fb0e6aa88e35"
+    },
+    {
+      "name": "Quillen Model Category Axioms",
+      "authors": "Quillen (1967)",
+      "year": 1967,
+      "domain_id": "category_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Homotopy theory can be axiomatized categorically, showing that the study of continuous deformation is a fundamental categorical phenomenon. This reveals that topological and algebraic structures share deep homotopical patterns.",
+      "source_citation": "Quillen, D. (1967). Homotopical Algebra. Lecture Notes in Mathematics 43, Springer",
+      "id": "b2fac7cd016f"
+    },
+    {
+      "name": "Giraud's Theorem",
+      "authors": "Giraud (1964)",
+      "year": 1964,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Grothendieck topoi are precisely the categories that behave like categories of sheaves, establishing that geometric intuition about local-to-global principles has a universal categorical characterization. This shows that spatial reasoning has canonical categorical foundations.",
+      "source_citation": "Giraud, J. (1964). M\u00e9thode de la descente. Bulletin de la Soci\u00e9t\u00e9 Math\u00e9matique de France",
+      "id": "045b0ce1e951"
+    },
+    {
+      "name": "Barr-Beck Theorem",
+      "authors": "Barr, Beck (1969)",
+      "year": 1969,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Algebraic theories correspond exactly to monads with certain properties, establishing a precise equivalence between syntax and semantics in mathematics. This reveals that computational and algebraic perspectives on mathematical structure are fundamentally identical.",
+      "source_citation": "Barr, M., Beck, J. (1969). Homology and standard constructions. Lecture Notes in Mathematics 80, Springer",
+      "id": "7da3c088388c"
+    },
+    {
+      "name": "Cobordism Hypothesis",
+      "authors": "Baez, Dolan (1995), Lurie (2009)",
+      "year": 2009,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Topological quantum field theories are completely determined by their values on points, showing that local algebraic data determines global topological behavior. This reveals that topology and algebra are unified through higher categorical structure.",
+      "source_citation": "Lurie, J. (2009). On the Classification of Topological Field Theories. Current Developments in Mathematics",
+      "id": "dd8974f2f11a"
+    },
+    {
+      "name": "Tannaka-Krein Duality",
+      "authors": "Tannaka (1939), Krein (1949), Deligne (1990)",
+      "year": 1990,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Algebraic structures can be completely reconstructed from their representation categories, showing that mathematical objects are determined by how they act rather than what they are. This establishes that representation theory captures the essence of algebraic structure.",
+      "source_citation": "Deligne, P. (1990). Cat\u00e9gories tannakiennes. The Grothendieck Festschrift, Volume II, Birkh\u00e4user",
+      "id": "2c2e56911d91"
+    },
+    {
+      "name": "Joyal's Theory of Quasi-Categories",
+      "authors": "Joyal (2002)",
+      "year": 2002,
+      "domain_id": "category_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Higher categorical structure can be modeled using simplicial sets, providing a concrete foundation for abstract homotopy theory. This shows that higher-dimensional mathematical relationships have precise combinatorial descriptions.",
+      "source_citation": "Joyal, A. (2002). Quasi-categories and Kan complexes. Journal of Pure and Applied Algebra",
+      "id": "f44d147e555d"
+    },
+    {
+      "name": "Seely's Theorem",
+      "authors": "Seely (1987)",
+      "year": 1987,
+      "domain_id": "category_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Linear logic corresponds exactly to certain monoidal categories, establishing that resource-conscious reasoning has a precise categorical semantics. This reveals that computational resource management and mathematical structure are fundamentally connected.",
+      "source_citation": "Seely, R.A.G. (1987). Linear logic, *-autonomous categories and cofree coalgebras. Contemporary Mathematics 92",
+      "id": "130932d46fe9"
+    },
+    {
+      "name": "Lawvere's Elementary Theory of the Category of Sets",
+      "authors": "Lawvere (1964)",
+      "year": 1964,
+      "domain_id": "category_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Set theory can be axiomatized as a category with specific properties, showing that foundational mathematics is inherently categorical rather than membership-based. This establishes that mathematical foundations are naturally structural rather than material.",
+      "source_citation": "Lawvere, F.W. (1964). An elementary theory of the category of sets. Proceedings of the National Academy of Sciences",
+      "id": "d6fc5cfec6a8"
+    }
+  ],
+  "structural_conclusion": "Category theory reveals that mathematical structure is fundamentally relational and compositional, with objects defined by their morphisms rather than internal properties. The field establishes that seemingly distinct areas of mathematics\u2014algebra, topology, logic, and geometry\u2014share deep categorical patterns, suggesting that mathematics has a unified structural foundation. Higher categorical structures show that these patterns extend to capture computational, homotopical, and quantum phenomena, indicating that category theory provides the natural language for describing mathematical reality at its most fundamental level.",
+  "surveyed": true,
+  "survey_timestamp": "fee5840d"
+}

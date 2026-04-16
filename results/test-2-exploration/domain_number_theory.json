@@ -1,0 +1,161 @@
+{
+  "id": "number_theory",
+  "name": "Number Theory",
+  "category": "Mathematics",
+  "description": "Primes, Langlands programme, algebraic number theory, moonshine",
+  "results": [
+    {
+      "name": "Fundamental Theorem of Arithmetic",
+      "authors": "Euclid (~300 BCE), formalized by Gauss (1801)",
+      "year": 1801,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The integers possess a unique multiplicative structure where every integer has exactly one prime factorization, establishing primes as the fundamental building blocks of all numbers.",
+      "source_citation": "Gauss, Disquisitiones Arithmeticae (1801)",
+      "id": "0d9b5970296a"
+    },
+    {
+      "name": "Prime Number Theorem",
+      "authors": "Hadamard and de la Vall\u00e9e Poussin (1896)",
+      "year": 1896,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The distribution of primes follows an asymptotic law \u03c0(x) ~ x/ln(x), revealing that prime density decreases logarithmically and connecting number theory to complex analysis through the zeta function.",
+      "source_citation": "Hadamard, Bull. Soc. Math. France 24 (1896)",
+      "id": "682648750ffb"
+    },
+    {
+      "name": "Dirichlet's Theorem on Primes in Arithmetic Progressions",
+      "authors": "Dirichlet (1837)",
+      "year": 1837,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Primes are equidistributed among arithmetic progressions with coprime common difference, showing that the multiplicative structure of integers is compatible with their additive structure.",
+      "source_citation": "Dirichlet, Abh. K\u00f6nigl. Preuss. Akad. Wiss. (1837)",
+      "id": "7d573d72a8c1"
+    },
+    {
+      "name": "Quadratic Reciprocity Law",
+      "authors": "Gauss (1796)",
+      "year": 1796,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The solvability of quadratic congruences exhibits a deep symmetry between primes, revealing hidden reciprocal relationships in the multiplicative structure of finite fields.",
+      "source_citation": "Gauss, Disquisitiones Arithmeticae (1801)",
+      "id": "3e87c2cd3a56"
+    },
+    {
+      "name": "Fermat's Last Theorem",
+      "authors": "Wiles (1995)",
+      "year": 1995,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The equation x^n + y^n = z^n has no integer solutions for n > 2, establishing fundamental constraints on Diophantine equations and revealing deep connections between elliptic curves and modular forms.",
+      "source_citation": "Wiles, Ann. Math. 141 (1995)",
+      "id": "d3b40ca87b7b"
+    },
+    {
+      "name": "Class Field Theory",
+      "authors": "Hilbert, Takagi, Artin (1897-1930)",
+      "year": 1930,
+      "domain_id": "number_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Abelian extensions of number fields are completely classified by ideal class groups, establishing a perfect correspondence between algebraic and arithmetic structures that unifies Galois theory with number theory.",
+      "source_citation": "Artin, Abh. Math. Sem. Univ. Hamburg 5 (1927)",
+      "id": "677aeeac7e75"
+    },
+    {
+      "name": "Modularity Theorem (Taniyama-Shimura-Weil Conjecture)",
+      "authors": "Wiles, Taylor-Wiles, Breuil-Conrad-Diamond-Taylor (1995-2001)",
+      "year": 2001,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Every elliptic curve over the rationals is modular, establishing a fundamental bridge between algebraic geometry and automorphic forms that reveals the unity of seemingly disparate mathematical structures.",
+      "source_citation": "Breuil et al., J. Amer. Math. Soc. 14 (2001)",
+      "id": "cd38a71f8b9d"
+    },
+    {
+      "name": "Riemann Hypothesis",
+      "authors": "Riemann (1859)",
+      "year": 1859,
+      "domain_id": "number_theory",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "The non-trivial zeros of the Riemann zeta function all lie on the critical line Re(s) = 1/2, which would reveal the deepest regularity in prime distribution and connect number theory to quantum mechanics through spectral theory.",
+      "source_citation": "Riemann, Monatsber. K\u00f6nigl. Preuss. Akad. Wiss. (1859)",
+      "id": "9c684c73694e"
+    },
+    {
+      "name": "Langlands Reciprocity Conjecture",
+      "authors": "Langlands (1967)",
+      "year": 1967,
+      "domain_id": "number_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Galois representations correspond to automorphic representations, proposing a vast unification that would connect number theory, algebraic geometry, and harmonic analysis through a web of deep reciprocity laws.",
+      "source_citation": "Langlands, Problems in the theory of automorphic forms (1970)",
+      "id": "6278e62ef93d"
+    },
+    {
+      "name": "Mordell-Weil Theorem",
+      "authors": "Mordell (1922), Weil (1928)",
+      "year": 1928,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The group of rational points on an elliptic curve is finitely generated, establishing that Diophantine equations have a controlled algebraic structure despite their apparent complexity.",
+      "source_citation": "Weil, Compos. Math. 1 (1935)",
+      "id": "847fc034bda9"
+    },
+    {
+      "name": "Birch and Swinnerton-Dyer Conjecture",
+      "authors": "Birch and Swinnerton-Dyer (1965)",
+      "year": 1965,
+      "domain_id": "number_theory",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "The rank of an elliptic curve equals the order of vanishing of its L-function at s=1, connecting the arithmetic geometry of rational points to analytic properties of L-functions.",
+      "source_citation": "Birch and Swinnerton-Dyer, J. Reine Angew. Math. 218 (1965)",
+      "id": "b9fa75db3ac5"
+    },
+    {
+      "name": "Monstrous Moonshine",
+      "authors": "Conway-Norton (1979), Borcherds (1992)",
+      "year": 1992,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The coefficients of the j-function are dimensions of irreducible representations of the Monster group, revealing unexpected connections between modular forms, finite groups, and vertex operator algebras.",
+      "source_citation": "Borcherds, Invent. Math. 109 (1992)",
+      "id": "2ffc5c6bdeb2"
+    },
+    {
+      "name": "Dirichlet's Unit Theorem",
+      "authors": "Dirichlet (1846)",
+      "year": 1846,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The unit group of an algebraic number field has rank r\u2081 + r\u2082 - 1, establishing that the multiplicative structure of number fields is determined by their signature and revealing the geometric nature of arithmetic.",
+      "source_citation": "Dirichlet, J. Reine Angew. Math. 40 (1850)",
+      "id": "21e86903934c"
+    },
+    {
+      "name": "Chebotarev Density Theorem",
+      "authors": "Chebotarev (1926)",
+      "year": 1926,
+      "domain_id": "number_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Primes are equidistributed among conjugacy classes in Galois groups, establishing that the splitting behavior of primes in extensions reflects the internal structure of Galois groups with precise density.",
+      "source_citation": "Chebotarev, Math. Ann. 95 (1926)",
+      "id": "5a2cea6f739c"
+    },
+    {
+      "name": "Hasse-Weil L-function Conjecture",
+      "authors": "Hasse (1936), Weil (1949)",
+      "year": 1949,
+      "domain_id": "number_theory",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "L-functions of algebraic varieties satisfy functional equations and have analytic continuation, suggesting that geometric objects over finite fields encode deep analytic information through their zeta functions.",
+      "source_citation": "Weil, Amer. J. Math. 70 (1948)",
+      "id": "676ea60cfe4f"
+    }
+  ],
+  "structural_conclusion": "Number theory reveals that the integers and their extensions possess remarkably rigid yet interconnected structures, where prime numbers serve as fundamental atoms whose distribution follows deep analytic laws connected to complex analysis and geometry. The field demonstrates profound unifying principles through reciprocity laws and correspondences that bridge arithmetic, algebra, geometry, and analysis, suggesting that seemingly disparate mathematical structures are manifestations of a deeper underlying unity. These connections, exemplified by the Langlands program and moonshine phenomena, indicate that number-theoretic objects encode information about symmetries, representations, and geometric structures in ways that transcend traditional mathematical boundaries.",
+  "surveyed": true,
+  "survey_timestamp": "0d9b5970"
+}

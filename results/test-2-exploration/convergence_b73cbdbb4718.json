@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Mathematical structures can be completely characterized by their categorical/functorial behavior, making category theory the natural foundational language for mathematics.",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Derived Categories of Coherent Sheaves",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic varieties can be reconstructed from their derived categories, showing geometric objects are completely determined by categorical structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Grothendieck Topos Theory",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topoi provide unified categorical foundations for geometry, logic, and set theory"
+    },
+    {
+      "result_id": "",
+      "result_name": "Monadicity Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic structures are completely characterized by their computational patterns (monads)"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "category_theory"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Category Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.294,
+    "independence": 0.3,
+    "adversarial": 0.4,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.42194999999999994,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:03.502432+00:00",
+  "id": "b73cbdbb4718"
+}

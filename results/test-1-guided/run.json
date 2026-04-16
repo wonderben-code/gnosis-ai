@@ -1,0 +1,91 @@
+{
+  "mode": "guided",
+  "input_question": "What structural patterns connect quantum mechanics and information theory?",
+  "input_domains": [
+    "quantum_foundations",
+    "complexity_theory",
+    "thermodynamics"
+  ],
+  "convergences": [
+    {
+      "structural_claim": "Von Neumann entropy S = -Tr(\u03c1 log \u03c1) emerges independently as the fundamental entropy measure in both quantum information theory and quantum statistical mechanics, with identical mathematical form and operational meaning",
+      "convergence_type": "formal",
+      "supporting_results": [
+        {
+          "result_id": "",
+          "result_name": "Holevo's Theorem",
+          "domain_id": "field_a",
+          "domain_name": "Complexity Theory",
+          "link_type": "direct",
+          "structural_conclusion": "Von Neumann entropy bounds accessible classical information in quantum states, establishing it as the fundamental measure of quantum information content"
+        },
+        {
+          "result_id": "",
+          "result_name": "Von Neumann Entropy Formula",
+          "domain_id": "field_b",
+          "domain_name": "Thermodynamics and Statistical Mechanics",
+          "link_type": "direct",
+          "structural_conclusion": "Von Neumann entropy S = -Tr(\u03c1 log \u03c1) provides the quantum generalization of thermodynamic entropy with identical mathematical structure to Shannon entropy"
+        },
+        {
+          "result_id": "",
+          "result_name": "Quantum Shannon Theory",
+          "domain_id": "field_a",
+          "domain_name": "Complexity Theory",
+          "link_type": "direct",
+          "structural_conclusion": "Von Neumann entropy replaces Shannon entropy in quantum information theory, revealing information-theoretic concepts are more fundamental than classical manifestations"
+        },
+        {
+          "result_id": "",
+          "result_name": "Schumacher Quantum Noiseless Coding",
+          "domain_id": "field_b",
+          "domain_name": "Thermodynamics and Statistical Mechanics",
+          "link_type": "direct",
+          "structural_conclusion": "Von Neumann entropy gives optimal compression rate for quantum information, directly paralleling Shannon's classical result"
+        }
+      ],
+      "domains": [
+        "complexity_theory",
+        "thermodynamics"
+      ],
+      "domain_names": [
+        "Complexity Theory",
+        "Thermodynamics and Statistical Mechanics"
+      ],
+      "ea_scores": {
+        "strength": 0.39199999999999996,
+        "independence": 0.3,
+        "adversarial": 0.12,
+        "reproducibility": 0.6299999999999999,
+        "depth_consistency": 1.0,
+        "confidence": 0.4111,
+        "confidence_category": "preliminary"
+      },
+      "discovered_in_run": "run_fac16ea98d00",
+      "discovered_at_level": 0,
+      "timestamp": "2026-04-16T18:05:26.693052+00:00",
+      "id": "aad7d05ff162"
+    }
+  ],
+  "findings": [],
+  "stats": {
+    "domains_surveyed": 3,
+    "results_catalogued": 42,
+    "combinations_explored": 3,
+    "convergences_found": 1,
+    "high_strength": 0,
+    "medium_strength": 0,
+    "analogical": 0,
+    "findings_produced": 0,
+    "meta_convergences": 0,
+    "fixed_point_reached": false,
+    "api_calls": 26,
+    "tokens_used": 33209,
+    "estimated_cost_usd": 0.57,
+    "cycles_completed": 0,
+    "termination_reason": "finished"
+  },
+  "started_at": "2026-04-16T18:02:46.850404+00:00",
+  "completed_at": "2026-04-16T18:08:36.752623+00:00",
+  "id": "run_fac16ea98d00"
+}

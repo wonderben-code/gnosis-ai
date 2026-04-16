@@ -1,0 +1,171 @@
+{
+  "id": "topology",
+  "name": "Topology and Geometry",
+  "category": "Mathematics",
+  "description": "Manifolds, index theorems, cobordism, fiber bundles, TQFTs",
+  "results": [
+    {
+      "name": "Poincar\u00e9 Duality",
+      "authors": "Poincar\u00e9 (1895)",
+      "year": 1895,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Establishes a fundamental symmetry between homology and cohomology of closed manifolds, revealing that topological spaces have dual algebraic structures that encode the same geometric information in complementary ways.",
+      "source_citation": "Poincar\u00e9, H. Analysis situs. Journal de l'\u00c9cole Polytechnique (1895)",
+      "id": "96761bdccee0"
+    },
+    {
+      "name": "Gauss-Bonnet Theorem",
+      "authors": "Gauss (1827), Bonnet (1848)",
+      "year": 1848,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that global topological invariants (Euler characteristic) are intrinsically linked to local geometric properties (curvature), establishing topology and geometry as fundamentally interconnected rather than separate mathematical domains.",
+      "source_citation": "Bonnet, O. Note sur la th\u00e9orie des surfaces. Journal de l'\u00c9cole Polytechnique (1848)",
+      "id": "089ca4551d96"
+    },
+    {
+      "name": "Atiyah-Singer Index Theorem",
+      "authors": "Atiyah & Singer (1963)",
+      "year": 1963,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Reveals that analytical properties of differential operators are completely determined by topological data, unifying analysis, geometry, and topology by showing that local analytical invariants equal global topological invariants.",
+      "source_citation": "Atiyah, M.F. & Singer, I.M. The index of elliptic operators on compact manifolds. Bulletin of the AMS (1963)",
+      "id": "941dd5a6d1ec"
+    },
+    {
+      "name": "de Rham's Theorem",
+      "authors": "de Rham (1931)",
+      "year": 1931,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Establishes that smooth manifolds encode their topological structure completely within their differential forms, proving that cohomology can be computed either algebraically or analytically with identical results.",
+      "source_citation": "de Rham, G. Sur l'analysis situs des vari\u00e9t\u00e9s \u00e0 n dimensions. Journal de Math\u00e9matiques (1931)",
+      "id": "9d6114029bfe"
+    },
+    {
+      "name": "Chern-Weil Theory",
+      "authors": "Chern (1944), Weil (1949)",
+      "year": 1949,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that topological invariants of vector bundles arise naturally from curvature forms of connections, establishing that geometric curvature generates topological obstructions and that bundle topology is encoded in differential geometry.",
+      "source_citation": "Weil, A. G\u00e9om\u00e9trie diff\u00e9rentielle des espaces fibr\u00e9s. Hermann (1949)",
+      "id": "f031e20710fc"
+    },
+    {
+      "name": "Cobordism Theory",
+      "authors": "Thom (1954)",
+      "year": 1954,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Reveals that manifolds form equivalence classes under boundary relations, establishing that the fundamental structure of topology is determined by which spaces can bound others rather than by individual geometric properties.",
+      "source_citation": "Thom, R. Quelques propri\u00e9t\u00e9s globales des vari\u00e9t\u00e9s diff\u00e9rentiables. Commentarii Mathematici Helvetici (1954)",
+      "id": "5dcbcdada4cf"
+    },
+    {
+      "name": "Hopf Fibration",
+      "authors": "Hopf (1931)",
+      "year": 1931,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that higher-dimensional spheres can have non-trivial fiber bundle structures, revealing that even the most basic geometric objects possess hidden topological complexity that becomes apparent only in higher dimensions.",
+      "source_citation": "Hopf, H. \u00dcber die Abbildungen der dreidimensionalen Sph\u00e4re auf die Kugelfl\u00e4che. Mathematische Annalen (1931)",
+      "id": "c205d2e264c3"
+    },
+    {
+      "name": "Morse Theory",
+      "authors": "Morse (1925)",
+      "year": 1925,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Establishes that the topology of manifolds is completely determined by the critical points of smooth functions, proving that global topological structure emerges from local analytical singularities.",
+      "source_citation": "Morse, M. Relations between the critical points of a real function. Transactions of the AMS (1925)",
+      "id": "485b55172f85"
+    },
+    {
+      "name": "Riemann-Roch Theorem",
+      "authors": "Riemann (1857), Roch (1865)",
+      "year": 1865,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Reveals that the dimension of spaces of meromorphic functions on Riemann surfaces is governed by topological invariants, establishing that complex analysis and algebraic topology are fundamentally unified through genus and divisor theory.",
+      "source_citation": "Roch, G. \u00dcber die Anzahl der willk\u00fcrlichen Constanten in algebraischen Functionen. Journal f\u00fcr die reine und angewandte Mathematik (1865)",
+      "id": "695ca851639e"
+    },
+    {
+      "name": "K\u00fcnneth Formula",
+      "authors": "K\u00fcnneth (1923)",
+      "year": 1923,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that the homology of product spaces decomposes predictably from the homology of factor spaces, revealing that topological complexity follows multiplicative rather than additive principles in product constructions.",
+      "source_citation": "K\u00fcnneth, H. \u00dcber die Bettischen Zahlen einer Produktmannigfaltigkeit. Mathematische Annalen (1923)",
+      "id": "d28d8cfa60f1"
+    },
+    {
+      "name": "Serre Duality",
+      "authors": "Serre (1955)",
+      "year": 1955,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Establishes a fundamental duality between coherent sheaf cohomology groups on complex manifolds, revealing that algebraic and geometric structures possess intrinsic symmetries that relate local and global properties through canonical isomorphisms.",
+      "source_citation": "Serre, J.-P. Faisceaux alg\u00e9briques coh\u00e9rents. Annals of Mathematics (1955)",
+      "id": "2cb8ea1df340"
+    },
+    {
+      "name": "Pontryagin Classes",
+      "authors": "Pontryagin (1947)",
+      "year": 1947,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that real vector bundles possess characteristic classes that detect their topological type, establishing that bundle classification is governed by cohomological invariants that capture essential geometric obstructions.",
+      "source_citation": "Pontryagin, L.S. Characteristic cycles on differentiable manifolds. Matematicheskii Sbornik (1947)",
+      "id": "fecb2fef39d1"
+    },
+    {
+      "name": "Witten's Topological Quantum Field Theory",
+      "authors": "Witten (1988)",
+      "year": 1988,
+      "domain_id": "topology",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Reveals that quantum field theory naturally produces topological invariants of manifolds, establishing that physical principles can generate purely mathematical structures and that topology emerges from quantum mechanical path integrals.",
+      "source_citation": "Witten, E. Topological quantum field theory. Communications in Mathematical Physics (1988)",
+      "id": "5976c6085643"
+    },
+    {
+      "name": "Donaldson's Theorem on 4-Manifolds",
+      "authors": "Donaldson (1983)",
+      "year": 1983,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that 4-dimensional topology is fundamentally different from all other dimensions by showing that smooth and topological structures can differ, revealing that dimension 4 occupies a unique position in the classification of manifolds.",
+      "source_citation": "Donaldson, S.K. An application of gauge theory to four-dimensional topology. Journal of Differential Geometry (1983)",
+      "id": "185b88247d99"
+    },
+    {
+      "name": "Milnor's Exotic Spheres",
+      "authors": "Milnor (1956)",
+      "year": 1956,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Proves that topologically identical manifolds can have different smooth structures, establishing that differential and topological categories are fundamentally distinct and that smoothness imposes additional constraints beyond topological equivalence.",
+      "source_citation": "Milnor, J. On manifolds homeomorphic to the 7-sphere. Annals of Mathematics (1956)",
+      "id": "a7d48be968d5"
+    },
+    {
+      "name": "Hirzebruch-Riemann-Roch Theorem",
+      "authors": "Hirzebruch (1954)",
+      "year": 1954,
+      "domain_id": "topology",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Generalizes the classical Riemann-Roch theorem to arbitrary complex manifolds using characteristic classes, establishing that Euler characteristics of coherent sheaves are determined by topological data encoded in Chern characters.",
+      "source_citation": "Hirzebruch, F. Arithmetic genera and the theorem of Riemann-Roch. Proceedings of the NAS (1954)",
+      "id": "6a7271d16218"
+    }
+  ],
+  "structural_conclusion": "Topology and geometry reveal that mathematical structures possess deep dualities\u2014between local and global properties, between analytical and topological invariants, and between smooth and topological categories. The field demonstrates that geometric objects are classified not by their individual properties but by their relationships, obstructions, and the ways they can be continuously deformed or bounded by other objects. Most fundamentally, these results show that topology, geometry, analysis, and even quantum physics are unified by common structural principles where local singularities determine global properties and where physical theories naturally generate topological invariants.",
+  "surveyed": true,
+  "survey_timestamp": "96761bdc"
+}

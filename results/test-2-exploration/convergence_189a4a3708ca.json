@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Mathematical structures are fundamentally determined by their relationships and morphisms rather than their intrinsic properties",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Yoneda Lemma",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Objects are completely determined by their relationships to all other objects, establishing that structure is fundamentally relational"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cobordism Theory",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Manifolds form equivalence classes under boundary relations, with fundamental structure determined by which spaces can bound others rather than individual geometric properties"
+    }
+  ],
+  "domains": [
+    "topology",
+    "category_theory"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Category Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.19599999999999998,
+    "independence": 0.8,
+    "adversarial": 0.3,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4818,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:23:11.646248+00:00",
+  "id": "189a4a3708ca"
+}

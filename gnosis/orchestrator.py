@@ -39,6 +39,13 @@ class Orchestrator:
         self.meta_engine = MetaConvergenceEngine(self.api)
         self.validator = EAValidator(self.api)
 
+    def _cost_status(self) -> str:
+        """Return a formatted cost status line."""
+        spent = self.api.stats.cost_usd
+        limit = self.config.max_cost_usd
+        pct = (spent / limit * 100) if limit > 0 else 0
+        return f"${spent:.2f} / ${limit:.2f} ({pct:.0f}%)"
+
     # ─── GUIDED MODE ───
 
     def guided(
@@ -58,16 +65,20 @@ class Orchestrator:
 
         console.print(f"\n[bold]Gnosis AI — Guided Mode[/bold]")
         console.print(f"Question: [italic]{question}[/italic]")
-        console.print(f"Domains: {', '.join(f.name for f in fields)}\n")
+        console.print(f"Domains: {', '.join(f.name for f in fields)}")
+        console.print(f"Budget: ${self.config.max_cost_usd:.2f}\n")
 
         # Step 1: Survey domains
         domains = self._survey_domains(fields, stats, question=question)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 2: Detect convergences
         convergences = self._detect_convergences(domains, stats, run.id)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 3: EA validate
         convergences = self._validate_convergences(convergences, stats)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 4: Meta-converge
         findings = self._meta_converge(convergences, stats, run.id)
@@ -77,6 +88,9 @@ class Orchestrator:
         run.findings = [asdict(f) for f in findings]
         stats.convergences_found = len(convergences)
         stats.findings_produced = len(findings)
+        stats.api_calls = self.api.stats.calls
+        stats.tokens_used = self.api.stats.input_tokens + self.api.stats.output_tokens
+        stats.estimated_cost_usd = round(self.api.stats.cost_usd, 2)
         run.stats = asdict(stats)
         run.complete()
 
@@ -104,16 +118,20 @@ class Orchestrator:
         stats = RunStats()
 
         console.print(f"\n[bold]Gnosis AI — Exploration Mode[/bold]")
-        console.print(f"Domains: {', '.join(f.name for f in fields)}\n")
+        console.print(f"Domains: {', '.join(f.name for f in fields)}")
+        console.print(f"Budget: ${self.config.max_cost_usd:.2f}\n")
 
         # Step 1: Survey domains (no question — open survey)
         domains = self._survey_domains(fields, stats)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 2: Detect convergences
         convergences = self._detect_convergences(domains, stats, run.id)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 3: EA validate
         convergences = self._validate_convergences(convergences, stats)
+        console.print(f"[dim]  💰 Cost so far: {self._cost_status()}[/dim]\n")
 
         # Step 4: Meta-converge
         findings = self._meta_converge(convergences, stats, run.id)
@@ -123,6 +141,9 @@ class Orchestrator:
         run.findings = [asdict(f) for f in findings]
         stats.convergences_found = len(convergences)
         stats.findings_produced = len(findings)
+        stats.api_calls = self.api.stats.calls
+        stats.tokens_used = self.api.stats.input_tokens + self.api.stats.output_tokens
+        stats.estimated_cost_usd = round(self.api.stats.cost_usd, 2)
         run.stats = asdict(stats)
         run.complete()
 
@@ -220,7 +241,8 @@ class Orchestrator:
             all_convergences.extend(strong)
             console.print(
                 f"  Found {len(cycle_convergences)} convergences, "
-                f"{len(strong)} passed EA (≥{self.config.min_confidence})"
+                f"{len(strong)} passed EA (≥{self.config.min_confidence}) "
+                f"| 💰 {self._cost_status()}"
             )
 
             # Check discovery rate

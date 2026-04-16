@@ -1,0 +1,151 @@
+{
+  "id": "thermodynamics",
+  "name": "Thermodynamics and Statistical Mechanics",
+  "category": "Physics",
+  "description": "Entropy, phase transitions, fluctuation theorems, maximum entropy",
+  "results": [
+    {
+      "name": "Von Neumann Entropy Formula",
+      "authors": "John von Neumann",
+      "year": 1932,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Establishes that quantum entropy S = -Tr(\u03c1 log \u03c1) has identical mathematical form to Shannon information entropy, revealing deep structural unity between quantum mechanics and information theory.",
+      "source_citation": "von Neumann, J. Mathematical Foundations of Quantum Mechanics (1932)",
+      "id": "06477bb24e93"
+    },
+    {
+      "name": "Landauer's Principle",
+      "authors": "Rolf Landauer",
+      "year": 1961,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Demonstrates that irreversible information erasure necessarily dissipates energy kT ln 2, establishing fundamental thermodynamic cost of computation and linking information processing to physical entropy production.",
+      "source_citation": "Landauer, R. IBM J. Res. Dev. 5, 183 (1961)",
+      "id": "71ab8e01cedd"
+    },
+    {
+      "name": "Fluctuation-Dissipation Theorem",
+      "authors": "Herbert Callen, Theodore Welton",
+      "year": 1951,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Shows that thermal fluctuations and dissipative response are fundamentally connected through the same correlation functions, revealing how quantum uncertainty and classical thermodynamic irreversibility share common mathematical structure.",
+      "source_citation": "Callen, H.B. & Welton, T.A. Phys. Rev. 83, 34 (1951)",
+      "id": "22e56e958bf6"
+    },
+    {
+      "name": "Jarzynski Equality",
+      "authors": "Christopher Jarzynski",
+      "year": 1997,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Relates nonequilibrium work fluctuations to equilibrium free energy differences through exponential averaging, showing how information about equilibrium states is encoded in nonequilibrium fluctuation statistics.",
+      "source_citation": "Jarzynski, C. Phys. Rev. Lett. 78, 2690 (1997)",
+      "id": "38e4ad51fa89"
+    },
+    {
+      "name": "Crooks Fluctuation Theorem",
+      "authors": "Gavin Crooks",
+      "year": 1999,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Establishes detailed balance for work distributions in forward and reverse processes, revealing how time-reversal symmetry breaking encodes thermodynamic arrow of time in fluctuation statistics.",
+      "source_citation": "Crooks, G.E. Phys. Rev. E 60, 2721 (1999)",
+      "id": "59c12b6c840a"
+    },
+    {
+      "name": "Maximum Entropy Principle",
+      "authors": "Edwin Jaynes",
+      "year": 1957,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Shows that thermodynamic equilibrium states maximize entropy subject to known constraints, establishing that statistical mechanics emerges from information-theoretic principles of inference under uncertainty.",
+      "source_citation": "Jaynes, E.T. Phys. Rev. 106, 620 (1957)",
+      "id": "fec8a22d9766"
+    },
+    {
+      "name": "Quantum Mutual Information",
+      "authors": "Araki, Lieb",
+      "year": 1970,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Extends classical mutual information to quantum systems through entanglement entropy, showing how quantum correlations generalize classical information-theoretic measures of statistical dependence.",
+      "source_citation": "Araki, H. & Lieb, E.H. Commun. Math. Phys. 18, 160 (1970)",
+      "id": "234bc1bc77da"
+    },
+    {
+      "name": "Holevo's Theorem",
+      "authors": "Alexander Holevo",
+      "year": 1973,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Bounds accessible classical information in quantum states by von Neumann entropy, establishing fundamental limits on quantum-to-classical information extraction and connecting quantum uncertainty to information capacity.",
+      "source_citation": "Holevo, A.S. Probl. Inf. Transm. 9, 177 (1973)",
+      "id": "5a3cb3c95db7"
+    },
+    {
+      "name": "Schumacher Quantum Noiseless Coding",
+      "authors": "Benjamin Schumacher",
+      "year": 1995,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Shows von Neumann entropy gives optimal compression rate for quantum information, directly paralleling Shannon's classical result and establishing quantum information theory as natural extension of classical information theory.",
+      "source_citation": "Schumacher, B. Phys. Rev. A 51, 2738 (1995)",
+      "id": "0a1ce4924fea"
+    },
+    {
+      "name": "Entanglement Entropy Area Law",
+      "authors": "Srednicki, Eisert, Cramer, Plenio",
+      "year": 1993,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Entanglement entropy of ground states scales with boundary area rather than volume, suggesting that quantum information structure reflects geometric locality and constrains possible quantum many-body states.",
+      "source_citation": "Srednicki, M. Phys. Rev. Lett. 71, 666 (1993)",
+      "id": "24197ed222a8"
+    },
+    {
+      "name": "Quantum Error Correction Threshold",
+      "authors": "Peter Shor, Andrew Steane",
+      "year": 1995,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates that quantum information can be protected from decoherence below error thresholds, showing how quantum coherence can be maintained despite thermodynamic tendency toward equilibration.",
+      "source_citation": "Shor, P.W. Phys. Rev. A 52, R2493 (1995)",
+      "id": "1b701cef0976"
+    },
+    {
+      "name": "Thermal State Entanglement",
+      "authors": "Vedral, Plenio",
+      "year": 1998,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Thermal equilibrium states of interacting quantum systems contain entanglement that vanishes only at infinite temperature, showing how quantum correlations persist in classical thermodynamic limit.",
+      "source_citation": "Vedral, V. & Plenio, M.B. Phys. Rev. A 57, 1619 (1998)",
+      "id": "497938fde236"
+    },
+    {
+      "name": "Quantum Thermodynamic Uncertainty Relations",
+      "authors": "Barato, Seifert",
+      "year": 2015,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Bounds precision of thermodynamic currents by entropy production rate, extending Heisenberg uncertainty to thermodynamic observables and connecting quantum measurement limits to dissipation.",
+      "source_citation": "Barato, A.C. & Seifert, U. Phys. Rev. Lett. 114, 158101 (2015)",
+      "id": "388f4df8b979"
+    },
+    {
+      "name": "Eigenstate Thermalization Hypothesis",
+      "authors": "Deutsch, Srednicki",
+      "year": 1991,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Individual energy eigenstates of chaotic quantum systems encode thermal properties, suggesting that thermodynamic behavior emerges from quantum mechanical structure without requiring classical randomness.",
+      "source_citation": "Deutsch, J.M. Phys. Rev. A 43, 2046 (1991)",
+      "id": "cf54c4765703"
+    }
+  ],
+  "structural_conclusion": "These results reveal that quantum mechanics and information theory share fundamental mathematical structures through entropy measures, with quantum systems naturally implementing information-theoretic principles. The connection runs deeper than analogy: quantum uncertainty, thermodynamic irreversibility, and information processing are manifestations of the same underlying statistical structure governing correlations and their dynamics. Quantum mechanics emerges as the natural framework for information theory in physical systems, while thermodynamics provides the bridge between microscopic quantum correlations and macroscopic information processing.",
+  "surveyed": true,
+  "survey_timestamp": "06477bb2"
+}

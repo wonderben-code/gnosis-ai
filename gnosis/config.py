@@ -22,13 +22,13 @@ class Config:
     taxonomy_path: Path = field(default_factory=lambda: Path("taxonomy/fields.json"))
 
     # Limits
-    max_cost_usd: float = 100.0
+    max_cost_usd: float = 50.0
     max_hours: float = 12.0
     max_retries: int = 3
 
     # Quality
     min_strength: float = 0.3
-    min_confidence: float = 0.4
+    min_confidence: float = 0.3
 
     # Auto mode
     min_discovery_rate: float = 0.5  # stop if < this many discoveries per cycle
@@ -43,20 +43,27 @@ class Config:
         cfg.data_dir = project_root / "data"
         cfg.taxonomy_path = project_root / "taxonomy" / "fields.json"
 
-        # API key from environment
-        cfg.api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-
-        # Load from config file if it exists
+        # Load from config file first (if it exists)
         config_file = project_root / "gnosis.json"
         if config_file.exists():
             with open(config_file) as f:
                 data = json.load(f)
+
+            # Map JSON keys to config attributes
+            key_map = {"anthropic_api_key": "api_key"}
+
             for key, val in data.items():
-                if hasattr(cfg, key):
-                    if key.endswith("_dir") or key.endswith("_path"):
-                        setattr(cfg, key, Path(val))
+                attr = key_map.get(key, key)
+                if hasattr(cfg, attr):
+                    if attr.endswith("_dir") or attr.endswith("_path"):
+                        setattr(cfg, attr, Path(val))
                     else:
-                        setattr(cfg, key, val)
+                        setattr(cfg, attr, val)
+
+        # Environment variable overrides config file (but only if set)
+        env_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        if env_key and not cfg.api_key:
+            cfg.api_key = env_key
 
         return cfg
 

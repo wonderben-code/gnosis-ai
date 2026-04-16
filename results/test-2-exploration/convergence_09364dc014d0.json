@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Geometric objects are classified not by individual properties but by equivalence relations based on what can bound or be continuously deformed into what",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Cobordism Theory",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Manifolds form equivalence classes under boundary relations rather than individual geometric properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Resolution of Singularities",
+      "domain_id": "field_b",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic varieties are classified by what they can be transformed into through blowups, not by their singular structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Minimal Model Program",
+      "domain_id": "field_b",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Varieties are classified by their canonical forms reached through birational transformations"
+    }
+  ],
+  "domains": [
+    "topology",
+    "algebraic_geometry"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Algebraic Geometry"
+  ],
+  "ea_scores": {
+    "strength": 0.294,
+    "independence": 0.3,
+    "adversarial": 0.3,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4019499999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:22:54.154093+00:00",
+  "id": "09364dc014d0"
+}

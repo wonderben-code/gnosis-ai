@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Cohomological methods provide the universal computational framework where local data assembles into global invariants through systematic algebraic procedures",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "de Rham's Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Topological cohomology can be computed through differential forms, unifying algebraic and analytical approaches"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cohomology of Coherent Sheaves",
+      "domain_id": "field_b",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Global geometric properties are encoded in cohomology of structure sheaves assembled from local algebraic data"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chern-Weil Theory",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Topological invariants arise from curvature forms through cohomological computation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hodge Theory for Algebraic Varieties",
+      "domain_id": "field_b",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Cohomology carries mixed Hodge structures that encode both topological and algebraic information"
+    }
+  ],
+  "domains": [
+    "topology",
+    "algebraic_geometry"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Algebraic Geometry"
+  ],
+  "ea_scores": {
+    "strength": 0.39199999999999996,
+    "independence": 0.3,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.44709999999999994,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:22:54.154108+00:00",
+  "id": "eee7388eaffc"
+}
