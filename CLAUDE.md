@@ -1,28 +1,62 @@
 # Gnosis AI — Project Context
 
-Read `docs/HANDOVER.md` first for the full context.
+**Read `docs/PRODUCT_PLAN.md` first.** That is the canonical document for what Gnosis AI is and how to build it.
+
+For background context on the research papers and methodology, see `docs/HANDOVER.md`.
 
 ## Quick Summary
 
-Gnosis AI is an autonomous knowledge discovery system using Convergent Descent (methodology from the 15 Infinitography research papers). It implements three new AI fields: Convergence Intelligence (CI), Epistemic Genesis (EG), and Epistemic Assurance (EA).
+Gnosis AI is the world's first autonomous knowledge discovery system. It uses Convergent Descent — the methodology from the 15 Infinitography research papers — to scan across all fields of science, find structural convergences, and generate genuine new knowledge.
 
-## Papers
+**Three modes:**
+- **Guided** — question + domains → findings
+- **Exploration** — domains only → convergences
+- **Auto** — all fields → systematic discovery (the real vision)
 
-All 15 papers are in `papers/markdown/` (readable) and `papers/pdf/` (original). Read the papers before designing anything.
+**Two AI fields implemented:**
+- **CI (Convergence Intelligence)** — runs Convergent Descent at scale
+- **EA (Epistemic Assurance)** — validates everything CI produces
 
-## Rules
+**Architecture:** Custom CI/EA orchestration layer on top of Claude API. We orchestrate, the frontier model thinks.
 
-- Read papers before writing anything
-- Architecture sits above frontier models (Claude API etc.)
-- Open source
-- v1 with honest scope — acknowledge limitations
-- GitHub: always `wonderben-code`
-- Collaboration style: fun, optimistic, direct
+## Key Documents
+
+| Document | What It Is |
+|----------|-----------|
+| `docs/PRODUCT_PLAN.md` | **THE canonical doc.** Vision, modes, architecture, data model, CI/EA engines, field taxonomy, CLI, implementation phases, validation, demo plan, tech spec. Read this first. |
+| `docs/HANDOVER.md` | Background context — the research papers, the methodology, the three AI fields, connection to the website |
+| `papers/markdown/` | All 15 papers as markdown (readable) |
+| `papers/pdf/` | All 15 papers as PDF (original from Zenodo) |
 
 ## Build Order
 
-1. Read Papers 1, 3, 4, 5, 8 (methodology papers)
-2. Design architecture → `docs/ARCHITECTURE.md`
-3. Build v1
-4. Test and validate
-5. Results feed into infinitography.com Wing 4
+```
+Phase 1: Foundation     → Project structure, taxonomy, Knowledge Store, API layer
+Phase 2: CI Engine      → Surveyor, Extractor, Convergence Detector, Meta-Convergence
+Phase 3: EA Engine      → Strength, Independence, Adversarial, Reproducibility, Consistency
+Phase 4: Three Modes    → Guided, Exploration, Auto + Orchestrator + Self-Amplifying Loop
+Phase 5: Reports        → Markdown, JSON, website export, CLI polish
+Phase 6: Demo Run       → Full auto across 52 fields → curated discovery report
+```
+
+## Rules
+
+- Architecture sits above frontier models (Claude API). Novel contribution = the CI/EA layer.
+- Open source
+- v1 with honest scope — acknowledge limitations
+- Validate against the papers first (reproduce their findings), then run on novel domains
+- GitHub: always `wonderben-code`
+- Collaboration style: fun, optimistic, direct
+- Don't pause between phases — keep going
+
+## Tech Stack
+
+- Python 3.11+
+- Claude API (Sonnet for speed, Opus for depth)
+- JSON + SQLite storage
+- Click CLI framework
+- Dependencies: anthropic, click, rich
+
+## Creator
+
+Mark E. Mala (Ekram Alam) — serial founder, YC alum, Forbes Technology Council.
