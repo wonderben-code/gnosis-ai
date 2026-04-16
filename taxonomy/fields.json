@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "total_fields": 52,
+  "categories": [
+    {
+      "name": "Physics",
+      "fields": [
+        {"id": "quantum_foundations", "name": "Quantum Foundations", "description": "Measurement, entanglement, no-go theorems, quantum information foundations"},
+        {"id": "quantum_field_theory", "name": "Quantum Field Theory", "description": "Standard Model, gauge theory, renormalisation, anomalies"},
+        {"id": "general_relativity", "name": "General Relativity and Cosmology", "description": "Spacetime geometry, singularities, cosmic expansion, dark energy"},
+        {"id": "quantum_gravity", "name": "Quantum Gravity", "description": "Loop quantum gravity, string theory, holography, causal sets"},
+        {"id": "thermodynamics", "name": "Thermodynamics and Statistical Mechanics", "description": "Entropy, phase transitions, fluctuation theorems, maximum entropy"},
+        {"id": "condensed_matter", "name": "Condensed Matter Physics", "description": "Phase transitions, topological matter, superconductivity, emergence"},
+        {"id": "particle_physics", "name": "Particle Physics", "description": "Collider results, neutrino physics, symmetry breaking, Higgs"},
+        {"id": "astrophysics", "name": "Astrophysics", "description": "Stellar evolution, gravitational waves, dark matter, galaxy formation"},
+        {"id": "optics", "name": "Optics and Photonics", "description": "Quantum optics, nonlinear optics, photonic crystals, laser physics"},
+        {"id": "plasma_physics", "name": "Plasma Physics", "description": "Magnetohydrodynamics, fusion, solar physics, space plasmas"},
+        {"id": "atomic_physics", "name": "Atomic and Molecular Physics", "description": "Atomic structure, spectroscopy, cold atoms, quantum simulation"},
+        {"id": "nuclear_physics", "name": "Nuclear Physics", "description": "Nuclear structure, QCD, heavy-ion collisions, nuclear astrophysics"},
+        {"id": "fluid_dynamics", "name": "Fluid Dynamics", "description": "Navier-Stokes, turbulence, boundary layers, computational fluid dynamics"},
+        {"id": "acoustics", "name": "Acoustics and Wave Physics", "description": "Wave propagation, phonons, metamaterials, nonlinear acoustics"}
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "fields": [
+        {"id": "mathematical_logic", "name": "Mathematical Logic", "description": "Godel, Turing, Tarski, computability theory, proof theory"},
+        {"id": "set_theory", "name": "Set Theory and Model Theory", "description": "ZFC, forcing, stability theory, categoricity, o-minimality"},
+        {"id": "category_theory", "name": "Category Theory", "description": "Adjunctions, topoi, higher categories, cobordism hypothesis"},
+        {"id": "topology", "name": "Topology and Geometry", "description": "Manifolds, index theorems, cobordism, fiber bundles, TQFTs"},
+        {"id": "number_theory", "name": "Number Theory", "description": "Primes, Langlands programme, algebraic number theory, moonshine"},
+        {"id": "algebra", "name": "Algebra", "description": "Groups, rings, representation theory, homological algebra"},
+        {"id": "analysis", "name": "Analysis", "description": "Real, complex, functional analysis, operator theory, spectral theory"},
+        {"id": "dynamical_systems", "name": "Dynamical Systems", "description": "Chaos, attractors, ergodic theory, Feigenbaum universality"},
+        {"id": "probability", "name": "Probability and Statistics", "description": "Measure theory, stochastic processes, Bayesian inference"},
+        {"id": "combinatorics", "name": "Combinatorics and Graph Theory", "description": "Enumerative, extremal, Ramsey theory, network structure"},
+        {"id": "algebraic_geometry", "name": "Algebraic Geometry", "description": "Schemes, sheaves, cohomology, moduli spaces, mirror symmetry"},
+        {"id": "differential_equations", "name": "Differential Equations", "description": "ODE, PDE, mathematical physics, integrable systems"},
+        {"id": "numerical_analysis", "name": "Numerical Analysis and Computation", "description": "Algorithms, approximation, numerical stability, finite elements"},
+        {"id": "information_theory", "name": "Information Theory", "description": "Shannon entropy, coding theory, channel capacity, data compression"}
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "fields": [
+        {"id": "complexity_theory", "name": "Complexity Theory", "description": "P vs NP, hierarchy theorems, barriers, PCP theorem"},
+        {"id": "theory_of_computation", "name": "Theory of Computation", "description": "Automata, formal languages, lambda calculus, type theory"},
+        {"id": "artificial_intelligence", "name": "Artificial Intelligence", "description": "Learning theory, neural network foundations, optimisation, reasoning"},
+        {"id": "cryptography", "name": "Cryptography", "description": "One-way functions, zero-knowledge proofs, quantum cryptography"},
+        {"id": "distributed_systems", "name": "Distributed Systems", "description": "Consensus, CAP theorem, Byzantine fault tolerance, CRDTs"},
+        {"id": "network_science", "name": "Network Science", "description": "Graph dynamics, small-world networks, scale-free, contagion"}
+      ]
+    },
+    {
+      "name": "Biology",
+      "fields": [
+        {"id": "evolutionary_biology", "name": "Evolutionary Biology", "description": "Natural selection, evo-devo, population genetics, speciation"},
+        {"id": "molecular_biology", "name": "Molecular Biology and Genetics", "description": "Central dogma, gene regulation, CRISPR, epigenetics"},
+        {"id": "neuroscience", "name": "Neuroscience", "description": "Neural coding, plasticity, consciousness research, connectomics"},
+        {"id": "ecology", "name": "Ecology", "description": "Ecosystems, food webs, biodiversity, resilience, trophic cascades"},
+        {"id": "systems_biology", "name": "Systems Biology", "description": "Gene networks, metabolic networks, emergence, synthetic biology"},
+        {"id": "biophysics", "name": "Biophysics", "description": "Protein folding, molecular machines, membrane dynamics"}
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "fields": [
+        {"id": "physical_chemistry", "name": "Physical Chemistry", "description": "Quantum chemistry, thermochemistry, reaction dynamics, catalysis"},
+        {"id": "materials_science", "name": "Materials Science", "description": "Crystal structure, phase diagrams, nanomaterials, metamaterials"},
+        {"id": "biochemistry", "name": "Biochemistry", "description": "Enzymes, metabolism, molecular recognition, signal transduction"}
+      ]
+    },
+    {
+      "name": "Earth and Space",
+      "fields": [
+        {"id": "geophysics", "name": "Geophysics", "description": "Plate tectonics, seismology, Earth magnetic field, mantle dynamics"},
+        {"id": "climate_science", "name": "Climate Science", "description": "Atmospheric dynamics, feedback loops, climate modelling, paleoclimate"},
+        {"id": "planetary_science", "name": "Planetary Science", "description": "Planet formation, habitability, comparative planetology, exoplanets"}
+      ]
+    },
+    {
+      "name": "Social and Cognitive Sciences",
+      "fields": [
+        {"id": "economics", "name": "Economics", "description": "Game theory, market dynamics, complexity economics, mechanism design"},
+        {"id": "linguistics", "name": "Linguistics", "description": "Syntax, semantics, computational linguistics, language universals"},
+        {"id": "cognitive_science", "name": "Cognitive Science", "description": "Perception, decision-making, embodied cognition, cognitive architectures"},
+        {"id": "philosophy_of_science", "name": "Philosophy of Science", "description": "Epistemology, scientific realism, foundations, philosophy of physics"}
+      ]
+    },
+    {
+      "name": "Cross-Disciplinary",
+      "fields": [
+        {"id": "cybernetics", "name": "Cybernetics and Control Theory", "description": "Feedback, stability, regulation, adaptive control, robust control"},
+        {"id": "complex_systems", "name": "Complex Systems", "description": "Emergence, self-organisation, criticality, power laws, universality"}
+      ]
+    }
+  ]
+}

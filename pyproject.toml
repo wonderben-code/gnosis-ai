@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gnosis-ai"
+version = "0.1.0"
+description = "Autonomous knowledge discovery using Convergent Descent"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Mark E. Mala"}]
+
+dependencies = [
+    "anthropic>=0.80.0",
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+gnosis = "gnosis.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["gnosis*"]
+
+[tool.setuptools.package-data]
+gnosis = ["../taxonomy/*.json"]
