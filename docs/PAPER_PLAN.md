@@ -1,156 +1,139 @@
-# Gnosis AI Paper — Complete Plan
+# Gnosis AI — Paper Series Plan
 
-**Title:** *Gnosis AI: Autonomous Knowledge Discovery Through Convergent Descent — Architecture, Validation, and 266 Discoveries Across Physics*
+## Overview
+
+The Gnosis AI work supports **4 papers** (Papers 16-19 in the Infinitography series).
 
 **Author:** Mark E. Mala (pen name of Ekram Alam)
 
-**Attribution:** Every component described in this paper — Gnosis AI, the Convergent Descent methodology, the 15 Infinitography research papers, the CI/EA architecture, the field taxonomy, and all test runs — was conceived, designed, and built by a single individual (Mark E. Mala) working in collaboration with AI. No team, no lab, no institution. This is a demonstration of what one person with AI can achieve in scientific discovery.
+**Attribution:** Every component — Gnosis AI, the Convergent Descent methodology, the 15 Infinitography research papers, the CI/EA architecture, the field taxonomy, and all test runs — was solely and independently conceived, designed, and built by a single individual (Mark E. Mala / Ekram Alam) working in collaboration with AI. No team, no lab, no institution, no funding body.
 
 ---
 
-## Section 1 — Abstract (~300 words)
+## Paper 16: Gnosis AI — Architecture and Validation of the First Autonomous Knowledge Discovery System
 
-Gnosis AI is the first artificial intelligence system that autonomously discovers new structural knowledge across scientific domains. It implements Convergent Descent — surveying established results across fields, detecting structural convergences between them, validating each discovery through multi-dimensional Epistemic Assurance, then iteratively meta-converging until a fixed point is reached. In three validation tests across mathematics and physics (297 convergences, 38 meta-convergence findings, 2 fixed points, $29 total cost, ~2.5 hours autonomous runtime), the system demonstrated that genuine cross-domain structural discovery can be fully automated. All discoveries, coined terms, and the system itself are Bitcoin-timestamped for provenance.
+**Status: WRITTEN** (`docs/PAPER.md`)
 
----
+**Focus:** The system itself — methodology as code, CI/EA dual-engine architecture, implementation details, all 3 validation tests, complete discovery catalogue with full descriptions, engineering lessons.
 
-## Section 2 — Introduction (~2,000 words)
+**Scope:**
+- Full Convergent Descent methodology
+- Complete architecture with code-level detail
+- All 3 tests with accurate statistics from run.json
+- All 266 convergences catalogued (1 from Test 1 + 30 from Test 2 + 235 from Test 3)
+- All 26 meta-convergence findings (12 from Test 2 + 14 from Test 3)
+- All 18 coined terms (7 from Test 2 + 11 from Test 3, plus "Fixed Point" as concept)
+- Both fixed-point principles
+- Full analysis, limitations, future work
 
-- The gap: AI can predict, classify, and generate — but no AI system autonomously *discovers new knowledge* by synthesising across scientific domains
-- What "new knowledge" means here: structural convergences that no single field contains, which emerge only when fields are compared at sufficient scale
-- The lineage: 15 Infinitography research papers applied Convergent Descent manually → Gnosis AI automates this at combinatorial scale
-- What this paper contributes (preview): the system, the methodology as code, 3 tests, 266 physics discoveries, 19 coined structural terms, 2 independent fixed points
-- Claim: to our knowledge, this is the first AI that autonomously generates novel structural knowledge from existing science
-- Solo attribution: one individual + AI built everything
+**Accurate Statistics (verified from run.json files):**
 
----
+Test 1: 3 domains, 42 results, 3 pairs, 1 convergence passed EA, 0 findings, $0.57
+Test 2: 5 domains, 77 results, 10 pairs, 30 convergences, 12 findings (4 L1 + 2 L2 + 2 L3 + 2 L4 + 2 L5), $1.81
+Test 3: 14 domains, 220 results, 91 pairs, 235 convergences, 14 findings (6 L1 + 2 L2 + 2 L3 + 2 L4 + 2 L5), $26.61
 
-## Section 3 — Related Work (~1,500 words)
+**Test 2 Level-1 Principles (4):** Local-Global Determination, Relational Structure Primacy, Universal Duality, Rigidity-Canonicity
+**Test 3 Level-1 Principles (6):** Fundamental Contextuality, Holographic Encoding, Universal Symmetry Breaking, Critical Universality, Topological Governance, Decoherent Emergence
 
-- **AI for Scientific Discovery** — AlphaFold, GNoME, AI Mathematician, Ramanujan Machine — predict/optimise within a domain, don't discover cross-domain structural convergences
-- **Automated Theorem Proving** — Lean, Isabelle, HOL — verify within formal systems, don't discover new structural relationships between fields
-- **Knowledge Graphs** — ConceptNet, Wikidata, Google Knowledge Graph — organise known facts, don't generate new structural claims
-- **LLM-based Research Assistants** — Elicit, Consensus, Semantic Scholar — retrieve and summarise, don't perform convergent analysis
-- **Scientific Meta-analysis** — Cochrane reviews — aggregate findings within a field, not across fields
-- **What's different about Gnosis AI:** Cross-domain structural convergence detection + iterative meta-convergence to fixed points + multi-dimensional epistemic validation
+**File count clarification:** The results/test-3-auto/ directory contains ALL data from ALL runs (the shared data/ directory was archived), hence 266 convergence files (1+30+235) and 26 finding files (12+14). The Test 3 run itself produced 235 convergences and 14 findings.
 
----
-
-## Section 4 — Convergent Descent: The Methodology (~2,500 words)
-
-- **4.1 Core Idea** — Multiple independent fields arriving at same structural conclusion = evidence of something real
-- **4.2 The Pipeline** — Survey → Extract → Detect → Validate → Meta-converge → Fixed point
-- **4.3 Convergence Types** — Formal (1.0) vs Structural Analogy (0.6)
-- **4.4 Meta-Convergence** — Iterative: convergences of convergences until fixed point
-- **4.5 Fixed Points** — Statement S such that further descent produces S again
-- **4.6 Epistemic Status Taxonomy** — 7 categories with numerical weights
-- **4.7 Prior Applications** — Papers 5 and 8 reached same fixed point from independent inputs
+**Target length:** ~25,000-30,000 words
 
 ---
 
-## Section 5 — System Architecture (~3,000 words)
+## Paper 17: 235 Convergences Across Physics — A Complete Catalogue of Autonomous Cross-Domain Discoveries
 
-- **5.1 Overview** — CI/EA orchestration layer above frontier LLMs
-- **5.2 CI Engine** — Surveyor, Convergence Detector, Meta-Convergence Engine
-- **5.3 EA Engine** — Strength, Independence, Adversarial, Reproducibility, Depth Consistency
-- **5.4 Orchestrator** — Three modes, batched processing, budget control, domain caching
-- **5.5 Field Taxonomy** — 52 fields across 8 categories
-- **5.6 Data Model** — Domain, Result, Convergence, Finding, EAScores, Run
+**Status: PLANNED**
 
----
+**Focus:** Every single convergence from the Test 3 physics sweep, described in full detail. This is the "discovery catalogue" paper — the primary reference for what Gnosis AI found about physics.
 
-## Section 6 — Implementation (~1,500 words)
+**Structure:**
+- Introduction: What was searched, how, and why
+- Domain pair analysis: For each of the 91 pairs, what convergences were found (or not found)
+- Full convergence descriptions: Each of the 235 convergences with:
+  - The structural claim (expanded, not one-liner)
+  - All supporting results with their epistemic status and structural conclusions
+  - Full EA scores (all 5 dimensions) with interpretation
+  - What makes this convergence significant or novel
+  - How it relates to existing literature
+- Convergence type analysis: Formal vs structural analogy patterns
+- Domain pair productivity analysis: Which pairs were most/least productive and why
+- Confidence distribution analysis
+- The 28 medium-strength convergences highlighted as primary discoveries
 
-- **6.1 Tech Stack** — Python 3.11+, Anthropic Claude API, Click CLI, JSON storage
-- **6.2 API Layer** — Streaming, model fallback, JSON recovery, retry with jitter
-- **6.3 Model Selection** — Claude Opus 4 for all substantive calls
-- **6.4 Cost Control** — Per-run limits, live tracking
-- **6.5 Provenance** — Bitcoin OpenTimestamps via GitHub Actions
-
----
-
-## Section 7 — Experimental Design (~1,500 words)
-
-- **7.1 Budget** — $45 allocated, progressive testing
-- **7.2 Test 1: Guided** — 3 domains, smoke test
-- **7.3 Test 2: Exploration** — 5 maths domains, open discovery
-- **7.4 Test 3: Auto** — 14 physics fields, full sweep
-- **7.5 Bug Fixes Between Tests** — Honest engineering disclosure
+**Target length:** ~40,000-50,000 words (this is essentially a monograph)
 
 ---
 
-## Section 8 — Results (~4,000 words)
+## Paper 18: 30 Convergences Across Pure Mathematics — Structural Unity from Topology to Number Theory
 
-- **8.1 Test 1** — Von Neumann entropy convergence, conservative EA
-- **8.2 Test 2** — 30 convergences, 12 meta-convergences, fixed point "Reality is constraint"
-- **8.3 Test 3** — 235 convergences, 26 findings across 5 levels, fixed point "Dimensional compression at constraint-context boundaries"
-- **8.4 Cross-Test Analysis** — Independent fixed points, overlapping conclusions
+**Status: PLANNED**
 
----
+**Focus:** Every convergence from Test 2 (5 mathematics domains), described in full. The meta-convergence cascade to "Reality is constraint."
 
-## Section 9 — Complete Discovery Catalogue (~5,000 words)
+**Structure:**
+- The 5 mathematics domains surveyed (77 results)
+- All 30 convergences in full detail
+- The 4 Level-1 principles (Local-Global Determination, Relational Structure Primacy, Universal Duality, Rigidity-Canonicity)
+- The complete meta-convergence cascade: 30 → 4 → 2 → 1 → fixed point
+- Analysis of "Reality is constraint" as a structural claim about mathematics
+- Comparison with mathematical structuralism (Shapiro, Resnik, etc.)
 
-- **9.1 All 19 Coined Terms** — Full table with definitions, levels, attribution
-- **9.2 Fixed-Point Principles** — Deep analysis of both fixed points
-- **9.3 Level-1 Principles** — All 10 from Test 3 in detail
-- **9.4 The 28 Medium-Strength Convergences** — Each described
-- **9.5 Full Statistics** — 297 total, distributions, heatmap data
-- **9.6 Notable Individual Convergences** — 5-10 highlights
+**Target length:** ~15,000-20,000 words
 
 ---
 
-## Section 10 — Analysis and Discussion (~3,000 words)
+## Paper 19: Two Paths to One Principle — Independent Fixed Points from Mathematics and Physics
 
-- **10.1 Does This Count as "New Knowledge"?** — Philosophical discussion
-- **10.2 The Independence Problem** — Training data concerns
-- **10.3 The Hallucination Problem** — EA as defence
-- **10.4 Cost and Efficiency** — $29 for 297 convergences
-- **10.5 Reproducibility** — Deterministic structure, stochastic outputs
-- **10.6 What the Physics Discoveries Mean** — Synthesis
+**Status: PLANNED**
 
----
+**Focus:** The two independent fixed points and their relationship. This is the "synthesis" paper.
 
-## Section 11 — Novel Contributions (~1,000 words)
+**Content:**
+- Test 2 fixed point (from mathematics): "Reality is constraint"
+- Test 3 fixed point (from physics): "Reality fundamentally operates through dimensional compression at constraint-context boundaries"
+- Why these are compatible: the maths fixed point is the general principle, the physics fixed point specifies the mechanism
+- Relationship to Infinitography Papers 5 and 8 fixed points
+- Reproducibility analysis: different inputs → convergent outputs across 4 independent applications
+- Implications for structural realism
+- What "constraint monism" means as a philosophical position
+- Predictions and testable implications
 
-12 numbered contributions explicitly attributed as new to this paper.
-
----
-
-## Section 12 — Limitations and Honest Scope (~1,000 words)
-
-- Single model dependency
-- No wet-lab validation
-- Preliminary confidence scores
-- Temperature stochasticity
+**Target length:** ~10,000-15,000 words
 
 ---
 
-## Section 13 — Future Work (~1,000 words)
+## Data Manifest (All Papers Draw From)
 
-- Full 52-field sweep
-- Multi-model validation
-- Reproducibility studies
-- Epistemic Genesis
-- Hypothesis generation
-- Expert validation
+```
+results/
+├── TEST_LOG.md                    # Comprehensive test methodology log
+├── test-1-guided/                 # 6 files
+│   ├── run.json                   # 1 convergence, 0 findings
+│   ├── report.md
+│   └── domain_*.json (3)          # 42 results total
+├── test-2-exploration/            # 49 files
+│   ├── run.json                   # 30 convergences, 12 findings
+│   ├── report.md
+│   ├── convergence_*.json (30)
+│   ├── finding_*.json (12)
+│   └── domain_*.json (5)          # 77 results total
+└── test-3-auto/                   # 309 files (includes all-run archive)
+    ├── run.json                   # 235 convergences, 14 findings
+    ├── report.md / report.json
+    ├── console_output.txt
+    ├── domains/ (14)              # 220 results total
+    ├── convergences/ (266)        # All runs: 1+30+235
+    └── findings/ (26)             # All runs: 12+14
+```
 
 ---
 
-## Section 14 — Conclusion (~500 words)
+## Writing Order
 
----
+1. **Paper 16** — Complete and expand now (the system paper)
+2. **Paper 19** — Write next (fixed points — shortest, most novel)
+3. **Paper 18** — Mathematics discoveries
+4. **Paper 17** — Physics discoveries (longest, most data-intensive)
 
-## Appendices
-
-- **A:** Full Test 3 convergence list (all 235)
-- **B:** Full Test 2 convergence list (all 30)
-- **C:** Domain survey summaries (all 22)
-- **D:** System prompts
-- **E:** Configuration parameters
-- **F:** Bug fixes log
-
----
-
-## Estimated Length
-
-~25,000-30,000 words (50-60 pages)
+All papers Bitcoin-timestamped and pushed to GitHub.
