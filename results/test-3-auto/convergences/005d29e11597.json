@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical systems exhibit fundamental discreteness at the smallest scales while appearing continuous at macroscopic scales",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Loop Quantum Gravity Area Spectrum",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime area has discrete eigenvalues at Planck scale, with continuum emerging at larger scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Causal Set Hauptvermutung",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime emerges from discrete causal elements, with continuum approximation valid only at large scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Vlasov Equation",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma is fundamentally discrete particles in phase space, but collective behavior produces fluid-like continuum dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gyrokinetic Theory",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Fast discrete particle gyro-motion can be averaged to yield continuum-like slow dynamics"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:03:18.253761+00:00",
+  "id": "005d29e11597"
+}

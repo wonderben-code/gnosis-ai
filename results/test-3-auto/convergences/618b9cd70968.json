@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Symmetry breaking is a fundamental organizing principle where systems spontaneously select lower-symmetry states from higher-symmetry possibilities, creating emergent structure and properties",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions are symmetry-breaking events where order parameters emerge, with symmetry as the fundamental organizing principle"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the W and Z bosons",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electroweak symmetry is spontaneously broken, generating massive gauge bosons from a symmetric theory"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A scalar field with non-zero vacuum expectation value breaks electroweak symmetry and generates mass"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48485,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:28.073976+00:00",
+  "id": "618b9cd70968"
+}

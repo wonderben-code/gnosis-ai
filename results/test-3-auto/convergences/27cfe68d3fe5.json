@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological invariants of band structures create robust edge states that are immune to disorder and backscattering",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Topological Insulators",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological band structure enforces conducting edge states immune to disorder"
+    },
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological invariants create chiral edge states with quantized conductance"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Acoustic systems exhibit topologically protected edge states immune to backscattering"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.4,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.40984999999999994,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:19.988954+00:00",
+  "id": "27cfe68d3fe5"
+}

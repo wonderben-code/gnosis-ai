@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Wave phenomena can be coherently controlled through engineered structures at subwavelength scales",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Stark Effect",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electric fields mix atomic states to coherently manipulate wavefunctions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Acoustic Metamaterials with Negative Index",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Subwavelength structures engineer effective properties to control wave propagation"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.42984,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:26.304916+00:00",
+  "id": "79ac9abf1097"
+}

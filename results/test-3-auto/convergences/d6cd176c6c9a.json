@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Entropy serves as both a geometric property of horizons and a measure of information/microscopic states, with the same mathematical relationship S = A/4 (in Planck units) emerging from independent gravitational and statistical mechanical considerations",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy is proportional to horizon area, not volume, establishing entropy as a geometric property of causal boundaries"
+    },
+    {
+      "result_id": "",
+      "result_name": "Area Law for Entanglement Entropy",
+      "domain_id": "field_b",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum entanglement entropy scales with boundary area rather than volume in gapped systems, revealing entropy as fundamentally tied to boundaries"
+    },
+    {
+      "result_id": "",
+      "result_name": "Maximum Entropy Principle",
+      "domain_id": "field_b",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Entropy measures missing information, providing the information-theoretic foundation that connects to black hole information content"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47885,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:39:14.316500+00:00",
+  "id": "d6cd176c6c9a"
+}

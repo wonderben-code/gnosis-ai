@@ -1,0 +1,59 @@
+{
+  "structural_claim": "The vacuum is not empty but an active medium whose properties fundamentally shape physical processes",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "The vacuum has a non-zero expectation value that breaks symmetries and gives mass to particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "The vacuum has a complex topological structure with tunneling between distinct vacuum states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations and spontaneous emission rates depend on electromagnetic boundary conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Squeezed States of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The vacuum has irreducible quantum fluctuations that can be redistributed but not eliminated"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5488,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:43.374111+00:00",
+  "id": "3b28a6d5ebe1"
+}

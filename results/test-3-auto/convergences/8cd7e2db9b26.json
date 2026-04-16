@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Analytic functions encode fundamental structural information about discrete objects through their zeros and poles",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Riemann-Roch Theorem for Curves",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Spaces of meromorphic functions on curves are governed by arithmetic formulas involving zeros and poles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Weil Conjectures",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Arithmetic properties of varieties over finite fields are controlled by zeros of their zeta functions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Prime Number Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Prime distribution is encoded in the zeros of the Riemann zeta function"
+    },
+    {
+      "result_id": "",
+      "result_name": "Riemann Hypothesis",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "The deepest regularity in prime distribution is encoded in the location of zeta function zeros"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.39199999999999996,
+    "independence": 0.3,
+    "adversarial": 0.4,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46709999999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:23.941783+00:00",
+  "id": "8cd7e2db9b26"
+}

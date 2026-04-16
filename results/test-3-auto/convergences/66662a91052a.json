@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Deep dualities exist where complementary mathematical structures encode identical information through reciprocal relationships.",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Poincar\u00e9 Duality",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Homology and cohomology provide dual algebraic structures encoding the same geometric information"
+    },
+    {
+      "result_id": "",
+      "result_name": "Serre Duality",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Coherent sheaf cohomology groups exhibit fundamental duality relating local and global properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quadratic Reciprocity Law",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Solvability of quadratic congruences exhibits reciprocal symmetry between primes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Langlands Reciprocity Conjecture",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Galois representations and automorphic representations form dual structures encoding the same arithmetic information"
+    }
+  ],
+  "domains": [
+    "topology",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.23519999999999996,
+    "independence": 0.6,
+    "adversarial": 0.4,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49505999999999994,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:23:31.992930+00:00",
+  "id": "66662a91052a"
+}

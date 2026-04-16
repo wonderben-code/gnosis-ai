@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Geometry and dynamics are fundamentally coupled such that geometric curvature directly determines stability boundaries and drives instabilities in the system",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Einstein Field Equations",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime curvature and matter-energy dynamics are directly coupled through field equations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Rotation creates frame-dragging as an intrinsic geometric effect that alters dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ballooning Mode Theory",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field curvature directly couples to pressure gradients to drive instabilities"
+    },
+    {
+      "result_id": "",
+      "result_name": "Neoclassical Transport Theory",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Toroidal geometry fundamentally alters transport through geometric effects on particle orbits"
+    },
+    {
+      "result_id": "",
+      "result_name": "MHD Equilibrium (Grad-Shafranov Equation)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma equilibrium is determined by the geometry of nested flux surfaces"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5426,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:51:49.832437+00:00",
+  "id": "8e5e4b3144f5"
+}

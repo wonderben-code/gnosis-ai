@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Many-body systems exhibit collective oscillation modes that represent coherent motion of constituents against each other",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillations where protons and neutrons move coherently against each other as quantum fluids"
+    },
+    {
+      "result_id": "",
+      "result_name": "Phonon Theory of Lattice Vibrations",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Lattice vibrations manifest as collective modes where atoms oscillate coherently, creating quantized vibrational states"
+    }
+  ],
+  "domains": [
+    "nuclear_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Nuclear Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.39884,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:57:13.863700+00:00",
+  "id": "e2ebe04a8ee8"
+}

@@ -130,6 +130,7 @@ class SupportingResult:
     domain_name: str
     link_type: str  # "direct" or "analogical_extension"
     structural_conclusion: str = ""
+    epistemic_status: str = "established_framework"
 
 
 @dataclass

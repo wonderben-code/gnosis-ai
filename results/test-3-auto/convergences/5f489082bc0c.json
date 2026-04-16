@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Local properties combined with global topological constraints create extraordinary rigidity that reduces apparent complexity to canonical forms",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Riemann Mapping Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Local holomorphicity combined with global simple connectivity reduces all planar domains to the single canonical form of the unit disk"
+    },
+    {
+      "result_id": "",
+      "result_name": "Liouville's Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Local analyticity combined with global boundedness forces functions to be constant, showing maximal rigidity"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fundamental Theorem of Arithmetic",
+      "domain_id": "field_a",
+      "domain_name": "Number Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Local multiplicative properties of integers combined with global well-ordering reduce all integers to unique canonical prime factorizations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quadratic Reciprocity Law",
+      "domain_id": "field_a",
+      "domain_name": "Number Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Local quadratic properties combined with global prime structure create rigid reciprocal symmetries that constrain solvability patterns"
+    }
+  ],
+  "domains": [
+    "number_theory",
+    "analysis"
+  ],
+  "domain_names": [
+    "Number Theory",
+    "Analysis"
+  ],
+  "ea_scores": {
+    "strength": 0.23519999999999996,
+    "independence": 0.8,
+    "adversarial": 0.3,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.501435,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:25:32.063245+00:00",
+  "id": "5f489082bc0c"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "quantum_foundations",
+  "name": "Quantum Foundations",
+  "category": "Physics",
+  "description": "Measurement, entanglement, no-go theorems, quantum information foundations",
+  "results": [
+    {
+      "name": "Bell's Theorem",
+      "authors": "Bell (1964)",
+      "year": 1964,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Local hidden variable theories cannot reproduce all quantum mechanical predictions, revealing that quantum correlations transcend classical locality constraints.",
+      "source_citation": "Bell, J.S. (1964). Physics Physique \u0424\u0438\u0437\u0438\u043a\u0430, 1(3), 195-200",
+      "id": "1b2defce1655"
+    },
+    {
+      "name": "Kochen-Specker Theorem",
+      "authors": "Kochen & Specker (1967)",
+      "year": 1967,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum observables cannot possess predetermined values independent of measurement context, establishing the fundamentally contextual nature of quantum properties.",
+      "source_citation": "Kochen, S. & Specker, E.P. (1967). J. Math. Mech., 17, 59-87",
+      "id": "e5bd89c318e5"
+    },
+    {
+      "name": "No-Cloning Theorem",
+      "authors": "Wootters & Zurek (1982)",
+      "year": 1982,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Arbitrary quantum states cannot be perfectly duplicated, revealing a fundamental constraint on quantum information that distinguishes it from classical information.",
+      "source_citation": "Wootters, W.K. & Zurek, W.H. (1982). Nature, 299, 802-803",
+      "id": "e39cde64f0a4"
+    },
+    {
+      "name": "CHSH Inequality",
+      "authors": "Clauser, Horne, Shimony & Holt (1969)",
+      "year": 1969,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Provides experimentally testable bounds on correlations in local realistic theories, which quantum mechanics violates up to the Tsirelson bound.",
+      "source_citation": "Clauser, J.F. et al. (1969). Phys. Rev. Lett., 23, 880-884",
+      "id": "cdfb0f6413bc"
+    },
+    {
+      "name": "Aspect's Experiments",
+      "authors": "Aspect, Dalibard & Roger (1982)",
+      "year": 1982,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Experimental violation of Bell inequalities confirms that nature exhibits non-local correlations incompatible with local realism.",
+      "source_citation": "Aspect, A., Dalibard, J. & Roger, G. (1982). Phys. Rev. Lett., 49, 1804-1807",
+      "id": "5e955ec3c04f"
+    },
+    {
+      "name": "Quantum Teleportation Protocol",
+      "authors": "Bennett et al. (1993)",
+      "year": 1993,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quantum states can be transmitted using only classical communication and pre-shared entanglement, revealing entanglement as a fundamental communication resource.",
+      "source_citation": "Bennett, C.H. et al. (1993). Phys. Rev. Lett., 70, 1895-1899",
+      "id": "1d6da469dae7"
+    },
+    {
+      "name": "Decoherence Theory",
+      "authors": "Zurek (1981-1991)",
+      "year": 1991,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Environmental entanglement dynamically selects preferred pointer states, explaining the emergence of classical behavior through information dispersal rather than collapse.",
+      "source_citation": "Zurek, W.H. (1991). Physics Today, 44(10), 36-44",
+      "id": "a9119a247283"
+    },
+    {
+      "name": "PBR Theorem",
+      "authors": "Pusey, Barrett & Rudolph (2012)",
+      "year": 2012,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum states cannot be interpreted as states of knowledge about an underlying reality, establishing their ontological rather than purely epistemic character.",
+      "source_citation": "Pusey, M.F., Barrett, J. & Rudolph, T. (2012). Nature Physics, 8, 475-478",
+      "id": "13d7475b5cb8"
+    },
+    {
+      "name": "Gleason's Theorem",
+      "authors": "Gleason (1957)",
+      "year": 1957,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The Born rule is the unique probability measure on quantum observables in dimensions \u22653, constraining possible modifications to quantum theory.",
+      "source_citation": "Gleason, A.M. (1957). J. Math. Mech., 6, 885-893",
+      "id": "13b3de33a083"
+    },
+    {
+      "name": "Monogamy of Entanglement",
+      "authors": "Coffman, Kundu & Wootters (2000)",
+      "year": 2000,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum entanglement cannot be freely shared among multiple parties, imposing fundamental constraints on multipartite quantum correlations.",
+      "source_citation": "Coffman, V., Kundu, J. & Wootters, W.K. (2000). Phys. Rev. A, 61, 052306",
+      "id": "4f2379a537a1"
+    },
+    {
+      "name": "Quantum Zeno Effect",
+      "authors": "Misra & Sudarshan (1977)",
+      "year": 1977,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Frequent measurements can freeze quantum evolution, revealing measurement as an active process that fundamentally alters system dynamics.",
+      "source_citation": "Misra, B. & Sudarshan, E.C.G. (1977). J. Math. Phys., 18, 756-763",
+      "id": "06bb891982cd"
+    },
+    {
+      "name": "Hardy's Paradox",
+      "authors": "Hardy (1992)",
+      "year": 1992,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Demonstrates quantum non-locality without inequalities, showing that local realism fails even for individual measurement outcomes.",
+      "source_citation": "Hardy, L. (1992). Phys. Rev. Lett., 68, 2981-2984",
+      "id": "a398f3171593"
+    },
+    {
+      "name": "Quantum Darwinism",
+      "authors": "Zurek (2003-2009)",
+      "year": 2009,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding of selected information in the environment, explaining the transition from quantum to classical.",
+      "source_citation": "Zurek, W.H. (2009). Nature Physics, 5, 181-188",
+      "id": "fa268e93c1af"
+    },
+    {
+      "name": "Free Will Theorem",
+      "authors": "Conway & Kochen (2006)",
+      "year": 2006,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "If experimenters have free will, then elementary particles must also possess it, linking quantum indeterminacy to fundamental questions of agency.",
+      "source_citation": "Conway, J. & Kochen, S. (2006). Found. Phys., 36, 1441-1473",
+      "id": "2c965666ed40"
+    },
+    {
+      "name": "Tsirelson's Bound",
+      "authors": "Tsirelson (1980)",
+      "year": 1980,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum correlations are bounded below hypothetical super-quantum correlations, suggesting quantum mechanics occupies a special position in the space of possible theories.",
+      "source_citation": "Tsirelson, B.S. (1980). Lett. Math. Phys., 4, 93-100",
+      "id": "f826eb87543a"
+    },
+    {
+      "name": "Quantum Error Correction Threshold Theorem",
+      "authors": "Aharonov & Ben-Or (1997)",
+      "year": 1997,
+      "domain_id": "quantum_foundations",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum computation can be made arbitrarily reliable despite decoherence if error rates fall below a threshold, establishing the feasibility of scalable quantum computing.",
+      "source_citation": "Aharonov, D. & Ben-Or, M. (1997). Proc. 29th STOC, 176-188",
+      "id": "f9371a21ac6e"
+    }
+  ],
+  "structural_conclusion": "Quantum foundations reveals that reality's fundamental structure violates classical intuitions about locality, realism, and information. Quantum properties are irreducibly contextual, non-local correlations cannot be explained by hidden variables, and information obeys fundamentally different rules than classical bits. The quantum-classical transition emerges through environmental entanglement and information proliferation rather than fundamental collapse.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:00:11.773087+00:00"
+}

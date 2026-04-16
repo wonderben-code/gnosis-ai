@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints create robust structures that persist independent of continuous deformations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological invariants (Chern numbers) determine quantized conductance independent of material details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Band topology creates protected edge states that cannot be removed by local perturbations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vortex lines in inviscid flow are topologically conserved and cannot be created or destroyed"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kelvin's Circulation Theorem",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Circulation around material loops is a topologically protected quantity in ideal flows"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:28:52.834358+00:00",
+  "id": "ca9ed4a6fb61"
+}

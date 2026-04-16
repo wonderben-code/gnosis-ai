@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The environment and boundary conditions fundamentally modify wave behavior and can be engineered to control propagation",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Electromagnetic environment modifies spontaneous emission rates through altered vacuum fluctuations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Acoustic Metamaterials with Negative Index",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Engineered subwavelength structures produce effective material properties that control wave behavior"
+    },
+    {
+      "result_id": "",
+      "result_name": "Acoustic Cloaking",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Material properties can be designed to arbitrarily control wave propagation paths"
+    }
+  ],
+  "domains": [
+    "optics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.42288499999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:53:15.551792+00:00",
+  "id": "e5f66a68ee2b"
+}

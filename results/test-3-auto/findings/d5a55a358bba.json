@@ -1,0 +1,25 @@
+{
+  "structural_finding": "Physical systems organize into universality classes near critical points where microscopic details become irrelevant and behavior is governed solely by symmetry and dimensionality",
+  "level": 1,
+  "source_convergence_ids": [
+    "b75d3e72ccd6",
+    "5aa17b0cef85",
+    "099752a10aab",
+    "a09f505946db",
+    "9ec5c86272d9",
+    "cc03090674cc",
+    "beb05b87d060",
+    "1751c46bb4da",
+    "8a830c1897b9",
+    "d2b6b2c11b0f",
+    "9c32f5c1e1ce",
+    "aab6f6a0a6a3"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Critical Universality",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:10.023842+00:00",
+  "id": "d5a55a358bba"
+}

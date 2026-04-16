@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Quantum effects necessarily break certain classical symmetries through anomalies, constraining the possible matter content of consistent theories",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Adler-Bell-Jackiw Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum corrections inevitably break classical symmetries, mathematically constraining fermion content"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chiral Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Axial current conservation violated by quantum effects, determining physical decay rates"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the CKM matrix",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Three-generation structure with specific mixing pattern required for consistency with observed phenomena"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.3,
+    "adversarial": 0.4,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.427725,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:50.597957+00:00",
+  "id": "d7df95dc9b2e"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The vacuum or empty space is an active medium with physical properties that fundamentally shape system dynamics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Type Ia Supernova Cosmology",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Empty space possesses intrinsic energy density (dark energy) that dominates cosmic dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The electromagnetic vacuum fluctuations depend on boundary conditions and actively modify quantum optical processes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cavity Quantum Electrodynamics Strong Coupling",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The vacuum mediates reversible energy exchange between light and matter, acting as an active participant in quantum dynamics"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "optics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:40:17.600820+00:00",
+  "id": "e757f85e91b4"
+}

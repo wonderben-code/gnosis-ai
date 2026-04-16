@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological properties of field configurations determine the spectrum of stable, particle-like excitations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "'t Hooft-Polyakov Monopole",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topological soliton solutions behave as magnetic monopoles due to non-trivial vacuum structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topologically distinct vacua connected by finite-action configurations reveal non-perturbative structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "field_b",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Event horizon creates topologically distinct regions of spacetime"
+    },
+    {
+      "result_id": "",
+      "result_name": "No-Hair Theorem",
+      "domain_id": "field_b",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes as topological objects characterized by only three parameters regardless of formation details"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "general_relativity"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "General Relativity and Cosmology"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4738675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:05.980162+00:00",
+  "id": "752b6b49f5ae"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Discrete eigenvalue spectra emerge from boundary conditions on wave equations, with symmetries determining allowed states",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Schr\u00f6dinger Equation for Hydrogen Atom",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Atomic energy levels arise as discrete eigenvalues from boundary conditions on the wave equation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Equation",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Acoustic modes are eigenfunctions of the Laplacian with eigenvalues determined by geometry"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4274,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:26.304713+00:00",
+  "id": "734d22d53d5d"
+}

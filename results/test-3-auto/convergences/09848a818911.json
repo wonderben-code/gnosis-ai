@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The universe exhibits a fundamental threefold replication pattern in its basic constituents",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the tau lepton",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nature contains exactly three generations of fermions, a pattern repeated across quarks and leptons"
+    },
+    {
+      "result_id": "",
+      "result_name": "Precision tests of the Standard Model at LEP",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The number of light neutrino species is constrained to exactly three"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lambda-CDM Concordance Model",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "The universe's mass-energy content divides into three fundamental components: baryons (~5%), dark matter (~27%), and dark energy (~68%)"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.06,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.45438500000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:37.209382+00:00",
+  "id": "09848a818911"
+}

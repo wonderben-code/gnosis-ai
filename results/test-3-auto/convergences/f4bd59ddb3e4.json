@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Topological properties of the system determine robust, disorder-immune propagation modes at boundaries",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the charm quark",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "The GIM mechanism creates a topological structure in flavor space that protects against certain transitions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Global topological properties of band structures create backscattering-immune edge states"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.85,
+    "adversarial": 0.06,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.41459,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:31:41.829370+00:00",
+  "id": "f4bd59ddb3e4"
+}

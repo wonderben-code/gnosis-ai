@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Macroscopic irreversibility emerges from microscopic reversibility through statistical effects and the breaking of time-reversal symmetry",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Boltzmann's H-theorem",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic irreversibility emerges from reversible microscopic dynamics through statistical considerations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Onsager Reciprocal Relations",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Microscopic time-reversal symmetry constrains macroscopic transport coefficients"
+    },
+    {
+      "result_id": "",
+      "result_name": "Stokes' Law for Sphere Drag",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Low Reynolds number flows are reversible, but irreversibility emerges at higher Reynolds numbers"
+    },
+    {
+      "result_id": "",
+      "result_name": "Richardson Energy Cascade",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy cascades irreversibly from large to small scales despite reversible governing equations"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5233675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:05.302888+00:00",
+  "id": "30363d4b10e6"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Quantum systems exhibit collective modes that emerge from many-body interactions, creating coherent oscillations that represent new degrees of freedom beyond single-particle descriptions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillation modes where protons and neutrons oscillate coherently, demonstrating quantum fluids with emergent collective degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "optics_photonics",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Nonlinear optical media support stable collective excitations where many photons form coherent, shape-preserving structures through nonlinear interactions"
+    }
+  ],
+  "domains": [
+    "optics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.40809000000000006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:43:19.531692+00:00",
+  "id": "c23cfc438fc4"
+}

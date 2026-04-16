@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Non-Abelian gauge theories exhibit asymptotic freedom where interactions weaken at high energies",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Asymptotic Freedom",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Mathematical proof that non-Abelian gauge couplings decrease at high energy"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Theoretical derivation of decreasing coupling in strong interactions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the strong coupling constant",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Experimental confirmation of logarithmic decrease of coupling with energy"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.2,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.35385,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:50.597975+00:00",
+  "id": "45e501884916"
+}

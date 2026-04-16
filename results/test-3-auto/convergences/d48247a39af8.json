@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Symmetry breaking by external fields reveals hidden structure and enables coherent control of system states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Rotation breaks spherical symmetry in spacetime, creating qualitatively new geometric structures like the ergosphere"
+    },
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields break rotational symmetry in atoms, splitting degenerate energy levels and revealing hidden magnetic substructure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Stark Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electric fields break symmetry and mix atomic states, enabling coherent manipulation of quantum systems"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:52:09.691991+00:00",
+  "id": "d48247a39af8"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Spontaneous symmetry breaking generates mass while preserving the underlying gauge structure of interactions",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge bosons acquire mass through scalar field vacuum expectation value without breaking gauge invariance"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Scalar field with non-zero vacuum value generates mass for particles, confirming spontaneous symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "Observation of the Higgs boson decay modes",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Single scalar field generates mass proportional to coupling strength, validating the mechanism"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.2,
+    "adversarial": 0.06,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.34785,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:50.597936+00:00",
+  "id": "d6ba7da99d8a"
+}

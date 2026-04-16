@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Local singularities and obstructions completely determine global structural properties through characteristic invariants that can be computed both analytically and topologically.",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Atiyah-Singer Index Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Local analytical invariants (index of differential operators) equal global topological invariants computed from characteristic classes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chern-Weil Theory",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Topological invariants arise from local curvature forms, establishing that geometric obstructions generate topological classification"
+    },
+    {
+      "result_id": "",
+      "result_name": "Birch and Swinnerton-Dyer Conjecture",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Arithmetic properties (rank of rational points) equal analytic invariants (order of vanishing of L-functions) computed from local data"
+    },
+    {
+      "result_id": "",
+      "result_name": "Modularity Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Arithmetic objects (elliptic curves) are completely determined by analytic objects (modular forms) through characteristic invariants"
+    }
+  ],
+  "domains": [
+    "topology",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.39199999999999996,
+    "independence": 0.6,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5220999999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:23:31.992866+00:00",
+  "id": "20b1c27e4643"
+}

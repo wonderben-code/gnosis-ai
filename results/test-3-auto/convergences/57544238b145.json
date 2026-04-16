@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological invariants determine robust physical properties that are independent of local perturbations or material details",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Hall conductance is quantized due to topological invariants, independent of material details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic properties are determined by topological invariants (Chern numbers)"
+    },
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Event horizons create topologically protected causal boundaries that persist regardless of local perturbations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "The ergosphere represents a topologically distinct region where spacetime structure is qualitatively different"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.487055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:17:15.768758+00:00",
+  "id": "57544238b145"
+}

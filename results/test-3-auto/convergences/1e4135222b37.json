@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Matter undergoes phase transitions at extreme densities where the fundamental degrees of freedom change from composite particles to their constituents",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter transitions to deconfined quarks and gluons above critical temperature/density"
+    },
+    {
+      "result_id": "",
+      "result_name": "Neutron Star Equation of State Constraints",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Ultra-dense matter in neutron star cores may undergo phase transitions to quark matter"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Equation of State",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear forces create matter with universal saturation density that constrains neutron star structure"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.6,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.58085,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:26.920930+00:00",
+  "id": "1e4135222b37"
+}

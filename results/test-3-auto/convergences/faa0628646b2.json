@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Black holes emit thermal radiation through quantum effects at horizons, revealing deep connections between gravity, quantum mechanics, and thermodynamics",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes emit thermal radiation due to quantum effects near the event horizon"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes emit thermal radiation due to quantum effects near the event horizon, where horizons act as thermodynamic membranes"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.2,
+    "adversarial": 0.7,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4244,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:40:35.686313+00:00",
+  "id": "faa0628646b2"
+}

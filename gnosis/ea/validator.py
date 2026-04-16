@@ -114,13 +114,11 @@ class EAValidator:
         # Epistemic weight (average status weight of supporting results)
         weights = []
         for s in supporting:
-            # Try to parse epistemic status from the result
-            # Default to established_framework if unknown
             try:
-                status = EpistemicStatus(s.link_type)  # Won't work, but safe default
+                status = EpistemicStatus(s.epistemic_status)
                 weights.append(status.weight)
-            except ValueError:
-                weights.append(0.7)  # default
+            except (ValueError, AttributeError):
+                weights.append(0.7)  # default to established_framework weight
         epistemic_factor = sum(weights) / len(weights) if weights else 0.5
 
         # Convergence type weight

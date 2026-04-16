@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Physical systems organize into universality classes near critical points where microscopic details become irrelevant and scaling behavior is governed by symmetry and dimensionality alone",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories flow under energy scale changes with fixed points corresponding to scale-invariant theories"
+    },
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "field_b",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Critical phenomena exhibit scale invariance and universality with microscopic details becoming irrelevant"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.4,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.35839999999999994,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:43.564323+00:00",
+  "id": "b75d3e72ccd6"
+}

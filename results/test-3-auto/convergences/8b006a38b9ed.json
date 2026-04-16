@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Hierarchical flow under scale transformations determines low-energy physics from high-energy structure",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories flow under energy scale changes, with low-energy behavior determined by relevant operators and fixed points"
+    },
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Low-energy physics emerges systematically from integrating out high-energy degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Large-scale structure forms hierarchically from small-scale density fluctuations through gravitational flow"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lambda-CDM Concordance Model",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Cosmic structure on large scales emerges from the flow of matter under gravity from primordial fluctuations"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.462055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:18.134904+00:00",
+  "id": "8b006a38b9ed"
+}

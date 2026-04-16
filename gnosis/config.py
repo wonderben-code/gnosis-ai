@@ -14,8 +14,9 @@ class Config:
 
     # API
     api_key: str = ""
-    model_fast: str = "claude-sonnet-4-20250514"
+    model_fast: str = "claude-opus-4-20250514"
     model_deep: str = "claude-opus-4-20250514"
+    model_fallback: str = "claude-sonnet-4-20250514"
 
     # Paths
     data_dir: Path = field(default_factory=lambda: Path("data"))

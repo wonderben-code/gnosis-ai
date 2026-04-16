@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Non-local correlations and information cannot be explained by local hidden variables or predetermined values, requiring fundamentally contextual descriptions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bell's Theorem",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Local hidden variable theories cannot reproduce quantum correlations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kochen-Specker Theorem",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum observables cannot possess predetermined values independent of measurement context"
+    },
+    {
+      "result_id": "",
+      "result_name": "Time Reversal Acoustics",
+      "domain_id": "acoustics_wave_physics",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Wave propagation through complex media preserves source information despite apparent randomization, revealing non-local information preservation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Anderson Localization of Acoustic Waves",
+      "domain_id": "acoustics_wave_physics",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Disorder creates fundamentally non-local interference effects that cannot be understood through local wave properties alone"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.06,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.481055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:23:35.239187+00:00",
+  "id": "d141c9d3ff25"
+}

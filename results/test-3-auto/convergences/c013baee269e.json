@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological constraints fundamentally limit system evolution and determine allowed transitions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Monogamy of Entanglement",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum entanglement cannot be freely shared, imposing topological constraints on correlation structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line linkage is conserved, constraining plasma evolution to preserve topological invariants"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field topology is frozen into the plasma, preventing arbitrary field line reconnections"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:13:44.612777+00:00",
+  "id": "c013baee269e"
+}

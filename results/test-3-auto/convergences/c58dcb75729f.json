@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry breaking mechanisms fundamentally determine the observable properties and mass scales of physical systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Spontaneous symmetry breaking of electroweak symmetry generates mass for fundamental particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the W and Z bosons",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge symmetry breaking creates massive force carriers from massless gauge fields"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Spontaneous breaking of gauge symmetry leads to macroscopic quantum coherence and new collective states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "External fields break rotational symmetry, lifting degeneracies and creating new energy scales"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48568,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:30:49.690626+00:00",
+  "id": "c58dcb75729f"
+}

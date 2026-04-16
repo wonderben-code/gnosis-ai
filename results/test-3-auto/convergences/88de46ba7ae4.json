@@ -1,0 +1,43 @@
+{
+  "structural_claim": "The strong force exhibits asymptotic freedom where coupling strength decreases at high energies/short distances, explaining both quark confinement and nuclear binding",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Non-Abelian gauge theories have coupling that decreases logarithmically with energy, explaining quark behavior at different scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic Freedom in QCD",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The same QCD asymptotic freedom that particle physics discovered independently explains nuclear binding and the transition from quarks to nucleons"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.2,
+    "adversarial": 0.2,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.3244,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:31:04.918007+00:00",
+  "id": "88de46ba7ae4"
+}

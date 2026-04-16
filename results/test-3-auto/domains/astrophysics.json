@@ -1,0 +1,171 @@
+{
+  "id": "astrophysics",
+  "name": "Astrophysics",
+  "category": "Physics",
+  "description": "Stellar evolution, gravitational waves, dark matter, galaxy formation",
+  "results": [
+    {
+      "name": "Chandrasekhar Limit",
+      "authors": "Chandrasekhar (1931)",
+      "year": 1931,
+      "domain_id": "astrophysics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Quantum degeneracy pressure and gravity establish a fundamental mass threshold that bifurcates stellar endpoints into white dwarfs and neutron stars/black holes, revealing that stellar structure is ultimately governed by the competition between quantum mechanics and general relativity.",
+      "source_citation": "Chandrasekhar, S. (1931). ApJ, 74, 81",
+      "id": "b9bf7042c478"
+    },
+    {
+      "name": "Schwarzschild Solution",
+      "authors": "Schwarzschild (1916)",
+      "year": 1916,
+      "domain_id": "astrophysics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Spacetime geometry around a spherical mass contains an event horizon that creates a causal boundary in the universe, establishing that sufficiently strong gravity fundamentally alters the causal structure of spacetime itself.",
+      "source_citation": "Schwarzschild, K. (1916). Sitzungsberichte der K\u00f6niglich Preu\u00dfischen Akademie der Wissenschaften, 189",
+      "id": "25048dde2b82"
+    },
+    {
+      "name": "Hubble's Law",
+      "authors": "Hubble (1929)",
+      "year": 1929,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe possesses a global expansion that links distance and recession velocity linearly, revealing that spacetime itself has dynamic geometry on cosmological scales.",
+      "source_citation": "Hubble, E. (1929). PNAS, 15(3), 168",
+      "id": "46dac7496441"
+    },
+    {
+      "name": "LIGO Detection of Gravitational Waves",
+      "authors": "Abbott et al. (2016)",
+      "year": 2016,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Spacetime ripples propagate at light speed carrying energy and information, confirming that gravity is a dynamical field whose perturbations constitute a new form of radiation that couples to mass-energy.",
+      "source_citation": "Abbott, B. P. et al. (2016). PRL, 116, 061102",
+      "id": "c8ff2ceaa1ee"
+    },
+    {
+      "name": "Cosmic Microwave Background Anisotropies",
+      "authors": "COBE Team (1992)",
+      "year": 1992,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Primordial density fluctuations are imprinted in the CMB with a nearly scale-invariant spectrum, revealing that large-scale structure originated from quantum fluctuations in the early universe.",
+      "source_citation": "Smoot, G. F. et al. (1992). ApJ, 396, L1",
+      "id": "e0845e993e1b"
+    },
+    {
+      "name": "Dark Matter Evidence from Galaxy Rotation Curves",
+      "authors": "Rubin & Ford (1970)",
+      "year": 1970,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Galaxies are embedded in massive halos of non-luminous matter that dominates their gravitational structure, indicating that most matter in the universe interacts only gravitationally and exists outside the Standard Model.",
+      "source_citation": "Rubin, V. C. & Ford, W. K. (1970). ApJ, 159, 379",
+      "id": "eaa55a6cf049"
+    },
+    {
+      "name": "Type Ia Supernova Cosmology",
+      "authors": "Riess et al. (1998), Perlmutter et al. (1999)",
+      "year": 1998,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe's expansion is accelerating due to a positive cosmological constant or dark energy, revealing that empty space possesses an intrinsic energy density that dominates cosmic dynamics at late times.",
+      "source_citation": "Riess, A. G. et al. (1998). AJ, 116, 1009",
+      "id": "4bd9f58ed5bf"
+    },
+    {
+      "name": "Stellar Nucleosynthesis Theory",
+      "authors": "Burbidge, Burbidge, Fowler & Hoyle (1957)",
+      "year": 1957,
+      "domain_id": "astrophysics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Stars are element factories where nuclear fusion processes build heavy elements from hydrogen in a sequence determined by nuclear binding energies, establishing that cosmic chemical evolution is driven by stellar lifecycles.",
+      "source_citation": "Burbidge, E. M. et al. (1957). Rev. Mod. Phys., 29, 547",
+      "id": "95a380079bce"
+    },
+    {
+      "name": "Kerr Solution",
+      "authors": "Kerr (1963)",
+      "year": 1963,
+      "domain_id": "astrophysics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Rotating black holes drag spacetime around them creating an ergosphere where spacetime itself is forced to rotate, demonstrating that angular momentum fundamentally alters the causal structure near gravitational singularities.",
+      "source_citation": "Kerr, R. P. (1963). PRL, 11, 237",
+      "id": "63417371e3bd"
+    },
+    {
+      "name": "Press-Schechter Formalism",
+      "authors": "Press & Schechter (1974)",
+      "year": 1974,
+      "domain_id": "astrophysics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Dark matter halos form hierarchically through gravitational collapse of density peaks in a Gaussian random field, revealing that cosmic structure formation is a stochastic process governed by the statistics of primordial fluctuations.",
+      "source_citation": "Press, W. H. & Schechter, P. (1974). ApJ, 187, 425",
+      "id": "0ae3a81227c5"
+    },
+    {
+      "name": "Hawking Radiation",
+      "authors": "Hawking (1974)",
+      "year": 1974,
+      "domain_id": "astrophysics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Black holes emit thermal radiation due to quantum effects near the event horizon, demonstrating that the intersection of quantum mechanics and general relativity creates new physics where horizons act as thermodynamic membranes.",
+      "source_citation": "Hawking, S. W. (1974). Nature, 248, 30",
+      "id": "53ff7ff36095"
+    },
+    {
+      "name": "Bullet Cluster Observation",
+      "authors": "Clowe et al. (2006)",
+      "year": 2006,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Dark matter and baryonic matter can be spatially separated in cluster collisions, proving that dark matter is a distinct component that interacts primarily through gravity and forms the scaffolding for visible matter.",
+      "source_citation": "Clowe, D. et al. (2006). ApJ, 648, L109",
+      "id": "1ab23fad9184"
+    },
+    {
+      "name": "Neutron Star Equation of State Constraints",
+      "authors": "Demorest et al. (2010)",
+      "year": 2010,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Neutron stars can exceed 2 solar masses, constraining the equation of state of ultra-dense matter and revealing that nuclear forces must stiffen dramatically at several times nuclear density to support such massive objects.",
+      "source_citation": "Demorest, P. B. et al. (2010). Nature, 467, 1081",
+      "id": "45981c7b5c22"
+    },
+    {
+      "name": "Lambda-CDM Concordance Model",
+      "authors": "Multiple teams (1990s-2000s)",
+      "year": 1998,
+      "domain_id": "astrophysics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "The universe consists of ~5% baryons, ~27% dark matter, and ~68% dark energy, establishing that the cosmic inventory is dominated by unknown components whose nature determines large-scale structure and dynamics.",
+      "source_citation": "Spergel, D. N. et al. (2003). ApJS, 148, 175",
+      "id": "756333e326bb"
+    },
+    {
+      "name": "Tully-Fisher Relation",
+      "authors": "Tully & Fisher (1977)",
+      "year": 1977,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Galaxy luminosity scales as the fourth power of rotation velocity, revealing a fundamental connection between visible matter and the total gravitational potential that constrains galaxy formation physics.",
+      "source_citation": "Tully, R. B. & Fisher, J. R. (1977). A&A, 54, 661",
+      "id": "9ca590d4c251"
+    },
+    {
+      "name": "Cosmic Web Structure",
+      "authors": "Bond, Kofman & Pogosyan (1996)",
+      "year": 1996,
+      "domain_id": "astrophysics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Matter in the universe forms a web-like network of filaments, sheets, and voids, demonstrating that gravitational instability naturally creates a specific topology where matter flows along filaments into nodes.",
+      "source_citation": "Bond, J. R., Kofman, L. & Pogosyan, D. (1996). Nature, 380, 603",
+      "id": "523c5d1d566c"
+    }
+  ],
+  "structural_conclusion": "Astrophysics reveals that the universe is structured by the interplay of quantum mechanics and general relativity across vast scales, with invisible dark components dominating the mass-energy budget and determining cosmic architecture. Gravity acts both as the architect of large-scale structure through hierarchical collapse and as the ultimate arbiter of compact object physics where quantum and relativistic effects merge. The cosmos exhibits a fundamental hierarchy where microscopic physics determines stellar fates, stellar processes forge elements, and dark matter scaffolding guides the assembly of all visible structures.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:05:43.860954+00:00"
+}

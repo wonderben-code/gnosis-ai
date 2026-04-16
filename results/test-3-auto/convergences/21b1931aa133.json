@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Macroscopic classical behavior emerges from microscopic quantum/statistical behavior through environmental interaction and information dispersal, not through fundamental collapse or deterministic reduction",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical behavior emerges through environmental entanglement and information dispersal rather than collapse"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding of selected information in the environment"
+    },
+    {
+      "result_id": "",
+      "result_name": "Boltzmann's H-theorem",
+      "domain_id": "thermodynamics",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic irreversibility emerges from reversible microscopic dynamics through statistical considerations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gibbs Ensemble Theory",
+      "domain_id": "thermodynamics",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic behavior is fundamentally statistical rather than deterministic"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.4,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.54768,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:11:54.205555+00:00",
+  "id": "21b1931aa133"
+}

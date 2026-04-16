@@ -1,0 +1,43 @@
+{
+  "structural_claim": "The environment fundamentally modifies quantum processes by changing the boundary conditions and available states, making the vacuum or medium an active participant rather than passive background",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "optics_photonics",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The electromagnetic environment modifies spontaneous emission rates, revealing that vacuum fluctuations depend on boundary conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "EMC Effect",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Quark distributions in nucleons are modified when bound in nuclei, revealing that the nuclear medium fundamentally alters internal structure"
+    }
+  ],
+  "domains": [
+    "optics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.43634000000000006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:43:19.531792+00:00",
+  "id": "c7af5b55681e"
+}

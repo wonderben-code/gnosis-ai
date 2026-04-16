@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Fundamental degrees of freedom scale with boundary area rather than bulk volume, revealing a holographic principle in both quantum gravity and quantum many-body systems",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy scales with surface area, not volume, indicating holographic encoding of information"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ryu-Takayanagi Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement entropy equals area of minimal surfaces, establishing area scaling as fundamental"
+    },
+    {
+      "result_id": "",
+      "result_name": "Area Law for Entanglement Entropy",
+      "domain_id": "thermodynamics",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Ground state entanglement in gapped systems scales with boundary area, not volume"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5408499999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:53:44.885604+00:00",
+  "id": "11e34e34a739"
+}

@@ -1,0 +1,27 @@
+{
+  "structural_finding": "Symmetry breaking is the universal mechanism through which diversity and structure emerge from unity - systems spontaneously select lower-symmetry states from higher-symmetry possibilities, creating order, mass, and distinct phases",
+  "level": 1,
+  "source_convergence_ids": [
+    "d0f65ba32126",
+    "eb831013c6d2",
+    "f760d26129e8",
+    "58d65d5acae1",
+    "d6ba7da99d8a",
+    "618b9cd70968",
+    "d8c8132ec561",
+    "cf19aa53852b",
+    "85e1ea9b59a5",
+    "c295cef91f7b",
+    "5de3709b7f19",
+    "79cd16932ee9",
+    "a84696ce790c",
+    "77310ae01757"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Universal Symmetry Breaking",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:10.023811+00:00",
+  "id": "a7ca01ad48ef"
+}

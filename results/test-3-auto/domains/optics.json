@@ -1,0 +1,161 @@
+{
+  "id": "optics",
+  "name": "Optics and Photonics",
+  "category": "Physics",
+  "description": "Quantum optics, nonlinear optics, photonic crystals, laser physics",
+  "results": [
+    {
+      "name": "Planck's Law of Black-body Radiation",
+      "authors": "Planck (1900)",
+      "year": 1900,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The electromagnetic field must be quantized into discrete energy packets proportional to frequency, revealing that light has an irreducible granular structure that bridges wave and particle descriptions.",
+      "source_citation": "Planck, M. Ann. Phys. 4, 553 (1901)",
+      "id": "029740dee290"
+    },
+    {
+      "name": "Einstein's Photoelectric Effect",
+      "authors": "Einstein (1905)",
+      "year": 1905,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Light interacts with matter as localized quanta carrying energy E=h\u03bd, establishing that the particle nature of light is fundamental to its interaction with charged particles.",
+      "source_citation": "Einstein, A. Ann. Phys. 17, 132 (1905)",
+      "id": "c2c05291765c"
+    },
+    {
+      "name": "Glauber's Quantum Theory of Optical Coherence",
+      "authors": "Glauber (1963)",
+      "year": 1963,
+      "domain_id": "optics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Classical coherence emerges from quantum field correlations through normally-ordered expectation values, revealing that all optical phenomena are fundamentally quantum with classical behavior as a special case.",
+      "source_citation": "Glauber, R.J. Phys. Rev. 130, 2529 (1963)",
+      "id": "fbea316f90f2"
+    },
+    {
+      "name": "Hong-Ou-Mandel Effect",
+      "authors": "Hong, Ou, Mandel (1987)",
+      "year": 1987,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Indistinguishable photons exhibit perfect quantum interference leading to bunching, demonstrating that photon indistinguishability is a fundamental quantum resource distinct from classical wave interference.",
+      "source_citation": "Hong, C.K., Ou, Z.Y., Mandel, L. Phys. Rev. Lett. 59, 2044 (1987)",
+      "id": "a0d924765bd6"
+    },
+    {
+      "name": "Spontaneous Parametric Down-Conversion",
+      "authors": "Burnham, Weinberg (1970)",
+      "year": 1970,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Nonlinear crystals can split single photons into entangled pairs while preserving energy and momentum, revealing that quantum correlations can be deterministically generated through nonlinear optical processes.",
+      "source_citation": "Burnham, D.C., Weinberg, D.L. Phys. Rev. Lett. 25, 84 (1970)",
+      "id": "5e55a035a1fc"
+    },
+    {
+      "name": "Photonic Band Gap Theory",
+      "authors": "Yablonovitch, John (1987)",
+      "year": 1987,
+      "domain_id": "optics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Periodic dielectric structures create forbidden frequency bands for photons analogous to electronic band gaps, establishing that light propagation can be controlled through engineered spatial periodicity.",
+      "source_citation": "Yablonovitch, E. Phys. Rev. Lett. 58, 2059 (1987); John, S. Phys. Rev. Lett. 58, 2486 (1987)",
+      "id": "df4b464b34b7"
+    },
+    {
+      "name": "Laser Threshold Condition",
+      "authors": "Schawlow, Townes (1958)",
+      "year": 1958,
+      "domain_id": "optics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Coherent light amplification requires population inversion and gain exceeding loss, establishing that stimulated emission can dominate over spontaneous processes under specific non-equilibrium conditions.",
+      "source_citation": "Schawlow, A.L., Townes, C.H. Phys. Rev. 112, 1940 (1958)",
+      "id": "5cd0a87beae4"
+    },
+    {
+      "name": "Optical Solitons",
+      "authors": "Hasegawa, Tappert (1973)",
+      "year": 1973,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Nonlinearity can exactly balance dispersion to create shape-preserving light pulses, revealing that nonlinear optical media support stable localized excitations analogous to particle-like states.",
+      "source_citation": "Hasegawa, A., Tappert, F. Appl. Phys. Lett. 23, 142 (1973)",
+      "id": "71d978d763b4"
+    },
+    {
+      "name": "Squeezed States of Light",
+      "authors": "Slusher et al. (1985)",
+      "year": 1985,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quantum noise can be redistributed below the vacuum level in one quadrature at the expense of another, demonstrating that the uncertainty principle allows for engineered quantum correlations that surpass classical limits.",
+      "source_citation": "Slusher, R.E. et al. Phys. Rev. Lett. 55, 2409 (1985)",
+      "id": "c8f432cd3383"
+    },
+    {
+      "name": "Purcell Effect",
+      "authors": "Purcell (1946)",
+      "year": 1946,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The electromagnetic environment modifies spontaneous emission rates, revealing that vacuum fluctuations and thus fundamental quantum optical processes depend on boundary conditions.",
+      "source_citation": "Purcell, E.M. Phys. Rev. 69, 681 (1946)",
+      "id": "fd78144eaa14"
+    },
+    {
+      "name": "Optical Bloch Equations",
+      "authors": "Bloch (1946), adapted for optics",
+      "year": 1946,
+      "domain_id": "optics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Two-level quantum systems interacting with light obey coupled equations for population and coherence, establishing the fundamental dynamics of light-matter interaction at the quantum level.",
+      "source_citation": "Bloch, F. Phys. Rev. 70, 460 (1946)",
+      "id": "422ae4287a82"
+    },
+    {
+      "name": "Electromagnetically Induced Transparency",
+      "authors": "Harris, Field, Imamoglu (1990)",
+      "year": 1990,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quantum interference between excitation pathways can render an absorbing medium transparent, demonstrating that coherent control can fundamentally alter optical properties through quantum superposition.",
+      "source_citation": "Harris, S.E., Field, J.E., Imamoglu, A. Phys. Rev. Lett. 64, 1107 (1990)",
+      "id": "b4f4ebf2f76a"
+    },
+    {
+      "name": "Cavity Quantum Electrodynamics Strong Coupling",
+      "authors": "Thompson, Rempe, Kimble (1992)",
+      "year": 1992,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Single atoms and photons can coherently exchange energy faster than dissipation, establishing a regime where light-matter interaction becomes a reversible quantum process.",
+      "source_citation": "Thompson, R.J., Rempe, G., Kimble, H.J. Phys. Rev. Lett. 68, 1132 (1992)",
+      "id": "02519b16c2b3"
+    },
+    {
+      "name": "Orbital Angular Momentum of Light",
+      "authors": "Allen et al. (1992)",
+      "year": 1992,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Photons carry quantized orbital angular momentum distinct from spin, revealing an additional quantum degree of freedom that expands the state space for optical information encoding.",
+      "source_citation": "Allen, L. et al. Phys. Rev. A 45, 8185 (1992)",
+      "id": "cbf656d29dd8"
+    },
+    {
+      "name": "Quantum Zeno Effect in Optics",
+      "authors": "Itano et al. (1990)",
+      "year": 1990,
+      "domain_id": "optics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Frequent measurement inhibits quantum evolution, demonstrating that observation fundamentally alters optical dynamics by projecting the system into measurement eigenstates.",
+      "source_citation": "Itano, W.M. et al. Phys. Rev. A 41, 2295 (1990)",
+      "id": "c8c91991f48e"
+    }
+  ],
+  "structural_conclusion": "Optics reveals that light exists at the intersection of wave and particle descriptions, with quantum field theory providing the complete framework where classical phenomena emerge as special cases. The field demonstrates that the vacuum is an active medium, nonlinearity enables new states of light, and the electromagnetic environment fundamentally shapes quantum processes. Light-matter interaction is governed by coherent quantum dynamics that can be engineered to access regimes impossible in classical physics.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:06:27.500775+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Spontaneous symmetry breaking provides a universal mechanism for generating mass and order, with the broken symmetry hidden rather than destroyed",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge bosons acquire mass through interaction with a scalar field whose vacuum expectation value breaks the symmetry spontaneously"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ginzburg-Landau Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Superconductivity emerges from spontaneous gauge symmetry breaking described by a complex order parameter field"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions are classified by symmetry breaking and order parameters"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48485,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:20.312015+00:00",
+  "id": "58d65d5acae1"
+}

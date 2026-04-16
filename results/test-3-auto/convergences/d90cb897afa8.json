@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Nonlinearity can balance dispersion to create stable, shape-preserving wave packets that propagate without distortion",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinearity exactly balances dispersion to create shape-preserving light pulses"
+    },
+    {
+      "result_id": "",
+      "result_name": "KdV Equation for Nonlinear Waves",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinear wave propagation exhibits soliton solutions maintaining shape through balance of nonlinearity and dispersion"
+    }
+  ],
+  "domains": [
+    "optics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4334,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:53:15.551774+00:00",
+  "id": "d90cb897afa8"
+}

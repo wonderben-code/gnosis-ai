@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Universal scaling laws govern system behavior near critical transitions, making microscopic details irrelevant and organizing systems into universal classes",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Near phase transitions, systems exhibit scale invariance and fall into universal classes independent of microscopic details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent flows exhibit universal power-law scaling in the inertial range, independent of specific flow conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Reynolds Number Similarity",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Flows organize into similarity classes based on dimensionless parameters, with universal behavior within each class"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49734999999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:05.302848+00:00",
+  "id": "1751c46bb4da"
+}

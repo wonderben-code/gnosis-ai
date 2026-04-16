@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Collective behavior emerges from many-body quantum systems through modes that transcend individual particle properties",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Gibbs Ensemble Theory",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic properties emerge from probability distributions over microstates, fundamentally statistical rather than deterministic"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillation modes demonstrating quantum fluid behavior with collective degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Liquid Drop Model",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear forces create a saturated system where collective liquid-like behavior emerges from many-nucleon interactions"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46101000000000003,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:15:41.166769+00:00",
+  "id": "2314521ff3a6"
+}

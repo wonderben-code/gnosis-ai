@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry breaking is the mechanism through which apparent diversity emerges from underlying unity",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical behavior emerges through environmental selection of preferred pointer states, breaking the symmetry of superposition"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding in the environment, breaking quantum symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the W and Z bosons",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electroweak symmetry is spontaneously broken, giving mass to gauge bosons"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A scalar field breaks electroweak symmetry, generating mass for fundamental particles"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:12:45.977300+00:00",
+  "id": "d0f65ba32126"
+}

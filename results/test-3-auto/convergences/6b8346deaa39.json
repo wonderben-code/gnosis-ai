@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Nonlinear interactions support stable, localized excitations that behave as particle-like entities",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "'t Hooft-Polyakov Monopole",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinear gauge theories support topological soliton solutions that behave as particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Finite-action field configurations create localized, topologically stable structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinearity balances dispersion to create stable, shape-preserving light pulses"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.43601,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:43.374240+00:00",
+  "id": "6b8346deaa39"
+}

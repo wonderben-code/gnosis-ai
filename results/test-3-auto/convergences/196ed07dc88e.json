@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Discrete quantum states and transitions emerge from continuous symmetries and their associated conservation laws",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Non-Abelian gauge symmetry creates scale-dependent behavior with discrete regimes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the CKM matrix",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Flavor mixing is constrained by unitarity, creating discrete allowed transition patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "Schr\u00f6dinger Equation for Hydrogen Atom",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous rotational symmetry plus boundary conditions create discrete energy levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Selection Rules for Atomic Transitions",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Angular momentum conservation from rotational symmetry restricts allowed transitions"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49168,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:30:49.690712+00:00",
+  "id": "196ed07dc88e"
+}

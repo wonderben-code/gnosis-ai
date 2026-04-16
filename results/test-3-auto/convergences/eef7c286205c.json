@@ -1,0 +1,43 @@
+{
+  "structural_claim": "The universe exhibits systematic expansion where recession velocity is proportional to distance, revealing dynamic spacetime geometry",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Hubble's Law",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "The universe exhibits systematic expansion with recession velocity proportional to distance, revealing spacetime itself is dynamically expanding"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hubble's Law",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "The universe possesses global expansion linking distance and recession velocity linearly, revealing dynamic geometry on cosmological scales"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.2,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.3024,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:40:35.686275+00:00",
+  "id": "eef7c286205c"
+}

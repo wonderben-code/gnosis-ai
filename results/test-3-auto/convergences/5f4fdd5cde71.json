@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Wave propagation in periodic structures creates forbidden frequency bands where waves cannot propagate, with the band structure determining allowed modes",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Photonic Band Gap Theory",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Periodic dielectric structures create forbidden frequency bands for photons through Bragg scattering"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Wave propagation in periodic structures exhibits band gaps and pass bands as fundamental features"
+    }
+  ],
+  "domains": [
+    "optics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4334,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:53:15.551711+00:00",
+  "id": "5f4fdd5cde71"
+}

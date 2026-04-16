@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Vacuum fluctuations from quantum field theory produce measurable physical effects that modify the properties of matter",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum field fluctuations near event horizons create particle pairs that lead to black hole evaporation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lamb Shift",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum field fluctuations of the electromagnetic vacuum modify atomic energy levels measurably"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.7,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.5494,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:03.170605+00:00",
+  "id": "429668cdc9ad"
+}

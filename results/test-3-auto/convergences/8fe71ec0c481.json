@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Macroscopic quantum coherence emerges from microscopic quantum mechanics through phase transitions that create new collective states of matter",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "BCS Theory of Superconductivity",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Cooper pair formation creates macroscopic quantum coherence from microscopic interactions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Bosonic atoms undergo phase transition to macroscopic quantum state occupation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ginzburg-Landau Theory",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic quantum phenomena described by complex order parameter field"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.6,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.58085,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:28.214223+00:00",
+  "id": "8fe71ec0c481"
+}

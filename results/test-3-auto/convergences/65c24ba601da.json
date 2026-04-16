@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Phase transitions occur when competing length scales or energy scales cross critical thresholds, fundamentally altering the system's organizational structure",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter undergoes phase transition to deconfined state when thermal energy exceeds confinement scale"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Pasta Phases",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Competition between nuclear attraction and Coulomb repulsion creates complex phases with different geometries"
+    },
+    {
+      "result_id": "",
+      "result_name": "Anderson Localization of Acoustic Waves",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Wave propagation undergoes transition from extended to localized states when disorder strength exceeds critical threshold"
+    }
+  ],
+  "domains": [
+    "nuclear_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Nuclear Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:57:13.863761+00:00",
+  "id": "65c24ba601da"
+}

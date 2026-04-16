@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Apparent diversity in nature emerges from underlying symmetries and their breaking",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Electroweak unification",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electromagnetic and weak forces are different manifestations of a single gauge symmetry that is spontaneously broken"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the W and Z bosons",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Distinct forces emerge from spontaneous breaking of underlying gauge symmetries"
+    },
+    {
+      "result_id": "",
+      "result_name": "Glauber's Quantum Theory of Optical Coherence",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Classical optical phenomena emerge from quantum field correlations, with classical behavior as a symmetry-restricted special case"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electromagnetically Induced Transparency",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Apparent optical properties can be fundamentally altered by manipulating quantum interference, revealing underlying coherent structure"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "optics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47455500000000006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:58.651966+00:00",
+  "id": "13f9fd376eba"
+}

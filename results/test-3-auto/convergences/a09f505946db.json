@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Universal behavior at critical points is determined by symmetry and dimensionality rather than microscopic details",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Gravitational theories are dual to conformal field theories with universal scaling behavior"
+    },
+    {
+      "result_id": "",
+      "result_name": "String Theory Dualities",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Different microscopic descriptions yield the same physics through duality transformations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Critical phenomena show universal behavior determined by symmetry and dimensionality"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions are classified by symmetry breaking independent of material specifics"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5244875,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:08.877977+00:00",
+  "id": "a09f505946db"
+}

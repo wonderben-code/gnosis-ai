@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Macroscopic quantum coherence emerges from microscopic degrees of freedom and manifests as a complex order parameter field with spontaneous symmetry breaking",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Ginzburg-Landau Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Superconductivity described by complex order parameter with spontaneous gauge symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "BCS Theory of Superconductivity",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Cooper pair condensate forms macroscopic quantum state"
+    },
+    {
+      "result_id": "",
+      "result_name": "Inflation Theory",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Scalar field drives exponential expansion through spontaneous symmetry breaking"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.7,
+    "adversarial": 0.06,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.41688499999999995,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:39:35.659188+00:00",
+  "id": "9f9b09ab56c4"
+}

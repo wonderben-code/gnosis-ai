@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Spontaneous symmetry breaking generates mass and distinguishes phases of matter through the emergence of order parameters with non-zero vacuum expectation values",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions occur through spontaneous symmetry breaking characterized by order parameters"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ginzburg-Landau Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Superconductivity emerges from spontaneous gauge symmetry breaking with a complex order parameter"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Fundamental particle masses arise from spontaneous electroweak symmetry breaking via a scalar field with non-zero vacuum expectation value"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electroweak unification",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The distinction between electromagnetic and weak forces emerges from spontaneous breaking of SU(2)\u00d7U(1) symmetry"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5363,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:54.207828+00:00",
+  "id": "85e1ea9b59a5"
+}

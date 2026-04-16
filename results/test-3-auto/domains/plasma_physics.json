@@ -1,0 +1,171 @@
+{
+  "id": "plasma_physics",
+  "name": "Plasma Physics",
+  "category": "Physics",
+  "description": "Magnetohydrodynamics, fusion, solar physics, space plasmas",
+  "results": [
+    {
+      "name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "authors": "Alfv\u00e9n (1942)",
+      "year": 1942,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "In perfectly conducting plasmas, magnetic field lines move with the fluid, establishing that plasma and magnetic field form an inseparable dynamical system where topology is conserved.",
+      "source_citation": "Alfv\u00e9n, H., Nature 150, 405 (1942)",
+      "id": "4d1ea16431bc"
+    },
+    {
+      "name": "MHD Equilibrium (Grad-Shafranov Equation)",
+      "authors": "Grad & Rubin (1958), Shafranov (1958)",
+      "year": 1958,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Axisymmetric plasma equilibria are governed by a single nonlinear elliptic equation, revealing that force balance in magnetized plasmas reduces to a two-dimensional problem with nested flux surfaces.",
+      "source_citation": "Grad, H. & Rubin, H., Proc. 2nd UN Conf. (1958); Shafranov, V.D., Sov. Phys. JETP 6, 545 (1958)",
+      "id": "dbfabf5b54d6"
+    },
+    {
+      "name": "Landau Damping",
+      "authors": "Landau (1946)",
+      "year": 1946,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Plasma waves can damp without collisions through resonant particle-wave interactions, demonstrating that collective phenomena in plasmas emerge from the velocity distribution function's structure.",
+      "source_citation": "Landau, L.D., J. Phys. USSR 10, 25 (1946)",
+      "id": "774cd4e8dec5"
+    },
+    {
+      "name": "Debye Shielding",
+      "authors": "Debye & H\u00fcckel (1923)",
+      "year": 1923,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Plasmas spontaneously organize to shield electric fields over a characteristic length scale, establishing that collective behavior emerges from many-body Coulomb interactions.",
+      "source_citation": "Debye, P. & H\u00fcckel, E., Phys. Z. 24, 185 (1923)",
+      "id": "d44a19567355"
+    },
+    {
+      "name": "Lawson Criterion",
+      "authors": "Lawson (1957)",
+      "year": 1957,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Fusion ignition requires a minimum product of density, temperature, and confinement time, revealing that energy balance imposes a fundamental threshold for self-sustaining fusion reactions.",
+      "source_citation": "Lawson, J.D., Proc. Phys. Soc. B 70, 6 (1957)",
+      "id": "ca40c60c407b"
+    },
+    {
+      "name": "Parker Solar Wind Theory",
+      "authors": "Parker (1958)",
+      "year": 1958,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The solar corona must expand supersonically into interplanetary space, demonstrating that hot plasmas in gravitational fields naturally produce transonic flows.",
+      "source_citation": "Parker, E.N., Astrophys. J. 128, 664 (1958)",
+      "id": "5028321c0531"
+    },
+    {
+      "name": "Sweet-Parker Reconnection",
+      "authors": "Sweet (1958), Parker (1957)",
+      "year": 1957,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Magnetic reconnection in resistive plasmas occurs through thin current sheets where field line topology changes, revealing that magnetic energy conversion requires breaking ideal MHD constraints.",
+      "source_citation": "Sweet, P.A., IAU Symp. 6, 123 (1958); Parker, E.N., J. Geophys. Res. 62, 509 (1957)",
+      "id": "1d6de276333b"
+    },
+    {
+      "name": "Kruskal-Shafranov Stability Limit",
+      "authors": "Kruskal & Shafranov (1954-1956)",
+      "year": 1954,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Tokamak plasmas become unstable when the safety factor q < 1, establishing that magnetic field line helicity determines global stability boundaries.",
+      "source_citation": "Kruskal, M.D. et al., Phys. Fluids 1, 421 (1958); Shafranov, V.D., At. Energ. 5, 38 (1956)",
+      "id": "733f2581827c"
+    },
+    {
+      "name": "Bohm Diffusion",
+      "authors": "Bohm (1949)",
+      "year": 1949,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Cross-field plasma transport can exceed classical predictions by orders of magnitude, revealing that turbulence and microinstabilities dominate transport in magnetized plasmas.",
+      "source_citation": "Bohm, D. in 'The Characteristics of Electrical Discharges in Magnetic Fields' (1949)",
+      "id": "4a74be031be9"
+    },
+    {
+      "name": "Vlasov Equation",
+      "authors": "Vlasov (1938)",
+      "year": 1938,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Collisionless plasma dynamics is fully described by the phase space distribution function evolution, establishing that plasmas are fundamentally six-dimensional fluids in phase space.",
+      "source_citation": "Vlasov, A.A., Zh. Eksp. Teor. Fiz. 8, 291 (1938)",
+      "id": "011f261610c7"
+    },
+    {
+      "name": "Magnetic Helicity Conservation",
+      "authors": "Woltjer (1958), Taylor (1974)",
+      "year": 1958,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Magnetic helicity is conserved in ideal MHD, constraining plasma relaxation to minimum energy states that preserve topological linkage of magnetic field lines.",
+      "source_citation": "Woltjer, L., Proc. Natl. Acad. Sci. 44, 489 (1958); Taylor, J.B., Phys. Rev. Lett. 33, 1139 (1974)",
+      "id": "f9ea75c8ee39"
+    },
+    {
+      "name": "Ballooning Mode Theory",
+      "authors": "Connor, Hastie & Taylor (1978)",
+      "year": 1978,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "High-pressure gradients in curved magnetic fields drive instabilities localized to bad curvature regions, revealing that geometry and pressure gradients couple to limit plasma confinement.",
+      "source_citation": "Connor, J.W., Hastie, R.J. & Taylor, J.B., Phys. Rev. Lett. 40, 396 (1978)",
+      "id": "a31a976e73b0"
+    },
+    {
+      "name": "Dungey Reconnection Model",
+      "authors": "Dungey (1961)",
+      "year": 1961,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The Earth's magnetosphere is an open system where solar wind magnetic field reconnects with terrestrial field, establishing that planetary magnetic fields form dynamic boundaries with the solar wind.",
+      "source_citation": "Dungey, J.W., Phys. Rev. Lett. 6, 47 (1961)",
+      "id": "9dd5b3cf663b"
+    },
+    {
+      "name": "Gyrokinetic Theory",
+      "authors": "Rutherford & Frieman (1968), Taylor & Hastie (1968)",
+      "year": 1968,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Fast gyro-motion can be averaged out while retaining finite Larmor radius effects, revealing that plasma turbulence operates on multiple separated timescales.",
+      "source_citation": "Rutherford, P.H. & Frieman, E.A., Phys. Fluids 11, 569 (1968)",
+      "id": "b12f9b187fd0"
+    },
+    {
+      "name": "Petschek Reconnection",
+      "authors": "Petschek (1964)",
+      "year": 1964,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Fast magnetic reconnection occurs through standing slow-mode shocks that open the outflow region, demonstrating that wave structures can accelerate topological change beyond resistive limits.",
+      "source_citation": "Petschek, H.E., NASA Spec. Publ. 50, 425 (1964)",
+      "id": "4ed45e98e426"
+    },
+    {
+      "name": "Neoclassical Transport Theory",
+      "authors": "Galeev & Sagdeev (1968), Rosenbluth et al. (1972)",
+      "year": 1968,
+      "domain_id": "plasma_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Toroidal geometry fundamentally alters collision-driven transport through trapped particle effects, revealing that magnetic topology determines transport scaling laws.",
+      "source_citation": "Galeev, A.A. & Sagdeev, R.Z., Sov. Phys. JETP 26, 233 (1968)",
+      "id": "5f6f1773b2d5"
+    }
+  ],
+  "structural_conclusion": "Plasma physics reveals that charged fluids and magnetic fields form inseparable dynamical systems where collective behavior emerges from kinetic interactions, topology constrains evolution, and geometry couples to instabilities. The field demonstrates that plasmas are fundamentally multi-scale systems where microscopic velocity distributions determine macroscopic dynamics, magnetic topology is approximately conserved except at singular surfaces, and confinement requires satisfying simultaneous constraints from equilibrium, stability, and transport.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:07:16.715822+00:00"
+}

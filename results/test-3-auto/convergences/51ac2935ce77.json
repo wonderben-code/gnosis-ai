@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Macroscopic irreversibility emerges from reversible microscopic dynamics through statistical considerations",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Boltzmann's H-theorem",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic irreversibility emerges from reversible microscopic dynamics through statistical considerations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cavity Quantum Electrodynamics Strong Coupling",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Light-matter interaction becomes a reversible quantum process, demonstrating reversible microscopic dynamics that lead to irreversible macroscopic behavior through decoherence"
+    },
+    {
+      "result_id": "",
+      "result_name": "Optical Bloch Equations",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Coherent quantum dynamics are fundamentally reversible but lead to irreversible behavior through environmental coupling"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "optics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5408499999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:06:13.527503+00:00",
+  "id": "51ac2935ce77"
+}

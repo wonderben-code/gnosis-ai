@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Topology acts as a fundamental constraint on system evolution, with topological change requiring singular surfaces or special conditions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Event horizons create causal boundaries that fundamentally alter spacetime topology"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Angular momentum creates ergospheres that alter causal structure near singularities"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, constraining evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of magnetic field lines is preserved, constraining plasma relaxation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Sweet-Parker Reconnection",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic topology changes only at singular current sheets where ideal constraints break"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5426,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:40:38.895096+00:00",
+  "id": "fdea44ecf6f9"
+}

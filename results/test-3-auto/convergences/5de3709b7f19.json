@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Complex systems spontaneously break symmetries to create discrete, organized structures from continuous fields",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A continuous scalar field spontaneously breaks electroweak symmetry, creating discrete mass scales and particle properties from an initially symmetric state"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electroweak unification",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Unified gauge symmetry spontaneously breaks into distinct electromagnetic and weak forces"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous rotating flow spontaneously breaks axial symmetry to create discrete vortex structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Uniform thermal field spontaneously breaks translational symmetry to create discrete convection cells"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:31:27.459943+00:00",
+  "id": "5de3709b7f19"
+}

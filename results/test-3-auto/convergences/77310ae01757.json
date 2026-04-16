@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Spontaneous symmetry breaking generates mass and determines the vacuum structure of fundamental interactions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A scalar field with non-zero vacuum expectation value breaks electroweak symmetry and generates fundamental particle masses"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chiral Symmetry Breaking",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The QCD vacuum spontaneously breaks chiral symmetry, generating constituent quark masses and explaining nucleon mass"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.4,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.32384,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:31:04.918189+00:00",
+  "id": "77310ae01757"
+}

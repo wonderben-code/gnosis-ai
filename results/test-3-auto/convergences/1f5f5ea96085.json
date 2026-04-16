@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints fundamentally limit the evolution and relaxation of physical systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, constraining evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of field lines constrains plasma relaxation to specific minimum energy states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Confinement in QCD",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Color charge confinement creates topological constraint preventing isolation of quarks"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chiral Symmetry Breaking",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Vacuum structure creates topological constraint that generates constituent quark masses"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4988675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:54:08.429373+00:00",
+  "id": "1f5f5ea96085"
+}

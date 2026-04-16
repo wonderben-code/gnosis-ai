@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints fundamentally determine system behavior and create robust phenomena that are independent of microscopic details",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Hall conductance is quantized by topological invariants (Chern numbers) independent of material details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic properties are determined by topological invariants that are robust against perturbations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, constraining system evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of magnetic field lines is conserved, determining relaxed plasma states"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5678,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:05.349499+00:00",
+  "id": "1325896b7cf2"
+}

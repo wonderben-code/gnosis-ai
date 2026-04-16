@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical theories organize hierarchically through renormalization group flow, with low-energy effective descriptions systematically emerging from high-energy fundamental structures",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories form a flow in theory space under energy scale changes, with low-energy physics determined by relevant operators"
+    },
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Low-energy physics emerges systematically by integrating out high-energy degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Classical spacetime emerges as a low-energy effective description from fundamental quantum information structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Causal Dynamical Triangulations",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Four-dimensional spacetime emerges at large scales from microscopic discrete quantum geometries"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "quantum_gravity"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Quantum Gravity"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5922999999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:29.064436+00:00",
+  "id": "4ae99c51b1aa"
+}

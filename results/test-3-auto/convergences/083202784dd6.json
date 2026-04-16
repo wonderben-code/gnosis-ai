@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Entanglement and correlation patterns encode and determine the effective geometric structure of physical systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime connectivity emerges from quantum entanglement patterns between degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ryu-Takayanagi Formula",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement entropy directly determines bulk geometric properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Optical Lattices and Band Structure",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Coherent light fields impose effective geometric structure on atomic systems, creating artificial crystals"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Gas Microscopy",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Quantum correlations between atoms determine emergent spatial structures in many-body systems"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.487055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:03:36.508885+00:00",
+  "id": "083202784dd6"
+}

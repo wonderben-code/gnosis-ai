@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Scale-dependent effective descriptions emerge systematically, with high-energy/small-scale physics determining low-energy/large-scale behavior through universal scaling laws",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories flow under energy scale changes, with relevant operators determining low-energy physics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Low-energy physics can be systematically described by integrating out high-energy degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy cascades through scales following universal power laws independent of specific conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Richardson Energy Cascade",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Energy transfers hierarchically from large to small scales through self-similar eddy structures"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49168,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:06.694632+00:00",
+  "id": "1742439d8e73"
+}

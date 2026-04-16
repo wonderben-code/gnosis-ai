@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Black holes are thermodynamic objects with entropy proportional to surface area rather than volume, revealing that gravitational horizons encode information holographically",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy is proportional to surface area, suggesting holographic encoding of information"
+    },
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics Laws",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes obey thermodynamic laws with entropy proportional to area"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes emit thermal radiation, confirming their thermodynamic nature with temperature inversely proportional to mass"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.2,
+    "adversarial": 0.7,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47585,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:49.327646+00:00",
+  "id": "386a86d7e78d"
+}

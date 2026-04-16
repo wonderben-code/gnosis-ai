@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological invariants determine quantized physical observables independent of material details or local perturbations",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Hall conductance is quantized in units of e\u00b2/h due to topological invariants (Chern numbers)"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic bands are characterized by topological invariants that determine quantized response functions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the CKM matrix",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "The unitarity of the CKM matrix represents a topological constraint that ensures probability conservation in quark mixing"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of neutral currents",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Gauge invariance acts as a topological principle constraining possible interactions"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.65,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49417500000000003,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:54.207893+00:00",
+  "id": "305e67b23abc"
+}

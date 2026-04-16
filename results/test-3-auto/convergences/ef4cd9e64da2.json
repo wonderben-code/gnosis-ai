@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Quantum mechanics fundamentally alters the behavior of matter at extreme densities, creating new states that resist gravitational collapse through quantum degeneracy pressure",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Chandrasekhar Limit",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum degeneracy pressure from the Pauli exclusion principle creates a fundamental mass threshold that determines stellar endpoints"
+    },
+    {
+      "result_id": "",
+      "result_name": "Pauli Exclusion Principle",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Fermionic wavefunctions must be antisymmetric, fundamentally constraining how particles can occupy quantum states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Neutron Star Equation of State Constraints",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear forces must stiffen dramatically at high density to support massive neutron stars against gravitational collapse"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.7,
+    "adversarial": 0.7,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.6008499999999999,
+    "confidence_category": "supported"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:03.170486+00:00",
+  "id": "ef4cd9e64da2"
+}

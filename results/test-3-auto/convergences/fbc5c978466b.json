@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Environmental boundary conditions fundamentally shape quantum processes and spontaneous emission rates through vacuum fluctuation modification",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Environmental entanglement dynamically selects preferred pointer states, explaining the emergence of classical behavior through information dispersal"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "optics_photonics",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The electromagnetic environment modifies spontaneous emission rates, revealing that vacuum fluctuations and thus fundamental quantum optical processes depend on boundary conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cavity Quantum Electrodynamics Strong Coupling",
+      "domain_id": "optics_photonics",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Single atoms and photons can coherently exchange energy faster than dissipation, establishing a regime where light-matter interaction becomes a reversible quantum process"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.435385,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:13:27.801516+00:00",
+  "id": "fbc5c978466b"
+}

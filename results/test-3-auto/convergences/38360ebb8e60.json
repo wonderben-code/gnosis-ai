@@ -1,0 +1,59 @@
+{
+  "structural_claim": "The boundary between quantum and classical behavior emerges through information dispersal into environmental degrees of freedom rather than through fundamental collapse or scale thresholds",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Environmental entanglement dynamically selects pointer states and explains classical emergence through information proliferation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding of information in the environment"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Microwave Background Anisotropies",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Large-scale classical structure originated from quantum fluctuations whose information content was amplified and dispersed across cosmic scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole horizons act as information-processing boundaries where quantum information is thermalized and dispersed"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5428,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:13:10.101388+00:00",
+  "id": "38360ebb8e60"
+}

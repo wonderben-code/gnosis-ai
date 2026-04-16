@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Nonlinearity enables stable localized excitations that behave as effective particles",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Fractional Quantum Hall Effect",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Strongly correlated electrons form incompressible quantum fluids at fractional filling factors, revealing that electron-electron interactions can create emergent quasiparticles with fractional charge"
+    },
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinearity can exactly balance dispersion to create shape-preserving light pulses, revealing that nonlinear optical media support stable localized excitations analogous to particle-like states"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "optics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.85,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.44234000000000007,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:17:38.669092+00:00",
+  "id": "66414d51d22b"
+}

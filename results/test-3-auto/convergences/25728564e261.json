@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Black holes and thermodynamic systems both possess entropy that scales with boundary area rather than volume, revealing a fundamental principle where information content is encoded on surfaces",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Area Law for Entanglement Entropy",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Ground states of gapped local Hamiltonians exhibit entanglement entropy scaling with boundary area, not volume"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy is proportional to event horizon area, establishing horizons as thermodynamic membranes"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.48940000000000006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:51.776206+00:00",
+  "id": "25728564e261"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Black hole entropy is proportional to surface area rather than volume, revealing a fundamental holographic principle in gravitational physics",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes have entropy proportional to horizon area A/4, establishing thermodynamic properties emerge from pure geometry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum gravitational degrees of freedom scale with boundary area, not bulk volume, indicating information is fundamentally holographic"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "quantum_gravity"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Quantum Gravity"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.2,
+    "adversarial": 0.7,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4244,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:52.159242+00:00",
+  "id": "49d5f6b6a62d"
+}

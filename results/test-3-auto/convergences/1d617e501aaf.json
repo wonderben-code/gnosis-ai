@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical systems exhibit emergent collective modes and phase transitions that arise from underlying microscopic quantum degrees of freedom",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Classical spacetime emerges from quantum entanglement patterns, with Einstein's equations arising as constraints on entanglement entropy"
+    },
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational physics in bulk emerges from quantum field theory on boundary"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter undergoes phase transition to deconfined quark-gluon state above critical temperature"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillation modes demonstrating quantum fluid behavior"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:03:55.891250+00:00",
+  "id": "1d617e501aaf"
+}

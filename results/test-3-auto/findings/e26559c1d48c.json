@@ -1,0 +1,16 @@
+{
+  "structural_finding": "Classical behavior emerges from quantum systems through environmental interaction and information dispersal, not through fundamental collapse or scale thresholds",
+  "level": 1,
+  "source_convergence_ids": [
+    "021ce8f4a064",
+    "21b1931aa133",
+    "38360ebb8e60"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Decoherent Emergence",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:10.023896+00:00",
+  "id": "e26559c1d48c"
+}

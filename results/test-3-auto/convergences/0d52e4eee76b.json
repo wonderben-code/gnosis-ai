@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Mathematical structures exhibit fundamental dualities where complementary perspectives encode identical information",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Poincar\u00e9 Duality",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Homology and cohomology provide dual algebraic structures that encode the same geometric information in complementary ways"
+    },
+    {
+      "result_id": "",
+      "result_name": "Serre Duality",
+      "domain_id": "field_a",
+      "domain_name": "Topology and Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Coherent sheaf cohomology groups possess intrinsic symmetries relating local and global properties through canonical isomorphisms"
+    },
+    {
+      "result_id": "",
+      "result_name": "Adjoint Functor Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Mathematical structures naturally organize into complementary pairs (adjunctions) that preserve essential information and capture fundamental dualities"
+    },
+    {
+      "result_id": "",
+      "result_name": "Tannaka-Krein Duality",
+      "domain_id": "field_b",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic structures can be completely reconstructed from their representation categories, establishing perfect duality between objects and their actions"
+    }
+  ],
+  "domains": [
+    "topology",
+    "category_theory"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Category Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.23519999999999996,
+    "independence": 0.7,
+    "adversarial": 0.4,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.52006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:23:11.646389+00:00",
+  "id": "0d52e4eee76b"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Universal scaling laws emerge from the interplay of competing forces across multiple scales",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Coupling strength varies with energy scale following a universal logarithmic law, with forces weakening at high energies"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the strong coupling constant",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The running of coupling constants follows universal scaling behavior across energy scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Energy distribution across scales follows a universal power law independent of specific flow conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Reynolds Number Similarity",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Flow behavior scales universally with the ratio of competing forces across different length scales"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51668,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:31:27.460036+00:00",
+  "id": "ce3c4f147fde"
+}

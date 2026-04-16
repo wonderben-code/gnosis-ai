@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical laws exhibit formal thermodynamic structure with entropy, temperature, and conservation laws",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics Laws",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes obey four laws precisely analogous to thermodynamics with temperature and entropy"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational horizons have entropy proportional to area"
+    },
+    {
+      "result_id": "",
+      "result_name": "Second Law of Thermodynamics",
+      "domain_id": "thermodynamics",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Entropy never decreases in isolated systems"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gibbs Ensemble Theory",
+      "domain_id": "thermodynamics",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Thermodynamic properties emerge from statistical distributions"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.8,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5972999999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:53:44.885775+00:00",
+  "id": "b81f885f3699"
+}

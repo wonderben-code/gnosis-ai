@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Symmetries impose fundamental constraints on allowed quantum transitions and correlations",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Monogamy of Entanglement",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum entanglement cannot be freely shared among multiple parties due to fundamental constraints"
+    },
+    {
+      "result_id": "",
+      "result_name": "Selection Rules for Atomic Transitions",
+      "domain_id": "atomic_molecular_physics",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Conservation laws impose strict constraints on which quantum transitions can occur"
+    },
+    {
+      "result_id": "",
+      "result_name": "Pauli Exclusion Principle",
+      "domain_id": "atomic_molecular_physics",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Fermionic antisymmetry fundamentally constrains how particles can share quantum states"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49134999999999995,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:14:07.254043+00:00",
+  "id": "c70fba21943c"
+}

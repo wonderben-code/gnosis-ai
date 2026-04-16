@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Effective field theory provides a systematic framework for describing low-energy physics while quantifying ignorance of high-energy details",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Low-energy physics can be systematically described by integrating out high-energy degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fermi Liquid Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Interacting fermions can be described as weakly interacting quasiparticles with renormalized parameters"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ginzburg-Landau Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Macroscopic quantum phenomena can be captured by effective field theories"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.3499999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.40976,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:20.312046+00:00",
+  "id": "b4080510a85d"
+}

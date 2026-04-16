@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Mass generation through spontaneous symmetry breaking creates critical thresholds that fundamentally alter the physical behavior of systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A scalar field with non-zero vacuum expectation value breaks symmetry and generates mass for fundamental particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chandrasekhar Limit",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Mass thresholds created by quantum degeneracy pressure determine stellar fate, bifurcating endpoints based on whether gravity overcomes quantum pressure"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.85,
+    "adversarial": 0.2,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.44259000000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:37.209287+00:00",
+  "id": "4e3222368d20"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Nonlinearity enables the formation of stable, localized, shape-preserving structures that propagate without dispersion",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinearity exactly balances dispersion to create shape-preserving light pulses"
+    },
+    {
+      "result_id": "",
+      "result_name": "von K\u00e1rm\u00e1n Vortex Street",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinear wake dynamics create stable, periodic vortex patterns that maintain their structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vortex structures in inviscid flows maintain their topological identity as they propagate"
+    }
+  ],
+  "domains": [
+    "optics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51635,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:43:46.068811+00:00",
+  "id": "852d39a4b59a"
+}

@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Topological constraints fundamentally determine the allowed configurations and evolution of physical systems, with topology being conserved except at singular surfaces where the governing equations break down",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "'t Hooft-Polyakov Monopole",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topological soliton solutions arise necessarily from the topology of the vacuum manifold in spontaneously broken gauge theories"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topologically distinct vacuum configurations are connected by finite-action paths that determine non-perturbative physics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, with the field frozen into the fluid motion"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of magnetic field lines is conserved in ideal MHD, constraining plasma evolution to preserve helicity"
+    },
+    {
+      "result_id": "",
+      "result_name": "Sweet-Parker Reconnection",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topology change requires breaking ideal constraints at singular current sheets where the governing equations fail"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.595,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.595,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:36:46.024291+00:00",
+  "id": "ce7f2a656c80"
+}

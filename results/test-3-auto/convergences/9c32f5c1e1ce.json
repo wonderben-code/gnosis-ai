@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Universal scaling laws emerge near critical points independent of microscopic details",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Critical phenomena exhibit universal scaling determined by symmetry and dimensionality alone"
+    },
+    {
+      "result_id": "",
+      "result_name": "Onsager's Exact Solution of 2D Ising Model",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions exhibit power-law scaling with universal critical exponents"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy spectra follow universal power laws in the inertial range"
+    },
+    {
+      "result_id": "",
+      "result_name": "Reynolds Number Similarity",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Flow transitions occur at universal values of dimensionless parameters"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49168,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:28:52.834337+00:00",
+  "id": "9c32f5c1e1ce"
+}

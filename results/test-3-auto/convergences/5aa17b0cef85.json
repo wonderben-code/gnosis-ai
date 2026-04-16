@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Physical systems exhibit universal behavior at critical points determined by symmetry and dimensionality rather than microscopic details, with the renormalization group providing a systematic framework for understanding how physics at different scales relates",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories flow under changes of energy scale with fixed points corresponding to scale-invariant theories"
+    },
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Physical systems exhibit scale invariance at critical points with universal behavior determined by symmetry and dimensionality"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.4,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.35839999999999994,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:25:20.311934+00:00",
+  "id": "5aa17b0cef85"
+}

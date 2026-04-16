@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Collective quantum phenomena emerge from many-body correlations creating qualitatively new states that cannot be understood from single-particle physics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Fractional Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Strongly correlated electrons form incompressible quantum fluids with emergent quasiparticles having fractional statistics"
+    },
+    {
+      "result_id": "",
+      "result_name": "BCS Theory of Superconductivity",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic quantum coherence emerges from microscopic pairing in many-body systems"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "nuclear",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillation modes demonstrating quantum fluid behavior with collective degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "EMC Effect",
+      "domain_id": "nuclear",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nucleons lose individual identity in nuclear medium, with quark distributions modified by collective nuclear environment"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51668,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:28:27.089209+00:00",
+  "id": "1f447a68b8be"
+}

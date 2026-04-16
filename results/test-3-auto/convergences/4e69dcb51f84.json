@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Phase transitions can occur through topological defect dynamics without conventional symmetry breaking",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Kosterlitz-Thouless Transition",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Two-dimensional systems undergo phase transitions via vortex-antivortex unbinding without breaking continuous symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Sweet-Parker Reconnection",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic topology changes through singular current sheets where field lines break and reconnect"
+    },
+    {
+      "result_id": "",
+      "result_name": "Petschek Reconnection",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological change in magnetic fields occurs through localized singular structures"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.3,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.55835,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:05.349569+00:00",
+  "id": "4e69dcb51f84"
+}

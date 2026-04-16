@@ -1,0 +1,51 @@
+{
+  "structural_claim": "External fields break symmetries and split degenerate quantum states, providing coherent control handles for many-body systems",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields break rotational symmetry and split degenerate atomic energy levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Feshbach Resonances",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields tune atomic interactions by coupling bound and scattering states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Force from Yukawa Theory",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Virtual meson exchange creates tunable nuclear forces that respond to external conditions"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49672499999999997,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:55:30.653656+00:00",
+  "id": "8f8094b33b51"
+}

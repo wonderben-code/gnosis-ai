@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Periodic structures impose band gaps that forbid wave propagation at certain frequencies, with allowed modes characterized by Bloch wavefunctions",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic states in crystals form bands with gaps, characterized by Bloch states and topological invariants"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Waves in periodic structures exhibit band gaps and Bloch modes determined by periodicity"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.4,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.35839999999999994,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:19.988935+00:00",
+  "id": "497bf62e6c3b"
+}

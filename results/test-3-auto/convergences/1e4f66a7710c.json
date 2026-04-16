@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Quantum effects create fundamental thresholds that bifurcate physical outcomes into discrete classes",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Chandrasekhar Limit",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum degeneracy pressure creates a mass threshold that determines whether stellar remnants become white dwarfs or undergo gravitational collapse"
+    },
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Quantum field configurations create thresholds where systems transition between phases with fundamentally different properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Confinement in QCD",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum chromodynamics creates a distance threshold that separates confined and asymptotically free regimes"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46038500000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:18.134783+00:00",
+  "id": "1e4f66a7710c"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Universal scaling laws govern critical phenomena independent of microscopic details, appearing both in phase transitions and gravitational structure formation",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Critical phenomena exhibit scale invariance and universality where microscopic details become irrelevant"
+    },
+    {
+      "result_id": "",
+      "result_name": "Tully-Fisher Relation",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Galaxy luminosity scales as the fourth power of rotation velocity, revealing universal scaling"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Web Structure",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Gravitational instability creates scale-invariant topology of filaments and voids"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.447885,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:51.776307+00:00",
+  "id": "cc03090674cc"
+}

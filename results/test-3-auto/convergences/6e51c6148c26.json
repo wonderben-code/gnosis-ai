@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Phase transitions in quantum many-body systems reveal new states of matter with qualitatively different properties, where the collective behavior cannot be extrapolated from single-particle physics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter undergoes phase transition to deconfined quark-gluon state with collective fluid behavior fundamentally different from hadronic matter"
+    },
+    {
+      "result_id": "",
+      "result_name": "Photonic Band Gap Theory",
+      "domain_id": "optics_photonics",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Periodic structures create forbidden bands where photon propagation is fundamentally altered, representing a phase transition in the optical properties of the medium"
+    }
+  ],
+  "domains": [
+    "optics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.42059,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:43:19.531808+00:00",
+  "id": "6e51c6148c26"
+}

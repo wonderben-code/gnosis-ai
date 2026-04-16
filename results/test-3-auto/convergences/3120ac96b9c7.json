@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints impose fundamental conservation laws that persist despite local perturbations and determine global system behavior",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vortex lines obey topological conservation laws and cannot be created or destroyed within the fluid"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kelvin's Circulation Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Circulation around material loops is conserved, preserving topological flow properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kutta-Joukowski Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Force generation requires topological flow structures (circulation)"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Global geometric properties of band structures create locally protected wave propagation"
+    }
+  ],
+  "domains": [
+    "fluid_dynamics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Fluid Dynamics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48568,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T22:07:57.256528+00:00",
+  "id": "3120ac96b9c7"
+}

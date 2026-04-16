@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Multi-scale phenomena require systematic methods to connect microscopic and macroscopic descriptions, with effective theories emerging from integrating out fast/small-scale degrees of freedom",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Physical theories flow under changes of energy scale, with low-energy physics systematically related to high-energy structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Low-energy physics emerges from integrating out high-energy degrees of freedom in a systematic expansion"
+    },
+    {
+      "result_id": "",
+      "result_name": "Vlasov Equation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic plasma behavior emerges from the microscopic phase space distribution function"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gyrokinetic Theory",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Fast gyro-motion can be systematically averaged while retaining finite Larmor radius effects"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Damping",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Collective macroscopic phenomena emerge from the microscopic velocity distribution structure"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5361,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:36:46.024457+00:00",
+  "id": "49f27aad9ff0"
+}

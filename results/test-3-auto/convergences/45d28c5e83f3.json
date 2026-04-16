@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Systems with many interacting components spontaneously organize into collective modes that dominate individual particle dynamics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Damping",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Collective plasma waves emerge from and are damped by the velocity distribution of individual particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Debye Shielding",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Many-body Coulomb interactions spontaneously organize to create collective shielding behavior"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nucleons exhibit collective oscillation modes that emerge from many-body quantum interactions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Shell Model",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Despite strong interactions, nucleons organize into single-particle-like states modified by collective effects"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4988675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:54:08.429252+00:00",
+  "id": "45d28c5e83f3"
+}

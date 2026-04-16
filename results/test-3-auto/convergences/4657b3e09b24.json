@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological considerations determine the spectrum of stable configurations in physical systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "'t Hooft-Polyakov Monopole",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topology of the vacuum manifold determines the existence and properties of stable solitonic states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topologically distinct vacuum configurations create non-perturbative effects through tunneling"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Web Structure",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Gravitational instability naturally creates specific topological structures in matter distribution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "The topology of density peaks in primordial fields determines the spectrum of gravitationally bound structures"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4738675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:18.134880+00:00",
+  "id": "4657b3e09b24"
+}

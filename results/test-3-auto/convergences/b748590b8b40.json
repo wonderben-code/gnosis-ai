@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Nonlinearity enables stable, localized, particle-like excitations in continuous media that preserve their structure through exact balance of competing effects",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Optical Solitons",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinearity exactly balances dispersion to create shape-preserving light pulses that propagate as stable localized excitations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nonlinear plasma relaxation preserves topological constraints while reaching minimum energy states, creating stable localized magnetic structures"
+    }
+  ],
+  "domains": [
+    "optics",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4649,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:42:30.204585+00:00",
+  "id": "b748590b8b40"
+}

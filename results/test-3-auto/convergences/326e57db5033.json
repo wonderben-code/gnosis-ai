@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Systems spontaneously break symmetry to create ordered patterns when driving forces overcome dissipation",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Laser Threshold Condition",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Coherent light emerges when gain exceeds loss, breaking the symmetry of spontaneous emission"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Convection cells emerge when buoyancy forces overcome viscous damping, breaking translational symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating flows spontaneously generate ordered structures through symmetry-breaking instabilities"
+    }
+  ],
+  "domains": [
+    "optics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:43:46.068891+00:00",
+  "id": "326e57db5033"
+}

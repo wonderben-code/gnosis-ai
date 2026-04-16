@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Multi-scale dynamics emerge where microscopic distributions determine macroscopic collective behavior",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy cascades through scales following universal power law, revealing self-similar multi-scale structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Richardson Energy Cascade",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy transfers through hierarchy of eddies with directional energy flow across scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Damping",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Collective phenomena emerge from velocity distribution function's structure through resonant particle-wave interactions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Vlasov Equation",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma dynamics is fundamentally six-dimensional in phase space, with microscopic distributions determining macroscopic behavior"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48568,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:54:37.031958+00:00",
+  "id": "a213716a757c"
+}

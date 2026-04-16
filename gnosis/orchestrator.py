@@ -307,10 +307,13 @@ class Orchestrator:
 
             for field in fields:
                 progress.update(task, description=f"Surveying {field.name}...")
-                domain = self.surveyor.survey(field, question=question)
-                domains.append(domain)
-                stats.domains_surveyed += 1
-                stats.results_catalogued += len(domain.results)
+                try:
+                    domain = self.surveyor.survey(field, question=question)
+                    domains.append(domain)
+                    stats.domains_surveyed += 1
+                    stats.results_catalogued += len(domain.results)
+                except Exception as e:
+                    console.print(f"[red]Survey failed for {field.name}: {e}[/red]")
                 progress.advance(task)
 
         console.print(

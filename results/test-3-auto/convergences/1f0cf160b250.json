@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Measurement fundamentally alters the system being measured, selecting from multiple possible outcomes rather than revealing pre-existing properties",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Kochen-Specker Theorem",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum observables cannot possess predetermined values independent of measurement context"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Zeno Effect",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Frequent measurements can freeze quantum evolution, revealing measurement as an active process that fundamentally alters system dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "EMC Effect",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Quark distributions in nucleons are modified when bound in nuclei, revealing that nuclear structure emerges from QCD degrees of freedom and that nucleons lose their individual identity in the nuclear medium"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.3,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51551,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:22:52.301266+00:00",
+  "id": "1f0cf160b250"
+}

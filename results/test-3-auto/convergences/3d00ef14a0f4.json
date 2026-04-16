@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Quantum vacuum fluctuations have measurable effects on the structure and behavior of matter",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Adler-Bell-Jackiw Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum fluctuations necessarily break classical symmetries, constraining consistent theories"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lamb Shift",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electromagnetic vacuum fluctuations measurably shift atomic energy levels"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.7,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.5494,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:37:15.028889+00:00",
+  "id": "3d00ef14a0f4"
+}

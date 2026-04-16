@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The vacuum is not empty but an active medium whose properties fundamentally shape physical processes",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The vacuum contains a scalar field with non-zero expectation value that generates mass for fundamental particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations and spontaneous emission rates depend on electromagnetic boundary conditions, showing the vacuum actively participates in quantum processes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Planck's Law of Black-body Radiation",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The electromagnetic field has zero-point fluctuations even in vacuum, requiring field quantization"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "optics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49734999999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:29:58.651847+00:00",
+  "id": "a123fca120b5"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "The electromagnetic vacuum is an active medium with measurable effects on both light propagation and atomic energy levels",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations and spontaneous emission rates depend on electromagnetic boundary conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lamb Shift",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum field fluctuations of the electromagnetic vacuum modify atomic energy levels"
+    }
+  ],
+  "domains": [
+    "optics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4334,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:42:55.291723+00:00",
+  "id": "936b8912b424"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry principles dictate the structure of interactions and constrain the possible dynamics, with the symmetry group determining both conserved quantities and the form of the governing equations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Yang-Mills Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Local gauge symmetry uniquely determines the form of fundamental interactions through the requirement of local symmetry invariance"
+    },
+    {
+      "result_id": "",
+      "result_name": "Standard Model of Particle Physics",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "All fundamental forces arise from a single gauge principle based on symmetry groups"
+    },
+    {
+      "result_id": "",
+      "result_name": "MHD Equilibrium (Grad-Shafranov Equation)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Axisymmetry reduces the three-dimensional equilibrium problem to a single two-dimensional equation through symmetry constraints"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gyrokinetic Theory",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Gyro-symmetry allows averaging over fast timescales while preserving essential physics, with the symmetry determining the reduced description"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49168,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:36:46.024413+00:00",
+  "id": "5b63e9342957"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Phase transitions in matter and cosmic structure formation both emerge from symmetry-breaking events where microscopic fluctuations are amplified into macroscopic organization",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions represent symmetry-breaking events where order parameters emerge"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Microwave Background Anisotropies",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Large-scale structure originated from quantum fluctuations in the early universe"
+    },
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_b",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Cosmic structure forms through gravitational collapse of density peaks in a Gaussian random field"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.44850999999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:51.776285+00:00",
+  "id": "d6aa6b8cf93a"
+}

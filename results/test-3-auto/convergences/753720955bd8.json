@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Information loss and thermodynamic behavior emerge from fundamental dynamical constraints",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "No-Hair Theorem",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational collapse erases all information except mass, charge, and angular momentum"
+    },
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black holes obey thermodynamic laws with entropy proportional to horizon area"
+    },
+    {
+      "result_id": "",
+      "result_name": "Laser Cooling and Doppler Limit",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Spontaneous emission creates a fundamental temperature limit through irreversible photon emission"
+    },
+    {
+      "result_id": "",
+      "result_name": "Franck-Condon Principle",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Fast electronic transitions preserve nuclear configuration, creating selection rules that limit information transfer between degrees of freedom"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.3,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5408675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:52:09.692091+00:00",
+  "id": "753720955bd8"
+}

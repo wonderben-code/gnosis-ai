@@ -1,0 +1,171 @@
+{
+  "id": "nuclear_physics",
+  "name": "Nuclear Physics",
+  "category": "Physics",
+  "description": "Nuclear structure, QCD, heavy-ion collisions, nuclear astrophysics",
+  "results": [
+    {
+      "name": "Liquid Drop Model",
+      "authors": "Weizs\u00e4cker (1935), Bethe & Bacher (1936)",
+      "year": 1935,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "The nucleus behaves as an incompressible liquid drop with volume, surface, Coulomb, and symmetry energy terms, revealing that nuclear forces create a saturated system where nucleons interact primarily with nearest neighbors.",
+      "source_citation": "Z. Phys. 96, 431 (1935)",
+      "id": "d70efc6a2bfa"
+    },
+    {
+      "name": "Nuclear Shell Model",
+      "authors": "Mayer (1949), Jensen et al. (1949)",
+      "year": 1949,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Nucleons occupy discrete quantum shells with magic numbers at 2, 8, 20, 28, 50, 82, 126, demonstrating that the nucleus has an underlying single-particle structure modified by strong spin-orbit coupling.",
+      "source_citation": "Phys. Rev. 75, 1969 (1949)",
+      "id": "60873b7a0a31"
+    },
+    {
+      "name": "Asymptotic Freedom in QCD",
+      "authors": "Gross & Wilczek (1973), Politzer (1973)",
+      "year": 1973,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The strong coupling constant decreases at short distances, revealing that quarks behave as free particles at high energies while becoming confined at low energies, fundamentally explaining nuclear binding.",
+      "source_citation": "Phys. Rev. Lett. 30, 1343 (1973)",
+      "id": "698f60dee40a"
+    },
+    {
+      "name": "Confinement in QCD",
+      "authors": "Wilson (1974)",
+      "year": 1974,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Quarks and gluons are permanently confined within hadrons due to the linear rise of the QCD potential at large distances, establishing that free color charges cannot exist in isolation.",
+      "source_citation": "Phys. Rev. D 10, 2445 (1974)",
+      "id": "e0906c68ac51"
+    },
+    {
+      "name": "EMC Effect",
+      "authors": "EMC Collaboration (1983)",
+      "year": 1983,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quark distributions in nucleons are modified when bound in nuclei, revealing that nuclear structure emerges from QCD degrees of freedom and that nucleons lose their individual identity in the nuclear medium.",
+      "source_citation": "Phys. Lett. B 123, 275 (1983)",
+      "id": "8b6af714fa51"
+    },
+    {
+      "name": "Quark-Gluon Plasma Discovery",
+      "authors": "RHIC Collaborations (2005)",
+      "year": 2005,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Above a critical temperature (~170 MeV), nuclear matter undergoes a phase transition to a deconfined state of quarks and gluons that behaves as a nearly perfect fluid, revealing a new state of QCD matter.",
+      "source_citation": "Nucl. Phys. A 757, 1-283 (2005)",
+      "id": "e50a79a16ba4"
+    },
+    {
+      "name": "Nuclear Force from Yukawa Theory",
+      "authors": "Yukawa (1935)",
+      "year": 1935,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Nuclear forces arise from meson exchange between nucleons, establishing that the strong force has finite range (~1 fm) and that nuclear binding emerges from virtual particle exchange.",
+      "source_citation": "Proc. Phys. Math. Soc. Jpn. 17, 48 (1935)",
+      "id": "f48be736ff51"
+    },
+    {
+      "name": "Neutron Drip Line",
+      "authors": "Tanihata et al. (1985)",
+      "year": 1985,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Nuclei have a boundary beyond which neutrons cannot be bound, revealing that nuclear stability is governed by the interplay between nuclear attraction and quantum mechanical zero-point motion.",
+      "source_citation": "Phys. Rev. Lett. 55, 2676 (1985)",
+      "id": "db83572b152f"
+    },
+    {
+      "name": "Giant Dipole Resonance",
+      "authors": "Goldhaber & Teller (1948)",
+      "year": 1948,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "All nuclei exhibit a collective oscillation mode where protons and neutrons oscillate against each other, demonstrating that nuclei behave as quantum fluids with collective degrees of freedom.",
+      "source_citation": "Phys. Rev. 74, 1046 (1948)",
+      "id": "3553a0d1892d"
+    },
+    {
+      "name": "r-Process Nucleosynthesis",
+      "authors": "Burbidge et al. (1957), Cameron (1957)",
+      "year": 1957,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Half of elements heavier than iron are created via rapid neutron capture in explosive environments, revealing that nuclear structure far from stability determines cosmic element abundances.",
+      "source_citation": "Rev. Mod. Phys. 29, 547 (1957)",
+      "id": "d40d5b64a328"
+    },
+    {
+      "name": "Chiral Symmetry Breaking",
+      "authors": "Nambu & Jona-Lasinio (1961)",
+      "year": 1961,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "The QCD vacuum spontaneously breaks chiral symmetry, generating constituent quark masses and explaining why nucleons are much heavier than the sum of their quark masses.",
+      "source_citation": "Phys. Rev. 122, 345 (1961)",
+      "id": "178cd1b45d6f"
+    },
+    {
+      "name": "Nuclear Equation of State",
+      "authors": "Lattimer & Prakash (2001)",
+      "year": 2001,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Nuclear matter exhibits a universal saturation density (~0.16 fm\u207b\u00b3) and incompressibility, constraining neutron star structure and revealing that nuclear forces create a self-regulating system.",
+      "source_citation": "Phys. Rep. 333, 121 (2000)",
+      "id": "5c36ff1ec50e"
+    },
+    {
+      "name": "Efimov States",
+      "authors": "Efimov (1970)",
+      "year": 1970,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Three-body systems near unitarity exhibit an infinite tower of bound states with universal scaling, revealing that few-body nuclear physics contains emergent geometric scaling symmetries.",
+      "source_citation": "Phys. Lett. B 33, 563 (1970)",
+      "id": "c5262900e8c5"
+    },
+    {
+      "name": "Nuclear Pasta Phases",
+      "authors": "Ravenhall et al. (1983)",
+      "year": 1983,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "numerical_result",
+      "structural_conclusion": "At densities near nuclear saturation, matter forms complex non-spherical structures (tubes, sheets, bubbles), demonstrating that nuclear forces create frustrated systems with competing length scales.",
+      "source_citation": "Phys. Rev. Lett. 50, 2066 (1983)",
+      "id": "c0a29336aa3f"
+    },
+    {
+      "name": "Halo Nuclei",
+      "authors": "Hansen & Jonson (1987)",
+      "year": 1987,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Weakly bound neutrons in neutron-rich nuclei form extended halos with radii much larger than the core, revealing that nuclear structure near the drip line is dominated by quantum tunneling.",
+      "source_citation": "Europhys. Lett. 4, 409 (1987)",
+      "id": "3eecc7729f09"
+    },
+    {
+      "name": "Lattice QCD Hadron Spectrum",
+      "authors": "Durr et al. (2008)",
+      "year": 2008,
+      "domain_id": "nuclear_physics",
+      "epistemic_status": "numerical_result",
+      "structural_conclusion": "First-principles QCD calculations reproduce hadron masses to percent accuracy, confirming that nuclear structure emerges entirely from quark-gluon dynamics with no adjustable parameters.",
+      "source_citation": "Science 322, 1224 (2008)",
+      "id": "98be0d4f28ba"
+    }
+  ],
+  "structural_conclusion": "Nuclear physics reveals a hierarchical emergence where QCD's asymptotic freedom and confinement create nucleons, which then form quantum many-body systems exhibiting shell structure, collective modes, and phase transitions. The field demonstrates how short-range forces with multiple competing scales generate rich emergent phenomena from nuclear pasta to neutron stars. Most remarkably, the same QCD lagrangian that confines quarks also determines the cosmic abundance of elements through nuclear structure far from stability.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:08:50.200579+00:00"
+}

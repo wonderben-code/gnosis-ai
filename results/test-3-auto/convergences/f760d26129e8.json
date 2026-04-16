@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Symmetry breaking serves as the fundamental mechanism for the emergence of distinct phases and the appearance of new collective degrees of freedom",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge symmetries can be hidden with new massive degrees of freedom emerging from symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_b",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions represent symmetry-breaking events where order parameters emerge"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "thermodynamics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Thermodynamics and Statistical Mechanics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.40484,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:43.564417+00:00",
+  "id": "f760d26129e8"
+}

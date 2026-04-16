@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Non-Hermitian systems exhibit exceptional points where eigenvalues and eigenvectors coalesce, creating new topological structures in parameter space",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "BRST Quantization",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Gauge theories after gauge fixing possess negative norm states that must decouple from physical processes, creating a non-Hermitian structure in the state space"
+    },
+    {
+      "result_id": "",
+      "result_name": "Faddeev-Popov Ghost Fields",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Unitarity in gauge theories requires negative norm states that create a non-Hermitian structure, with physical states forming a cohomology"
+    },
+    {
+      "result_id": "",
+      "result_name": "Exceptional Points in Non-Hermitian Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Non-Hermitian acoustic systems with loss and gain exhibit exceptional points where eigenvalues and eigenvectors coalesce, creating new topological structures"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.8,
+    "adversarial": 0.06,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48472499999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:36.493449+00:00",
+  "id": "a460661485e2"
+}

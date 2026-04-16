@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from gnosis.api.claude import ClaudeAPI
-from gnosis.data.models import Domain, Result
+from gnosis.data.models import Domain, Result, _now
 from gnosis.data.store import Store
 from gnosis.data.taxonomy import FieldInfo
 
@@ -113,6 +113,8 @@ class Surveyor:
         # Build domain
         results = []
         for r in data.get("results", []):
+            if not isinstance(r, dict) or "name" not in r:
+                continue
             result = Result(
                 name=r["name"],
                 authors=r.get("authors", ""),
@@ -132,7 +134,7 @@ class Surveyor:
             results=[r.__dict__ for r in results],
             structural_conclusion=data.get("structural_conclusion", ""),
             surveyed=True,
-            survey_timestamp=results[0].id[:8] if results else "",  # approximate
+            survey_timestamp=_now(),
         )
 
         # Cache

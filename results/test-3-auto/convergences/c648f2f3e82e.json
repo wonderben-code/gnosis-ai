@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Measurement actively alters quantum system dynamics rather than passively revealing pre-existing properties",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quantum Zeno Effect",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Frequent measurements can freeze quantum evolution, revealing measurement as an active process"
+    },
+    {
+      "result_id": "",
+      "result_name": "Laser Cooling and Doppler Limit",
+      "domain_id": "atomic_molecular_physics",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Photon scattering (measurement) systematically extracts kinetic energy, actively changing atomic motion"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Gas Microscopy",
+      "domain_id": "atomic_molecular_physics",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Single-site imaging necessarily disturbs the quantum many-body state being measured"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.8,
+    "adversarial": 0.4,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.56585,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:14:07.254063+00:00",
+  "id": "c648f2f3e82e"
+}

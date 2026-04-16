@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints fundamentally govern the evolution and stability of continuous media",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vorticity in inviscid flows obeys topological conservation laws with vortex lines behaving as material lines"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kelvin's Circulation Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Circulation around material loops is conserved, preserving flow topology"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field lines move with the fluid in perfectly conducting plasmas, conserving topology"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic helicity is conserved in ideal MHD, constraining plasma relaxation to preserve topological linkage"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47318000000000005,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:54:37.031912+00:00",
+  "id": "444bf9a63971"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Spacetime geometry emerges from and is equivalent to quantum entanglement patterns",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational physics in bulk spacetime is dual to quantum field theory on the boundary"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Classical spacetime connectivity emerges from quantum entanglement with Einstein equations as entropy constraints"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ryu-Takayanagi Formula",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement entropy equals geometric area, directly linking quantum information to spacetime structure"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "quantum_gravity"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Quantum Gravity"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.2,
+    "adversarial": 0.4,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.37300999999999995,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:52.159307+00:00",
+  "id": "e8aed9f08fad"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Information propagation in quantum many-body systems has fundamental speed limits that establish locality constraints",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Lieb-Robinson Bounds",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Information propagation in quantum many-body systems has a finite speed limit, establishing locality as fundamental"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Force from Yukawa Theory",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Nuclear forces have finite range (~1 fm) due to massive meson exchange, creating effective locality in nuclear interactions"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.85,
+    "adversarial": 0.4,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.51115,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:15:41.166795+00:00",
+  "id": "7d97ad12b337"
+}

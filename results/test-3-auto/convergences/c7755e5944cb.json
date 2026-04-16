@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Conservation laws coupled with symmetry constraints fundamentally restrict allowed transitions and dynamical pathways in both discrete and continuous systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Selection Rules for Atomic Transitions",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Angular momentum and parity conservation impose strict constraints on allowed quantum transitions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vorticity conservation in inviscid flows creates topological constraints on vortex line evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kelvin's Circulation Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Circulation conservation around material loops constrains allowed flow evolutions"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:00.480615+00:00",
+  "id": "c7755e5944cb"
+}

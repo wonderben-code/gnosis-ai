@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Spacetime geometry itself is dynamical, not a fixed background, with perturbations that propagate as waves carrying energy and information",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Spacetime geometry emerges from and is equivalent to quantum field dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime connectivity and dynamics emerge from quantum information patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "LIGO Detection of Gravitational Waves",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime ripples propagate at light speed as a dynamical field"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hubble's Law",
+      "domain_id": "astrophysics",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime has dynamic geometry that evolves on cosmological scales"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "astrophysics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Astrophysics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.85,
+    "adversarial": 0.7,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.6779875,
+    "confidence_category": "supported"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:49.327776+00:00",
+  "id": "c355a0274e2f"
+}

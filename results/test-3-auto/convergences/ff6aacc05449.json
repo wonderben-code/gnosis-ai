@@ -1,0 +1,59 @@
+{
+  "structural_claim": "The vacuum is not empty but an active medium with measurable physical effects that modify fundamental processes",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy requires quantum degrees of freedom in the vacuum at horizons"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations and spontaneous emission rates depend on boundary conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime emerges from quantum vacuum entanglement patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "Squeezed States of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum vacuum noise can be redistributed, showing the vacuum has manipulable structure"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5553,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:02:57.311391+00:00",
+  "id": "ff6aacc05449"
+}

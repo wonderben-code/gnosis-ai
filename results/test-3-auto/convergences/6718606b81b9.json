@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Seemingly distinct mathematical domains are unified by deeper structural patterns that transcend traditional boundaries",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Grothendieck Topos Theory",
+      "domain_id": "field_a",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topoi provide a unified foundation for geometry, logic, and set theory, showing that these apparently distinct areas share the same categorical structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Modularity Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Every elliptic curve over the rationals is modular, establishing a fundamental bridge between algebraic geometry and automorphic forms that reveals the unity of seemingly disparate mathematical structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Monstrous Moonshine",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "direct",
+      "structural_conclusion": "The coefficients of the j-function are dimensions of irreducible representations of the Monster group, revealing unexpected connections between modular forms, finite groups, and vertex operator algebras"
+    }
+  ],
+  "domains": [
+    "category_theory",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Category Theory",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.1764,
+    "independence": 0.8,
+    "adversarial": 0.6,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.55167,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:56.521966+00:00",
+  "id": "6718606b81b9"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological constraints create robust quantum states independent of material details",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topology determines quantized conductance independent of materials"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Insulators",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topology enforces robust boundary states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rydberg Blockade",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Geometric constraints from blockade radius create robust collective states"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.435385,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:28.214315+00:00",
+  "id": "5411b8cce612"
+}

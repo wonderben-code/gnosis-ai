@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Classical behavior emerges from quantum systems through environmental interaction and information dispersal rather than fundamental collapse",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Environmental entanglement dynamically selects preferred pointer states through information dispersal"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding of selected information in the environment"
+    },
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group",
+      "domain_id": "quantum_field_theory",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Low-energy effective physics emerges from high-energy theory through systematic integration of short-distance degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Effective Field Theory",
+      "domain_id": "quantum_field_theory",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Classical-like low-energy behavior emerges from quantum field theory by integrating out high-energy quantum fluctuations"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "quantum_field_theory"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Quantum Field Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.468055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:10:39.135901+00:00",
+  "id": "021ce8f4a064"
+}

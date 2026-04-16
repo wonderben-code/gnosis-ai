@@ -1,0 +1,171 @@
+{
+  "id": "general_relativity",
+  "name": "General Relativity and Cosmology",
+  "category": "Physics",
+  "description": "Spacetime geometry, singularities, cosmic expansion, dark energy",
+  "results": [
+    {
+      "name": "Einstein Field Equations",
+      "authors": "Einstein (1915)",
+      "year": 1915,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Spacetime geometry and matter-energy content are fundamentally linked through a precise mathematical relationship where the curvature of spacetime equals the energy-momentum tensor. Matter tells spacetime how to curve, and curved spacetime tells matter how to move.",
+      "source_citation": "Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Preussischen Akademie der Wissenschaften",
+      "id": "902faf726b3e"
+    },
+    {
+      "name": "Schwarzschild Solution",
+      "authors": "Schwarzschild (1916)",
+      "year": 1916,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Spherically symmetric vacuum spacetimes have a unique geometric structure characterized by an event horizon at r=2GM/c\u00b2, revealing that sufficiently concentrated mass creates a causal boundary in spacetime.",
+      "source_citation": "Schwarzschild, K. (1916). \u00dcber das Gravitationsfeld eines Massenpunktes. Sitzungsberichte der Preussischen Akademie der Wissenschaften",
+      "id": "cbcade4f4721"
+    },
+    {
+      "name": "Singularity Theorems",
+      "authors": "Penrose (1965), Hawking & Penrose (1970)",
+      "year": 1970,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Under generic conditions with positive energy and trapped surfaces, spacetime must contain incomplete geodesics, demonstrating that singularities are inevitable features of gravitational collapse rather than artifacts of symmetry.",
+      "source_citation": "Hawking, S. W. & Penrose, R. (1970). The Singularities of Gravitational Collapse and Cosmology. Proc. R. Soc. Lond. A 314",
+      "id": "327a26f34893"
+    },
+    {
+      "name": "Friedmann-Lema\u00eetre-Robertson-Walker Metric",
+      "authors": "Friedmann (1922), Lema\u00eetre (1927), Robertson & Walker (1935)",
+      "year": 1922,
+      "domain_id": "general_relativity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Homogeneous and isotropic universes have a unique geometric structure characterized by a scale factor a(t) that evolves according to the matter-energy content, establishing that cosmic expansion is a geometric property of spacetime itself.",
+      "source_citation": "Friedmann, A. (1922). \u00dcber die Kr\u00fcmmung des Raumes. Zeitschrift f\u00fcr Physik 10",
+      "id": "c9a522fa739c"
+    },
+    {
+      "name": "Hubble's Law",
+      "authors": "Hubble (1929)",
+      "year": 1929,
+      "domain_id": "general_relativity",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe exhibits a systematic expansion where recession velocity is proportional to distance, revealing that spacetime itself is dynamically expanding rather than static.",
+      "source_citation": "Hubble, E. (1929). A relation between distance and radial velocity among extra-galactic nebulae. PNAS 15(3)",
+      "id": "47efbbf94701"
+    },
+    {
+      "name": "Cosmic Microwave Background",
+      "authors": "Penzias & Wilson (1965)",
+      "year": 1965,
+      "domain_id": "general_relativity",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe contains a nearly perfect blackbody radiation field at 2.7K that is isotropic to one part in 100,000, providing direct evidence that the universe was once in thermal equilibrium at high temperature.",
+      "source_citation": "Penzias, A. A. & Wilson, R. W. (1965). A Measurement of Excess Antenna Temperature at 4080 Mc/s. Astrophysical Journal 142",
+      "id": "d052d3206198"
+    },
+    {
+      "name": "Kerr Solution",
+      "authors": "Kerr (1963)",
+      "year": 1963,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Rotating black holes have a fundamentally different spacetime structure than non-rotating ones, featuring an ergosphere where spacetime itself is dragged around the rotation axis, demonstrating that angular momentum creates frame-dragging as an intrinsic geometric effect.",
+      "source_citation": "Kerr, R. P. (1963). Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics. Physical Review Letters 11",
+      "id": "b4a1dda53c17"
+    },
+    {
+      "name": "Hawking Radiation",
+      "authors": "Hawking (1974)",
+      "year": 1974,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Black holes emit thermal radiation due to quantum effects near the event horizon, revealing that the combination of quantum mechanics and curved spacetime necessarily leads to particle creation and black hole evaporation.",
+      "source_citation": "Hawking, S. W. (1974). Black hole explosions? Nature 248",
+      "id": "4b44cdc5b28c"
+    },
+    {
+      "name": "Accelerating Universe Discovery",
+      "authors": "Riess et al. (1998), Perlmutter et al. (1999)",
+      "year": 1998,
+      "domain_id": "general_relativity",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The expansion of the universe is accelerating rather than decelerating, requiring either a cosmological constant or dark energy that constitutes ~70% of the universe's energy density.",
+      "source_citation": "Riess, A. G. et al. (1998). Observational Evidence from Supernovae for an Accelerating Universe. Astronomical Journal 116",
+      "id": "20b536cc5e59"
+    },
+    {
+      "name": "No-Hair Theorem",
+      "authors": "Israel (1967), Carter (1971), Hawking (1972)",
+      "year": 1972,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Stationary black holes are uniquely characterized by only three parameters (mass, charge, angular momentum), demonstrating that gravitational collapse erases all other information about the collapsing matter.",
+      "source_citation": "Carter, B. (1971). Axisymmetric Black Hole Has Only Two Degrees of Freedom. Physical Review Letters 26",
+      "id": "71714833463e"
+    },
+    {
+      "name": "Gravitational Waves Detection",
+      "authors": "LIGO Collaboration (2016)",
+      "year": 2016,
+      "domain_id": "general_relativity",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Spacetime ripples propagate at the speed of light carrying energy away from accelerating masses, confirming that the metric field itself is a dynamical entity that can transport information and energy.",
+      "source_citation": "Abbott, B. P. et al. (2016). Observation of Gravitational Waves from a Binary Black Hole Merger. Physical Review Letters 116",
+      "id": "a7238e2f7680"
+    },
+    {
+      "name": "Birkhoff's Theorem",
+      "authors": "Birkhoff (1923)",
+      "year": 1923,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Any spherically symmetric vacuum solution of Einstein's equations is static and given by the Schwarzschild metric, demonstrating that spherical symmetry alone constrains spacetime geometry to a unique form.",
+      "source_citation": "Birkhoff, G. D. (1923). Relativity and Modern Physics. Harvard University Press",
+      "id": "cf0a8853c79c"
+    },
+    {
+      "name": "Positive Mass Theorem",
+      "authors": "Schoen & Yau (1979), Witten (1981)",
+      "year": 1979,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The total mass-energy of an asymptotically flat spacetime is non-negative and vanishes only for Minkowski space, establishing that gravity cannot create net negative energy in isolated systems.",
+      "source_citation": "Schoen, R. & Yau, S. T. (1979). On the proof of the positive mass conjecture in general relativity. Communications in Mathematical Physics 65",
+      "id": "8ca20d330743"
+    },
+    {
+      "name": "Inflation Theory",
+      "authors": "Guth (1981)",
+      "year": 1981,
+      "domain_id": "general_relativity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "A period of exponential expansion in the early universe driven by a scalar field naturally explains the universe's large-scale homogeneity, flatness, and the absence of magnetic monopoles through causal disconnection and dilution.",
+      "source_citation": "Guth, A. H. (1981). Inflationary universe: A possible solution to the horizon and flatness problems. Physical Review D 23",
+      "id": "c519ed9fb8ae"
+    },
+    {
+      "name": "Black Hole Thermodynamics",
+      "authors": "Bekenstein (1973), Hawking (1975)",
+      "year": 1975,
+      "domain_id": "general_relativity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Black holes obey thermodynamic laws with entropy proportional to horizon area and temperature inversely proportional to mass, revealing a deep connection between gravity, thermodynamics, and information theory.",
+      "source_citation": "Hawking, S. W. (1975). Particle creation by black holes. Communications in Mathematical Physics 43",
+      "id": "3242660fa237"
+    },
+    {
+      "name": "AdS/CFT Correspondence",
+      "authors": "Maldacena (1997)",
+      "year": 1997,
+      "domain_id": "general_relativity",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Gravitational physics in anti-de Sitter space is holographically dual to a conformal field theory on its boundary, suggesting that spacetime geometry emerges from more fundamental non-gravitational degrees of freedom.",
+      "source_citation": "Maldacena, J. (1998). The large N limit of superconformal field theories and supergravity. Advances in Theoretical and Mathematical Physics 2",
+      "id": "0f4a24c6e83e"
+    }
+  ],
+  "structural_conclusion": "General relativity reveals that spacetime is a dynamic entity whose geometry is determined by and determines the motion of matter-energy, with inevitable singularities, horizons that create causal boundaries, and the capacity to carry information via gravitational waves. The universe's large-scale structure exhibits homogeneous expansion that is currently accelerating, while black holes represent extreme geometric configurations that connect gravitational physics to thermodynamics and quantum mechanics. These results collectively suggest that spacetime geometry is both fundamental and emergent, with deep connections to information theory.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:01:48.847919+00:00"
+}

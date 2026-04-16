@@ -1,0 +1,59 @@
+{
+  "structural_claim": "External fields provide precise control handles for manipulating system states by breaking degeneracies and mixing previously orthogonal modes",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "External magnetic fields break rotational symmetry and split degenerate atomic energy levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Stark Effect",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electric fields mix atomic states of different angular momentum, enabling coherent manipulation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Feshbach Resonances",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields tune atomic interactions by coupling different scattering channels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "External rotation (analogous to applied field) controls flow transitions between distinct dynamical states"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4988675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:00.480585+00:00",
+  "id": "1596b6c20819"
+}

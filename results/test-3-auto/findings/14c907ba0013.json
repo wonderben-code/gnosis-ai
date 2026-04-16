@@ -1,0 +1,30 @@
+{
+  "structural_finding": "Topological constraints impose fundamental, robust limitations on system evolution that persist independent of local perturbations or material details",
+  "level": 1,
+  "source_convergence_ids": [
+    "f9ab553e2ff2",
+    "c013baee269e",
+    "5ea93024fd55",
+    "752b6b49f5ae",
+    "928bed19a7d2",
+    "ce7f2a656c80",
+    "ff8eba52e6d8",
+    "e41cf431da10",
+    "0b80682150fe",
+    "1325896b7cf2",
+    "dc4f6e2a8aac",
+    "ca9ed4a6fb61",
+    "27cfe68d3fe5",
+    "def76666e152",
+    "fdea44ecf6f9",
+    "1f5f5ea96085",
+    "2730394d987a"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Topological Governance",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:10.023869+00:00",
+  "id": "14c907ba0013"
+}

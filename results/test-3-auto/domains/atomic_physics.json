@@ -1,0 +1,171 @@
+{
+  "id": "atomic_physics",
+  "name": "Atomic and Molecular Physics",
+  "category": "Physics",
+  "description": "Atomic structure, spectroscopy, cold atoms, quantum simulation",
+  "results": [
+    {
+      "name": "Schr\u00f6dinger Equation for Hydrogen Atom",
+      "authors": "Schr\u00f6dinger (1926)",
+      "year": 1926,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Atomic structure emerges from standing wave solutions of a differential equation, with discrete energy levels arising naturally from boundary conditions rather than ad hoc quantization rules.",
+      "source_citation": "Schr\u00f6dinger, E. Ann. Phys. 384, 361-376 (1926)",
+      "id": "252b616b4b47"
+    },
+    {
+      "name": "Pauli Exclusion Principle",
+      "authors": "Pauli (1925)",
+      "year": 1925,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Fermionic wavefunctions must be antisymmetric under particle exchange, fundamentally constraining how electrons can occupy quantum states and giving rise to atomic shell structure.",
+      "source_citation": "Pauli, W. Z. Phys. 31, 765-783 (1925)",
+      "id": "d90ac5228733"
+    },
+    {
+      "name": "Fine Structure and Spin-Orbit Coupling",
+      "authors": "Sommerfeld (1916), Dirac (1928)",
+      "year": 1928,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Relativistic corrections couple electron spin and orbital angular momentum, revealing that atomic energy levels have an intrinsic magnetic substructure arising from the electron's relativistic motion.",
+      "source_citation": "Dirac, P.A.M. Proc. R. Soc. A 117, 610-624 (1928)",
+      "id": "be2c367a323c"
+    },
+    {
+      "name": "Lamb Shift",
+      "authors": "Lamb and Retherford (1947)",
+      "year": 1947,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quantum field fluctuations of the electromagnetic vacuum modify atomic energy levels, demonstrating that empty space has structure that affects matter.",
+      "source_citation": "Lamb, W.E. & Retherford, R.C. Phys. Rev. 72, 241-243 (1947)",
+      "id": "66fc5dec9ddf"
+    },
+    {
+      "name": "Hyperfine Structure",
+      "authors": "Fermi (1930)",
+      "year": 1930,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Nuclear spin couples to electron angular momentum through magnetic dipole and electric quadrupole interactions, revealing that atomic spectra encode information about nuclear structure.",
+      "source_citation": "Fermi, E. Z. Phys. 60, 320-333 (1930)",
+      "id": "3d7f7741750f"
+    },
+    {
+      "name": "Selection Rules for Atomic Transitions",
+      "authors": "Heisenberg (1925), Born and Jordan (1925)",
+      "year": 1925,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Conservation of angular momentum and parity impose strict constraints on which quantum transitions can occur, revealing that symmetries dictate the allowed pathways between atomic states.",
+      "source_citation": "Born, M. & Jordan, P. Z. Phys. 34, 858-888 (1925)",
+      "id": "1bcf6428dffc"
+    },
+    {
+      "name": "Zeeman Effect",
+      "authors": "Zeeman (1896), Lorentz (1897)",
+      "year": 1897,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "External magnetic fields break rotational symmetry and split degenerate atomic energy levels, demonstrating that atomic structure responds to and encodes information about external fields.",
+      "source_citation": "Zeeman, P. Phil. Mag. 43, 226-239 (1897)",
+      "id": "4836f50d74f6"
+    },
+    {
+      "name": "Stark Effect",
+      "authors": "Stark (1913), Epstein and Schwarzschild (1916)",
+      "year": 1916,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Electric fields mix atomic states of different angular momentum, revealing that atomic wavefunctions can be coherently manipulated by external perturbations.",
+      "source_citation": "Epstein, P.S. Ann. Phys. 50, 489-520 (1916)",
+      "id": "5605991d66dd"
+    },
+    {
+      "name": "Born-Oppenheimer Approximation",
+      "authors": "Born and Oppenheimer (1927)",
+      "year": 1927,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Nuclear and electronic motion in molecules can be approximately separated due to their mass disparity, creating a hierarchy of energy scales that allows molecular structure to emerge from atomic constituents.",
+      "source_citation": "Born, M. & Oppenheimer, R. Ann. Phys. 84, 457-484 (1927)",
+      "id": "9cf05b1a3252"
+    },
+    {
+      "name": "Franck-Condon Principle",
+      "authors": "Franck (1926), Condon (1928)",
+      "year": 1928,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Electronic transitions occur much faster than nuclear motion, constraining molecular transitions to preserve nuclear geometry and creating selection rules based on wavefunction overlap.",
+      "source_citation": "Condon, E.U. Phys. Rev. 32, 858-872 (1928)",
+      "id": "6080f3dc0fad"
+    },
+    {
+      "name": "Laser Cooling and Doppler Limit",
+      "authors": "H\u00e4nsch and Schawlow (1975), Wineland and Dehmelt (1975)",
+      "year": 1975,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Photon momentum transfer can systematically extract kinetic energy from atoms, but spontaneous emission imposes a fundamental temperature limit set by the photon recoil energy.",
+      "source_citation": "H\u00e4nsch, T.W. & Schawlow, A.L. Opt. Commun. 13, 68-69 (1975)",
+      "id": "838f750bd256"
+    },
+    {
+      "name": "Bose-Einstein Condensation in Dilute Gases",
+      "authors": "Anderson et al. (1995), Davis et al. (1995)",
+      "year": 1995,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Below a critical temperature, bosonic atoms undergo a phase transition where a macroscopic fraction occupies the same quantum state, demonstrating quantum statistics at macroscopic scales.",
+      "source_citation": "Anderson, M.H. et al. Science 269, 198-201 (1995)",
+      "id": "db7f759ff8b4"
+    },
+    {
+      "name": "Optical Lattices and Band Structure",
+      "authors": "Jaksch et al. (1998), Greiner et al. (2002)",
+      "year": 2002,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Periodic optical potentials create artificial crystal structures for ultracold atoms, allowing the engineering of band structures and demonstrating that light can impose crystalline order on matter.",
+      "source_citation": "Greiner, M. et al. Nature 415, 39-44 (2002)",
+      "id": "a882f42f92b1"
+    },
+    {
+      "name": "Feshbach Resonances",
+      "authors": "Feshbach (1958), Inouye et al. (1998)",
+      "year": 1998,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Magnetic fields can tune atomic interactions from attractive to repulsive by coupling bound molecular states to scattering states, providing precise control over many-body physics.",
+      "source_citation": "Inouye, S. et al. Nature 392, 151-154 (1998)",
+      "id": "9acce7681a46"
+    },
+    {
+      "name": "Rydberg Blockade",
+      "authors": "Jaksch et al. (2000), Lukin et al. (2001)",
+      "year": 2001,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Strong dipole-dipole interactions between highly excited atoms prevent simultaneous excitation within a blockade radius, creating effective hard-core interactions that enable quantum information processing.",
+      "source_citation": "Lukin, M.D. et al. Phys. Rev. Lett. 87, 037901 (2001)",
+      "id": "f268ae742ddc"
+    },
+    {
+      "name": "Quantum Gas Microscopy",
+      "authors": "Bakr et al. (2009), Sherson et al. (2010)",
+      "year": 2010,
+      "domain_id": "atomic_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Single-site resolution imaging of quantum gases reveals individual quantum fluctuations and correlations, demonstrating that quantum many-body states can be directly visualized at the single-particle level.",
+      "source_citation": "Bakr, W.S. et al. Nature 462, 74-77 (2009)",
+      "id": "d581a27e3663"
+    }
+  ],
+  "structural_conclusion": "Atomic and molecular physics reveals that matter's structure emerges from quantized solutions to wave equations, with symmetries dictating allowed states and transitions. External fields and inter-particle interactions provide handles for coherent control, while collective phenomena like BEC demonstrate that quantum mechanics governs macroscopic behavior. The field shows how reductionist quantum principles, when properly engineered, can create emergent complexity rivaling condensed matter systems.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:08:02.879766+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Hierarchical structure formation through gravitational/collective instabilities creates multi-scale systems where small-scale fluctuations seed large-scale organization",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Dark matter halos form hierarchically through gravitational collapse of density peaks, with structure emerging from small-scale fluctuations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Web Structure",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational instability naturally creates hierarchical topology where matter flows along filaments into nodes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gyrokinetic Theory",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma turbulence operates on multiple separated timescales with small-scale fluctuations driving large-scale transport"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bohm Diffusion",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Microinstabilities dominate transport, showing how small-scale collective effects determine large-scale behavior"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:40:38.895026+00:00",
+  "id": "54565b59b833"
+}

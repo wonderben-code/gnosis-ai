@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Quantum effects necessarily modify classical symmetries through anomalies that constrain consistent theories",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Adler-Bell-Jackiw Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Classical symmetries broken by quantum effects constrain possible matter content"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chiral Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Axial current conservation necessarily violated by quantum effects in gauge theories"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_b",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum effects near horizons necessarily lead to particle creation and black hole evaporation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics",
+      "domain_id": "field_b",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum considerations force black holes to have entropy and temperature"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "general_relativity"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "General Relativity and Cosmology"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.06,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46718000000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:05.980187+00:00",
+  "id": "7073c927133c"
+}

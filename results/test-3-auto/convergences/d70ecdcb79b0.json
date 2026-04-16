@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Discrete microscopic structure gives rise to continuous macroscopic behavior through emergent phenomena",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Loop Quantum Gravity Area Spectrum",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime area has discrete spectrum at Planck scale, continuous only at large scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Causal Set Hauptvermutung",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous spacetime emerges from discrete causal elements"
+    },
+    {
+      "result_id": "",
+      "result_name": "Phonon Theory of Lattice Vibrations",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous acoustic waves emerge from discrete atomic vibrations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Discrete periodic structure determines continuous wave propagation bands"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4988675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:04:43.051764+00:00",
+  "id": "d70ecdcb79b0"
+}

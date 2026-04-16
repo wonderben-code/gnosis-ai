@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological constraints impose global restrictions on local dynamics that persist despite perturbations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Event horizons create causal boundaries that fundamentally alter spacetime's topological structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating black holes create ergospheres where spacetime topology forces co-rotation"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Global geometric properties of band structures determine local wave propagation with topological protection against backscattering"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:42:05.589898+00:00",
+  "id": "cd6d35db9299"
+}

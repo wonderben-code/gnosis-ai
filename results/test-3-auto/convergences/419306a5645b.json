@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Periodicity in spatial structure creates forbidden frequency bands that fundamentally constrain wave propagation",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "MHD Equilibrium (Grad-Shafranov Equation)",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Nested flux surfaces create a periodic structure in the poloidal direction that constrains allowable modes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Periodic structures create band gaps where wave propagation is forbidden"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.43665,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:55:05.696010+00:00",
+  "id": "419306a5645b"
+}

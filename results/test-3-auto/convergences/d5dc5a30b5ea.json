@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Continuous systems spontaneously break symmetry to create discrete, topologically protected structures that organize the dynamics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Spherical symmetry in spacetime spontaneously creates a discrete boundary (event horizon) that topologically separates regions"
+    },
+    {
+      "result_id": "",
+      "result_name": "No-Hair Theorem",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational collapse erases all structure except three topologically protected quantities"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating flows spontaneously break symmetry to create discrete vortex structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Thermal gradients spontaneously break symmetry to create discrete convection cells"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vortex lines are topologically conserved structures that cannot be created or destroyed"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5426,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:52:55.524814+00:00",
+  "id": "d5dc5a30b5ea"
+}

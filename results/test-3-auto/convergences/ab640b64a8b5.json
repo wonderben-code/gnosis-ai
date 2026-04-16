@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Entropy is fundamentally connected to area rather than volume in systems with horizons or boundaries",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Black Hole Thermodynamics",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy is proportional to horizon area, not volume"
+    },
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Bulk gravitational physics encoded on lower-dimensional boundary"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Insulators",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Bulk topology enforces conducting boundary states with entropy scaling with boundary area"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.75,
+    "adversarial": 0.3,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5202249999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:39:35.659206+00:00",
+  "id": "ab640b64a8b5"
+}

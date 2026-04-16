@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Collective phenomena emerge from resonant interactions between waves and particles in phase space",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Anderson Localization",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Wave interference in disordered media leads to complete localization through destructive interference"
+    },
+    {
+      "result_id": "",
+      "result_name": "Landau Damping",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma waves damp through resonant particle-wave interactions in velocity space without collisions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Vlasov Equation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma dynamics is fundamentally determined by phase space distribution evolution"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46038500000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:05.349588+00:00",
+  "id": "f7210df7f5d8"
+}

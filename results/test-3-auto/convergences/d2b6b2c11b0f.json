@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Quantum systems exhibit universal scaling behavior near critical points that depends only on symmetry and dimensionality",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Physical systems exhibit scale invariance at critical points with universal behavior"
+    },
+    {
+      "result_id": "",
+      "result_name": "Onsager's Exact Solution of 2D Ising Model",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Statistical mechanics produces singular behavior with exactly calculable critical exponents"
+    },
+    {
+      "result_id": "",
+      "result_name": "Efimov States",
+      "domain_id": "nuclear",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Three-body systems near unitarity exhibit infinite tower of bound states with universal geometric scaling"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic Freedom in QCD",
+      "domain_id": "nuclear",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Strong coupling exhibits scale-dependent behavior with universal running determined by symmetry"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5428,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:28:27.089245+00:00",
+  "id": "d2b6b2c11b0f"
+}

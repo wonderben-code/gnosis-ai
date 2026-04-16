@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Hierarchical structure formation through gravitational/wave instabilities creates networks where local perturbations grow into global patterns determined by the statistics of initial fluctuations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Dark matter halos form hierarchically through gravitational collapse of density peaks in a Gaussian random field"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Web Structure",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational instability naturally creates a web-like network topology where matter flows along filaments into nodes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Anderson Localization of Acoustic Waves",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Disorder-induced interference creates localized structures from extended wave states through statistical processes"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.447885,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:42:05.589794+00:00",
+  "id": "3e6c192eaa88"
+}

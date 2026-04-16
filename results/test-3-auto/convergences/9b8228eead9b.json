@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Continuous systems spontaneously organize into discrete, periodic structures through symmetry-breaking instabilities when competing forces reach critical thresholds",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating flows spontaneously break symmetry to form discrete vortex structures when centrifugal forces overcome viscous damping"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Thermal convection self-organizes into discrete cellular patterns when buoyancy forces overcome viscous damping"
+    },
+    {
+      "result_id": "",
+      "result_name": "von K\u00e1rm\u00e1n Vortex Street",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Wake flows spontaneously organize into periodic vortex patterns with specific spacing ratios"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Wave propagation in periodic structures naturally organizes into discrete bands and gaps"
+    },
+    {
+      "result_id": "",
+      "result_name": "Acoustic Levitation",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Standing waves create discrete potential wells through interference patterns"
+    }
+  ],
+  "domains": [
+    "fluid_dynamics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Fluid Dynamics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5176,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T22:07:57.256461+00:00",
+  "id": "9b8228eead9b"
+}

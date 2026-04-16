@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The vacuum is an active medium with observable physical effects that fundamentally shape the dynamics of fields and particles",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations near event horizons create real particles, showing the vacuum actively participates in gravitational physics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Purcell Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Vacuum fluctuations and spontaneous emission rates depend on boundary conditions, showing the vacuum actively shapes quantum optical processes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Squeezed States of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum vacuum noise can be redistributed and manipulated, demonstrating the vacuum has active quantum properties"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "optics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.44850999999999996,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:51:25.319451+00:00",
+  "id": "c537405edd84"
+}

@@ -1,0 +1,75 @@
+{
+  "structural_claim": "Complex systems spontaneously break symmetry to form ordered collective structures through competing interactions at multiple scales",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Nuclear Shell Model",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nucleons spontaneously organize into discrete quantum shells despite strong interactions, breaking spherical symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillation modes where constituents move coherently"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Pasta Phases",
+      "domain_id": "field_a",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter forms complex non-spherical structures through frustrated interactions at competing length scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating flows spontaneously break symmetry through hierarchical instabilities forming ordered structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Thermal convection self-organizes into cellular patterns breaking translational symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "von K\u00e1rm\u00e1n Vortex Street",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Wake flows spontaneously organize into periodic vortex patterns with specific spacing ratios"
+    }
+  ],
+  "domains": [
+    "nuclear_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Nuclear Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.7,
+    "depth_consistency": 1.0,
+    "confidence": 0.5426,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:49.469501+00:00",
+  "id": "121a3762703d"
+}

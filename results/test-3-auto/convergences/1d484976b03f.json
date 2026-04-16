@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Collective phenomena emerge from quantum many-body systems through the selection of preferred modes that break underlying symmetries",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Environmental entanglement dynamically selects preferred pointer states, explaining the emergence of classical behavior"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical objectivity emerges through redundant encoding of selected information in the environment"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "All nuclei exhibit a collective oscillation mode where protons and neutrons oscillate against each other, demonstrating that nuclei behave as quantum fluids with collective degrees of freedom"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chiral Symmetry Breaking",
+      "domain_id": "nuclear_physics",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The QCD vacuum spontaneously breaks chiral symmetry, generating constituent quark masses"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:22:52.301362+00:00",
+  "id": "1d484976b03f"
+}

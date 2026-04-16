@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Physical systems exhibit phase transitions where collective behavior emerges from microscopic interactions, fundamentally altering the system's properties and creating new states of matter",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter undergoes a phase transition at ~170 MeV to a deconfined state with fundamentally different properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Inflation Theory",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "The universe underwent a phase transition driven by a scalar field that fundamentally altered spacetime's expansion properties"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Pasta Phases",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter forms complex non-spherical structures at critical densities due to competing length scales"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:52:31.274351+00:00",
+  "id": "94ed6cc962e2"
+}

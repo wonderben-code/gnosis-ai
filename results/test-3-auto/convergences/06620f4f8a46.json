@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry breaking mechanisms generate emergent structure from more fundamental symmetric states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Classical spacetime geometry emerges from quantum entanglement patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational spacetime emerges as an effective description of quantum field theory dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Particle masses emerge from spontaneous breaking of electroweak symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electroweak unification",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Distinct electromagnetic and weak forces emerge from breaking of unified gauge symmetry"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47318000000000005,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:29.363226+00:00",
+  "id": "06620f4f8a46"
+}

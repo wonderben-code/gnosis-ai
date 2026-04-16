@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Physical properties emerge from topological invariants that are robust against local perturbations and determine quantized observables",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy is determined by the topological property of horizon area rather than bulk volume"
+    },
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Hall conductance is quantized by topological Chern numbers independent of material details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic properties are determined by topological invariants of band structure"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51635,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:08.877894+00:00",
+  "id": "0b80682150fe"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological constraints fundamentally determine system evolution and equilibrium states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Phase transitions represent symmetry-breaking events where order parameters emerge, with symmetry as the fundamental organizing principle"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field topology is conserved in ideal plasmas, constraining system evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of magnetic field lines constrains plasma relaxation to minimum energy states"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:14:53.855194+00:00",
+  "id": "1573e7729d42"
+}

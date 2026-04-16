@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry principles fundamentally dictate the allowed states and transitions in physical systems, with symmetry breaking determining the observable spectrum",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Yang-Mills Theory",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Local gauge symmetries dictate the form of fundamental interactions and constrain possible field configurations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Selection Rules for Atomic Transitions",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Conservation laws arising from symmetries strictly constrain which quantum transitions can occur between atomic states"
+    },
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Hidden symmetries determine the mass spectrum and interaction structure of particles"
+    },
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "External fields break rotational symmetry, splitting degenerate states and revealing hidden structure"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5363,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:37:15.028817+00:00",
+  "id": "4cf2ed250ca7"
+}

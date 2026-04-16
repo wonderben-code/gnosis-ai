@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints create conservation laws that persist through system evolution and determine allowable configurations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "'t Hooft-Polyakov Monopole",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topological soliton solutions arise necessarily from the topology of the vacuum manifold after symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "Instantons",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Topologically distinct vacuum states are connected by field configurations with quantized topological charge"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Vortex Theorems",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Vortex lines in inviscid flow are topologically conserved, cannot be created or destroyed, and move as material lines"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kelvin's Circulation Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Circulation around material loops is a topologically protected quantity in inviscid flows"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:06.694600+00:00",
+  "id": "ff8eba52e6d8"
+}

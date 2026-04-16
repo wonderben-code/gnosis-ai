@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Symmetry breaking spontaneously generates ordered structures from symmetric initial conditions, creating discrete patterns from continuous systems",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Symmetric laws produce asymmetric ground states, with gauge bosons acquiring mass through interaction with a field whose vacuum expectation value breaks the symmetry"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Symmetric rotating flow spontaneously breaks into discrete vortex patterns through instability"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Uniform thermal gradient spontaneously breaks into discrete convection cells when critical threshold is exceeded"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47951,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:38:06.694530+00:00",
+  "id": "79cd16932ee9"
+}

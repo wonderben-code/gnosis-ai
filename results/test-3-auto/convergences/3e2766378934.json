@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Entanglement patterns directly determine emergent geometric and physical properties",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Ryu-Takayanagi Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement entropy in boundary theory equals geometric area in bulk spacetime"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime connectivity emerges from quantum entanglement patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "Laughlin Wavefunction",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological order in fractional quantum Hall states emerges from specific entanglement patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fractional Quantum Hall Effect",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Strongly correlated quantum fluids emerge from entanglement creating fractional quasiparticles"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.49168,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:54:08.877954+00:00",
+  "id": "3e2766378934"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Coherent quantum interference between excitation pathways can fundamentally alter system dynamics",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Electromagnetically Induced Transparency",
+      "domain_id": "field_a",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum interference between excitation pathways renders absorbing medium transparent"
+    },
+    {
+      "result_id": "",
+      "result_name": "Feshbach Resonances",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Coupling between bound molecular states and scattering states allows tuning of interactions"
+    }
+  ],
+  "domains": [
+    "optics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Optics and Photonics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.45840000000000003,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:42:55.291847+00:00",
+  "id": "d8f378829d24"
+}

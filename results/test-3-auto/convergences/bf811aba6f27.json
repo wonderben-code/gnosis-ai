@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Physical systems spontaneously break continuous symmetries to form discrete, ordered structures through critical transitions governed by dimensionless parameters",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Below a critical temperature, a continuous ensemble of atoms undergoes symmetry breaking to form a discrete macroscopic quantum state"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Above a critical Rayleigh number, continuous fluid undergoes symmetry breaking to form discrete convection cells"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "field_b",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating flows undergo hierarchical symmetry-breaking transitions at critical Reynolds numbers, forming discrete vortex structures"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47351,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:00.480478+00:00",
+  "id": "bf811aba6f27"
+}

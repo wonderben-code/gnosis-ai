@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Quantum coherence and interference fundamentally alter the properties of systems beyond classical predictions",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Chiral Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum effects necessarily break classical symmetries through interference in the path integral"
+    },
+    {
+      "result_id": "",
+      "result_name": "Adler-Bell-Jackiw Anomaly",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum loop corrections violate classical conservation laws"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hong-Ou-Mandel Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum interference of indistinguishable photons produces bunching impossible classically"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electromagnetically Induced Transparency",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum interference between excitation pathways fundamentally alters material properties"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5428,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:26:43.374284+00:00",
+  "id": "09c62bf6ce83"
+}

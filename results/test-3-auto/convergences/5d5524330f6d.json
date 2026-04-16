@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Fundamental symmetries spontaneously break to generate emergent structure, with the breaking pattern determining observable physics",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Inflation Theory",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "A scalar field's symmetry breaking drives exponential expansion, with the field rolling from high to low potential determining cosmic structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Discovery of the Higgs boson",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electroweak symmetry spontaneously breaks via a scalar field acquiring a vacuum expectation value, generating particle masses"
+    },
+    {
+      "result_id": "",
+      "result_name": "Electroweak unification",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "A unified SU(2)\u00d7U(1) symmetry spontaneously breaks to U(1)_EM, with the breaking pattern determining force structure"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.44201,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:39:57.041149+00:00",
+  "id": "5d5524330f6d"
+}

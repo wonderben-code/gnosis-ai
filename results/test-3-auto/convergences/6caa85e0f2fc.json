@@ -1,0 +1,59 @@
+{
+  "structural_claim": "External fields break symmetries and provide handles for controlling system states by mixing previously distinct quantum configurations",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Onsager Reciprocal Relations",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "External perturbations couple to system responses in ways constrained by underlying symmetries"
+    },
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields break rotational symmetry and split degenerate energy levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Stark Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electric fields mix atomic states of different angular momentum through symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "Feshbach Resonances",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields tune interactions by coupling different quantum states"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5041800000000001,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:15:14.261425+00:00",
+  "id": "6caa85e0f2fc"
+}

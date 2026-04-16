@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Effective field theories capture emergent phenomena at low energies through renormalized parameters, with high-energy details becoming irrelevant",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Physical systems exhibit universal behavior at critical points independent of microscopic details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fermi Liquid Theory",
+      "domain_id": "condensed_matter",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Interacting fermions behave as weakly interacting quasiparticles with renormalized parameters"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Coupling constants run with energy scale, with high-energy behavior decoupling from low-energy physics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Measurement of the strong coupling constant",
+      "domain_id": "particle_physics",
+      "domain_name": "Particle Physics",
+      "link_type": "direct",
+      "structural_conclusion": "The strong force is characterized by a running coupling that changes with energy scale"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47918000000000005,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:54.207913+00:00",
+  "id": "8392ef388e6c"
+}

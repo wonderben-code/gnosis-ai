@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Transport coefficients and response functions are constrained by microscopic time-reversal symmetry through universal reciprocal relations",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Onsager Reciprocal Relations",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Time-reversal symmetry at microscopic level imposes universal constraints on transport coefficients"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fluctuation-Dissipation Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Response to external perturbations and spontaneous fluctuations are universally related"
+    },
+    {
+      "result_id": "",
+      "result_name": "Fermi Liquid Theory",
+      "domain_id": "field_b",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Interacting systems described by quasiparticles with renormalized parameters obeying same symmetry constraints"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "condensed_matter"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Condensed Matter Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.4,
+    "adversarial": 0.4,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.45272500000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:11.490810+00:00",
+  "id": "1bc1c9e16dea"
+}

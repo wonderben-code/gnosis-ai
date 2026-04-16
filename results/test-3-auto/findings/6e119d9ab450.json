@@ -1,0 +1,23 @@
+{
+  "structural_finding": "Physical properties are fundamentally contextual and cannot possess predetermined values independent of measurement or observation framework - measurement actively participates in determining reality rather than revealing pre-existing properties",
+  "level": 1,
+  "source_convergence_ids": [
+    "9008a3a49dab",
+    "dbeece51fd4d",
+    "2d8ecc875890",
+    "8715fa784f21",
+    "b276016277bc",
+    "6b5aca297a34",
+    "8bde681e0eb1",
+    "c648f2f3e82e",
+    "1f0cf160b250",
+    "d141c9d3ff25"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Fundamental Contextuality",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:10.023625+00:00",
+  "id": "6e119d9ab450"
+}

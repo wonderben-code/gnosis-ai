@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Boundary degrees of freedom encode and determine bulk physics through dimensional reduction",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Bulk gravitational physics is fully encoded in lower-dimensional boundary theory"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole information is encoded on the surface area rather than volume"
+    },
+    {
+      "result_id": "",
+      "result_name": "Prandtl Boundary Layer Theory",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Bulk flow behavior is determined by thin boundary layer dynamics"
+    },
+    {
+      "result_id": "",
+      "result_name": "Blasius Boundary Layer Solution",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Universal boundary layer profiles control bulk flow separation and forces"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.487055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:04:14.607407+00:00",
+  "id": "f31bff1bcd4d"
+}

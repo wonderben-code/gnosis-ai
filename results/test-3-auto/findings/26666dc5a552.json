@@ -1,0 +1,15 @@
+{
+  "structural_finding": "Information encoding follows dimensional reduction principles - the essential information about higher-dimensional systems is captured on lower-dimensional boundaries, with bulk details becoming irrelevant near critical transitions",
+  "level": 2,
+  "source_convergence_ids": [
+    "d03d15649527",
+    "d5a55a358bba"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": "Dimensional Information Compression",
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_e28e0d543729",
+  "timestamp": "2026-04-16T22:10:20.490456+00:00",
+  "id": "26666dc5a552"
+}

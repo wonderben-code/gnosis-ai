@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Universal behavior emerges near critical points where microscopic details become irrelevant and systems organize into universal classes determined by symmetry and dimensionality",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Renormalization Group Theory",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Critical phenomena exhibit scale invariance and universality, with microscopic details becoming irrelevant"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic freedom in QCD",
+      "domain_id": "field_b",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Coupling constants run with energy scale, exhibiting universal behavior independent of low-energy details"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "particle_physics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Particle Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.38908999999999994,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:05:28.074063+00:00",
+  "id": "9ec5c86272d9"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Topological constraints fundamentally restrict dynamical evolution and determine conserved quantities",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime topology and boundary conditions completely determine bulk physics"
+    },
+    {
+      "result_id": "",
+      "result_name": "ER=EPR Conjecture",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Topological connectivity (wormholes) and quantum entanglement are dual descriptions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, constraining evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "plasma_physics",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Topological linkage of field lines is conserved, determining relaxed states"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:03:18.253874+00:00",
+  "id": "dc4f6e2a8aac"
+}

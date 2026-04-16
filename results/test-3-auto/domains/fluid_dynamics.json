@@ -1,0 +1,161 @@
+{
+  "id": "fluid_dynamics",
+  "name": "Fluid Dynamics",
+  "category": "Physics",
+  "description": "Navier-Stokes, turbulence, boundary layers, computational fluid dynamics",
+  "results": [
+    {
+      "name": "Navier-Stokes Equations",
+      "authors": "Navier (1822), Stokes (1845)",
+      "year": 1845,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Fluid motion is fundamentally governed by the conservation of momentum coupled with viscous dissipation, creating a nonlinear partial differential equation system that encodes all possible fluid behaviors.",
+      "source_citation": "Stokes, G.G. (1845). Trans. Cambridge Phil. Soc. 8, 287-319",
+      "id": "d7e4ffbcc4f1"
+    },
+    {
+      "name": "Reynolds Number Similarity",
+      "authors": "Reynolds (1883)",
+      "year": 1883,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Fluid flows are fundamentally organized by the ratio of inertial to viscous forces, with this single dimensionless parameter determining flow regime transitions and similarity classes.",
+      "source_citation": "Reynolds, O. (1883). Phil. Trans. R. Soc. Lond. 174, 935-982",
+      "id": "334cf3d0eea1"
+    },
+    {
+      "name": "Kolmogorov -5/3 Law",
+      "authors": "Kolmogorov (1941)",
+      "year": 1941,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Turbulent energy cascades through scales following a universal power law in the inertial range, revealing that turbulence has a self-similar structure independent of specific flow conditions.",
+      "source_citation": "Kolmogorov, A.N. (1941). Dokl. Akad. Nauk SSSR 30, 301-305",
+      "id": "1d8573148b18"
+    },
+    {
+      "name": "Prandtl Boundary Layer Theory",
+      "authors": "Prandtl (1904)",
+      "year": 1904,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "High Reynolds number flows naturally separate into inviscid outer regions and thin viscous boundary layers, fundamentally decomposing the flow field into distinct dynamical zones.",
+      "source_citation": "Prandtl, L. (1904). Verhandlungen des III Int. Math. Kongr., Heidelberg, 484-491",
+      "id": "fa9bd3866731"
+    },
+    {
+      "name": "Kutta-Joukowski Theorem",
+      "authors": "Kutta (1902), Joukowski (1906)",
+      "year": 1906,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Lift generation is fundamentally tied to circulation around a body, establishing that force production in inviscid flows requires topological flow structures.",
+      "source_citation": "Joukowski, N.E. (1906). Z. Flugtech. Motorluftschiff. 1, 281-284",
+      "id": "9797bdd17895"
+    },
+    {
+      "name": "Taylor-Couette Instability",
+      "authors": "Taylor (1923)",
+      "year": 1923,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Rotating flows undergo a hierarchy of symmetry-breaking instabilities, revealing that fluid systems spontaneously generate ordered structures through competition between centrifugal and viscous forces.",
+      "source_citation": "Taylor, G.I. (1923). Phil. Trans. R. Soc. Lond. A 223, 289-343",
+      "id": "2fca8c8e44d1"
+    },
+    {
+      "name": "Helmholtz Vortex Theorems",
+      "authors": "Helmholtz (1858)",
+      "year": 1858,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Vorticity in inviscid flows obeys topological conservation laws, with vortex lines behaving as material lines that cannot be created or destroyed within the fluid.",
+      "source_citation": "Helmholtz, H. (1858). J. Reine Angew. Math. 55, 25-55",
+      "id": "531dbbb0dbca"
+    },
+    {
+      "name": "Blasius Boundary Layer Solution",
+      "authors": "Blasius (1908)",
+      "year": 1908,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Laminar boundary layers possess self-similar structure, with the velocity profile collapsing to a universal form when properly scaled.",
+      "source_citation": "Blasius, H. (1908). Z. Math. Phys. 56, 1-37",
+      "id": "cfead690dc28"
+    },
+    {
+      "name": "von K\u00e1rm\u00e1n Vortex Street",
+      "authors": "von K\u00e1rm\u00e1n (1911)",
+      "year": 1911,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Bluff body wakes spontaneously organize into periodic vortex patterns with specific spacing ratios, demonstrating that wake flows have preferred structural configurations.",
+      "source_citation": "von K\u00e1rm\u00e1n, T. (1911). Nachr. Ges. Wiss. G\u00f6ttingen, Math.-Phys. Kl., 509-517",
+      "id": "9fb591eddb19"
+    },
+    {
+      "name": "Rayleigh-B\u00e9nard Convection",
+      "authors": "Rayleigh (1916)",
+      "year": 1916,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Thermal convection self-organizes into cellular patterns when buoyancy forces overcome viscous damping, revealing that fluid systems spontaneously break symmetry to maximize heat transport.",
+      "source_citation": "Rayleigh, Lord (1916). Phil. Mag. 32, 529-546",
+      "id": "461a200784f3"
+    },
+    {
+      "name": "Kelvin's Circulation Theorem",
+      "authors": "Kelvin (1869)",
+      "year": 1869,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Circulation around material loops is conserved in inviscid barotropic flows, establishing that fluid motion preserves certain integral quantities tied to flow topology.",
+      "source_citation": "Thomson, W. (1869). Trans. R. Soc. Edinburgh 25, 217-260",
+      "id": "40a563fa8a1a"
+    },
+    {
+      "name": "Stokes' Law for Sphere Drag",
+      "authors": "Stokes (1851)",
+      "year": 1851,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "At low Reynolds numbers, fluid forces scale linearly with velocity and viscosity, revealing a regime where inertia is negligible and dynamics are reversible.",
+      "source_citation": "Stokes, G.G. (1851). Trans. Cambridge Phil. Soc. 9, 8-106",
+      "id": "48a8d2a6c029"
+    },
+    {
+      "name": "Bernoulli's Principle",
+      "authors": "Bernoulli (1738)",
+      "year": 1738,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Energy conservation along streamlines creates an inverse relationship between pressure and velocity, fundamentally constraining how kinetic and potential energy are distributed in steady flows.",
+      "source_citation": "Bernoulli, D. (1738). Hydrodynamica, Strasbourg",
+      "id": "1ef0cbab1c69"
+    },
+    {
+      "name": "Orr-Sommerfeld Equation",
+      "authors": "Orr (1907), Sommerfeld (1908)",
+      "year": 1908,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Linear stability of parallel flows is governed by a fourth-order eigenvalue problem, revealing that flow stability depends on the competition between destabilizing inertia and stabilizing viscosity.",
+      "source_citation": "Sommerfeld, A. (1908). Atti del IV Congresso Internazionale dei Matematici, Rome, 3, 116-124",
+      "id": "5a7170e14ac1"
+    },
+    {
+      "name": "Richardson Energy Cascade",
+      "authors": "Richardson (1922)",
+      "year": 1922,
+      "domain_id": "fluid_dynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Turbulent energy transfers from large to small scales through a hierarchy of eddies, establishing that turbulence has a multiscale structure with directional energy flow.",
+      "source_citation": "Richardson, L.F. (1922). Weather Prediction by Numerical Process, Cambridge University Press",
+      "id": "96a432cf0b65"
+    }
+  ],
+  "structural_conclusion": "Fluid dynamics reveals that continuous media spontaneously organize into discrete structures (vortices, boundary layers, convection cells) through symmetry-breaking instabilities and nonlinear interactions. The field's fundamental results show that flows are governed by conservation laws that couple with dissipation to create universal scaling behaviors, self-similar patterns, and topological constraints that persist across vastly different flow regimes.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:09:32.694687+00:00"
+}

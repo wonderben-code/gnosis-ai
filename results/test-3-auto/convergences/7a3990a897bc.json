@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Symmetry breaking determines the allowed phases and transitions in quantum matter",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Theory of Phase Transitions",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Phases distinguished by symmetries rather than microscopic details"
+    },
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "External fields break rotational symmetry and split degenerate levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Selection Rules for Atomic Transitions",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Symmetries dictate allowed quantum transitions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Mermin-Wagner Theorem",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous symmetries cannot be broken in low dimensions"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.75,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5848,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:18:28.214297+00:00",
+  "id": "7a3990a897bc"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Collective phenomena emerge from microscopic distribution functions through resonant interactions that fundamentally alter system dynamics beyond single-particle descriptions",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Landau Damping",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Wave damping emerges from velocity distribution function structure through resonant particle-wave interactions without collisions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Vlasov Equation",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Plasma dynamics is fundamentally described by phase space distribution evolution"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Macroscopic quantum state emerges from microscopic distribution when particles occupy the same quantum state"
+    },
+    {
+      "result_id": "",
+      "result_name": "Pauli Exclusion Principle",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Fermionic distribution constraints fundamentally determine allowed collective states"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4738675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:53:38.712132+00:00",
+  "id": "340e2880a1f7"
+}

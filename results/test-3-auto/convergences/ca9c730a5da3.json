@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Additional structural constraints create extraordinary rigidity that reduces geometric diversity to canonical forms",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Resolution of Singularities",
+      "domain_id": "field_a",
+      "domain_name": "Algebraic Geometry",
+      "link_type": "direct",
+      "structural_conclusion": "Smooth varieties are canonical building blocks; singularities can be systematically resolved"
+    },
+    {
+      "result_id": "",
+      "result_name": "Riemann Mapping Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Simply connected domains are conformally equivalent to the unit disk"
+    },
+    {
+      "result_id": "",
+      "result_name": "Liouville's Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Analysis",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Combined constraints (boundedness + analyticity) impose maximal rigidity"
+    }
+  ],
+  "domains": [
+    "algebraic_geometry",
+    "analysis"
+  ],
+  "domain_names": [
+    "Algebraic Geometry",
+    "Analysis"
+  ],
+  "ea_scores": {
+    "strength": 0.1764,
+    "independence": 0.8,
+    "adversarial": 0.3,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.478545,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:39.832912+00:00",
+  "id": "ca9c730a5da3"
+}

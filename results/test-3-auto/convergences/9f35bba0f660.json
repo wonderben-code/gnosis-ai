@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Hierarchical structure formation proceeds through gravitational instability of density fluctuations with universal statistical properties",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Press-Schechter Formalism",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Dark matter halos form hierarchically through gravitational collapse of Gaussian density peaks"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Pasta Phases",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Nuclear matter forms complex structures through competition between attractive and repulsive forces at different length scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cosmic Web Structure",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Gravitational instability creates web-like topology with matter flowing along filaments"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.75,
+    "adversarial": 0.06,
+    "reproducibility": 0.4374999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.429385,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:26.921052+00:00",
+  "id": "9f35bba0f660"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Discrete structures emerge spontaneously from continuous systems through symmetry-breaking transitions that create preferred states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Decoherence Theory",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Environmental entanglement dynamically selects preferred pointer states from the continuous Hilbert space"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Darwinism",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Classical states emerge as preferred configurations through redundant environmental encoding"
+    },
+    {
+      "result_id": "",
+      "result_name": "Taylor-Couette Instability",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous flow spontaneously breaks symmetry to form discrete vortex structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh-B\u00e9nard Convection",
+      "domain_id": "fluid_dynamics",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous thermal field self-organizes into discrete cellular patterns through symmetry breaking"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "fluid_dynamics"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Fluid Dynamics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:23:13.118983+00:00",
+  "id": "eb831013c6d2"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological constraints fundamentally determine the evolution and stability of dynamical systems through conservation laws that persist except at singular structures",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field line topology is conserved in ideal plasmas, constraining evolution to preserve topological linkage except at reconnection sites"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic topology moves with the plasma fluid, establishing that topological structures are dynamically conserved"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Global topological properties of band structures create protected edge states that are immune to local perturbations"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46101000000000003,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:55:05.695901+00:00",
+  "id": "2730394d987a"
+}

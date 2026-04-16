@@ -1,0 +1,171 @@
+{
+  "id": "quantum_field_theory",
+  "name": "Quantum Field Theory",
+  "category": "Physics",
+  "description": "Standard Model, gauge theory, renormalisation, anomalies",
+  "results": [
+    {
+      "name": "Yang-Mills Theory",
+      "authors": "Yang & Mills (1954)",
+      "year": 1954,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Local gauge invariance dictates the form of fundamental interactions through the requirement that physics be unchanged under local symmetry transformations, forcing the existence of gauge fields that mediate forces.",
+      "source_citation": "Yang & Mills, Phys. Rev. 96, 191 (1954)",
+      "id": "99ee039d3030"
+    },
+    {
+      "name": "Spontaneous Symmetry Breaking (Higgs Mechanism)",
+      "authors": "Higgs (1964); Englert & Brout (1964); Guralnik, Hagen & Kibble (1964)",
+      "year": 1964,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Gauge symmetries can be hidden rather than broken, with massless gauge bosons acquiring mass through interaction with a scalar field whose vacuum expectation value breaks the symmetry spontaneously.",
+      "source_citation": "Higgs, Phys. Rev. Lett. 13, 508 (1964)",
+      "id": "51d415aa7041"
+    },
+    {
+      "name": "Renormalization Group",
+      "authors": "Wilson (1971-1974)",
+      "year": 1971,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Physical theories form a flow in the space of possible theories under changes of energy scale, with fixed points corresponding to scale-invariant theories and relevant operators determining low-energy physics.",
+      "source_citation": "Wilson, Phys. Rev. B 4, 3174 (1971)",
+      "id": "d3703fd292ab"
+    },
+    {
+      "name": "Asymptotic Freedom",
+      "authors": "Gross & Wilczek (1973); Politzer (1973)",
+      "year": 1973,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Non-Abelian gauge theories can have coupling constants that decrease at high energies, causing quarks to behave as free particles at short distances while being confined at large distances.",
+      "source_citation": "Gross & Wilczek, Phys. Rev. Lett. 30, 1343 (1973)",
+      "id": "6fc0c5daf2cc"
+    },
+    {
+      "name": "Standard Model of Particle Physics",
+      "authors": "Glashow (1961); Weinberg (1967); Salam (1968)",
+      "year": 1967,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "All known fundamental forces except gravity arise from a single gauge principle based on the symmetry group SU(3)\u00d7SU(2)\u00d7U(1), with matter organized into three generations of quarks and leptons.",
+      "source_citation": "Weinberg, Phys. Rev. Lett. 19, 1264 (1967)",
+      "id": "f8da15b13b3e"
+    },
+    {
+      "name": "Adler-Bell-Jackiw Anomaly",
+      "authors": "Adler (1969); Bell & Jackiw (1969)",
+      "year": 1969,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Classical symmetries can be broken by quantum effects when regularization necessarily violates the symmetry, constraining the possible matter content of consistent gauge theories.",
+      "source_citation": "Adler, Phys. Rev. 177, 2426 (1969)",
+      "id": "892464f5ef7b"
+    },
+    {
+      "name": "BRST Quantization",
+      "authors": "Becchi, Rouet, Stora (1974-1976); Tyutin (1975)",
+      "year": 1975,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Gauge theories possess a hidden fermionic symmetry that encodes gauge invariance after gauge fixing, providing a systematic method for quantizing theories with constraints.",
+      "source_citation": "Becchi, Rouet & Stora, Commun. Math. Phys. 42, 127 (1975)",
+      "id": "405dcbd4d5c1"
+    },
+    {
+      "name": "'t Hooft-Polyakov Monopole",
+      "authors": "'t Hooft (1974); Polyakov (1974)",
+      "year": 1974,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Non-Abelian gauge theories with spontaneous symmetry breaking necessarily contain topological soliton solutions that behave as magnetic monopoles, revealing deep connections between topology and particle spectrum.",
+      "source_citation": "'t Hooft, Nucl. Phys. B 79, 276 (1974)",
+      "id": "56626ea77db1"
+    },
+    {
+      "name": "Instantons",
+      "authors": "Belavin, Polyakov, Schwartz & Tyupkin (1975)",
+      "year": 1975,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Euclidean field configurations with finite action that interpolate between topologically distinct vacua reveal the non-perturbative structure of gauge theories and lead to vacuum tunneling effects.",
+      "source_citation": "Belavin et al., Phys. Lett. B 59, 85 (1975)",
+      "id": "2303d6019ec6"
+    },
+    {
+      "name": "Dimensional Regularization",
+      "authors": "'t Hooft & Veltman (1972)",
+      "year": 1972,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Gauge invariance can be preserved during regularization by analytically continuing spacetime dimension, revealing that renormalizability is intimately connected to gauge symmetry.",
+      "source_citation": "'t Hooft & Veltman, Nucl. Phys. B 44, 189 (1972)",
+      "id": "26a83afb5ccf"
+    },
+    {
+      "name": "Weinberg-Witten Theorem",
+      "authors": "Weinberg & Witten (1980)",
+      "year": 1980,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Massless particles with spin greater than 1/2 cannot be composite in any theory with a conserved Lorentz-covariant current, constraining emergent gauge theories and composite gravitons.",
+      "source_citation": "Weinberg & Witten, Phys. Lett. B 96, 59 (1980)",
+      "id": "260901cca36b"
+    },
+    {
+      "name": "Coleman-Mandula Theorem",
+      "authors": "Coleman & Mandula (1967)",
+      "year": 1967,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The only possible symmetries of the S-matrix that mix spacetime and internal symmetries are supersymmetries, severely limiting how spacetime and internal quantum numbers can be unified.",
+      "source_citation": "Coleman & Mandula, Phys. Rev. 159, 1251 (1967)",
+      "id": "374c0f37782c"
+    },
+    {
+      "name": "Faddeev-Popov Ghost Fields",
+      "authors": "Faddeev & Popov (1967)",
+      "year": 1967,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Gauge fixing in the path integral introduces fictitious anticommuting fields that cancel unphysical degrees of freedom, revealing that unitarity in gauge theories requires negative norm states that decouple from physical processes.",
+      "source_citation": "Faddeev & Popov, Phys. Lett. B 25, 29 (1967)",
+      "id": "1fc77d97fdfd"
+    },
+    {
+      "name": "Effective Field Theory",
+      "authors": "Weinberg (1979); Georgi (1984)",
+      "year": 1979,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Low-energy physics can be systematically described by integrating out high-energy degrees of freedom, with the resulting theory organized by operator dimension and symmetry, making ignorance of short-distance physics quantifiable.",
+      "source_citation": "Weinberg, Physica A 96, 327 (1979)",
+      "id": "94afcc80a211"
+    },
+    {
+      "name": "Confinement in QCD",
+      "authors": "Wilson (1974)",
+      "year": 1974,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "The area law behavior of Wilson loops indicates that quarks are permanently confined by a linear potential at large distances, though a complete analytical proof remains elusive.",
+      "source_citation": "Wilson, Phys. Rev. D 10, 2445 (1974)",
+      "id": "357e9c4896dc"
+    },
+    {
+      "name": "Chiral Anomaly",
+      "authors": "Adler (1969); Bardeen (1969)",
+      "year": 1969,
+      "domain_id": "quantum_field_theory",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The axial current conservation of massless fermions is necessarily violated by quantum effects in gauge theories, determining the decay rate of neutral pions and constraining the fermion content of the Standard Model.",
+      "source_citation": "Adler, Phys. Rev. 177, 2426 (1969)",
+      "id": "a330ee0caa44"
+    }
+  ],
+  "structural_conclusion": "Quantum field theory reveals that fundamental interactions arise from local gauge symmetries, with the structure of forces dictated by symmetry groups and their representations. Quantum effects introduce crucial constraints through anomalies and renormalization group flow, while topological considerations determine the spectrum of solitonic states. The framework shows that apparent diversity in phenomena emerges from underlying symmetry principles, with low-energy physics systematically related to high-energy structure through the renormalization group.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:01:00.794932+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical systems exhibit universal scaling behaviors and self-similar structures that persist across vastly different parameter regimes",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Kolmogorov -5/3 Law",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Turbulent energy cascades follow universal power laws independent of specific flow conditions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Reynolds Number Similarity",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Flow behaviors collapse to universal forms when scaled by dimensionless parameters"
+    },
+    {
+      "result_id": "",
+      "result_name": "Blasius Boundary Layer Solution",
+      "domain_id": "field_a",
+      "domain_name": "Fluid Dynamics",
+      "link_type": "direct",
+      "structural_conclusion": "Boundary layers possess self-similar structure with universal scaling"
+    },
+    {
+      "result_id": "",
+      "result_name": "Acoustic Metamaterials with Negative Index",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Wave behavior depends on structure at scales below the wavelength, with effective properties emerging from subwavelength organization"
+    }
+  ],
+  "domains": [
+    "fluid_dynamics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Fluid Dynamics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4988675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T22:07:57.256513+00:00",
+  "id": "5a91b0a55182"
+}

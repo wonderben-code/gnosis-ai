@@ -1,0 +1,171 @@
+{
+  "id": "quantum_gravity",
+  "name": "Quantum Gravity",
+  "category": "Physics",
+  "description": "Loop quantum gravity, string theory, holography, causal sets",
+  "results": [
+    {
+      "name": "Bekenstein-Hawking Entropy Formula",
+      "authors": "Bekenstein (1973), Hawking (1975)",
+      "year": 1975,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The entropy of a black hole is proportional to its surface area rather than volume, suggesting that quantum gravitational degrees of freedom are fundamentally holographic and encode information on boundaries rather than in bulk spacetime.",
+      "source_citation": "Hawking, S.W. (1975). Commun. Math. Phys. 43, 199-220",
+      "id": "5edca174ef11"
+    },
+    {
+      "name": "AdS/CFT Correspondence",
+      "authors": "Maldacena (1997)",
+      "year": 1997,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "A gravitational theory in anti-de Sitter space is exactly dual to a conformal field theory on its boundary, revealing that spacetime geometry and quantum entanglement are fundamentally equivalent descriptions of the same physics.",
+      "source_citation": "Maldacena, J. (1998). Adv. Theor. Math. Phys. 2, 231-252",
+      "id": "ea04cade23c2"
+    },
+    {
+      "name": "Ryu-Takayanagi Formula",
+      "authors": "Ryu and Takayanagi (2006)",
+      "year": 2006,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Entanglement entropy in the boundary theory equals the area of minimal surfaces in the bulk geometry, establishing that quantum information structure directly determines spacetime geometry.",
+      "source_citation": "Ryu, S. & Takayanagi, T. (2006). Phys. Rev. Lett. 96, 181602",
+      "id": "fa885c711776"
+    },
+    {
+      "name": "Loop Quantum Gravity Area Spectrum",
+      "authors": "Rovelli and Smolin (1995)",
+      "year": 1995,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Geometric area in quantum gravity has a discrete spectrum with minimum eigenvalue proportional to the Planck area, revealing that spacetime itself has an atomic structure at the fundamental scale.",
+      "source_citation": "Rovelli, C. & Smolin, L. (1995). Nucl. Phys. B 442, 593-619",
+      "id": "a1ff67ce6c2e"
+    },
+    {
+      "name": "Black Hole Information Paradox Resolution",
+      "authors": "Page (1993), Almheiri et al. (2013)",
+      "year": 2013,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Information escapes black holes through entanglement between early and late Hawking radiation, requiring either firewalls at horizons or fundamental modifications to locality, revealing deep tension between unitarity and smooth spacetime.",
+      "source_citation": "Almheiri, A. et al. (2013). JHEP 02, 062",
+      "id": "49668d5a07be"
+    },
+    {
+      "name": "Emergent Spacetime from Entanglement",
+      "authors": "Van Raamsdonk (2010)",
+      "year": 2010,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Classical spacetime connectivity emerges from quantum entanglement patterns, with Einstein's equations arising as constraints on entanglement entropy, suggesting spacetime is not fundamental but emergent from quantum information.",
+      "source_citation": "Van Raamsdonk, M. (2010). Gen. Rel. Grav. 42, 2323-2329",
+      "id": "605bb330c198"
+    },
+    {
+      "name": "Causal Set Hauptvermutung",
+      "authors": "Bombelli et al. (1987)",
+      "year": 1987,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "A spacetime manifold can be faithfully approximated by a discrete causal set whose elements represent spacetime events, with the continuum emerging only at large scales from fundamentally discrete causal structure.",
+      "source_citation": "Bombelli, L. et al. (1987). Phys. Rev. Lett. 59, 521-524",
+      "id": "1209d35bb883"
+    },
+    {
+      "name": "String Theory Dualities",
+      "authors": "Hull and Townsend (1995), Witten (1995)",
+      "year": 1995,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Different string theories are equivalent under dualities like T-duality and S-duality, revealing that apparently distinct spacetime geometries and coupling regimes describe the same physical reality.",
+      "source_citation": "Hull, C. & Townsend, P. (1995). Nucl. Phys. B 438, 109-137",
+      "id": "83cafe424509"
+    },
+    {
+      "name": "Holographic Entanglement Entropy",
+      "authors": "Hubeny, Rangamani, Takayanagi (2007)",
+      "year": 2007,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Entanglement entropy in time-dependent states corresponds to extremal surfaces in bulk spacetime, generalizing Ryu-Takayanagi and showing that quantum information dynamics directly governs gravitational physics.",
+      "source_citation": "Hubeny, V. et al. (2007). JHEP 07, 062",
+      "id": "9c890537c9fe"
+    },
+    {
+      "name": "ER=EPR Conjecture",
+      "authors": "Maldacena and Susskind (2013)",
+      "year": 2013,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "well_supported_conjecture",
+      "structural_conclusion": "Einstein-Rosen bridges (wormholes) and Einstein-Podolsky-Rosen pairs (entanglement) are dual descriptions of the same phenomenon, unifying spacetime connectivity with quantum correlation.",
+      "source_citation": "Maldacena, J. & Susskind, L. (2013). Fortsch. Phys. 61, 781-811",
+      "id": "488422f95ec5"
+    },
+    {
+      "name": "Spin Foam Models",
+      "authors": "Reisenberger and Rovelli (1997)",
+      "year": 1997,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Spacetime histories in quantum gravity can be represented as combinatorial structures (spin foams) that encode both geometry and matter, with classical spacetime emerging from superpositions of discrete quantum geometries.",
+      "source_citation": "Reisenberger, M. & Rovelli, C. (1997). Class. Quant. Grav. 14, 1357-1371",
+      "id": "30e233e44bc0"
+    },
+    {
+      "name": "Black Hole Thermodynamics Laws",
+      "authors": "Bardeen, Carter, Hawking (1973)",
+      "year": 1973,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Black holes obey laws precisely analogous to thermodynamics with temperature proportional to surface gravity and entropy to area, revealing that gravitational horizons are thermodynamic objects with microscopic quantum degrees of freedom.",
+      "source_citation": "Bardeen, J. et al. (1973). Commun. Math. Phys. 31, 161-170",
+      "id": "4d963b705915"
+    },
+    {
+      "name": "Quantum Error Correction in AdS/CFT",
+      "authors": "Almheiri, Dong, Harlow (2015)",
+      "year": 2015,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The holographic dictionary implements a quantum error-correcting code where bulk operators are protected against boundary erasures, revealing that spacetime emergence has built-in redundancy like quantum information protocols.",
+      "source_citation": "Almheiri, A. et al. (2015). JHEP 04, 163",
+      "id": "f1966e5fe57e"
+    },
+    {
+      "name": "Gravitational Path Integral Measure",
+      "authors": "Gibbons, Hawking, Perry (1978)",
+      "year": 1978,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "The Euclidean path integral for gravity requires summing over topologies and metrics modulo diffeomorphisms, but the measure and convergence remain problematic, indicating fundamental ambiguity in defining quantum superpositions of spacetimes.",
+      "source_citation": "Gibbons, G. et al. (1978). Nucl. Phys. B 138, 141-150",
+      "id": "6afa11d43690"
+    },
+    {
+      "name": "Causal Dynamical Triangulations",
+      "authors": "Ambjorn, Jurkiewicz, Loll (2001)",
+      "year": 2001,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "numerical_result",
+      "structural_conclusion": "Imposing causality constraints on discrete quantum geometries leads to emergence of a four-dimensional de Sitter universe at large scales, suggesting that macroscopic spacetime structure requires microscopic causal ordering.",
+      "source_citation": "Ambjorn, J. et al. (2001). Phys. Rev. Lett. 85, 924-927",
+      "id": "17358da5c5f9"
+    },
+    {
+      "name": "Asymptotic Safety",
+      "authors": "Weinberg (1979), Reuter (1998)",
+      "year": 1998,
+      "domain_id": "quantum_gravity",
+      "epistemic_status": "candidate_theory",
+      "structural_conclusion": "Gravity may be renormalizable due to a non-Gaussian fixed point at high energies, implying that quantum gravity could be defined as a conventional quantum field theory with infinitely many couplings flowing to finite values.",
+      "source_citation": "Reuter, M. (1998). Phys. Rev. D 57, 971-985",
+      "id": "6deb03d66d29"
+    }
+  ],
+  "structural_conclusion": "Quantum gravity reveals that spacetime is not fundamental but emerges from quantum information structures, with geometric properties encoded holographically on boundaries rather than in bulk volumes. The discrete, quantum nature of geometry at the Planck scale, combined with dualities between entanglement and geometry, suggests that reality's fundamental layer consists of quantum information patterns from which both matter and spacetime arise as effective descriptions.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:02:39.938872+00:00"
+}

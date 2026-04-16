@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Physical phenomena fundamentally encode information on boundaries rather than in bulk volumes, with bulk properties emerging from boundary degrees of freedom",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bekenstein-Hawking Entropy Formula",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Black hole entropy scales with surface area not volume, indicating information is encoded on boundaries"
+    },
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Bulk gravitational physics is fully encoded in boundary quantum field theory"
+    },
+    {
+      "result_id": "",
+      "result_name": "Helmholtz Equation",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Wave behavior in a domain is determined by boundary conditions through eigenfunctions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Rayleigh's Principle of Reciprocity",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Acoustic transfer between points depends only on boundary configuration, not bulk path details"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.06,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.4928675,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:04:43.051659+00:00",
+  "id": "a17fc42c9753"
+}

@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Topological invariants determine quantized physical observables independent of material-specific details",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Integer Quantum Hall Effect",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Hall conductance is quantized in units of e\u00b2/h due to topological invariants of filled Landau levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Band Theory",
+      "domain_id": "field_a",
+      "domain_name": "Condensed Matter Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic band structures are characterized by topological invariants (Chern numbers) that determine quantized response functions"
+    },
+    {
+      "result_id": "",
+      "result_name": "Orbital Angular Momentum of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Photons carry quantized orbital angular momentum distinct from spin"
+    }
+  ],
+  "domains": [
+    "condensed_matter",
+    "optics"
+  ],
+  "domain_names": [
+    "Condensed Matter Physics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51635,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:17:38.668965+00:00",
+  "id": "f377ff196de9"
+}

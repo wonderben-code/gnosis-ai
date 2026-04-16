@@ -1,0 +1,51 @@
+{
+  "structural_claim": "The same fundamental physics that governs microscopic structure determines the cosmic abundance of elements",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Stellar Nucleosynthesis Theory",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Stars synthesize heavy elements through nuclear fusion processes determined by binding energies"
+    },
+    {
+      "result_id": "",
+      "result_name": "r-Process Nucleosynthesis",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear structure far from stability determines cosmic element abundances through neutron capture"
+    },
+    {
+      "result_id": "",
+      "result_name": "Lattice QCD Hadron Spectrum",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear masses and binding emerge from QCD with no adjustable parameters"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.8,
+    "adversarial": 0.6,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.6058499999999999,
+    "confidence_category": "supported"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:26.921093+00:00",
+  "id": "41597df84a00"
+}

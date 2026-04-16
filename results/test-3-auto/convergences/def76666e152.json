@@ -1,0 +1,67 @@
+{
+  "structural_claim": "Topological constraints fundamentally limit how systems can evolve, with changes in topology requiring singular events that break ideal conservation laws",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "CP violation in the kaon system",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "The discrete symmetries C and P can be violated, but only through specific weak interaction processes that change the fundamental quantum numbers"
+    },
+    {
+      "result_id": "",
+      "result_name": "Observation of direct CP violation",
+      "domain_id": "field_a",
+      "domain_name": "Particle Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "CP symmetry breaking occurs through specific interaction vertices, not just mixing, showing that symmetry violation requires particular dynamic processes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Alfv\u00e9n's Theorem (Frozen-in Field Lines)",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field topology is conserved in ideal plasmas, with field lines frozen into the fluid motion"
+    },
+    {
+      "result_id": "",
+      "result_name": "Sweet-Parker Reconnection",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic topology can only change through resistive processes in thin current sheets where ideal MHD breaks down"
+    },
+    {
+      "result_id": "",
+      "result_name": "Magnetic Helicity Conservation",
+      "domain_id": "field_b",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic helicity (a topological invariant) is conserved in ideal MHD, constraining possible field evolution"
+    }
+  ],
+  "domains": [
+    "particle_physics",
+    "plasma_physics"
+  ],
+  "domain_names": [
+    "Particle Physics",
+    "Plasma Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.5599999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5216,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:30:28.569321+00:00",
+  "id": "def76666e152"
+}

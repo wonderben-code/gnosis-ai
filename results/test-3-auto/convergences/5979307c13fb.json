@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Separation of fast and slow degrees of freedom creates hierarchical structure in composite quantum systems",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Born-Oppenheimer Approximation",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electronic and nuclear motion separate due to mass disparity, creating molecular structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Asymptotic Freedom in QCD",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Quark dynamics at different energy scales separate, allowing nuclear structure to emerge from QCD"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.43665,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:55:30.653684+00:00",
+  "id": "5979307c13fb"
+}

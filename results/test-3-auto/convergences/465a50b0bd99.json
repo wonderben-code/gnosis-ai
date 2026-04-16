@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Entanglement structure directly determines and is equivalent to geometric structure",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Quantum Teleportation Protocol",
+      "domain_id": "quantum_foundations",
+      "domain_name": "Quantum Foundations",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement serves as a fundamental resource that enables non-local operations"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ryu-Takayanagi Formula",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Entanglement entropy in boundary theory equals geometric area in bulk spacetime"
+    },
+    {
+      "result_id": "",
+      "result_name": "Emergent Spacetime from Entanglement",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime connectivity emerges from quantum entanglement patterns"
+    },
+    {
+      "result_id": "",
+      "result_name": "ER=EPR Conjecture",
+      "domain_id": "quantum_gravity",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Wormholes and entanglement are dual descriptions of the same phenomenon"
+    }
+  ],
+  "domains": [
+    "quantum_foundations",
+    "quantum_gravity"
+  ],
+  "domain_names": [
+    "Quantum Foundations",
+    "Quantum Gravity"
+  ],
+  "ea_scores": {
+    "strength": 0.476,
+    "independence": 0.6,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.5472999999999999,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:11:25.866790+00:00",
+  "id": "465a50b0bd99"
+}

@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Information encoding on boundaries determines bulk physical properties through holographic principles",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "AdS/CFT Correspondence",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Bulk gravitational physics is encoded on the boundary conformal field theory"
+    },
+    {
+      "result_id": "",
+      "result_name": "Photonic Band Gap Theory",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Boundary periodic structure determines allowed bulk propagation modes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Error Correction in AdS/CFT",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Bulk information is redundantly encoded on boundaries with error correction"
+    },
+    {
+      "result_id": "",
+      "result_name": "Cavity Quantum Electrodynamics Strong Coupling",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Cavity boundaries fundamentally alter the quantum dynamics of light-matter systems"
+    }
+  ],
+  "domains": [
+    "quantum_gravity",
+    "optics"
+  ],
+  "domain_names": [
+    "Quantum Gravity",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.487055,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:02:57.311524+00:00",
+  "id": "00e42f8c5035"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Phase transitions can occur where macroscopic numbers of particles collectively occupy the same quantum state, creating new forms of matter",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Below a critical temperature, bosonic atoms undergo a phase transition where a macroscopic fraction occupies the same quantum state"
+    },
+    {
+      "result_id": "",
+      "result_name": "Neutron Star Equation of State Constraints",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Ultra-dense matter in neutron stars may form exotic quantum phases including quark matter or color superconductors"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.8,
+    "adversarial": 0.3,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.45009,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:41:03.170645+00:00",
+  "id": "bdca42d32872"
+}

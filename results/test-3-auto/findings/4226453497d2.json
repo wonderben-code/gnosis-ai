@@ -1,0 +1,15 @@
+{
+  "structural_finding": "Reality is constraint",
+  "level": 5,
+  "source_convergence_ids": [
+    "0211775f9a97",
+    "257d4c0f319a"
+  ],
+  "is_meta_convergence": true,
+  "coined_term": null,
+  "next_question": null,
+  "confidence": 0.0,
+  "discovered_in_run": "run_275ec92f734f",
+  "timestamp": "2026-04-16T18:37:35.576721+00:00",
+  "id": "4226453497d2"
+}

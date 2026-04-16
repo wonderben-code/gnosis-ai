@@ -1,0 +1,161 @@
+{
+  "id": "thermodynamics",
+  "name": "Thermodynamics and Statistical Mechanics",
+  "category": "Physics",
+  "description": "Entropy, phase transitions, fluctuation theorems, maximum entropy",
+  "results": [
+    {
+      "name": "Second Law of Thermodynamics",
+      "authors": "Clausius (1850)",
+      "year": 1850,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe possesses an intrinsic arrow of time through entropy increase, making certain processes irreversible and establishing a fundamental asymmetry between past and future.",
+      "source_citation": "Clausius, R. (1850). \u00dcber die bewegende Kraft der W\u00e4rme",
+      "id": "a53ce468bf50"
+    },
+    {
+      "name": "Boltzmann's H-theorem",
+      "authors": "Boltzmann (1872)",
+      "year": 1872,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Macroscopic irreversibility emerges from reversible microscopic dynamics through statistical considerations, bridging the apparent contradiction between time-symmetric mechanics and thermodynamic irreversibility.",
+      "source_citation": "Boltzmann, L. (1872). Weitere Studien \u00fcber das W\u00e4rmegleichgewicht",
+      "id": "c7e730efcbdc"
+    },
+    {
+      "name": "Gibbs Ensemble Theory",
+      "authors": "Gibbs (1902)",
+      "year": 1902,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Thermodynamic properties emerge from probability distributions over microstates, establishing that macroscopic behavior is fundamentally statistical rather than deterministic.",
+      "source_citation": "Gibbs, J.W. (1902). Elementary Principles in Statistical Mechanics",
+      "id": "d8b4df76d569"
+    },
+    {
+      "name": "Nernst Heat Theorem (Third Law)",
+      "authors": "Nernst (1906)",
+      "year": 1906,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Absolute zero represents a fundamental boundary where entropy approaches a universal constant, establishing quantum mechanics as the underlying structure of thermodynamics at low temperatures.",
+      "source_citation": "Nernst, W. (1906). \u00dcber die Berechnung chemischer Gleichgewichte",
+      "id": "21bbf1f6a973"
+    },
+    {
+      "name": "Einstein-Smoluchowski Fluctuation Theory",
+      "authors": "Einstein (1905), Smoluchowski (1906)",
+      "year": 1905,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Thermal fluctuations reveal the discrete molecular nature of matter and connect microscopic randomness to macroscopic observables through precise statistical relationships.",
+      "source_citation": "Einstein, A. (1905). \u00dcber die von der molekularkinetischen Theorie",
+      "id": "ad50249a8b8b"
+    },
+    {
+      "name": "Onsager Reciprocal Relations",
+      "authors": "Onsager (1931)",
+      "year": 1931,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Time-reversal symmetry at the microscopic level imposes universal constraints on transport coefficients, revealing deep connections between different irreversible processes.",
+      "source_citation": "Onsager, L. (1931). Reciprocal Relations in Irreversible Processes",
+      "id": "147cc2a90119"
+    },
+    {
+      "name": "Landau Theory of Phase Transitions",
+      "authors": "Landau (1937)",
+      "year": 1937,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Phase transitions represent symmetry-breaking events where order parameters emerge, establishing symmetry as the fundamental organizing principle of phases of matter.",
+      "source_citation": "Landau, L.D. (1937). On the theory of phase transitions",
+      "id": "4381ed12e89f"
+    },
+    {
+      "name": "Yang-Lee Circle Theorem",
+      "authors": "Yang and Lee (1952)",
+      "year": 1952,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "The zeros of the partition function in the complex plane determine all thermodynamic singularities, revealing phase transitions as emergent from analytic structure.",
+      "source_citation": "Yang, C.N. and Lee, T.D. (1952). Statistical Theory of Equations of State",
+      "id": "dbcbce295b1b"
+    },
+    {
+      "name": "Fluctuation-Dissipation Theorem",
+      "authors": "Callen and Welton (1951)",
+      "year": 1951,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Response to external perturbations and spontaneous fluctuations are universally related, revealing equilibrium as a dynamic balance between opposing processes.",
+      "source_citation": "Callen, H.B. and Welton, T.A. (1951). Irreversibility and Generalized Noise",
+      "id": "d83822718137"
+    },
+    {
+      "name": "Maximum Entropy Principle",
+      "authors": "Jaynes (1957)",
+      "year": 1957,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Statistical mechanics emerges from information theory as the unique unbiased inference given constraints, establishing entropy as a measure of missing information rather than physical disorder.",
+      "source_citation": "Jaynes, E.T. (1957). Information Theory and Statistical Mechanics",
+      "id": "35c30dadba20"
+    },
+    {
+      "name": "Renormalization Group Theory",
+      "authors": "Wilson (1971)",
+      "year": 1971,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Critical phenomena exhibit scale invariance and universality, revealing that near phase transitions, microscopic details become irrelevant and systems organize into universal classes.",
+      "source_citation": "Wilson, K.G. (1971). Renormalization Group and Critical Phenomena",
+      "id": "b56aaadabf97"
+    },
+    {
+      "name": "Jarzynski Equality",
+      "authors": "Jarzynski (1997)",
+      "year": 1997,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Equilibrium free energy differences can be extracted from non-equilibrium processes, revealing deep connections between equilibrium and non-equilibrium thermodynamics through exponential averaging.",
+      "source_citation": "Jarzynski, C. (1997). Nonequilibrium Equality for Free Energy Differences",
+      "id": "9fce8f7690aa"
+    },
+    {
+      "name": "Crooks Fluctuation Theorem",
+      "authors": "Crooks (1999)",
+      "year": 1999,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Forward and reverse process probabilities are related by exponential factors involving entropy production, quantifying time-reversal asymmetry at the trajectory level.",
+      "source_citation": "Crooks, G.E. (1999). Entropy production fluctuation theorem",
+      "id": "7b537f6771c2"
+    },
+    {
+      "name": "Lieb-Robinson Bounds",
+      "authors": "Lieb and Robinson (1972)",
+      "year": 1972,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Information propagation in quantum many-body systems has a finite speed limit, establishing locality as a fundamental constraint even in quantum statistical mechanics.",
+      "source_citation": "Lieb, E.H. and Robinson, D.W. (1972). The finite group velocity",
+      "id": "0282c5dd0521"
+    },
+    {
+      "name": "Area Law for Entanglement Entropy",
+      "authors": "Eisert, Cramer, Plenio (2010)",
+      "year": 2010,
+      "domain_id": "thermodynamics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Ground states of gapped local Hamiltonians exhibit entanglement that scales with boundary area rather than volume, revealing how quantum correlations organize spatially in many-body systems.",
+      "source_citation": "Eisert, J., Cramer, M., Plenio, M.B. (2010). Colloquium: Area laws",
+      "id": "d93cddbd1281"
+    }
+  ],
+  "structural_conclusion": "Thermodynamics reveals that macroscopic irreversibility emerges from reversible microscopic dynamics through statistical averaging, with entropy serving as both a measure of missing information and the driver of time's arrow. Phase transitions represent symmetry-breaking organizational events governed by universal scaling laws, while fluctuation theorems expose the deep mathematical structure relating equilibrium and non-equilibrium processes. The field ultimately shows that collective behavior transcends microscopic details through universal principles of information, symmetry, and statistical emergence.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:03:19.102115+00:00"
+}

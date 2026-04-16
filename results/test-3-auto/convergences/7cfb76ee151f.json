@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Periodic structures create band gaps that forbid certain frequencies/energies from propagating",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Optical Lattices and Band Structure",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Periodic optical potentials create band structures with forbidden energy ranges for atoms"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Periodic acoustic structures create frequency band gaps where waves cannot propagate"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.238,
+    "independence": 0.7,
+    "adversarial": 0.12,
+    "reproducibility": 0.42,
+    "depth_consistency": 1.0,
+    "confidence": 0.4334,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:56:26.304834+00:00",
+  "id": "7cfb76ee151f"
+}

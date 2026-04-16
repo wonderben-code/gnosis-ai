@@ -1,0 +1,171 @@
+{
+  "id": "particle_physics",
+  "name": "Particle Physics",
+  "category": "Physics",
+  "description": "Collider results, neutrino physics, symmetry breaking, Higgs",
+  "results": [
+    {
+      "name": "Discovery of the W and Z bosons",
+      "authors": "UA1 and UA2 Collaborations (1983)",
+      "year": 1983,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The weak nuclear force is mediated by massive gauge bosons, confirming that electroweak symmetry is spontaneously broken and establishing the gauge structure of fundamental interactions.",
+      "source_citation": "Arnison et al., Phys. Lett. B 122, 103 (1983)",
+      "id": "4c42cbbbce16"
+    },
+    {
+      "name": "Discovery of the Higgs boson",
+      "authors": "ATLAS and CMS Collaborations (2012)",
+      "year": 2012,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The universe contains a scalar field whose non-zero vacuum expectation value breaks electroweak symmetry and generates mass for fundamental particles, completing the Standard Model's mechanism for mass generation.",
+      "source_citation": "ATLAS Collaboration, Phys. Lett. B 716, 1 (2012)",
+      "id": "1ee4a38a7cd1"
+    },
+    {
+      "name": "Neutrino oscillations",
+      "authors": "Super-Kamiokande Collaboration (1998)",
+      "year": 1998,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Neutrinos have non-zero mass and lepton flavor is not conserved, requiring physics beyond the minimal Standard Model and establishing that neutrino mass eigenstates differ from flavor eigenstates.",
+      "source_citation": "Fukuda et al., Phys. Rev. Lett. 81, 1562 (1998)",
+      "id": "24eea3b34633"
+    },
+    {
+      "name": "CP violation in the kaon system",
+      "authors": "Christenson, Cronin, Fitch, Turlay (1964)",
+      "year": 1964,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The combined symmetry of charge conjugation and parity is not exact in nature, establishing that the laws of physics distinguish between matter and antimatter beyond mere convention.",
+      "source_citation": "Christenson et al., Phys. Rev. Lett. 13, 138 (1964)",
+      "id": "18e00883f8aa"
+    },
+    {
+      "name": "Discovery of the top quark",
+      "authors": "CDF and D0 Collaborations (1995)",
+      "year": 1995,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The third generation of quarks is complete with a remarkably heavy top quark, confirming the three-generation structure of fermions and revealing a mass scale approaching electroweak symmetry breaking.",
+      "source_citation": "Abe et al., Phys. Rev. Lett. 74, 2626 (1995)",
+      "id": "d3d36f7959b0"
+    },
+    {
+      "name": "Asymptotic freedom in QCD",
+      "authors": "Gross, Wilczek, Politzer (1973)",
+      "year": 1973,
+      "domain_id": "particle_physics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Non-Abelian gauge theories exhibit decreasing coupling at high energies, explaining why quarks behave as free particles at short distances while being confined at large distances.",
+      "source_citation": "Gross & Wilczek, Phys. Rev. Lett. 30, 1343 (1973)",
+      "id": "1420263cb1aa"
+    },
+    {
+      "name": "Electroweak unification",
+      "authors": "Glashow, Weinberg, Salam (1967-1968)",
+      "year": 1967,
+      "domain_id": "particle_physics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Electromagnetic and weak interactions are different aspects of a single gauge theory based on SU(2)\u00d7U(1) symmetry, spontaneously broken to U(1)_EM, unifying two fundamental forces.",
+      "source_citation": "Weinberg, Phys. Rev. Lett. 19, 1264 (1967)",
+      "id": "1ed7fa4939ea"
+    },
+    {
+      "name": "Discovery of the charm quark",
+      "authors": "SLAC-SP-017 and E598 Collaborations (1974)",
+      "year": 1974,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quarks come in paired generations, with the charm quark completing the second generation and suppressing flavor-changing neutral currents through the GIM mechanism.",
+      "source_citation": "Aubert et al., Phys. Rev. Lett. 33, 1404 (1974)",
+      "id": "6bb1f806ae76"
+    },
+    {
+      "name": "Precision tests of the Standard Model at LEP",
+      "authors": "LEP Collaborations (1989-2000)",
+      "year": 1995,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The Standard Model's gauge structure and radiative corrections are confirmed to extraordinary precision, with measurements constraining the number of light neutrino species to three.",
+      "source_citation": "LEP Collaborations, Phys. Rep. 427, 257 (2006)",
+      "id": "3c2a5eb85e0d"
+    },
+    {
+      "name": "Discovery of the tau lepton",
+      "authors": "Perl et al. (1975)",
+      "year": 1975,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "A third generation of leptons exists, establishing the pattern of three fermion families and suggesting a fundamental threefold replication in nature's structure.",
+      "source_citation": "Perl et al., Phys. Rev. Lett. 35, 1489 (1975)",
+      "id": "0044de833603"
+    },
+    {
+      "name": "Observation of direct CP violation",
+      "authors": "KTeV and NA48 Collaborations (1999)",
+      "year": 1999,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "CP violation occurs directly in decay amplitudes, not just through mixing, confirming that CP violation is a fundamental feature of weak interactions beyond the kaon mixing matrix.",
+      "source_citation": "Alavi-Harati et al., Phys. Rev. Lett. 83, 22 (1999)",
+      "id": "21c87a44bc16"
+    },
+    {
+      "name": "Measurement of the CKM matrix",
+      "authors": "Multiple experiments (1973-present)",
+      "year": 1973,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Quark flavor mixing is described by a unitary 3\u00d73 matrix with a single CP-violating phase, establishing that all observed CP violation arises from one complex parameter in the Standard Model.",
+      "source_citation": "Kobayashi & Maskawa, Prog. Theor. Phys. 49, 652 (1973)",
+      "id": "939e112bdc0f"
+    },
+    {
+      "name": "Discovery of neutral currents",
+      "authors": "Gargamelle Collaboration (1973)",
+      "year": 1973,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Weak interactions include processes mediated by the neutral Z boson, confirming the gauge structure of electroweak theory and the existence of interactions that change neither charge nor flavor.",
+      "source_citation": "Hasert et al., Phys. Lett. B 46, 138 (1973)",
+      "id": "57c10061f707"
+    },
+    {
+      "name": "Measurement of the strong coupling constant",
+      "authors": "Multiple experiments (1979-present)",
+      "year": 1979,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The strong force is characterized by a running coupling constant that decreases logarithmically with energy, confirming QCD's asymptotic freedom and the anti-screening nature of color charge.",
+      "source_citation": "Various experiments, PDG Reviews",
+      "id": "e26a4be8f039"
+    },
+    {
+      "name": "Discovery of the gluon",
+      "authors": "TASSO, MARK J, PLUTO, JADE Collaborations (1979)",
+      "year": 1979,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The strong force is mediated by massless spin-1 gluons that carry color charge, confirming QCD's non-Abelian gauge structure where force carriers themselves interact.",
+      "source_citation": "TASSO Collaboration, Phys. Lett. B 86, 243 (1979)",
+      "id": "fe4dd0e88b4d"
+    },
+    {
+      "name": "Observation of the Higgs boson decay modes",
+      "authors": "ATLAS and CMS Collaborations (2012-present)",
+      "year": 2018,
+      "domain_id": "particle_physics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "The Higgs field couples to fermions and bosons with strength proportional to their mass, confirming that a single scalar field generates mass for all Standard Model particles through Yukawa and gauge couplings.",
+      "source_citation": "ATLAS and CMS Collaborations, Phys. Lett. B 784, 173 (2018)",
+      "id": "cc64d2a9e07d"
+    }
+  ],
+  "structural_conclusion": "Particle physics reveals that nature's fundamental structure consists of three generations of fermions interacting through gauge bosons arising from local symmetries, with mass emerging from spontaneous symmetry breaking. The Standard Model's success demonstrates that apparent diversity reduces to symmetry principles, while phenomena like neutrino masses and the matter-antimatter asymmetry point to structure beyond current understanding. The field's deepest insight is that what appears as distinct forces and particles are manifestations of underlying gauge symmetries and their breaking patterns.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:04:53.056158+00:00"
+}

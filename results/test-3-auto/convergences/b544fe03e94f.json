@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Mathematical objects are fundamentally determined by their relational structure and morphisms rather than their intrinsic properties",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Yoneda Lemma",
+      "domain_id": "field_a",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Objects in a category are completely determined by their relationships to all other objects, establishing that structure is fundamentally relational rather than intrinsic"
+    },
+    {
+      "result_id": "",
+      "result_name": "Tannaka-Krein Duality",
+      "domain_id": "field_a",
+      "domain_name": "Category Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Algebraic structures can be completely reconstructed from their representation categories, showing that mathematical objects are determined by how they act rather than what they are"
+    },
+    {
+      "result_id": "",
+      "result_name": "Class Field Theory",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Abelian extensions of number fields are completely classified by ideal class groups, establishing a perfect correspondence between algebraic and arithmetic structures"
+    },
+    {
+      "result_id": "",
+      "result_name": "Chebotarev Density Theorem",
+      "domain_id": "field_b",
+      "domain_name": "Number Theory",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Primes are equidistributed among conjugacy classes in Galois groups, establishing that the splitting behavior of primes reflects the internal structure of Galois groups"
+    }
+  ],
+  "domains": [
+    "category_theory",
+    "number_theory"
+  ],
+  "domain_names": [
+    "Category Theory",
+    "Number Theory"
+  ],
+  "ea_scores": {
+    "strength": 0.23519999999999996,
+    "independence": 0.6,
+    "adversarial": 0.4,
+    "reproducibility": 0.4724999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.47143499999999994,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:24:56.521887+00:00",
+  "id": "b544fe03e94f"
+}

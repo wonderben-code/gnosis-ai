@@ -1,0 +1,67 @@
+{
+  "structural_claim": "External fields break symmetries to lift degeneracies and provide control handles for manipulating system states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Zeeman Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields break rotational symmetry to split degenerate energy levels"
+    },
+    {
+      "result_id": "",
+      "result_name": "Stark Effect",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Electric fields mix states of different angular momentum through symmetry breaking"
+    },
+    {
+      "result_id": "",
+      "result_name": "Feshbach Resonances",
+      "domain_id": "field_b",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic fields tune interaction strengths by coupling different scattering channels"
+    },
+    {
+      "result_id": "",
+      "result_name": "MHD Equilibrium (Grad-Shafranov Equation)",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Magnetic field geometry determines plasma equilibrium structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ballooning Mode Theory",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic field curvature couples to pressure gradients to drive instabilities"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "atomic_physics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Atomic and Molecular Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.357,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.63,
+    "depth_consistency": 1.0,
+    "confidence": 0.5321,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:53:38.712226+00:00",
+  "id": "d56a80524732"
+}

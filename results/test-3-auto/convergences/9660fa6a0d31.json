@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Compactness is the fundamental structural property that guarantees the existence of extremal solutions",
+  "convergence_type": "formal",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Extreme Value Theorem",
+      "domain_id": "analysis",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Continuous functions on compact sets achieve their extrema"
+    },
+    {
+      "result_id": "",
+      "result_name": "Heine-Borel Theorem",
+      "domain_id": "analysis",
+      "domain_name": "Analysis",
+      "link_type": "direct",
+      "structural_conclusion": "Compactness provides the structural constraint for finiteness properties"
+    }
+  ],
+  "domains": [
+    "topology",
+    "analysis"
+  ],
+  "domain_names": [
+    "Topology and Geometry",
+    "Analysis"
+  ],
+  "ea_scores": {
+    "strength": 0.19599999999999998,
+    "independence": 0.2,
+    "adversarial": 0.4,
+    "reproducibility": 0.27,
+    "depth_consistency": 1.0,
+    "confidence": 0.32930000000000004,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_275ec92f734f",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T18:23:43.997939+00:00",
+  "id": "9660fa6a0d31"
+}

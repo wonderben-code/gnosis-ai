@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Quantum mechanics fundamentally alters the behavior of systems at extreme scales, creating new physics where classical descriptions fail",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Chandrasekhar Limit",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum degeneracy pressure creates a fundamental mass threshold where stellar structure transitions between classical and quantum-dominated regimes"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hawking Radiation",
+      "domain_id": "field_a",
+      "domain_name": "Astrophysics",
+      "link_type": "direct",
+      "structural_conclusion": "The intersection of quantum mechanics and general relativity at event horizons creates fundamentally new physics absent in either theory alone"
+    },
+    {
+      "result_id": "",
+      "result_name": "Planck's Law of Black-body Radiation",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "The quantization of the electromagnetic field resolves classical physics failures and reveals light's granular structure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Squeezed States of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum correlations allow phenomena that surpass classical limits, creating fundamentally new states of the electromagnetic field"
+    }
+  ],
+  "domains": [
+    "astrophysics",
+    "optics"
+  ],
+  "domain_names": [
+    "Astrophysics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.75,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.48568,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:40:17.600697+00:00",
+  "id": "c95ba7d016a4"
+}

@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Disorder induces localization through destructive interference, fundamentally limiting transport",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Lieb-Robinson Bounds",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Information propagation in quantum systems has finite speed limits, establishing locality constraints"
+    },
+    {
+      "result_id": "",
+      "result_name": "Anderson Localization of Acoustic Waves",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Disorder halts wave propagation through destructive interference"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "acoustics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.38308999999999993,
+    "confidence_category": "speculative"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:16:24.932906+00:00",
+  "id": "ecbe8bb02fa7"
+}

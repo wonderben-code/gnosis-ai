@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Geometry and topology fundamentally constrain wave propagation and create qualitatively new phenomena including band gaps, localization, and topologically protected states",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Schwarzschild Solution",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Spacetime geometry creates causal boundaries (event horizons) that fundamentally constrain propagation of all fields including light"
+    },
+    {
+      "result_id": "",
+      "result_name": "Kerr Solution",
+      "domain_id": "field_a",
+      "domain_name": "General Relativity and Cosmology",
+      "link_type": "direct",
+      "structural_conclusion": "Rotating geometries create frame-dragging effects that alter propagation characteristics in a topology-dependent way"
+    },
+    {
+      "result_id": "",
+      "result_name": "Bloch's Theorem for Periodic Media",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Periodic geometry creates band gaps that forbid wave propagation at certain frequencies"
+    },
+    {
+      "result_id": "",
+      "result_name": "Topological Acoustics",
+      "domain_id": "field_b",
+      "domain_name": "Acoustics and Wave Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Global topological properties of band structures create protected edge states immune to local perturbations"
+    }
+  ],
+  "domains": [
+    "general_relativity",
+    "acoustics"
+  ],
+  "domain_names": [
+    "General Relativity and Cosmology",
+    "Acoustics and Wave Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.09,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.51068,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:53:18.892975+00:00",
+  "id": "bc7eac8da4e6"
+}

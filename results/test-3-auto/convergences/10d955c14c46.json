@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Gauge redundancy in physical theories requires the introduction of unphysical degrees of freedom whose careful treatment is essential for maintaining consistency",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Faddeev-Popov Ghost Fields",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge fixing introduces fictitious anticommuting fields that cancel unphysical degrees of freedom to maintain unitarity"
+    },
+    {
+      "result_id": "",
+      "result_name": "BRST Quantization",
+      "domain_id": "field_a",
+      "domain_name": "Quantum Field Theory",
+      "link_type": "direct",
+      "structural_conclusion": "Gauge theories possess hidden fermionic symmetry encoding gauge invariance after gauge fixing"
+    },
+    {
+      "result_id": "",
+      "result_name": "Gravitational Path Integral Measure",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum gravity path integral requires summing over metrics modulo diffeomorphisms, with fundamental ambiguities in the measure"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quantum Error Correction in AdS/CFT",
+      "domain_id": "field_b",
+      "domain_name": "Quantum Gravity",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Holographic encoding implements redundancy where bulk operators are protected against boundary erasures"
+    }
+  ],
+  "domains": [
+    "quantum_field_theory",
+    "quantum_gravity"
+  ],
+  "domain_names": [
+    "Quantum Field Theory",
+    "Quantum Gravity"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.7,
+    "adversarial": 0.09,
+    "reproducibility": 0.5512499999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46136750000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T20:24:29.064531+00:00",
+  "id": "10d955c14c46"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "acoustics",
+  "name": "Acoustics and Wave Physics",
+  "category": "Physics",
+  "description": "Wave propagation, phonons, metamaterials, nonlinear acoustics",
+  "results": [
+    {
+      "name": "Wave Equation",
+      "authors": "d'Alembert (1747)",
+      "year": 1747,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Wave propagation in continuous media is fundamentally governed by second-order partial differential equations that relate spatial and temporal derivatives, establishing that waves are local phenomena obeying causality.",
+      "source_citation": "d'Alembert, J. (1747). Recherches sur la courbe que forme une corde tendue",
+      "id": "fdad07194012"
+    },
+    {
+      "name": "Helmholtz Equation",
+      "authors": "Helmholtz (1860)",
+      "year": 1860,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Time-harmonic wave fields decompose into spatial modes that are eigenfunctions of the Laplacian, revealing that wave behavior is fundamentally determined by the geometry of the propagation domain.",
+      "source_citation": "Helmholtz, H. (1860). Theorie der Luftschwingungen in R\u00f6hren",
+      "id": "d84ac20068f6"
+    },
+    {
+      "name": "Rayleigh's Principle of Reciprocity",
+      "authors": "Rayleigh (1873)",
+      "year": 1873,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Acoustic systems possess a fundamental symmetry where source and receiver can be interchanged without affecting the transfer function, reflecting time-reversal invariance of the wave equation.",
+      "source_citation": "Rayleigh, J.W.S. (1873). Some general theorems relating to vibrations",
+      "id": "9407fa345493"
+    },
+    {
+      "name": "Bloch's Theorem for Periodic Media",
+      "authors": "Bloch (1928)",
+      "year": 1928,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Wave propagation in periodic structures is characterized by band gaps and pass bands, revealing that periodicity imposes fundamental constraints on allowable wave frequencies and propagation modes.",
+      "source_citation": "Bloch, F. (1928). \u00dcber die Quantenmechanik der Elektronen in Kristallgittern",
+      "id": "e3bdc33b2049"
+    },
+    {
+      "name": "Acoustic Radiation Pressure",
+      "authors": "Rayleigh (1902)",
+      "year": 1902,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Acoustic waves carry momentum and exert forces on obstacles, demonstrating that wave phenomena possess mechanical attributes beyond energy transport.",
+      "source_citation": "Rayleigh, J.W.S. (1902). On the pressure of vibrations",
+      "id": "c7432e5b0452"
+    },
+    {
+      "name": "Phonon Theory of Lattice Vibrations",
+      "authors": "Born & von Karman (1912)",
+      "year": 1912,
+      "domain_id": "acoustics",
+      "epistemic_status": "established_framework",
+      "structural_conclusion": "Lattice vibrations quantize into discrete quasiparticles (phonons), revealing that acoustic waves in crystals have a fundamentally quantum mechanical character at microscopic scales.",
+      "source_citation": "Born, M. & von Karman, T. (1912). \u00dcber Schwingungen in Raumgittern",
+      "id": "0c292899ff08"
+    },
+    {
+      "name": "Acoustic Metamaterials with Negative Index",
+      "authors": "Liu et al. (2000)",
+      "year": 2000,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Engineered subwavelength structures can produce effective material properties impossible in natural materials, demonstrating that wave behavior depends on structure at scales below the wavelength.",
+      "source_citation": "Liu, Z. et al. (2000). Locally resonant sonic materials. Science 289, 1734",
+      "id": "0c3a8fb2e9a0"
+    },
+    {
+      "name": "KdV Equation for Nonlinear Waves",
+      "authors": "Korteweg & de Vries (1895)",
+      "year": 1895,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Nonlinear wave propagation exhibits soliton solutions that maintain their shape through a precise balance of nonlinearity and dispersion, revealing integrability in certain nonlinear systems.",
+      "source_citation": "Korteweg, D.J. & de Vries, G. (1895). On the change of form of long waves",
+      "id": "324a3a0ad1fa"
+    },
+    {
+      "name": "Acoustic Cloaking",
+      "authors": "Cummer & Schurig (2007)",
+      "year": 2007,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Coordinate transformations in the wave equation enable the design of materials that guide waves around objects, demonstrating that wave propagation paths can be arbitrarily controlled through material properties.",
+      "source_citation": "Cummer, S.A. & Schurig, D. (2007). One path to acoustic cloaking. New J. Phys. 9, 45",
+      "id": "d5455b7de871"
+    },
+    {
+      "name": "Snell's Law and Critical Angle",
+      "authors": "Snell (1621)",
+      "year": 1621,
+      "domain_id": "acoustics",
+      "epistemic_status": "proven_theorem",
+      "structural_conclusion": "Wave refraction at interfaces is governed by the continuity of phase along the boundary, establishing that material discontinuities impose geometric constraints on wave propagation.",
+      "source_citation": "Snell, W. (1621). Unpublished manuscript, later in Descartes' Dioptrique",
+      "id": "bbe52a4e64a2"
+    },
+    {
+      "name": "Acoustic Levitation",
+      "authors": "Brandt (1989)",
+      "year": 1989,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Standing acoustic waves create stable potential wells that can trap objects against gravity, demonstrating that wave interference patterns create effective force fields.",
+      "source_citation": "Brandt, E.H. (1989). Levitation in physics. Science 243, 349",
+      "id": "a2f478a6f252"
+    },
+    {
+      "name": "Time Reversal Acoustics",
+      "authors": "Fink (1992)",
+      "year": 1992,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Wave propagation through complex media can be reversed to refocus at the source, revealing that scattering processes preserve information about the source despite apparent randomization.",
+      "source_citation": "Fink, M. (1992). Time reversal of ultrasonic fields. IEEE Trans. Ultrason. Ferroelectr. 39, 555",
+      "id": "27070785811b"
+    },
+    {
+      "name": "Anderson Localization of Acoustic Waves",
+      "authors": "Weaver (1990)",
+      "year": 1990,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Disorder can completely halt wave propagation through destructive interference, demonstrating that randomness imposes fundamental limits on transport even in classical wave systems.",
+      "source_citation": "Weaver, R.L. (1990). Anderson localization of ultrasound. Wave Motion 12, 129",
+      "id": "2452ee61a411"
+    },
+    {
+      "name": "Topological Acoustics",
+      "authors": "Yang et al. (2015)",
+      "year": 2015,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Acoustic systems can exhibit topologically protected edge states immune to backscattering, revealing that global geometric properties of band structures determine local wave propagation characteristics.",
+      "source_citation": "Yang, Z. et al. (2015). Topological acoustics. Phys. Rev. Lett. 114, 114301",
+      "id": "8f71d453d11a"
+    },
+    {
+      "name": "Exceptional Points in Non-Hermitian Acoustics",
+      "authors": "Zhu et al. (2014)",
+      "year": 2014,
+      "domain_id": "acoustics",
+      "epistemic_status": "experimentally_confirmed",
+      "structural_conclusion": "Non-Hermitian acoustic systems exhibit exceptional points where eigenvalues and eigenvectors coalesce, revealing that loss and gain create new topological structures in parameter space.",
+      "source_citation": "Zhu, X. et al. (2014). PT-symmetric acoustics. Phys. Rev. X 4, 031042",
+      "id": "6fea0de899a1"
+    }
+  ],
+  "structural_conclusion": "Acoustics reveals that wave phenomena are fundamentally constrained by geometry, symmetry, and topology, with propagation determined by the interplay between local material properties and global structural features. The field demonstrates that waves can be controlled through engineered structures at subwavelength scales, while nonlinearity, disorder, and non-Hermiticity introduce qualitatively new behaviors including solitons, localization, and topological protection. These results establish that acoustic waves serve as a classical analog for quantum phenomena while possessing unique mechanical attributes that enable force generation and material manipulation.",
+  "surveyed": true,
+  "survey_timestamp": "2026-04-16T20:10:20.243921+00:00"
+}

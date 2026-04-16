@@ -1,0 +1,43 @@
+{
+  "structural_claim": "Quantum fluids exhibit collective oscillation modes that reveal their underlying many-body structure",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Bose-Einstein Condensation in Dilute Gases",
+      "domain_id": "field_a",
+      "domain_name": "Atomic and Molecular Physics",
+      "link_type": "analogical_extension",
+      "structural_conclusion": "Macroscopic quantum states support collective excitations revealing interaction effects"
+    },
+    {
+      "result_id": "",
+      "result_name": "Giant Dipole Resonance",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclei exhibit collective oscillations where protons and neutrons move coherently"
+    }
+  ],
+  "domains": [
+    "atomic_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Atomic and Molecular Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.1428,
+    "independence": 0.8,
+    "adversarial": 0.09,
+    "reproducibility": 0.315,
+    "depth_consistency": 1.0,
+    "confidence": 0.40809000000000006,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:55:30.653671+00:00",
+  "id": "f20a7047d3fa"
+}

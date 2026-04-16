@@ -1,0 +1,59 @@
+{
+  "structural_claim": "Phase transitions in matter occur when competing length scales or energy scales cross critical thresholds",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Sweet-Parker Reconnection",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Magnetic topology changes occur when resistive scales compete with ideal MHD scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Ballooning Mode Theory",
+      "domain_id": "field_a",
+      "domain_name": "Plasma Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Instabilities emerge when pressure gradient scales compete with magnetic field curvature scales"
+    },
+    {
+      "result_id": "",
+      "result_name": "Quark-Gluon Plasma Discovery",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Nuclear matter undergoes phase transition when thermal energy scale exceeds confinement scale"
+    },
+    {
+      "result_id": "",
+      "result_name": "Nuclear Pasta Phases",
+      "domain_id": "field_b",
+      "domain_name": "Nuclear Physics",
+      "link_type": "direct",
+      "structural_conclusion": "Complex structures form when nuclear force range competes with Coulomb screening length"
+    }
+  ],
+  "domains": [
+    "plasma_physics",
+    "nuclear_physics"
+  ],
+  "domain_names": [
+    "Plasma Physics",
+    "Nuclear Physics"
+  ],
+  "ea_scores": {
+    "strength": 0.2856,
+    "independence": 0.85,
+    "adversarial": 0.3,
+    "reproducibility": 0.6299999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.55268,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:54:08.429335+00:00",
+  "id": "374b50ba703b"
+}

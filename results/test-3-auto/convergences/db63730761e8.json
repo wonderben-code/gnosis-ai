@@ -1,0 +1,51 @@
+{
+  "structural_claim": "Fluctuations reveal the discrete quantum nature of the underlying microscopic structure",
+  "convergence_type": "structural_analogy",
+  "supporting_results": [
+    {
+      "result_id": "",
+      "result_name": "Einstein-Smoluchowski Fluctuation Theory",
+      "domain_id": "field_a",
+      "domain_name": "Thermodynamics and Statistical Mechanics",
+      "link_type": "direct",
+      "structural_conclusion": "Thermal fluctuations reveal the discrete molecular nature of matter"
+    },
+    {
+      "result_id": "",
+      "result_name": "Squeezed States of Light",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Quantum noise fluctuations reveal the discrete photonic nature of light"
+    },
+    {
+      "result_id": "",
+      "result_name": "Hong-Ou-Mandel Effect",
+      "domain_id": "field_b",
+      "domain_name": "Optics and Photonics",
+      "link_type": "direct",
+      "structural_conclusion": "Photon bunching statistics reveal the quantum granular structure of light"
+    }
+  ],
+  "domains": [
+    "thermodynamics",
+    "optics"
+  ],
+  "domain_names": [
+    "Thermodynamics and Statistical Mechanics",
+    "Optics and Photonics"
+  ],
+  "ea_scores": {
+    "strength": 0.21419999999999997,
+    "independence": 0.8,
+    "adversarial": 0.12,
+    "reproducibility": 0.5249999999999999,
+    "depth_consistency": 1.0,
+    "confidence": 0.46701000000000004,
+    "confidence_category": "preliminary"
+  },
+  "discovered_in_run": "run_e28e0d543729",
+  "discovered_at_level": 0,
+  "timestamp": "2026-04-16T21:06:13.527607+00:00",
+  "id": "db63730761e8"
+}
