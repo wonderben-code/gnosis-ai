@@ -12,6 +12,8 @@
 
 **Attribution:** Every component described in this paper — Gnosis AI, the Convergent Descent methodology, the 15 Infinitography research papers that underpin it, the CI/EA dual-engine architecture, the 52-field taxonomy, and all three validation test runs — was conceived, designed, and built by a single individual (Mark E. Mala) working in collaboration with AI. No team, no laboratory, no institution, no funding body. This work is a demonstration of what one person, working with frontier AI as a collaborative tool, can achieve in autonomous scientific discovery. The human provided the vision, the methodology, the architectural decisions, and the quality judgement. The AI provided reasoning capacity at scale. Together, they built a system that discovers knowledge neither could produce alone.
 
+**DOI:** [10.5281/zenodo.19617859](https://doi.org/10.5281/zenodo.19617859)
+
 **Open Source:** The complete system, all source code, all test data, and all discoveries are released as open source at github.com/wonderben-code/gnosis-ai under MIT license. Every commit is Bitcoin-timestamped via OpenTimestamps for cryptographic provenance.
 
 ---
