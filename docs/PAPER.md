@@ -5,8 +5,6 @@
 **Mark E. Mala**
 
 *Independent researcher. Pen name of Ekram Alam.*
-*Serial founder, Y Combinator alumnus, Forbes Technology Council member.*
-*Contact: github.com/wonderben-code/gnosis-ai*
 
 **Date:** April 2026
 
@@ -24,7 +22,7 @@ We present Gnosis AI, the first artificial intelligence system that autonomously
 
 We validate Gnosis AI through three progressive tests. Test 1 (Guided mode, 3 domains, $0.57) confirmed the pipeline executes end-to-end and correctly identifies a known formal convergence. Test 2 (Exploration mode, 5 mathematics domains, $1.81) produced 30 cross-domain convergences and a complete meta-convergence cascade across 5 levels, terminating at the fixed point "Reality is constraint." Test 3 (Auto mode, all 14 physics fields, $26.61) ran fully autonomously for 2 hours and 11 minutes, surveying 220 established results, exploring all 91 domain pairs, discovering 235 validated convergences, and producing a 5-level meta-convergence cascade terminating at the fixed point "Reality fundamentally operates through dimensional compression at constraint-context boundaries."
 
-Across all three tests, the system produced 266 validated convergences (113 formal, 153 structural analogies), 26 meta-convergence findings across 5 levels, 18 coined structural terms, and 2 independent fixed-point principles — from independent input domains (mathematics and physics respectively). The total cost was $28.99 across 696 API calls. To the best of our knowledge, no prior AI system has demonstrated autonomous cross-domain structural knowledge discovery at this scale.
+Across all three tests, the system produced 266 validated convergences (114 formal, 152 structural analogies), 26 meta-convergence findings across 5 levels, 18 coined structural terms, and 2 independent fixed-point principles — from independent input domains (mathematics and physics respectively). The total cost was $28.99 across 696 API calls. To the best of our knowledge, no prior AI system has demonstrated autonomous cross-domain structural knowledge discovery at this scale.
 
 All source code, test data, individual convergence files, meta-convergence findings, and discovery reports are published with Bitcoin-timestamped provenance.
 
@@ -96,7 +94,7 @@ This paper contributes:
 
 Every component described in this paper was created by one person. The 15 Infinitography research papers were written by Mark E. Mala working with AI. The Convergent Descent methodology was conceived by Mala. Gnosis AI was designed, architected, and built by Mala working with Claude Code (Anthropic's AI coding assistant). The three validation tests were designed and run by Mala.
 
-This is not incidental to the paper — it is part of the finding. If a single individual, working with AI as a collaborative tool, can build a system that autonomously discovers structural knowledge across all of physics in 2 hours for $27, then the economics and sociology of scientific discovery are about to change fundamentally. The bottleneck is no longer capability, resources, or team size. It is vision and methodology.
+This is not incidental to the paper — it is part of the finding. If a single individual, working with AI as a collaborative tool, can build a system that autonomously discovers structural knowledge across all of physics in 2 hours for $29, then the economics and sociology of scientific discovery are about to change fundamentally. The bottleneck is no longer capability, resources, or team size. It is vision and methodology.
 
 ---
 
@@ -326,9 +324,9 @@ Level 4: Claude reduces again
          → 2 Level-4 findings: Boundary Encoding Principle
            + Fixed Point confirmed
 
-Level 5: Cascade terminates at fixed point:
-         → "Reality fundamentally operates through dimensional
-            compression at constraint-context boundaries"
+Level 5: 2 Level-5 findings: Boundary Compression Principle
+           + Fixed Point: "Reality fundamentally operates through
+             dimensional compression at constraint-context boundaries"
 ```
 
 The engine detects fixed points by checking whether the output of a round is semantically equivalent to its input. When the model reports `"fixed_point_reached": true`, the descent terminates.
@@ -635,7 +633,7 @@ No meta-convergence was possible with only 1 surviving convergence (minimum 2 re
 | API calls | 80 |
 | Cost | $1.81 |
 
-**Convergences:** 30 total — 16 formal, 14 structural analogy. Confidence range: 0.33–0.55. All 30 passed EA at the 0.3 threshold.
+**Convergences:** 30 total — 17 formal, 13 structural analogy. Confidence range: 0.33–0.55. All 30 passed EA at the 0.3 threshold.
 
 **The 30 convergences** spanned all 10 domain pairs, covering structural findings including:
 - Mathematical structures unified by deeper categorical patterns (Category Theory × Number Theory)
@@ -1032,14 +1030,14 @@ These 28 convergences achieved medium-strength EA scores (strength ≥ 0.40) wit
 
 28. *"Entanglement structure directly determines and is equivalent to geometric structure"* (Confidence 0.55, Quantum Foundations × Quantum Gravity). Supported by quantum teleportation, the Ryu-Takayanagi formula, emergent spacetime from entanglement, and the ER=EPR conjecture. This convergence independently identifies one of the most active research directions in theoretical physics: that spacetime geometry is emergent from quantum entanglement.
 
-### 8.4 Full Convergence Statistics
+### 8.5 Full Convergence Statistics
 
 | Metric | Test 1 | Test 2 | Test 3 | Total |
 |--------|--------|--------|--------|-------|
 | Detected | 10 | 30 | 240 | 280 |
 | Passed EA | 1 | 30 | 235 | 266 |
-| Formal | 1 | 16 | 96 | 113 |
-| Structural analogy | 0 | 14 | 139 | 153 |
+| Formal | 1 | 17 | 96 | 114 |
+| Structural analogy | 0 | 13 | 139 | 152 |
 | Meta-convergence findings | 0 | 12 | 14 | 26 |
 | Coined terms | 0 | 7 | 11 | 18 |
 
@@ -1077,7 +1075,7 @@ Average convergences per pair: 2.6. Range: 1–5. Most productive pair: Astrophy
 
 All 10 domain pairs produced exactly 3 convergences each — a remarkably uniform distribution suggesting that the 5 mathematics domains chosen (Topology, Algebraic Geometry, Category Theory, Number Theory, Analysis) are all comparably rich in cross-domain structural connections.
 
-### 8.5 The Remaining 207 Preliminary Convergences (Test 3)
+### 8.6 The Remaining 207 Preliminary Convergences (Test 3)
 
 Beyond the 28 medium-strength discoveries, Test 3 produced 207 additional convergences at the preliminary level (strength < 0.40). These include 139 structural analogies and 68 lower-confidence formal convergences. While individually weaker, they are collectively important: they provided the raw material from which the meta-convergence engine extracted the 6 Level-1 principles.
 
@@ -1094,7 +1092,7 @@ Notable clusters of preliminary convergences include:
 
 The structural analogy convergences, while individually less robust than formal ones, often capture deeper thematic connections that span multiple subfields and contribute disproportionately to the meta-convergence cascade. The six Level-1 principles each drew on a mix of formal and analogical convergences.
 
-### 8.6 Complete Meta-Convergence Cascades
+### 8.7 Complete Meta-Convergence Cascades
 
 **Test 2 Meta-Convergence Cascade (Mathematics):**
 
@@ -1139,7 +1137,7 @@ The physics cascade follows a different path from the mathematics one but arrive
 
 The mathematics fixed point is more abstract: it says reality *is* constraint. The physics fixed point is more specific: it says reality *operates through* dimensional compression at constraint-context boundaries. The physics fixed point can be read as a refinement of the mathematics one — specifying the *mechanism* by which constraint operates.
 
-### 8.7 Notable Cross-Domain Convergences
+### 8.8 Notable Cross-Domain Convergences
 
 We highlight five convergences that illustrate the range and depth of the system's discoveries — including connections between seemingly unrelated fields:
 
@@ -1185,7 +1183,7 @@ We argue that the outputs are genuine new knowledge, by the same logic that make
 
 Similarly, Gnosis AI does not generate new experimental data or prove new theorems. Its inputs are established results. But the **convergences** between those results — the systematic identification of where independent fields structurally agree — are new structural claims that no individual field contains. The finding that topological governance operates across Condensed Matter, Plasma Physics, QFT, Fluid Dynamics, Quantum Gravity, Acoustics, and General Relativity (supported by 17 independent convergences) is not contained in any of those fields individually. It emerges only from cross-domain comparison at sufficient scale.
 
-The meta-convergence cascade goes further: it identifies structural patterns across the convergences themselves, reducing 235 individual findings to 6 principles and ultimately to a single fixed-point claim. Each level of the cascade produces claims that are more compressed, more abstract, and less obviously derivable from the inputs.
+The meta-convergence cascade goes further: it identifies structural patterns across the convergences themselves, reducing 235 individual findings to 6 principles and ultimately to a fixed-point claim. Each level of the cascade produces claims that are more compressed, more abstract, and less obviously derivable from the inputs.
 
 We therefore claim: **the convergences are new structural knowledge, the meta-convergence principles are new structural knowledge, and the fixed-point principles are new structural knowledge.** They are new not because they contradict existing science but because they identify structural patterns that existing science contains implicitly but has not articulated explicitly as unified cross-domain principles.
 
@@ -1226,12 +1224,12 @@ However, EA is not infallible. It relies on the same model family that generates
 | Meta-convergences | 26 |
 | Fixed points | 2 |
 | Cost per convergence | $0.11 |
-| Cost per meta-convergence | $0.76 |
+| Cost per meta-convergence | $1.12 |
 | Total autonomous runtime | ~2.5 hours |
 
 For context: a human researcher performing the equivalent analysis — surveying 14 physics fields, comparing all 91 pairs, identifying structural convergences, validating each one, and iterating through meta-convergence — would require months of full-time work and deep expertise across all 14 fields. Gnosis AI completed this in 2 hours and 11 minutes for $26.61.
 
-This cost efficiency suggests that large-scale structural knowledge discovery is economically viable. A full 52-field sweep across all categories would cost approximately $100-150 at current rates — less than a day's consulting fee for a single domain expert.
+This cost efficiency suggests that large-scale structural knowledge discovery is economically viable. A full 52-field sweep across all categories would cost approximately $100–$150 at current rates — less than a day's consulting fee for a single domain expert.
 
 ### 9.5 Reproducibility
 
@@ -1305,7 +1303,7 @@ We believe honest disclosure of limitations is as important as claims of novelty
 
 **Preliminary confidence scores.** The EA confidence scores (0.30–0.68 in our tests) have not been calibrated against expert ground truth. We do not know the false positive or false negative rates. The scores provide relative ranking (higher confidence = stronger evidence) but their absolute values should be interpreted cautiously.
 
-**No high-confidence discoveries.** None of the 266 convergences reached the "Verified" threshold (≥ 0.80) or even the "Supported" threshold (≥ 0.60) in most cases. The strongest convergence scored 0.68. This reflects both the conservatism of EA and the inherent difficulty of establishing cross-domain structural claims with high confidence through automated means.
+**No high-confidence discoveries.** None of the 266 convergences reached the "Verified" threshold (≥ 0.80). Only 5 reached "Supported" (≥ 0.60), and the strongest convergence scored 0.68. This reflects both the conservatism of EA's multiplicative strength formula and the inherent difficulty of establishing cross-domain structural claims with high confidence through automated means.
 
 **Stochastic outputs.** Temperature = 0.3 means exact outputs vary between runs. Two identical runs would produce overlapping but not identical convergence sets. The fixed-point principles should be more stable (being the compressed terminus of many convergences) but this has not been empirically verified.
 
@@ -1371,7 +1369,7 @@ The system produced these results in 2.5 hours of total runtime for $29 in API c
 
 The discoveries themselves — 266 convergences, 18 coined terms, 2 fixed-point principles — represent genuine new structural knowledge: patterns that emerge only from systematic cross-domain comparison at sufficient scale and depth. The fixed-point principles, arrived at independently from mathematics and physics, converge on compatible structural claims about the primacy of constraint and the mechanism of dimensional compression at boundaries.
 
-Perhaps most significantly, this entire body of work — the 15 papers, the methodology, the system, the tests, and the discoveries — was produced by a single individual working with AI. No team, no lab, no institutional support. This is not a limitation; it is a finding. If one person with AI can build a system that autonomously discovers structural knowledge across all of physics in 2 hours for $27, then the question is not whether autonomous knowledge discovery is possible but how far it can go.
+Perhaps most significantly, this entire body of work — the 15 papers, the methodology, the system, the tests, and the discoveries — was produced by a single individual working with AI. No team, no lab, no institutional support. This is not a limitation; it is a finding. If one person with AI can build a system that autonomously discovers structural knowledge across all of physics in 2 hours for $29, then the question is not whether autonomous knowledge discovery is possible but how far it can go.
 
 We release Gnosis AI as open source. We release all test data, all convergences, all findings. We invite the scientific community to run it, extend it, validate it, and build upon it.
 
@@ -1401,9 +1399,9 @@ The system is primitive. Version 1 of anything is. But it works. And what it dis
 ### Physics (Selected Results Referenced by Convergences)
 
 - Bekenstein, J.D. (1973). Black holes and entropy. *Physical Review D*, 7(8), 2333.
-- Bell, J.S. (1964). On the Einstein Podolsky Rosen paradox. *Physics Physique Fizika*, 1(3), 195.
+- Bell, J.S. (1964). On the Einstein Podolsky Rosen paradox. *Physics Physique Fizika*, 1(3), 195–200.
 - Kosterlitz, J.M. & Thouless, D.J. (1973). Ordering, metastability and phase transitions. *Journal of Physics C*, 6(7), 1181.
-- Maldacena, J. (1999). The large-N limit of superconformal field theories. *IJTP*, 38(4), 1113-1133.
+- Maldacena, J. (1999). The large-N limit of superconformal field theories and supergravity. *International Journal of Theoretical Physics*, 38(4), 1113–1133.
 - Onsager, L. (1931). Reciprocal relations in irreversible processes. *Physical Review*, 37(4), 405.
 - Ryu, S. & Takayanagi, T. (2006). Holographic derivation of entanglement entropy. *Physical Review Letters*, 96(18), 181602.
 - Wilson, K.G. (1971). Renormalization group and critical phenomena. *Physical Review B*, 4(9), 3174.
