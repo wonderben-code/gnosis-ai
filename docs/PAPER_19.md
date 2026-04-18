@@ -154,7 +154,7 @@ The 30 convergences were fed into the meta-convergence engine. The result was a 
 
 2. **Relational Structure Primacy** — Mathematical objects are fundamentally characterised by their relational structure and morphisms rather than intrinsic properties. What something *is* reduces to how it *relates*. (Supported by 7 convergences across category theory, algebraic geometry, topology, number theory, and analysis.)
 
-3. **Universal Duality Principle** — Complementary perspectives encode identical information through reciprocal relationships. Apparent distinctions between dual viewpoints are different views of the same underlying reality. (Supported by 7 convergences across topology, category theory, number theory, and analysis.)
+3. **Universal Duality Principle** — Complementary perspectives encode identical information through reciprocal relationships. Apparent distinctions between dual viewpoints are different views of the same underlying reality. (Supported by 7 convergences across all five domains — topology, algebraic geometry, category theory, number theory, and analysis.)
 
 4. **Rigidity-Canonicity Principle** — Compactness and completeness create structural rigidity that forces the existence of extremal solutions and canonical forms, eliminating pathological behaviour. Constraints do not merely limit — they determine. (Supported by 6 convergences across topology, algebraic geometry, number theory, category theory, and analysis.)
 
@@ -182,7 +182,7 @@ A technical note: at each level from Level 2 onwards, the meta-convergence engin
 
 "Reality is constraint" is a stark claim. What does it mean?
 
-It means that across five fields of pure mathematics — spanning geometry, algebra, analysis, number theory, and category theory — the established results all exhibit the same deep structure. What appears as rich, diverse mathematical structure (dualities, local-global correspondences, canonical forms, relational characterisations) is, at irreducible core, constraint. Every theorem in the survey, when examined for its structural content, says something about how limitations determine outcomes.
+It means that across five fields of pure mathematics — spanning geometry, algebra, analysis, number theory, and category theory — the established results all exhibit the same deep structure. What appears as rich, diverse mathematical structure (dualities, local-global correspondences, canonical forms, relational characterisations) is, at its irreducible core, constraint. Every theorem in the survey, when examined for its structural content, says something about how limitations determine outcomes.
 
 This is not a claim about all of mathematics. It is a claim about the structural convergence found across these five fields by this particular system using this particular methodology. But it is a surprising result. The five fields were not selected because they are known to share foundations. They were selected as representative areas of modern pure mathematics. That they converge on a single structural principle — and that this principle is as austere as "reality is constraint" — was not anticipated.
 
@@ -198,11 +198,11 @@ The physics analysis surveyed 220 established results across fourteen fields:
 - **Quantum Field Theory** (16 results) — renormalisation group, effective field theory, BRST quantisation, instantons, Faddeev-Popov ghost fields, and others
 - **General Relativity and Cosmology** (16 results) — Einstein field equations, Penrose singularity theorem, Hawking radiation, cosmic inflation, and others
 - **Condensed Matter Physics** (16 results) — BCS theory, fractional quantum Hall effect, topological insulators, Landau theory, and others
-- **Particle Physics** (15 results) — Standard Model, Higgs mechanism, CKM matrix, neutrino oscillations, and others
+- **Particle Physics** (16 results) — Standard Model, Higgs mechanism, CKM matrix, neutrino oscillations, and others
 - **Nuclear Physics** (16 results) — shell model, nuclear forces, Mössbauer effect, nuclear deformation, and others
 - **Astrophysics** (16 results) — Hubble's law, LIGO gravitational wave detection, cosmic microwave background, neutron star physics, and others
 - **Quantum Gravity** (16 results) — AdS/CFT correspondence, Bekenstein-Hawking entropy, emergent spacetime from entanglement, loop quantum gravity, and others
-- **Thermodynamics and Statistical Mechanics** (16 results) — second law of thermodynamics, fluctuation theorems, Boltzmann entropy, phase transitions, and others
+- **Thermodynamics and Statistical Mechanics** (15 results) — second law of thermodynamics, fluctuation theorems, Boltzmann entropy, phase transitions, and others
 - **Atomic and Molecular Physics** (16 results) — Zeeman effect, selection rules, Born-Oppenheimer approximation, and others
 - **Optics and Photonics** (15 results) — laser physics, nonlinear optics, evanescent waves, topological photonics, and others
 - **Acoustics and Wave Physics** (15 results) — Bloch's theorem, topological acoustics, phononic crystals, and others
@@ -211,7 +211,7 @@ The physics analysis surveyed 220 established results across fourteen fields:
 
 ### 4.2 The 235 Convergences
 
-From 91 domain pairs, the system detected 240 convergences. 235 passed EA validation (98% pass rate). Of these, 96 were classified as formal and 139 as structural analogies. Five reached the "supported" confidence tier (≥0.60), 214 were "preliminary" (0.40–0.59), and 16 were "speculative" (0.30–0.39). (The full catalogue appears in Paper 17 [2].)
+From 91 domain pairs, the system found 235 validated convergences. Of these, 96 were classified as formal and 139 as structural analogies. Five reached the "supported" confidence tier (≥0.60), 214 were "preliminary" (0.40–0.59), and 16 were "speculative" (0.30–0.39). (The full catalogue appears in Paper 17 [2].)
 
 The ten highest-confidence discoveries:
 
@@ -221,19 +221,19 @@ The ten highest-confidence discoveries:
 
 3. **Macroscopic quantum coherence** (confidence 0.65, Quantum Foundations × Condensed Matter) — Macroscopic quantum coherence emerges from microscopic mechanics through collective phenomena. Supported by decoherence theory, quantum Darwinism, BCS theory, Ginzburg-Landau theory, and Josephson effect.
 
-4. **Thermodynamic structure of physical law** (confidence 0.60, Quantum Gravity × Thermodynamics) — Physical laws exhibit formal thermodynamic structure regardless of domain. Supported by the four laws of black hole thermodynamics, Bekenstein-Hawking entropy, and the second law of thermodynamics.
+4. **Microscopic physics determines cosmic element abundance** (confidence 0.61, Astrophysics × Nuclear Physics) — The same fundamental physics governing microscopic nuclear structure determines cosmic element abundance through stellar nucleosynthesis. Supported by CNO cycle, nuclear shell model, Big Bang nucleosynthesis constraints, and cosmic abundance patterns.
 
-5. **Topological determination** (confidence 0.59, QFT × Plasma Physics) — Topological constraints fundamentally determine system configuration and evolution. Supported by 't Hooft-Polyakov monopole, instantons, Alfvén's theorem, and magnetic helicity conservation.
+5. **Quantum degeneracy pressure determines stellar endpoints** (confidence 0.60, Astrophysics × Atomic Physics) — Quantum mechanics fundamentally alters matter at extreme densities, creating new states that resist gravitational collapse. Supported by Chandrasekhar limit, Pauli exclusion principle, and neutron star equation of state constraints.
 
-6. **Renormalisation group hierarchy** (confidence 0.59, QFT × Quantum Gravity) — Physical theories organise hierarchically through renormalisation group flow, with effective descriptions emerging at each scale. Supported by renormalisation group, effective field theory, emergent spacetime, and causal dynamical triangulations.
+6. **Thermodynamic structure of physical law** (confidence 0.60, Quantum Gravity × Thermodynamics) — Physical laws exhibit formal thermodynamic structure regardless of domain. Supported by the four laws of black hole thermodynamics, Bekenstein-Hawking entropy, and the second law of thermodynamics.
 
-7. **Symmetry breaking determines phases** (confidence 0.58, Condensed Matter × Atomic Physics) — Symmetry breaking is the mechanism that determines allowed phases and transitions. Supported by Landau theory, Zeeman effect, selection rules, and Mermin-Wagner theorem.
+7. **Topological determination** (confidence 0.60, QFT × Plasma Physics) — Topological constraints fundamentally determine system configuration and evolution. Supported by 't Hooft-Polyakov monopole, instantons, Alfvén's theorem, and magnetic helicity conservation.
 
-8. **Information cannot be freely copied** (confidence 0.58, Quantum Foundations × Quantum Gravity) — Fundamental constraints prevent the free copying or sharing of information. Supported by no-cloning theorem, monogamy of entanglement, quantum error correction in AdS/CFT, and Bekenstein-Hawking entropy.
+8. **Renormalisation group hierarchy** (confidence 0.59, QFT × Quantum Gravity) — Physical theories organise hierarchically through renormalisation group flow, with effective descriptions emerging at each scale. Supported by renormalisation group, effective field theory, emergent spacetime, and causal dynamical triangulations.
 
-9. **Topological robustness across scales** (confidence 0.57, Quantum Foundations × Acoustics) — Topological properties impose constraints that are robust against local perturbations and persist across physical scales. Supported by monogamy of entanglement, Tsirelson's bound, topological acoustics, and Bloch's theorem.
+9. **Hierarchical effective descriptions** (confidence 0.59, QFT × Atomic Physics) — Physical systems exhibit hierarchical organisation where high-energy physics can be systematically integrated out to yield effective low-energy descriptions.
 
-10. **Topological universality** (confidence 0.57, Condensed Matter × Plasma Physics) — Topological constraints determine system behaviour independent of microscopic details. Supported by integer quantum Hall effect, topological band theory, Alfvén's theorem, and magnetic helicity conservation.
+10. **Symmetry breaking determines phases** (confidence 0.58, Condensed Matter × Atomic Physics) — Symmetry breaking is the mechanism that determines allowed phases and transitions. Supported by Landau theory, Zeeman effect, selection rules, and Mermin-Wagner theorem.
 
 Several themes are visible even in this top-10 list: topological constraints appear in four of the ten, entanglement and information constraints in three, symmetry breaking in two, and thermodynamic structure in two. The full set of 235 convergences amplifies these themes dramatically.
 
@@ -255,7 +255,7 @@ The 235 convergences were fed into the meta-convergence engine. The result was a
 
 6. **Decoherent Emergence** — Classical behaviour emerges from quantum systems through environmental interaction and information dispersal, not through fundamental collapse or scale thresholds. The classical world is an emergent pattern within quantum-environmental entanglement. (Supported by 3 convergences spanning quantum foundations and astrophysics.)
 
-These six principles, derived from 235 convergences across 14 fields of physics, compress the structural content of physics into six statements. Each principle is supported by convergences spanning multiple fields. None depends on a single domain or a single experiment.
+These six principles, derived from 235 convergences across 14 fields of physics, compress the structural content of the 235 convergences into six statements. Each principle is supported by convergences spanning multiple fields. None depends on a single domain or a single experiment.
 
 **Level 2: Two syntheses.** The six Level-1 principles themselves show convergence. The meta-convergence engine finds two patterns:
 
@@ -305,7 +305,7 @@ The physics fixed point — "reality operates through dimensional compression at
 | **Convergences found** | 30 | 235 |
 | **Level-1 principles** | 4 | 6 |
 | **Meta-convergence depth** | 5 levels | 5 levels |
-| **Fixed point** | "Reality is constraint" | "Reality operates through dimensional compression at constraint-context boundaries" |
+| **Fixed point** | "Reality is constraint" | "Reality fundamentally operates through dimensional compression at constraint-context boundaries" |
 | **Duration** | 18 minutes | 2 hours 11 minutes |
 | **Cost** | $1.81 | $26.61 |
 | **Mode** | Exploration | Auto |
@@ -314,7 +314,7 @@ The physics fixed point — "reality operates through dimensional compression at
 
 The two fixed points are not identical. But they are structurally compatible in a precise sense: the physics statement is a *specification* of the mathematics statement.
 
-The mathematics fixed point asserts *what reality is*: constraint. All mathematical structure reduces to limitation. What appears as positive content — objects, relations, dualities, canonical forms — is, at irreducible core, constraint.
+The mathematics fixed point asserts *what reality is*: constraint. All mathematical structure reduces to limitation. What appears as positive content — objects, relations, dualities, canonical forms — is, at its irreducible core, constraint.
 
 The physics fixed point asserts *how that constraint operates*: through dimensional compression at boundaries where global constraints meet local contexts. It names a mechanism. It says where constraint acts (at boundaries), how it acts (through dimensional compression), and what it acts upon (the interface between global structure and local context).
 
@@ -475,9 +475,9 @@ This paper, along with all source data, system code, and discovery catalogues, i
 
 [1] M. E. Mala, "Gnosis AI: Autonomous Knowledge Discovery Through Convergent Descent — Architecture, Validation, and Complete Discovery Catalogue," April 2026. DOI: 10.5281/zenodo.19617859.
 
-[2] M. E. Mala, "235 Convergences Across Physics: A Complete Discovery Catalogue from Autonomous Structural Analysis," forthcoming.
+[2] M. E. Mala, "235 Convergences Across Physics: A Complete Discovery Catalogue from Autonomous Structural Analysis," April 2026.
 
-[3] M. E. Mala, "30 Convergences Across Mathematics: Structural Patterns from Topology to Number Theory," forthcoming.
+[3] M. E. Mala, "30 Convergences Across Mathematics: Structural Patterns from Topology to Number Theory," April 2026.
 
 [4] M. E. Mala, "The Convergence Map," 2026. DOI: 10.5281/zenodo.19520611.
 
@@ -490,31 +490,36 @@ This paper, along with all source data, system code, and discovery catalogues, i
 ### A.1 Mathematics Cascade (Test 2)
 
 ```
-Level 1 (30 convergences → 4 principles):
+Level 1 (30 convergences → 4 findings):
   ├── Local-Global Determination Principle (7 convergences)
   ├── Relational Structure Primacy (7 convergences)
   ├── Universal Duality Principle (7 convergences)
   └── Rigidity-Canonicity Principle (6 convergences)
 
-Level 2 (4 principles → 1 synthesis):
-  └── Constraint-Determined Structure
+Level 2 (4 principles → 2 findings):
+  ├── Constraint-Determined Structure
+  └── Fixed Point recognition
 
-Level 3:
-  └── Constraint Identity Principle
-      "Structure and constraint are identical"
+Level 3 (2 findings):
+  ├── Constraint Identity Principle
+  │   "Structure and constraint are identical"
+  └── Fixed Point restatement
 
-Level 4:
-  └── Constraint Monism
-      "Reality consists entirely of constraint"
+Level 4 (2 findings):
+  ├── Constraint Monism
+  │   "Reality consists entirely of constraint"
+  └── Fixed Point restatement
 
-Level 5 — FIXED POINT:
+Level 5 — FIXED POINT (2 findings):
   └── "Reality is constraint"
+
+Total: 12 findings across 5 levels
 ```
 
 ### A.2 Physics Cascade (Test 3)
 
 ```
-Level 1 (235 convergences → 6 principles):
+Level 1 (235 convergences → 6 findings):
   ├── Fundamental Contextuality (10 convergences)
   ├── Topological Governance (17 convergences)
   ├── Holographic Encoding (11 convergences)
@@ -522,25 +527,30 @@ Level 1 (235 convergences → 6 principles):
   ├── Universal Symmetry Breaking (14 convergences)
   └── Decoherent Emergence (3 convergences)
 
-Level 2 (6 principles → 2 syntheses):
+Level 2 (6 principles → 2 findings):
   ├── Contextual Constraint Emergence
   │   (from Contextuality + Symmetry Breaking + Universality +
   │    Topological Governance + Decoherent Emergence)
   └── Dimensional Information Compression
       (from Holographic Encoding + Critical Universality)
 
-Level 3 (2 syntheses → 1 finding):
-  └── Constraint-Boundary Correspondence
-      "Properties emerge through information-theoretic compression
-       at the interface between global constraints and local contexts"
+Level 3 (2 findings):
+  ├── Constraint-Boundary Correspondence
+  │   "Properties emerge through information-theoretic compression
+  │    at the interface between global constraints and local contexts"
+  └── Fixed Point recognition
 
-Level 4:
-  └── Boundary Encoding Principle
-      "Fundamental structure is a boundary phenomenon"
+Level 4 (2 findings):
+  ├── Boundary Encoding Principle
+  │   "Fundamental structure is a boundary phenomenon"
+  └── Fixed Point restatement
 
-Level 5 — FIXED POINT:
+Level 5 — FIXED POINT (2 findings):
+  ├── Boundary Compression Principle
   └── "Reality fundamentally operates through dimensional
        compression at constraint-context boundaries"
+
+Total: 14 findings across 5 levels
 ```
 
 ---

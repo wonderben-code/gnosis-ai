@@ -30,7 +30,7 @@ Yet physicists have long suspected that these fields share deep structural conne
 
 This paper asks: what happens when the search for structural connections is conducted systematically, across *all* pairs of physics fields simultaneously, by an autonomous system?
 
-We used Gnosis AI [1] to survey fourteen fields of physics, then compare every pair — all 91 combinations — for structural convergences. The system found 235 validated convergences. This paper presents them all.
+We used Gnosis AI [1] to survey fourteen fields of physics, then compare every pair — all 91 combinations — for structural convergences. The system found 235 validated convergences. This paper presents every significant discovery in depth — the top 34 individually profiled, with the remainder catalogued by theme — and the complete data for all 235 is publicly available.
 
 ### 1.1 Scale of the Analysis
 
@@ -223,7 +223,7 @@ These five convergences scored ≥0.60 ("supported" tier) — the strongest find
 
 ### 5.1 Physical Law Has Thermodynamic Structure
 
-**Confidence:** 0.60
+**Confidence:** 0.597
 **Domains:** Quantum Gravity × Thermodynamics and Statistical Mechanics
 **Type:** Formal
 
@@ -233,7 +233,7 @@ Physical laws exhibit formal thermodynamic structure — entropy, temperature, e
 
 ### 5.2 Topological Constraints Determine System Evolution
 
-**Confidence:** 0.60
+**Confidence:** 0.595
 **Domains:** Quantum Field Theory × Plasma Physics
 **Type:** Formal
 
@@ -323,27 +323,27 @@ In quantum gravity, spacetime may be discrete at the Planck scale (loop quantum 
 
 ### 5.11–5.29 Further Medium-Strength Discoveries
 
-The remaining medium-strength convergences cover:
+Nineteen additional convergences not individually profiled above, ordered by confidence:
 
-- **Entanglement determines geometry** (0.49, QG × Atomic Physics) — entanglement and correlation patterns encode geometric structure in both spacetime and molecular physics
-- **Contextuality is fundamental** (0.49, QF × QFT) — quantum properties cannot possess predetermined values independent of measurement context
-- **Vacuum is not empty** (0.49, QFT × Condensed Matter) — the quantum vacuum has structure, fluctuations, and measurable effects
-- **Phase transitions exhibit universality** (0.49, Condensed Matter × Thermodynamics) — critical behaviour depends only on symmetry and dimension, not microscopic details
-- **Holographic information encoding** (0.49, QG × Optics) — information about bulk systems is encoded on boundaries
-- **Symmetry breaking generates mass** (0.48, Particle Physics × Condensed Matter) — the Higgs mechanism and the Anderson-Higgs mechanism in superconductors share identical mathematical structure
-- **Wave-particle duality** (0.48, QF × Optics) — quantum objects exhibit both wave and particle properties depending on measurement context
-- **Conservation laws from symmetry** (0.47, QFT × Fluid Dynamics) — Noether's theorem and Kelvin's circulation theorem both derive conservation from symmetry
-- **Threefold replication** (0.45, Particle Physics × Astrophysics) — three generations of particles, three types of neutrinos — a mysterious but robust structural pattern
-- **Boundary determines bulk** (0.45, QG × Thermodynamics) — holographic principle and thermodynamic boundary conditions
-- **Renormalisation universality** (0.44, QFT × Condensed Matter) — Wilson's renormalisation group unifies particle physics and statistical mechanics
-- **Symmetry breaking in cosmology** (0.43, Particle Physics × Astrophysics) — electroweak symmetry breaking and cosmic phase transitions
-- **Topological protection across scales** (0.43, Condensed Matter × Acoustics) — topological insulators and topological acoustics share the same mathematical structure
-- **Emergent classical behaviour** (0.42, QF × Astrophysics) — decoherence explains how classical cosmic structure emerges from quantum fluctuations
-- **Gauge invariance** (0.42, QFT × General Relativity) — both electromagnetism and gravity exhibit gauge symmetry
-- **Critical phenomena universality** (0.41, Thermodynamics × Nuclear Physics) — phase transitions in nuclear matter follow the same universality classes as classical phase transitions
-- **Turbulent cascade** (0.41, Fluid Dynamics × Plasma Physics) — energy cascades in fluid turbulence and magnetic reconnection follow similar scaling laws
-- **Effective field theory principle** (0.40, QFT × Nuclear Physics) — nuclear forces and particle physics both organise as effective theories at different scales
-- **Wave topology** (0.40, Optics × Acoustics) — photonic and phononic crystals exhibit the same topological band structure
+- **Hierarchical effective descriptions** (0.59, QFT × Atomic Physics) — physical systems exhibit hierarchical organisation where high-energy physics can be systematically integrated out to yield effective low-energy descriptions
+- **Macroscopic quantum coherence** (0.58, Condensed Matter × Atomic Physics) — phase transitions create new collective quantum states, from superconductivity to Bose-Einstein condensation
+- **Phase transitions at extreme densities** (0.58, Astrophysics × Nuclear Physics) — matter undergoes fundamental reorganisation at extreme densities where composite particles dissolve into constituent quarks
+- **Spontaneous symmetry breaking** (0.57, Particle Physics × Plasma Physics) — systems lower their energy by selecting specific states from symmetric possibilities, from the Higgs mechanism to plasma instabilities
+- **Measurement alters quantum dynamics** (0.57, Quantum Foundations × Atomic Physics) — measurement actively changes quantum system dynamics rather than passively revealing pre-existing properties
+- **Information constraints across scales** (0.56, Quantum Foundations × Thermodynamics) — fundamental constraints on copying and sharing information distinguish quantum from classical regimes
+- **Topological phase transitions** (0.56, Condensed Matter × Plasma Physics) — phase transitions can occur through topological defect dynamics without conventional symmetry breaking
+- **Vacuum as active medium** (0.56, Quantum Gravity × Optics) — the quantum vacuum has structure, fluctuations, and measurable effects that modify fundamental processes
+- **Reciprocity from time-reversal symmetry** (0.55, Thermodynamics × Acoustics) — reciprocity relations in both thermodynamic response functions and acoustic wave propagation emerge from microscopic time-reversal symmetry
+- **Contextuality is fundamental** (0.55, Quantum Foundations × Atomic Physics) — quantum properties cannot possess predetermined values independent of measurement context, from Kochen-Specker constraints to selection rules
+- **Phase transitions at critical thresholds** (0.55, Plasma Physics × Nuclear Physics) — phase transitions in matter occur when competing length scales or energy scales cross critical thresholds
+- **Vacuum fluctuation effects on matter** (0.55, QFT × Atomic Physics) — quantum vacuum fluctuations produce measurable effects on atomic structure, from the Lamb shift to the Casimir effect
+- **Astrophysical vacuum effects** (0.55, Astrophysics × Atomic Physics) — vacuum fluctuations from quantum field theory produce measurable physical effects that modify the properties of matter across astrophysical and atomic scales
+- **Symmetry determines physical laws** (0.55, QFT × General Relativity) — symmetry principles fundamentally determine the structure of physical laws and their allowed transformations in both gauge theory and general relativity
+- **Vacuum shapes physical processes** (0.55, QFT × Optics) — the quantum vacuum is not empty but an active medium whose properties fundamentally shape physical processes from pair production to the Casimir effect
+- **Classical behaviour from quantum mechanics** (0.55, Quantum Foundations × Thermodynamics) — macroscopic classical behaviour emerges from microscopic quantum dynamics through environmental interaction and information dispersal
+- **Entanglement determines geometry** (0.55, Quantum Foundations × Quantum Gravity) — entanglement structure directly encodes and is equivalent to geometric structure, from ER=EPR to tensor network models
+- **Quantum-classical boundary** (0.54, Quantum Foundations × Astrophysics) — the boundary between quantum and classical behaviour emerges through information dispersal into environmental degrees of freedom
+- **Universal scaling near critical points** (0.54, Condensed Matter × Nuclear Physics) — quantum systems exhibit universal scaling behaviour near critical points that depends only on symmetry and dimensionality, not microscopic details
 
 ---
 
@@ -398,7 +398,7 @@ The system found this principle not just in its traditional home (condensed matt
 
 The Higgs mechanism generates mass by breaking electroweak symmetry. Landau's theory classifies all phases of matter by their symmetry. Superconductivity breaks gauge symmetry. Magnetic reconnection in plasmas breaks magnetic topology. Rayleigh-Bénard convection breaks spatial symmetry when heated from below. Nuclear deformation breaks spherical symmetry. In every case, the story is the same: a symmetric state becomes unstable, the system selects a lower-symmetry configuration, and structure emerges.
 
-This is the most broadly supported Level-1 principle by domain count (8 domains: particle physics, condensed matter, plasma physics, fluid dynamics, quantum foundations, nuclear physics, atomic physics, astrophysics).
+This principle spans 8 domains (particle physics, condensed matter, plasma physics, fluid dynamics, quantum foundations, nuclear physics, atomic physics, astrophysics), second only to Topological Governance (9 domains) in breadth.
 
 ### 6.6 Decoherent Emergence (3 convergences)
 
@@ -433,44 +433,57 @@ The 235 convergences reduce to six structural principles (detailed in Section 6)
 
 ### 7.3 Level 3: Unification
 
-**Constraint-Boundary Correspondence:** The two Level-2 findings converge. How structure emerges (through constraints meeting context) and how information is organised (through dimensional compression) are the same phenomenon: *reality's fundamental properties emerge through information-theoretic compression at the interface between global constraints and local contexts.*
+The two Level-2 findings converge into two Level-3 findings:
+
+**Constraint-Boundary Correspondence:** How structure emerges (through constraints meeting context) and how information is organised (through dimensional compression) are the same phenomenon: *reality's fundamental properties emerge through information-theoretic compression at the interface between global constraints and local contexts.*
+
+**Fixed Point Recognition:** Information and properties are boundary phenomena — reality's essential structure emerges where dimensional reduction occurs at the intersection of constraints and contexts.
 
 ### 7.4 Levels 4–5: Terminal Stability
 
-Level 4 refines to the **Boundary Encoding Principle**: reality's structure is a boundary phenomenon. Level 5 reaches the terminal fixed point:
+Each subsequent level produces two findings that are semantically equivalent refinements:
+
+Level 4 produces the **Boundary Encoding Principle** (reality's structure is a boundary phenomenon where information compression occurs at the dimensional interface between global constraints and local contexts) and a fixed-point restatement.
+
+Level 5 reaches the terminal fixed point, expressed as:
 
 ***"Reality fundamentally operates through dimensional compression at constraint-context boundaries."***
 
-From Level 3 onwards, each level produces semantically equivalent output. The cascade has reached terminal stability.
+From Level 3 onwards, each level produces semantically equivalent output. The cascade has reached terminal stability — 14 findings across 5 levels.
 
 ### 7.5 The Cascade Visualised
 
 ```
 Level 0: 235 individual convergences across 91 domain pairs
 
-Level 1: 6 structural principles
-  ├── Fundamental Contextuality (10)
-  ├── Topological Governance (17)
-  ├── Holographic Encoding (11)
-  ├── Critical Universality (12)
-  ├── Universal Symmetry Breaking (14)
-  └── Decoherent Emergence (3)
+Level 1: 6 findings
+  ├── Fundamental Contextuality (10 convergences)
+  ├── Topological Governance (17 convergences)
+  ├── Holographic Encoding (11 convergences)
+  ├── Critical Universality (12 convergences)
+  ├── Universal Symmetry Breaking (14 convergences)
+  └── Decoherent Emergence (3 convergences)
 
-Level 2: 2 syntheses
+Level 2: 2 findings
   ├── Contextual Constraint Emergence
   │   (Context + Symmetry + Universality + Topology + Decoherence)
   └── Dimensional Information Compression
       (Holography + Universality)
 
-Level 3: 1 finding
-  └── Constraint-Boundary Correspondence
+Level 3: 2 findings (semantic convergence begins)
+  ├── Constraint-Boundary Correspondence
+  └── Fixed Point Recognition
 
-Level 4: Terminal refinement
-  └── Boundary Encoding Principle
+Level 4: 2 findings (terminal refinement)
+  ├── Boundary Encoding Principle
+  └── Fixed Point restatement
 
-Level 5: FIXED POINT
+Level 5: 2 findings (FIXED POINT)
+  ├── Boundary Compression Principle
   └── "Reality fundamentally operates through dimensional
        compression at constraint-context boundaries"
+
+Total: 14 findings across 5 levels
 ```
 
 ---
@@ -520,8 +533,8 @@ Formal convergences score slightly higher on average, reflecting the 1.0 vs 0.6 
 | Depth Consistency | 1.00 | 1.00 | 1.00 |
 
 **Key observations:**
-- **Independence is consistently high** (mean 0.73). Physics subfields are genuinely independent — different communities, different methods, different phenomena.
-- **Adversarial scores are consistently low** (mean 0.19). The adversarial reviewer frequently finds objections, particularly about whether "structural convergence" means the same precise mathematical structure vs. a looser analogy.
+- **Independence is consistently high** (mean 0.74). Physics subfields are genuinely independent — different communities, different methods, different phenomena.
+- **Adversarial scores are consistently low** (mean 0.17). The adversarial reviewer frequently finds objections, particularly about whether "structural convergence" means the same precise mathematical structure vs. a looser analogy.
 - **Strength is the bottleneck** (mean 0.29). The multiplicative formula makes it hard to achieve high strength with only 2–3 supporting results and the 0.6 penalty for structural analogies.
 
 ---

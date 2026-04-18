@@ -42,7 +42,7 @@ We present what was found, not what exists. The catalogue is a first pass, not a
 
 ### 1.2 Paper Structure
 
-Section 2 reviews methodology (referring to Paper 16 for full details). Section 3 describes the five domains and what was surveyed. Section 4 provides an overview of results. Sections 5 through 8 present the discoveries organised by structural theme, with each convergence explained in depth. Section 9 presents the complete catalogue organised by domain pair for reference. Section 10 traces the meta-convergence cascade to the fixed point. Section 11 identifies novel contributions. Section 12 addresses limitations. Section 13 concludes.
+Section 2 reviews methodology (referring to Paper 16 for full details). Section 3 describes the five domains and what was surveyed. Section 4 provides an overview of results. Sections 5 through 8 present the discoveries organised by structural theme, with each convergence explained in depth. Section 9 presents convergences that cut across the four major themes. Section 10 traces the meta-convergence cascade to the fixed point. Section 11 identifies novel contributions. Section 12 addresses limitations. Section 13 concludes.
 
 ---
 
@@ -112,7 +112,7 @@ The study of limits, continuity, differentiability, and integration — the rigo
 | Confidence range | 0.33 – 0.55 |
 | Meta-convergence findings | 12 |
 | Meta-convergence levels | 5 |
-| Fixed point reached | Yes |
+| Fixed point reached | Yes (semantic) |
 | Coined structural terms | 7 |
 
 **Convergences per domain pair:**
@@ -122,13 +122,13 @@ The study of limits, continuity, differentiability, and integration — the rigo
 | Topology × Algebraic Geometry | 3 | 3 | 0 |
 | Topology × Category Theory | 3 | 1 | 2 |
 | Topology × Number Theory | 3 | 1 | 2 |
-| Topology × Analysis | 3 | 1 | 2 |
+| Topology × Analysis | 3 | 2 | 1 |
 | Algebraic Geometry × Category Theory | 3 | 3 | 0 |
 | Algebraic Geometry × Number Theory | 3 | 3 | 0 |
 | Algebraic Geometry × Analysis | 3 | 0 | 3 |
 | Category Theory × Number Theory | 3 | 0 | 3 |
 | Category Theory × Analysis | 3 | 2 | 1 |
-| Number Theory × Analysis | 3 | 3 | 0 |
+| Number Theory × Analysis | 3 | 2 | 1 |
 
 Every domain pair produced exactly 3 convergences. This uniformity is a feature of the system's detection phase, which typically identifies 2–4 convergences per pair. The 100% EA pass rate reflects the lowered confidence threshold (0.30) applied after Test 1 demonstrated that the initial 0.40 threshold was too conservative for mathematics.
 
@@ -136,7 +136,7 @@ Every domain pair produced exactly 3 convergences. This uniformity is a feature 
 
 ## 5. Local-Global Determination
 
-The most pervasive structural theme across the 30 convergences: local information — singularities, critical points, obstructions, boundary data — completely determines global properties. Seven convergences support this theme directly, spanning five domain pairs.
+The most pervasive structural theme across the 30 convergences: local information — singularities, critical points, obstructions, boundary data — completely determines global properties. Seven convergences support this theme directly, spanning six domain pairs.
 
 ### 5.1 Local Singularities Determine Global Topology
 
@@ -274,7 +274,7 @@ The most pervasive structural theme across the 30 convergences: local informatio
 
 ## 6. Relational Structure Primacy
 
-The second major theme: mathematical objects are defined by how they relate to other objects, not by intrinsic properties. Seven convergences support this principle.
+The second major theme: mathematical objects are defined by how they relate to other objects, not by intrinsic properties. Six convergences support this principle.
 
 ### 6.1 Objects as Relationships
 
@@ -399,7 +399,7 @@ The third theme: complementary perspectives encode identical information. Seven 
 
 **Supporting evidence:**
 - *Poincaré Duality* (Topology): Homology and cohomology encode the same geometric information dually. Proven theorem.
-- *Serre Duality* (Topology): Coherent sheaf cohomology exhibits intrinsic symmetries. Proven theorem.
+- *Serre Duality* (Algebraic Geometry): Coherent sheaf cohomology exhibits intrinsic symmetries. Proven theorem.
 - *Adjoint Functor Theorem* (Category Theory): Mathematical structures organise into complementary pairs. Proven theorem.
 - *Tannaka-Krein Duality* (Category Theory): Algebraic structures reconstructed from representation categories. Proven theorem.
 
@@ -452,7 +452,7 @@ The third theme: complementary perspectives encode identical information. Seven 
 
 **Supporting evidence:**
 - *Poincaré Duality* (Topology): Homology and cohomology encode same geometric information. Proven theorem.
-- *Serre Duality* (Topology): Coherent sheaf cohomology exhibits fundamental duality. Proven theorem.
+- *Serre Duality* (Algebraic Geometry): Coherent sheaf cohomology exhibits fundamental duality. Proven theorem.
 - *Quadratic Reciprocity Law* (Number Theory): Solvability exhibits reciprocal symmetry between primes. Proven theorem (Gauss).
 - *Langlands Reciprocity Conjecture* (Number Theory): Galois and automorphic representations form dual structures. Well-supported conjecture (partially proved).
 
@@ -625,7 +625,7 @@ The fourth theme: structural constraints (compactness, completeness, regularity 
 
 ## 9. Cross-Cutting Convergences
 
-Five convergences cut across the four major themes or connect domains in ways that don't reduce to a single theme.
+Four convergences cut across the four major themes or connect domains in ways that don't reduce to a single theme.
 
 ### 9.1 Modular Forms as Universal Language
 
@@ -716,7 +716,7 @@ The 30 convergences reduced to four structural principles:
 |-----------|-------------|-------------|
 | Local-Global Determination | 7 | All 5 domains |
 | Relational Structure Primacy | 7 | All 5 domains |
-| Universal Duality | 7 | 4 of 5 domains |
+| Universal Duality | 7 | All 5 domains |
 | Rigidity-Canonicity | 6 | All 5 domains |
 
 Each principle is supported by convergences spanning at least four of five domains. This breadth is important: it means the principles are not artefacts of any single field but genuine cross-domain structural patterns.
@@ -810,7 +810,11 @@ The depth_consistency EA dimension defaults to 1.0 in v1. A proper depth consist
 
 Each domain was surveyed for 12–18 results. Major theorems may have been missed. The convergences found depend on which results the survey identified. A different survey might produce overlapping but not identical convergences.
 
-### 12.6 Stochastic Variation
+### 12.6 Fixed Point Detection
+
+The formal `fixed_point_reached` criterion recorded `false` because each level from Level 2 onwards produced two findings rather than collapsing to exact identity. The cascade reached semantic stability from Level 3 onwards — the fixed point was reached in substance but not detected by the formal criterion.
+
+### 12.7 Stochastic Variation
 
 Temperature 0.3 means results vary between runs. We have not conducted reproducibility studies to measure run-to-run variation. The meta-convergence cascade and fixed point may be more stable than individual convergences, but this has not been verified.
 
@@ -862,17 +866,14 @@ The full data is publicly available. We invite domain experts to examine individ
 | 22 | ca9c730a5da3 | AlgGeom × Analysis | SA | 0.18 | 0.80 | 0.30 | 0.44 | 1.0 | 0.48 | PREL |
 | 23 | 530f33b12007 | AlgGeom × Analysis | SA | 0.18 | 0.70 | 0.09 | 0.44 | 1.0 | 0.41 | PREL |
 | 24 | b4958fb4b591 | AlgGeom × NumTh | F | 0.39 | 0.30 | 0.12 | 0.63 | 1.0 | 0.41 | PREL |
-| 25 | 2674bcdafb4c | Top × AlgGeom | F | 0.29 | 0.30 | 0.30 | 0.53 | 1.0 | 0.40 | PREL |
-| 26 | 09364dc014d0 | Top × AlgGeom | F | 0.29 | 0.30 | 0.30 | 0.53 | 1.0 | 0.40 | PREL |
-| 27 | ee03db334b85 | NumTh × Analysis | F | 0.29 | 0.30 | 0.30 | 0.53 | 1.0 | 0.40 | PREL |
-| 28 | f7fe79e51b41 | Top × Cat | SA | 0.18 | 0.30 | 0.30 | 0.53 | 1.0 | 0.37 | SPEC |
-| 29 | bfb71be2f99b | AlgGeom × Analysis | SA | 0.12 | 0.30 | 0.30 | 0.42 | 1.0 | 0.33 | SPEC |
-| 30 | 9660fa6a0d31 | Top × Analysis | F | 0.20 | 0.20 | 0.40 | 0.27 | 1.0 | 0.33 | SPEC |
-| 31 | bfe791282bdd | Cat × NumTh | SA | 0.18 | 0.80 | 0.09 | 0.53 | 1.0 | 0.45 | PREL |
+| 25 | 09364dc014d0 | Top × AlgGeom | F | 0.29 | 0.30 | 0.30 | 0.53 | 1.0 | 0.40 | PREL |
+| 26 | ee03db334b85 | NumTh × Analysis | F | 0.29 | 0.30 | 0.30 | 0.53 | 1.0 | 0.40 | PREL |
+| 27 | f7fe79e51b41 | Top × Cat | SA | 0.18 | 0.30 | 0.30 | 0.53 | 1.0 | 0.37 | SPEC |
+| 28 | bfb71be2f99b | AlgGeom × Analysis | SA | 0.12 | 0.30 | 0.30 | 0.42 | 1.0 | 0.33 | SPEC |
+| 29 | 9660fa6a0d31 | Top × Analysis | F | 0.20 | 0.20 | 0.40 | 0.27 | 1.0 | 0.33 | SPEC |
+| 30 | bfe791282bdd | Cat × NumTh | SA | 0.18 | 0.80 | 0.09 | 0.53 | 1.0 | 0.45 | PREL |
 
 Key: F = Formal, SA = Structural Analogy, PREL = Preliminary (0.40–0.59), SPEC = Speculative (0.30–0.39)
-
-Note: Convergence 25 shares an ID with Convergence 1 (2674bcdafb4c) in the source data, suggesting a duplicate detection. The catalogue contains 30 unique structural claims across 31 data entries.
 
 ---
 
@@ -881,9 +882,9 @@ Note: Convergence 25 shares an ID with Convergence 1 (2674bcdafb4c) in the sourc
 All data supporting this paper is publicly available:
 
 - **System code:** github.com/wonderben-code/gnosis-ai
-- **Test 2 data:** gnosis-ai/results/test-2-exploration/
-- **Convergence files:** gnosis-ai/results/test-2-exploration/convergences/ (individual JSON per convergence)
-- **Finding files:** gnosis-ai/results/test-2-exploration/findings/ (individual JSON per meta-convergence finding)
-- **Domain surveys:** gnosis-ai/results/test-2-exploration/domains/ (cached survey data)
+- **Test 2 data:** gnosis-ai/results/test-2-exploration/ (flat directory — all files at top level)
+- **Convergence files:** gnosis-ai/results/test-2-exploration/convergence_*.json (30 files, one per convergence)
+- **Finding files:** gnosis-ai/results/test-2-exploration/finding_*.json (12 files, one per meta-convergence finding)
+- **Domain surveys:** gnosis-ai/results/test-2-exploration/domain_*.json (5 files, one per domain)
 - **Full run data:** gnosis-ai/results/test-2-exploration/run.json
 - **Paper 16 (methodology):** DOI 10.5281/zenodo.19617859
