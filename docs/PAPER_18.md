@@ -834,7 +834,7 @@ The full data is publicly available. We invite domain experts to examine individ
 
 [1] M. E. Mala, "Gnosis AI: Autonomous Knowledge Discovery Through Convergent Descent — Architecture, Validation, and Complete Discovery Catalogue," April 2026. DOI: 10.5281/zenodo.19617859.
 
-[2] M. E. Mala, "Two Paths to One Principle: Independent Fixed Points in Mathematics and Physics Converge on Structural Constraint," April 2026.
+[2] M. E. Mala, "Two Paths to One Principle: Independent Fixed Points in Mathematics and Physics Converge on Structural Constraint," April 2026. DOI: 10.5281/zenodo.19639639.
 
 ---
 
