@@ -1,7 +1,7 @@
 # Master Roadmap — All Projects
 
 **Creator:** Mark E. Mala (Ekram Alam)
-**Last updated:** 17 April 2026
+**Last updated:** 27 April 2026
 **This is THE canonical roadmap. One file. All projects. Always consult this first.**
 
 ---
@@ -73,10 +73,20 @@ All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 | Theory of Everything page rewritten (Generator Thesis, progressive disclosure) | DONE (17 Apr) |
 | Paper 15 falsifiability framing fixed | DONE (17 Apr) |
 | **Papers 1-4 fresh read + rewrite from Zenodo** | **NOT DONE** |
-| **Wing 3 (New Fields) rewrite** | **NOT DONE** |
-| **QC Pass (Wings 1-3)** | **NOT DONE** |
+| **Wing 1 (Discovery) update** — add ALL papers (AgentCiv + Infinitography + Gnosis + 3 new). Accessible version per paper. | **NOT DONE** |
+| **Wing 2 (ToE) update** — incorporate new papers if they address ToE coherence/validation | **NOT DONE** |
+| **Wing 3 (New Fields) rewrite** — extract ALL new fields from ALL papers across programme | **NOT DONE** |
+| **Wing 4 (Gnosis) full rewrite** — v1 IS built, open source, features, test run discoveries (265 convergences, 2 fixed points) | **NOT DONE** |
+| **QC Pass (all 4 wings)** | **NOT DONE** |
 | **Paper 12 upgrade (Subsequent Advancements → Zenodo v2)** | **NOT DONE** |
-| **Wing 4 (Gnosis) landing update** (says "not built yet") | **NOT DONE** |
+
+**Content workflow:** User creates accessible paper content + page content via consumer Claude web app, then shares for implementation. Do NOT generate page content independently.
+
+**Wing definitions:**
+- Wing 1 (Discovery) = ALL papers in the full programme — the complete research journey
+- Wing 2 (ToE) = Focused on Theory of Everything and related papers only
+- Wing 3 (New Fields) = Every new field coined/discovered across ALL papers
+- Wing 4 (Gnosis) = The AI tool: open source, features, architecture, discoveries from test runs
 
 #### Gnosis AI Research Programme
 
@@ -84,68 +94,36 @@ All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 |------|------|-----------|--------|
 | 6b | Paper 16 final proofread | $0 | NOT DONE |
 | 7 | Papers 17-19 (Physics, Maths, Fixed Points) | $0 | **DONE** (18 Apr) |
-| **7b** | **CHECKPOINT ALPHA — Theory vs First Evidence (see below)** | **$0** | **NOT DONE** |
+| 7b | 3 new papers (replacing Checkpoint Alpha) — publish to Zenodo + add to gnosis-ai repo | $0 | WAITING (papers incoming) |
 | 8 | v1.1 improvements (depth scoring, parallel, resume) | $0 | NOT DONE |
 | 8b | Playtest + UX/UI overhaul (pip install, Rich CLI) | $0 | NOT DONE |
-| 9 | Reproducibility study (re-run Tests 2+3) | ~$30 | NOT DONE |
-| 10a | Within-category runs (Maths, CS, Bio, Chem, Earth, Social) | ~$45-60 | NOT DONE |
-| 10b | Cross-category runs (incl. full 52-field sweep, 1,326 pairs) | ~$300-500 | NOT DONE |
-| 10c | Papers for each extended run (one per run) | $0 | NOT DONE |
-| **11** | **CHECKPOINT OMEGA — Grand Convergence (see below)** | **$0** | **NOT DONE** |
-| 12 | Gnosis landing page update (URGENT) | $0 | NOT DONE |
-| 13 | Gnosis paper pages (Anthropic-style, Papers 16+) | $0 | NOT DONE |
-| 14 | Discovery catalogue (browsable, filterable) | $0 | NOT DONE |
-| 15 | Discovery explorer (network graph, heatmap) | $0 | NOT DONE |
-| 16 | Final QC + ship | $0 | NOT DONE |
+| 9 | Gnosis landing page update (URGENT — says "not built yet") | $0 | NOT DONE |
+| 10 | Gnosis paper pages (Anthropic-style, Papers G16+) | $0 | NOT DONE |
+| 11 | "Suggested Future Runs" section on website | $0 | NOT DONE |
+| 12 | Discovery catalogue (browsable, filterable) | $0 | NOT DONE |
+| 13 | Discovery explorer (network graph, heatmap) | $0 | NOT DONE |
+| 14 | Final QC + ship | $0 | NOT DONE |
 
-**Total Gnosis research cost: ~$400-600 for ALL remaining runs**
+**Note:** Extended runs across remaining scientific domains (biology, chemistry, CS, social science, earth science, cross-category) are documented as suggested future uses of Gnosis AI on the website, not as work we do ourselves. Independent replication by domain experts is more credible than self-replication.
 
 ---
 
-#### CHECKPOINT ALPHA — Theory vs First Evidence (Step 7b)
+#### Checkpoint Alpha — SCRAPPED → 3 New Papers
 
-**When:** Immediately after Papers 17-19 (i.e., NOW — Papers 17-19 are DONE)
-**What:** 1-2 papers that systematically compare the Infinitography theoretical framework (Papers 1-15) against the first empirical evidence from Gnosis AI (Papers 17-19).
-
-**Two outputs, both mandatory:**
-
-1. **VALIDATION** — Do the 235 physics convergences and 30 mathematics convergences confirm, support, or contradict the theoretical predictions made in Papers 1-15? Specifically:
-   - Paper 8 (Recursive Emergence) predicted recursive structure — does the cascade data validate this?
-   - Paper 9 (Scale-Invariant Duality) predicted scale invariance — do convergences show this?
-   - Paper 13 (The Infinite Ground) predicted a fixed point — Gnosis found two. Do they match?
-   - Paper 14 (Generative Coupling) predicted generative pairing — do domain pairs show this?
-   - Paper 15 (The Deeper Ground) predicted the Generator Thesis — does "dimensional compression at constraint-context boundaries" validate it?
-   - Papers 25-27 (Generator Thesis, Root Equation, Theory of Everything) — does empirical data match the mathematical formalism?
-   - Every testable claim in Papers 1-15 should be checked against the empirical findings.
-
-2. **CONVERGENCE** — Does comparing the theoretical framework with empirical results reveal NEW structural patterns not visible from either body of work alone? This is where Gnosis AI's own methodology (Convergent Descent) could be applied META — using the tool on its own outputs + the theory papers to find cross-corpus convergences.
-
-**Source data:**
-- Papers 1-15: read from Zenodo PDFs or `/Users/ekramalam/gnosis-ai/papers/markdown/`
-- Papers 17-19: `/Users/ekramalam/gnosis-ai/docs/PAPER_17.md`, `PAPER_18.md`, `PAPER_19.md`
-- Raw results: `/Users/ekramalam/gnosis-ai/results/test-3-auto/run.json` (physics), `test-2-exploration/run.json` (maths)
-
-**Why this matters:** The Infinitography papers were written by human+AI reasoning. Gnosis AI ran AUTONOMOUSLY. If autonomous discovery validates human-guided theory, that is extraordinary. If it finds things the theory missed, even more so.
+Original plan was a single "Theory vs Evidence" paper. Replaced by 3 new papers (to be shared soon). Once received:
+1. Add markdown to `gnosis-ai/docs/` (or `papers/markdown/`)
+2. Generate PDFs
+3. Publish to Zenodo (new depositions with DOIs)
+4. Git commit + push for Bitcoin timestamp
+5. Update paper count and DOI reference file
 
 ---
 
-#### CHECKPOINT OMEGA — Grand Convergence (Step 11, replaces "Grand Synthesis")
+#### CHECKPOINT OMEGA — A Potential Use of Gnosis AI
 
-**When:** After ALL Gnosis runs are complete (Steps 9, 10a, 10b, 10c — every domain tested)
-**What:** The ultimate meta-paper. Systematic convergence and validation across the ENTIRE corpus of ALL papers ever written in both programmes.
+Checkpoint Omega is not a roadmap milestone — it is an idea for what Gnosis AI could be used for. If Gnosis AI is ever run across all domains of science (biology, chemistry, computer science, social science, earth science, and cross-category), a grand convergence analysis becomes possible: systematic comparison of ALL findings across ALL domains to determine whether the structural patterns found in physics and mathematics (convergent descent, fixed points, cascade architecture) appear universally.
 
-**Three dimensions:**
-
-1. **VALIDATION** — Take every testable claim from every paper (1-15 theory + 16 architecture) and check it against every piece of empirical evidence from every Gnosis run (Papers 17-19 + all extended run papers). Score: confirmed / supported / neutral / contradicted.
-
-2. **CONVERGENCE** — Run Convergent Descent (potentially via Gnosis AI itself) across ALL findings from ALL papers. Do the extended runs (biology, chemistry, CS, social science, earth science) converge with the physics and maths findings? Do patterns emerge across ALL of science that weren't visible from any subset?
-
-3. **NEW DISCOVERY** — Does the grand convergence reveal something genuinely new? A deeper fixed point? A more fundamental principle? Something none of the individual papers could see?
-
-**Input:** Every paper, every run.json, every convergence, every finding, every fixed point, every theoretical claim.
-**Output:** "The Structure of Everything" — the capstone paper of the entire research programme.
-
-**Why this matters:** This is the whole point. The Infinitography programme theorised about reality's structure. Gnosis AI tests it empirically. Checkpoint Omega is where theory and evidence either converge into something real, or reveal where the theory needs revision. Either outcome is valuable.
+This is documented on the website as a suggested future application, not as planned work.
 
 ---
 
@@ -266,28 +244,27 @@ All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 |--------|-------|--------|
 | AgentCiv (Papers 1-12) | 12 | Published |
 | Infinitography (Papers 13-27) | 15 | Published |
-| Gnosis AI (Paper 16) | 1 | Published |
-| Gnosis AI (Papers 17-19) | 3 | Published (18 Apr) |
-| Checkpoint Alpha (Theory vs Evidence) | 1-2 | Planned |
-| Gnosis AI extended runs (Papers 20-28+) | 8+ | Planned |
-| Checkpoint Omega (Grand Convergence) | 1 | Planned |
+| Gnosis AI (Paper G16) | 1 | Published |
+| Gnosis AI (Papers G17-G19) | 3 | Published (18 Apr) |
+| New papers (replacing Checkpoint Alpha) | 3 | Waiting — to be published on Zenodo |
 | **Total published** | **31** | |
-| **Total planned** | **10+** | |
 
 ---
 
 ## EXECUTION PRIORITY
 
 ```
-NOW         Papers 1-4 fresh read + rewrite (finish Wing 1)
+NOW         3 new papers → Zenodo + gnosis-ai repo + stamp
+            Papers 1-4 fresh read + rewrite (finish Wing 1)
             Wing 3 (New Fields) rewrite
-NEXT        QC Pass Wings 1-3 + Paper 12 upgrade + Gnosis landing update
+NEXT        Gnosis landing page update + paper pages + suggested future runs
+            QC Pass Wings 1-3 + Paper 12 upgrade
             Stage 2 remainder (Creator Mode dogfood + paper updates)
 THEN        Stage 4 (Polish both projects)
             Stage 5 (QA/QC — the big pre-outreach audit)
 THEN        Stage 6 (Outreach — AgentCiv + Infinitography)
 LATER       Stages 7-9 (Recursive Loop, Colony, Full Stack)
-PARALLEL    Gnosis research (Checkpoint Alpha, v1.1, extended runs, Checkpoint Omega)
+OPTIONAL    Gnosis v1.1 improvements (depth scoring, parallel, resume)
 SEPARATE    Exponential Atlas (unblocked by integrity audit)
 ```
 
