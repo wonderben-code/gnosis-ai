@@ -11,8 +11,8 @@
 | Project | What It Is | Website | Status |
 |---------|-----------|---------|--------|
 | **AgentCiv** | Collective Machine Intelligence — AI civilisations, engine, creator mode | agentciv.ai | Stage 2 ~70% done |
-| **Infinitography** | Research programme on the nature of reality (15 papers) | infinitography.com | Wings 1-2 done, 3-4 remaining |
-| **Gnosis AI** | Autonomous knowledge discovery product | on infinitography.com | v1 built, Paper 16 published |
+| **Infinitography** | Research programme on the nature of reality | infinitography.com | All papers done, website Wings 1-4 remaining |
+| **Gnosis AI** | Autonomous knowledge discovery product | on infinitography.com | v1 built, all papers published (G16-G19 + 3 synthesis) |
 | **Exponential Atlas** | Interactive model of cross-domain tech acceleration | not deployed | Blocked on integrity audit |
 
 **Repos (6 total):**
@@ -23,7 +23,7 @@
 - `wonderben-code/infinitography-website` — infinitography.com (PRIVATE)
 - `wonderben-code/gnosis-ai` — Gnosis AI product (MIT)
 
-**Published:** 31 papers on Zenodo with DOIs. All Bitcoin-timestamped.
+**Published:** 34 papers on Zenodo with DOIs. All Bitcoin-timestamped.
 
 ---
 
@@ -33,7 +33,7 @@
 All 6 repos Bitcoin-timestamped. Auto-stamp hooks installed. Colony + Gnosis papers stamped.
 
 ### Stage 1b: Academic Preprint Publication — COMPLETE
-All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (needs Jack's cs.AI endorsement). Language audit done. Paper dates specified.
+All 34 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (needs Jack's cs.AI endorsement). Language audit done. Paper dates specified.
 
 ---
 
@@ -108,14 +108,14 @@ All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 
 ---
 
-#### Checkpoint Alpha — SCRAPPED → 3 New Papers
+#### Checkpoint Alpha — SCRAPPED → 3 New Papers — COMPLETE
 
-Original plan was a single "Theory vs Evidence" paper. Replaced by 3 new papers (to be shared soon). Once received:
-1. Add markdown to `gnosis-ai/docs/` (or `papers/markdown/`)
-2. Generate PDFs
-3. Publish to Zenodo (new depositions with DOIs)
-4. Git commit + push for Bitcoin timestamp
-5. Update paper count and DOI reference file
+Original plan was a single "Theory vs Evidence" paper. Replaced by 3 new synthesis papers, all published 27 April 2026:
+- **Paper A:** The Structural Character of Reality (DOI: 10.5281/zenodo.19829108)
+- **Paper B:** The Generator Theory of Everything (DOI: 10.5281/zenodo.19829195)
+- **Paper C:** A New Mathematics for Reality and the Multi-Angled Theory of Everything (DOI: 10.5281/zenodo.19829201)
+
+All added to gnosis-ai repo, Bitcoin-timestamped, and published on Zenodo.
 
 ---
 
@@ -150,9 +150,9 @@ This is documented on the website as a suggested future application, not as plan
 
 **5A. Papers:**
 - Final version sync (GitHub vs Zenodo vs arXiv)
-- LaTeX formatting (all 27 papers — fixes Unicode in current PDFs)
+- LaTeX formatting (all 34 papers — fixes Unicode in current PDFs)
 - Re-upload to Zenodo as v2 (LaTeX PDFs)
-- arXiv submission (all 27, needs Jack's endorsement)
+- arXiv submission (all 34, needs Jack's endorsement)
 - Cross-reference DOIs in paper text
 - Zenodo metadata polish
 
@@ -254,12 +254,22 @@ This is documented on the website as a suggested future application, not as plan
 ## EXECUTION PRIORITY
 
 ```
-NOW         Papers 1-4 fresh read + rewrite (finish Wing 1)
-            Wing 3 (New Fields) rewrite
-NEXT        Gnosis landing page update + paper pages + suggested future runs
-            QC Pass Wings 1-3 + Paper 12 upgrade
-            Stage 2 remainder (Creator Mode dogfood + paper updates)
-THEN        Stage 4 (Polish both projects)
+ALL PAPERS DONE (34 published, all Bitcoin-timestamped + Zenodo DOIs)
+
+NOW — INFINITOGRAPHY WEBSITE (infinitography.com)
+            Wing 1 (Discovery) — add ALL 34 papers, accessible versions
+            Wing 2 (ToE) — incorporate synthesis papers (Generator ToE, Multi-Angled ToE)
+            Wing 3 (New Fields) — extract all new fields from all 34 papers
+            Wing 4 (Gnosis) — full rewrite: v1 built, open source, features, discoveries
+            QC Pass all 4 wings
+            Paper 12 upgrade (Subsequent Advancements → Zenodo v2)
+
+NOW — AGENTCIV WEBSITE (agentciv.ai)
+            Stage 2 remainder (4a-4c: Science page, paper pages, homepage)
+            Creator Mode dogfood validation ($20-40)
+            Update Papers 5+6 → Zenodo v2
+
+THEN        Stage 4 (Polish both projects + Gnosis AI trademark)
             Stage 5 (QA/QC — the big pre-outreach audit)
 THEN        Stage 6 (Outreach — AgentCiv + Infinitography)
 LATER       Stages 7-9 (Recursive Loop, Colony, Full Stack)
