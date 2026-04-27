@@ -94,7 +94,7 @@ All 27 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 |------|------|-----------|--------|
 | 6b | Paper 16 final proofread | $0 | NOT DONE |
 | 7 | Papers 17-19 (Physics, Maths, Fixed Points) | $0 | **DONE** (18 Apr) |
-| 7b | 3 new papers (replacing Checkpoint Alpha) — publish to Zenodo + add to gnosis-ai repo | $0 | WAITING (papers incoming) |
+| 7b | 3 new papers (replacing Checkpoint Alpha) — publish to Zenodo + add to gnosis-ai repo | $0 | **DONE** (27 Apr) |
 | 8 | v1.1 improvements (depth scoring, parallel, resume) | $0 | NOT DONE |
 | 8b | Playtest + UX/UI overhaul (pip install, Rich CLI) | $0 | NOT DONE |
 | 9 | Gnosis landing page update (URGENT — says "not built yet") | $0 | NOT DONE |
@@ -246,16 +246,15 @@ This is documented on the website as a suggested future application, not as plan
 | Infinitography (Papers 13-27) | 15 | Published |
 | Gnosis AI (Paper G16) | 1 | Published |
 | Gnosis AI (Papers G17-G19) | 3 | Published (18 Apr) |
-| New papers (replacing Checkpoint Alpha) | 3 | Waiting — to be published on Zenodo |
-| **Total published** | **31** | |
+| New papers (replacing Checkpoint Alpha) | 3 | Published (27 Apr) |
+| **Total published** | **34** | |
 
 ---
 
 ## EXECUTION PRIORITY
 
 ```
-NOW         3 new papers → Zenodo + gnosis-ai repo + stamp
-            Papers 1-4 fresh read + rewrite (finish Wing 1)
+NOW         Papers 1-4 fresh read + rewrite (finish Wing 1)
             Wing 3 (New Fields) rewrite
 NEXT        Gnosis landing page update + paper pages + suggested future runs
             QC Pass Wings 1-3 + Paper 12 upgrade
