@@ -9,6 +9,7 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 import anthropic
+import click
 
 from gnosis.config import Config
 
@@ -48,6 +49,12 @@ class ClaudeAPI:
     """Wrapper around the Anthropic Claude API with fallback and robust retry."""
 
     def __init__(self, config: Config):
+        if not config.api_key:
+            raise click.ClickException(
+                "No API key found. Set ANTHROPIC_API_KEY or add "
+                '"anthropic_api_key" to gnosis.json.\n\n'
+                '  export ANTHROPIC_API_KEY="your-key-here"'
+            )
         self.config = config
         self.client = anthropic.Anthropic(
             api_key=config.api_key,
