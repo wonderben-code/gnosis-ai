@@ -75,7 +75,17 @@ class Config:
 
 
 def _find_project_root() -> Path:
-    """Walk up from cwd to find the project root (has taxonomy/ dir)."""
+    """Find the project root directory.
+
+    First checks relative to the package location (works for editable
+    installs and running from source). Falls back to walking up from cwd.
+    """
+    # Try relative to this file — works for `pip install -e .`
+    pkg_root = Path(__file__).resolve().parent.parent
+    if (pkg_root / "taxonomy").is_dir():
+        return pkg_root
+
+    # Fall back to walking up from cwd
     current = Path.cwd()
     for parent in [current, *current.parents]:
         if (parent / "taxonomy").is_dir():
