@@ -161,9 +161,11 @@ Not just pairwise comparisons — combinatorial at EVERY level:
 | 3 | **Synthesis AI** — 1,448 lines, 11 files, publication-quality paper generation | **DONE** |
 | 4 | **Pipeline Orchestrator** — 479 lines, 3 files, thin coordination, human checkpoints | **DONE** |
 | 5 | **Stage A** — 266 existing convergences through Logos → Synthesis | **RUNNING** (2 May) |
-| 5b | **Stage A PUBLICATION** — ~10-25 papers, ~266 formal conjectures → Zenodo with DOIs | NOT DONE |
+| 5b | **Stage A PUBLICATION** — ~70 domain-pair papers, ~256 formal conjectures → Zenodo with DOIs | NOT DONE |
+| 5c | **Stage A CAPSTONE** — 1-3 papers synthesising ACROSS all Stage A results: the meta-finding cascade (266→26→6→2→1), terminal fixed points as formal conjectures, what they mean for the structure of reality, testable predictions. The "Nobel paper" for Stage A. | NOT DONE |
 | 6 | **Stage B** — full Codex across 81 fields (6 phases) | NOT DONE |
 | 6b | **Stage B PUBLICATION** — ~300-500 papers, thousands of conjectures → Zenodo | NOT DONE |
+| 6c | **Stage B CAPSTONE** — updated fixed points with full 81-field evidence base. Do the Stage A fixed points hold? Strengthen/revise/discover new ones. The "Nobel paper" for Stage B. | NOT DONE |
 | 7 | **Stage C** — deep formalisation of fixed points (Lean 4 machine-verified) | NOT DONE |
 | 7b | **Stage C PUBLICATION** — standalone principle papers (the crown jewels) | NOT DONE |
 | 8 | **Stage D** — derive testable predictions from principles | NOT DONE |
@@ -366,9 +368,11 @@ NOW ━━━━━━ STAGE 3b: THE CONVERGENCE CODEX ━━━━━━━━�
   ✅ Synthesis AI (1,448 lines, publication-quality papers, auto boundaries)
   ✅ Pipeline Orchestrator (479 lines, thin coordination, checkpoints)
   ▶  Stage A — RUNNING (266 convergences through Logos, 2 May 2026)
-     Stage A PUBLICATION — ~10-25 papers → Zenodo with DOIs
+     Stage A PUBLICATION — ~70 domain-pair papers → Zenodo with DOIs
+     Stage A CAPSTONE — 1-3 "Nobel papers": terminal fixed points, meta-cascade, predictions
      Stage B — Full Codex across 81 fields (6 phases)
      Stage B PUBLICATION — ~300-500 papers → Zenodo
+     Stage B CAPSTONE — updated fixed points with full evidence base
      Stage C — Deep formalisation of fixed points
      Stage C PUBLICATION — Principle papers (crown jewels)
      Stage D — Testable predictions from principles
