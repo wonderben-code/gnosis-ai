@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "total_fields": 52,
+  "version": "2.0",
+  "total_fields": 81,
   "categories": [
     {
       "name": "Physics",
@@ -37,7 +37,8 @@
         {"id": "algebraic_geometry", "name": "Algebraic Geometry", "description": "Schemes, sheaves, cohomology, moduli spaces, mirror symmetry"},
         {"id": "differential_equations", "name": "Differential Equations", "description": "ODE, PDE, mathematical physics, integrable systems"},
         {"id": "numerical_analysis", "name": "Numerical Analysis and Computation", "description": "Algorithms, approximation, numerical stability, finite elements"},
-        {"id": "information_theory", "name": "Information Theory", "description": "Shannon entropy, coding theory, channel capacity, data compression"}
+        {"id": "information_theory", "name": "Information Theory", "description": "Shannon entropy, coding theory, channel capacity, data compression"},
+        {"id": "optimization_theory", "name": "Optimization Theory", "description": "Convex optimization, linear programming, variational methods, optimal control"}
       ]
     },
     {
@@ -48,7 +49,8 @@
         {"id": "artificial_intelligence", "name": "Artificial Intelligence", "description": "Learning theory, neural network foundations, optimisation, reasoning"},
         {"id": "cryptography", "name": "Cryptography", "description": "One-way functions, zero-knowledge proofs, quantum cryptography"},
         {"id": "distributed_systems", "name": "Distributed Systems", "description": "Consensus, CAP theorem, Byzantine fault tolerance, CRDTs"},
-        {"id": "network_science", "name": "Network Science", "description": "Graph dynamics, small-world networks, scale-free, contagion"}
+        {"id": "network_science", "name": "Network Science", "description": "Graph dynamics, small-world networks, scale-free, contagion"},
+        {"id": "quantum_computing", "name": "Quantum Computing", "description": "Quantum algorithms, error correction, quantum supremacy, topological qubits"}
       ]
     },
     {
@@ -59,7 +61,12 @@
         {"id": "neuroscience", "name": "Neuroscience", "description": "Neural coding, plasticity, consciousness research, connectomics"},
         {"id": "ecology", "name": "Ecology", "description": "Ecosystems, food webs, biodiversity, resilience, trophic cascades"},
         {"id": "systems_biology", "name": "Systems Biology", "description": "Gene networks, metabolic networks, emergence, synthetic biology"},
-        {"id": "biophysics", "name": "Biophysics", "description": "Protein folding, molecular machines, membrane dynamics"}
+        {"id": "biophysics", "name": "Biophysics", "description": "Protein folding, molecular machines, membrane dynamics"},
+        {"id": "genomics", "name": "Genomics", "description": "Genome architecture, comparative genomics, non-coding DNA, regulatory landscapes"},
+        {"id": "cell_biology", "name": "Cell Biology", "description": "Cell signalling, organelle dynamics, cell cycle, mechanotransduction"},
+        {"id": "immunology", "name": "Immunology", "description": "Adaptive immunity, innate defence, self/non-self recognition, immunological memory"},
+        {"id": "developmental_biology", "name": "Developmental Biology", "description": "Morphogenesis, pattern formation, stem cells, regeneration, Hox genes"},
+        {"id": "microbiology", "name": "Microbiology", "description": "Microbial ecology, quorum sensing, biofilms, horizontal gene transfer, extremophiles"}
       ]
     },
     {
@@ -67,31 +74,68 @@
       "fields": [
         {"id": "physical_chemistry", "name": "Physical Chemistry", "description": "Quantum chemistry, thermochemistry, reaction dynamics, catalysis"},
         {"id": "materials_science", "name": "Materials Science", "description": "Crystal structure, phase diagrams, nanomaterials, metamaterials"},
-        {"id": "biochemistry", "name": "Biochemistry", "description": "Enzymes, metabolism, molecular recognition, signal transduction"}
+        {"id": "biochemistry", "name": "Biochemistry", "description": "Enzymes, metabolism, molecular recognition, signal transduction"},
+        {"id": "organic_chemistry", "name": "Organic Chemistry", "description": "Stereochemistry, retrosynthesis, total synthesis, molecular architecture"},
+        {"id": "computational_chemistry", "name": "Computational Chemistry", "description": "Density functional theory, molecular dynamics, ab initio methods, force fields"}
       ]
     },
     {
-      "name": "Earth and Space",
+      "name": "Earth & Space Sciences",
       "fields": [
         {"id": "geophysics", "name": "Geophysics", "description": "Plate tectonics, seismology, Earth magnetic field, mantle dynamics"},
         {"id": "climate_science", "name": "Climate Science", "description": "Atmospheric dynamics, feedback loops, climate modelling, paleoclimate"},
-        {"id": "planetary_science", "name": "Planetary Science", "description": "Planet formation, habitability, comparative planetology, exoplanets"}
+        {"id": "planetary_science", "name": "Planetary Science", "description": "Planet formation, habitability, comparative planetology, exoplanets"},
+        {"id": "oceanography", "name": "Oceanography", "description": "Ocean circulation, thermohaline conveyor, marine chemistry, deep-sea ecology"},
+        {"id": "atmospheric_science", "name": "Atmospheric Science", "description": "Radiation balance, aerosol physics, mesoscale dynamics, stratospheric chemistry"}
       ]
     },
     {
-      "name": "Social and Cognitive Sciences",
+      "name": "Social & Cognitive Sciences",
       "fields": [
         {"id": "economics", "name": "Economics", "description": "Game theory, market dynamics, complexity economics, mechanism design"},
         {"id": "linguistics", "name": "Linguistics", "description": "Syntax, semantics, computational linguistics, language universals"},
         {"id": "cognitive_science", "name": "Cognitive Science", "description": "Perception, decision-making, embodied cognition, cognitive architectures"},
-        {"id": "philosophy_of_science", "name": "Philosophy of Science", "description": "Epistemology, scientific realism, foundations, philosophy of physics"}
+        {"id": "philosophy_of_science", "name": "Philosophy of Science", "description": "Epistemology, scientific realism, foundations, philosophy of physics"},
+        {"id": "anthropology", "name": "Anthropology", "description": "Cultural evolution, kinship systems, structuralism, comparative mythology"},
+        {"id": "psychology", "name": "Psychology", "description": "Cognitive biases, developmental psychology, social cognition, perception theory"},
+        {"id": "sociology", "name": "Sociology", "description": "Social networks, institutional theory, collective behaviour, stratification"}
+      ]
+    },
+    {
+      "name": "Medicine & Health",
+      "fields": [
+        {"id": "epidemiology", "name": "Epidemiology", "description": "Disease dynamics, SIR models, outbreak forecasting, causal inference"},
+        {"id": "physiology", "name": "Physiology", "description": "Homeostasis, organ systems, feedback regulation, allometry"},
+        {"id": "pharmacology", "name": "Pharmacology", "description": "Drug-receptor interactions, dose-response curves, pharmacokinetics, resistance mechanisms"},
+        {"id": "neuroscience_clinical", "name": "Clinical Neuroscience", "description": "Neurodegeneration, psychiatric disorders, brain imaging, neuroplasticity therapeutics"}
+      ]
+    },
+    {
+      "name": "Engineering & Technology",
+      "fields": [
+        {"id": "chemical_engineering", "name": "Chemical Engineering", "description": "Process design, reaction engineering, transport phenomena, separation science"},
+        {"id": "mechanical_engineering", "name": "Mechanical Engineering", "description": "Structural mechanics, thermodynamics of engines, vibration analysis, materials failure"},
+        {"id": "biomedical_engineering", "name": "Biomedical Engineering", "description": "Biomechanics, tissue engineering, medical imaging, neural interfaces"},
+        {"id": "electrical_engineering", "name": "Electrical Engineering", "description": "Circuit theory, signal processing, semiconductor physics, electromagnetic theory"},
+        {"id": "robotics", "name": "Robotics", "description": "Kinematics, control systems, SLAM, swarm robotics, human-robot interaction"}
+      ]
+    },
+    {
+      "name": "Information Sciences",
+      "fields": [
+        {"id": "data_science", "name": "Data Science", "description": "Dimensionality reduction, statistical learning, feature extraction, causal discovery"},
+        {"id": "knowledge_representation", "name": "Knowledge Representation", "description": "Ontologies, semantic networks, description logics, knowledge graphs, frame systems"},
+        {"id": "signal_processing", "name": "Signal Processing", "description": "Fourier analysis, wavelet transforms, compressed sensing, adaptive filtering"}
       ]
     },
     {
       "name": "Cross-Disciplinary",
       "fields": [
         {"id": "cybernetics", "name": "Cybernetics and Control Theory", "description": "Feedback, stability, regulation, adaptive control, robust control"},
-        {"id": "complex_systems", "name": "Complex Systems", "description": "Emergence, self-organisation, criticality, power laws, universality"}
+        {"id": "complex_systems", "name": "Complex Systems", "description": "Emergence, self-organisation, criticality, power laws, universality"},
+        {"id": "philosophy_of_mathematics", "name": "Philosophy of Mathematics", "description": "Foundations, structuralism, mathematical platonism, the nature of proof"},
+        {"id": "semiotics", "name": "Semiotics", "description": "Sign systems, symbolic representation, Peircean categories, biosemiotics"},
+        {"id": "operations_research", "name": "Operations Research", "description": "Queueing theory, scheduling, resource allocation, decision analysis, stochastic modelling"}
       ]
     }
   ]

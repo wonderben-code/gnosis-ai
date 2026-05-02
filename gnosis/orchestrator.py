@@ -22,41 +22,14 @@ from gnosis.data.models import (
 from gnosis.data.store import Store
 from gnosis.data.taxonomy import Taxonomy, FieldInfo
 from gnosis.ea.validator import EAValidator
+from gnosis.strategy import category_distance as _category_distance
 
 console = Console()
 
 
-# ─── Category Distance Scoring ───
-# Higher = more disparate = higher discovery value = run first
-CATEGORY_DISTANCE = {
-    ("Biology", "Physics"): 0.95,
-    ("Biology", "Mathematics"): 1.0,
-    ("Mathematics", "Social & Cognitive Sciences"): 0.95,
-    ("Physics", "Social & Cognitive Sciences"): 1.0,
-    ("Biology", "Social & Cognitive Sciences"): 0.85,
-    ("Computer Science", "Biology"): 0.9,
-    ("Computer Science", "Social & Cognitive Sciences"): 0.9,
-    ("Chemistry", "Social & Cognitive Sciences"): 0.85,
-    ("Chemistry", "Mathematics"): 0.8,
-    ("Earth & Space Sciences", "Social & Cognitive Sciences"): 0.85,
-    ("Earth & Space Sciences", "Mathematics"): 0.8,
-    ("Earth & Space Sciences", "Biology"): 0.75,
-    ("Physics", "Earth & Space Sciences"): 0.7,
-    ("Physics", "Chemistry"): 0.6,
-    ("Biology", "Chemistry"): 0.5,
-    ("Physics", "Mathematics"): 0.5,
-    ("Computer Science", "Mathematics"): 0.4,
-    ("Physics", "Computer Science"): 0.5,
-    ("Chemistry", "Earth & Space Sciences"): 0.4,
-}
-
-
 def pair_priority(domain_a: Domain, domain_b: Domain) -> float:
     """Score a pair by category distance. Higher = more disparate = run first."""
-    if domain_a.category == domain_b.category:
-        return 0.1
-    key = tuple(sorted([domain_a.category, domain_b.category]))
-    return CATEGORY_DISTANCE.get(key, 0.7)
+    return _category_distance(domain_a.category, domain_b.category)
 
 
 class Orchestrator:

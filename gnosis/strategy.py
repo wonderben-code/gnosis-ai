@@ -14,14 +14,16 @@ from gnosis.data.taxonomy import Taxonomy, FieldInfo
 
 # ─── Category Distance Scoring ───
 # Higher = more disparate = higher discovery value = run first
-# Symmetric: stored with sorted category names
+# Symmetric: stored with sorted() category names
+# Category names MUST match taxonomy/fields.json exactly
 CATEGORY_DISTANCE = {
+    # Original 8 categories
     ("Biology", "Mathematics"): 1.0,
     ("Mathematics", "Social & Cognitive Sciences"): 0.95,
     ("Physics", "Social & Cognitive Sciences"): 1.0,
     ("Biology", "Physics"): 0.95,
     ("Biology", "Social & Cognitive Sciences"): 0.85,
-    ("Computer Science", "Biology"): 0.9,
+    ("Biology", "Computer Science"): 0.9,
     ("Computer Science", "Social & Cognitive Sciences"): 0.9,
     ("Chemistry", "Social & Cognitive Sciences"): 0.85,
     ("Chemistry", "Mathematics"): 0.8,
@@ -35,31 +37,41 @@ CATEGORY_DISTANCE = {
     ("Computer Science", "Mathematics"): 0.4,
     ("Computer Science", "Physics"): 0.5,
     ("Chemistry", "Earth & Space Sciences"): 0.4,
-    # New categories for expanded taxonomy
-    ("Information Sciences", "Biology"): 0.95,
+    ("Cross-Disciplinary", "Physics"): 0.3,
+    ("Cross-Disciplinary", "Mathematics"): 0.3,
+    ("Computer Science", "Cross-Disciplinary"): 0.3,
+    ("Biology", "Cross-Disciplinary"): 0.5,
+    ("Chemistry", "Cross-Disciplinary"): 0.5,
+    ("Cross-Disciplinary", "Social & Cognitive Sciences"): 0.5,
+    ("Cross-Disciplinary", "Earth & Space Sciences"): 0.5,
+    # v2 new categories: Information Sciences, Engineering & Technology, Medicine & Health
+    ("Biology", "Information Sciences"): 0.95,
     ("Information Sciences", "Social & Cognitive Sciences"): 0.85,
     ("Information Sciences", "Physics"): 0.7,
-    ("Information Sciences", "Chemistry"): 0.8,
+    ("Chemistry", "Information Sciences"): 0.8,
     ("Information Sciences", "Mathematics"): 0.3,
-    ("Information Sciences", "Computer Science"): 0.2,
-    ("Information Sciences", "Earth & Space Sciences"): 0.75,
+    ("Computer Science", "Information Sciences"): 0.2,
+    ("Earth & Space Sciences", "Information Sciences"): 0.75,
+    ("Cross-Disciplinary", "Information Sciences"): 0.4,
     ("Engineering & Technology", "Mathematics"): 0.7,
     ("Engineering & Technology", "Social & Cognitive Sciences"): 0.8,
-    ("Engineering & Technology", "Biology"): 0.7,
+    ("Biology", "Engineering & Technology"): 0.7,
     ("Biology", "Medicine & Health"): 0.3,
     ("Medicine & Health", "Physics"): 0.75,
-    ("Medicine & Health", "Mathematics"): 0.85,
+    ("Mathematics", "Medicine & Health"): 0.85,
     ("Medicine & Health", "Social & Cognitive Sciences"): 0.6,
     ("Engineering & Technology", "Physics"): 0.4,
-    ("Engineering & Technology", "Chemistry"): 0.4,
+    ("Chemistry", "Engineering & Technology"): 0.4,
     ("Chemistry", "Medicine & Health"): 0.4,
     ("Earth & Space Sciences", "Medicine & Health"): 0.7,
     ("Engineering & Technology", "Medicine & Health"): 0.5,
-    ("Engineering & Technology", "Earth & Space Sciences"): 0.5,
+    ("Earth & Space Sciences", "Engineering & Technology"): 0.5,
     ("Engineering & Technology", "Information Sciences"): 0.3,
     ("Information Sciences", "Medicine & Health"): 0.7,
-    ("Engineering & Technology", "Computer Science"): 0.3,
+    ("Computer Science", "Engineering & Technology"): 0.3,
     ("Computer Science", "Medicine & Health"): 0.8,
+    ("Cross-Disciplinary", "Engineering & Technology"): 0.4,
+    ("Cross-Disciplinary", "Medicine & Health"): 0.5,
 }
 
 
