@@ -96,7 +96,8 @@ class CorpusManager:
 
     def convergences_for_category_pair(self, cat_a: str, cat_b: str) -> list[Convergence]:
         """All convergences between two categories."""
-        key = "×".join(sorted([cat_a, cat_b]))
+        cats = sorted(set([cat_a, cat_b]))
+        key = "×".join(cats) if len(cats) > 1 else cats[0] if cats else "unknown"
         ids = self._by_category_pair.get(key, [])
         return [c for cid in ids if (c := self.store.load_convergence(cid)) is not None]
 
