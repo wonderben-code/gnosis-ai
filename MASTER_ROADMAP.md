@@ -1,7 +1,7 @@
 # Master Roadmap — All Projects
 
 **Creator:** Mark E. Mala (Ekram Alam)
-**Last updated:** 27 April 2026
+**Last updated:** 2 May 2026
 **This is THE canonical roadmap. One file. All projects. Always consult this first.**
 
 ---
@@ -15,15 +15,16 @@
 | **Gnosis AI** | Autonomous knowledge discovery product | on infinitography.com | v1 built, all papers published (G16-G19 + 3 synthesis) |
 | **Exponential Atlas** | Interactive model of cross-domain tech acceleration | not deployed | Blocked on integrity audit |
 
-**Repos (6 total):**
+**Repos (7 total):**
 - `agent-civilisation` — sim (PUBLIC, PyPI: agentciv-sim)
 - `agentciv-engine` — engine (PUBLIC, PyPI: agentciv-engine)
 - `agentciv-creator` — creator mode (PUBLIC, PyPI: agentciv-creator)
 - `agentciv-colony` — Colony + RCI papers (PRIVATE)
 - `wonderben-code/infinitography-website` — infinitography.com (PRIVATE)
 - `wonderben-code/gnosis-ai` — Gnosis AI product (MIT)
+- `wonderben-code/convergence-codex` — The Convergence Codex: Logos, Synthesis, orchestrator, data (PUBLIC, MIT)
 
-**Published:** 34 papers on Zenodo with DOIs. All Bitcoin-timestamped.
+**Published:** 35 papers on Zenodo with DOIs. All Bitcoin-timestamped.
 
 ---
 
@@ -52,14 +53,17 @@ All 34 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 | **6** | **Dogfood Validation ($20-40)** — real campaigns | **NOT DONE** |
 | **7** | **Update Papers 5+6 → Zenodo v2 → stamp** | **NOT DONE** |
 
+**Content workflow:** Same as Infinitography — user creates ALL paper page content via consumer Claude web app by reading actual AgentCiv papers, then shares for implementation. Do NOT generate page content independently. AgentCiv has 12 papers (Papers 1-12).
+
 ---
 
 ### Stage 3: Infinitography + Gnosis AI — IN PROGRESS
 
 #### Gnosis AI v1 — COMPLETE
 - Built: CI Engine + EA Engine, 3 modes, 52-field taxonomy, CLI
-- Results: 266 convergences, 26 meta-findings, 2 fixed points, $28.99
+- Results: 266 convergences, 26 meta-findings, 4 terminal fixed points, $28.99
 - Paper 16 published (DOI: 10.5281/zenodo.19617859)
+- GitHub repo public (MIT), README + LICENSE added, CWD bug fixed, API key validation added
 
 #### Infinitography Website (infinitography.com)
 
@@ -72,20 +76,21 @@ All 34 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 | Discovery landing page rewritten | DONE (17 Apr) |
 | Theory of Everything page rewritten (Generator Thesis, progressive disclosure) | DONE (17 Apr) |
 | Paper 15 falsifiability framing fixed | DONE (17 Apr) |
-| **Papers 1-4 fresh read + rewrite from Zenodo** | **NOT DONE** |
-| **Wing 1 (Discovery) update** — add ALL papers (AgentCiv + Infinitography + Gnosis + 3 new). Accessible version per paper. | **NOT DONE** |
-| **Wing 2 (ToE) update** — incorporate new papers if they address ToE coherence/validation | **NOT DONE** |
-| **Wing 3 (New Fields) rewrite** — extract ALL new fields from ALL papers across programme | **NOT DONE** |
-| **Wing 4 (Gnosis) full rewrite** — v1 IS built, open source, features, test run discoveries (265 convergences, 2 fixed points) | **NOT DONE** |
+| **Wing 1 (Discovery) — ALL 22 paper pages from fresh** | **NOT DONE** |
+| **Wing 2 (ToE) — landing page from ToE papers** | **NOT DONE** |
+| **Wing 3 (Discoveries + New Fields) — extract from all 22 papers** | **NOT DONE** |
+| **Wing 4 (Gnosis) — landing page + discovery explorer** | **DONE** (29 Apr) |
 | **QC Pass (all 4 wings)** | **NOT DONE** |
 | **Paper 12 upgrade (Subsequent Advancements → Zenodo v2)** | **NOT DONE** |
 
-**Content workflow:** User creates accessible paper content + page content via consumer Claude web app, then shares for implementation. Do NOT generate page content independently.
+**Content workflow:** User creates ALL content via consumer Claude web app by reading actual papers, then shares for implementation. Do NOT generate page content independently. Existing paper pages (5-15) kept for reference only — all 22 pages recreated from scratch.
+
+**The 22 papers:** Papers 1-15 (Infinitography) + G16-G19 (Gnosis AI) + 3 synthesis papers (A, B, C). No AgentCiv papers on infinitography.com.
 
 **Wing definitions:**
-- Wing 1 (Discovery) = ALL papers in the full programme — the complete research journey
-- Wing 2 (ToE) = Focused on Theory of Everything and related papers only
-- Wing 3 (New Fields) = Every new field coined/discovered across ALL papers
+- Wing 1 (Discovery) = The full research programme: 22 Anthropic-style paper pages + landing page
+- Wing 2 (ToE) = Landing page built from ToE-relevant papers (7, 12-15, synthesis), links to paper pages
+- Wing 3 (Discoveries + New Fields) = Every discovery made + every new field coined across all 22 papers
 - Wing 4 (Gnosis) = The AI tool: open source, features, architecture, discoveries from test runs
 
 #### Gnosis AI Research Programme
@@ -96,17 +101,13 @@ All 34 papers on Zenodo with DOIs. ORCID: 0009-0007-8760-5553. arXiv deferred (n
 | 7 | Papers 17-19 (Physics, Maths, Fixed Points) | $0 | **DONE** (18 Apr) |
 | 7b | 3 new papers (replacing Checkpoint Alpha) — publish to Zenodo + add to gnosis-ai repo | $0 | **DONE** (27 Apr) |
 | 8 | v1.1 improvements (depth scoring, parallel, resume) | $0 | NOT DONE |
-| 8b | Playtest + UX/UI overhaul (pip install, Rich CLI) | $0 | NOT DONE |
-| 9 | Gnosis landing page update (URGENT — says "not built yet") | $0 | NOT DONE |
+| 8b | Playtest + UX/UI overhaul (pip install, Rich CLI) | $0 | PARTIAL (API key validation + CWD fix done, rest NOT DONE) |
+| 9 | Gnosis landing page (11 sections, "Why This Matters", honest status) | $0 | **DONE** (29 Apr) |
 | 10 | Gnosis paper pages (Anthropic-style, Papers G16+) | $0 | NOT DONE |
-| 11 | "Suggested Future Runs" section on website | $0 | NOT DONE |
-| 12 | Discovery catalogue (browsable, filterable) | $0 | NOT DONE |
-| 13 | Discovery explorer (network graph, heatmap) | $0 | NOT DONE |
-| 14 | Final QC + ship | $0 | NOT DONE |
-
-**Note:** Extended runs across remaining scientific domains (biology, chemistry, CS, social science, earth science, cross-category) are documented as suggested future uses of Gnosis AI on the website, not as work we do ourselves. Independent replication by domain experts is more credible than self-replication.
-
----
+| 11 | "Suggested Future Runs" section on website | $0 | **DONE** (29 Apr, in landing page "What's Next" + suggested explorations) |
+| 12 | Discovery catalogue (browsable, filterable, searchable) | $0 | **DONE** (29 Apr, /gnosis/discoveries catalogue view) |
+| 13 | Discovery explorer (cascade view, domain map, full hierarchy) | $0 | **DONE** (29 Apr, /gnosis/discoveries with 3 views) |
+| 14 | Final QC + ship | $0 | **DONE** (29 Apr, all numbers verified, deployed live) |
 
 #### Checkpoint Alpha — SCRAPPED → 3 New Papers — COMPLETE
 
@@ -119,11 +120,112 @@ All added to gnosis-ai repo, Bitcoin-timestamped, and published on Zenodo.
 
 ---
 
-#### CHECKPOINT OMEGA — A Potential Use of Gnosis AI
+#### CHECKPOINT OMEGA — SUPERSEDED BY CONVERGENCE CODEX
 
-Checkpoint Omega is not a roadmap milestone — it is an idea for what Gnosis AI could be used for. If Gnosis AI is ever run across all domains of science (biology, chemistry, computer science, social science, earth science, and cross-category), a grand convergence analysis becomes possible: systematic comparison of ALL findings across ALL domains to determine whether the structural patterns found in physics and mathematics (convergent descent, fixed points, cascade architecture) appear universally.
+Original idea was a "potential future use" of Gnosis AI. Now realised as Stage 3b: The Convergence Codex.
 
-This is documented on the website as a suggested future application, not as planned work.
+---
+
+### Stage 3b: THE CONVERGENCE CODEX — IN PROGRESS
+
+**Repo:** `wonderben-code/convergence-codex` (PUBLIC, MIT, Bitcoin-timestamped)
+**Full architecture:** `convergence-codex/docs/ARCHITECTURE.md` ← THE CANONICAL DOC
+**Local:** `/Users/ekramalam/convergence-codex/`
+
+The world's first and largest systematic mapping of cross-domain structural relationships across established science, mathematics, and physics. Three custom AIs form a pipeline: **Gnosis** (discovery) → **Logos** (formalisation) → **Synthesis** (communication).
+
+#### The Multi-Level Recursive Architecture
+
+Not just pairwise comparisons — combinatorial at EVERY level:
+
+**Level 1: ALL field convergences**
+- Within-category pairs (~225, 7% of space)
+- Cross-category pairs (~2,935, 93% — THIS IS WHERE THE SERIOUS DISCOVERIES ARE)
+- Multi-field groups (3+ fields simultaneously, gated by pairwise results)
+
+**Level 2: Meta-convergences (combinatorial across groupings)**
+- Multiple grouping strategies on Level 1 output
+- Pairwise comparison of convergences themselves
+- Cross-level comparisons (Level 1 ↔ Level 2)
+
+**Level 3+: Recursive cascade to fixed points**
+- Same combinatorial process applied recursively
+- Continue until fixed points or diminishing returns
+
+#### Build Order (11 Nobel-clearing checkpoints)
+
+| Step | What | Status |
+|------|------|--------|
+| 1 | **Gnosis v2** — cross-domain, multi-field, recursive cascade, 81 fields | **DONE** |
+| 2 | **Logos AI** — 2,162 lines, 14 files, Lean 4 formalisation, 5-layer adversarial validation | **DONE** |
+| 3 | **Synthesis AI** — 1,448 lines, 11 files, publication-quality paper generation | **DONE** |
+| 4 | **Pipeline Orchestrator** — 479 lines, 3 files, thin coordination, human checkpoints | **DONE** |
+| 5 | **Stage A** — 266 existing convergences through Logos → Synthesis | **RUNNING** (2 May) |
+| 5b | **Stage A PUBLICATION** — ~10-25 papers, ~266 formal conjectures → Zenodo with DOIs | NOT DONE |
+| 6 | **Stage B** — full Codex across 81 fields (6 phases) | NOT DONE |
+| 6b | **Stage B PUBLICATION** — ~300-500 papers, thousands of conjectures → Zenodo | NOT DONE |
+| 7 | **Stage C** — deep formalisation of fixed points (Lean 4 machine-verified) | NOT DONE |
+| 7b | **Stage C PUBLICATION** — standalone principle papers (the crown jewels) | NOT DONE |
+| 8 | **Stage D** — derive testable predictions from principles | NOT DONE |
+| 8b | **Stage D PUBLICATION** — pre-registration prediction papers, Bitcoin-stamped BEFORE confirmation | NOT DONE |
+| 9 | **Stage E** — ToE integration (map Codex evidence against Paper 15) | NOT DONE |
+| 9b | **Stage E PUBLICATION** — THE capstone paper: updated Theory of Everything | NOT DONE |
+| 10 | **Website wing** — Convergence Codex on infinitography.com | NOT DONE |
+| 11 | **QC + stamp + ship** | NOT DONE |
+
+**Every convergence, every formalisation, every meta-convergence is a publishable formal conjecture.** The corpus from Stages A+B alone could be 300-500+ papers with thousands of novel formal mathematical conjectures, all Bitcoin-stamped for priority.
+
+**Stage B Phases:**
+1. All pairwise (cross-category FIRST)
+2. Codex Analysis (fingerprints, clustering, transitivity, hubs)
+3. Multi-field on promising groups (cross-category first)
+4. Level 2 meta-convergences (multiple groupings, combinatorial)
+5. Level 3+ recursive cascade
+6. Everything through Logos → Synthesis
+
+**Estimated total cost (all stages): ~$3,500-6,000**
+
+#### Repos
+
+| Repo | What |
+|------|------|
+| `wonderben-code/gnosis-ai` | Gnosis AI (v2 upgrade in place) |
+| `wonderben-code/convergence-codex` | Logos, Synthesis, Orchestrator, Codex data, papers, docs |
+| `wonderben-code/infinitography-website` | Website (includes Codex wing) |
+
+---
+
+### Stage 3c: Pansophia Wing — NOT STARTED
+
+After the Convergence Codex is complete, add a Pansophia wing to infinitography.com.
+
+**Paper:** "Pansophia: A Theoretical Architecture for Autonomous Knowledge Integration at Civilisational Scale"
+**Zenodo:** https://zenodo.org/records/19974680 (DOI: 10.5281/zenodo.19974680)
+**Bitcoin-stamped:** 2 May 2026 (in convergence-codex repo)
+
+| Task | Status |
+|------|--------|
+| Paper written + published on Zenodo | DONE |
+| Add `/pansophia` wing to infinitography.com | NOT DONE |
+| Landing page explaining the architecture in plain language | NOT DONE |
+| Link to Zenodo paper | NOT DONE |
+
+**Wing concept:** "Pansophia: An AI Architecture at Civilisational Scale" — a single landing page explaining the 4-component architecture (Gnosis + Logos + Synthesis + Praxis + meta-layer) and its 6 defining features, with a link to the full paper on Zenodo.
+
+---
+
+### Stage 3d: Remaining Infinitography Website — NOT STARTED
+
+These were originally part of Stage 3 but should happen AFTER the Codex and Pansophia (so homepage, playtest, etc. can reference everything).
+
+| Task | Status |
+|------|--------|
+| Wing 2 (ToE) — DONE (2 May, built from proposal doc) | DONE |
+| Papers 1-4 rewrite (user creates content via consumer Claude) | NOT DONE |
+| Homepage content update (Landing.tsx, including Codex references) | NOT DONE |
+| Full website playtest (all wings including Codex wing) | NOT DONE |
+| QC Pass all wings | NOT DONE |
+| Paper 12 upgrade (Subsequent Advancements → Zenodo v2) | NOT DONE |
 
 ---
 
@@ -255,25 +357,41 @@ This is documented on the website as a suggested future application, not as plan
 
 ```
 ALL PAPERS DONE (34 published, all Bitcoin-timestamped + Zenodo DOIs)
+INFINITOGRAPHY WEBSITE — Wings 1-4 DONE (Discovery, ToE, New Contributions, Gnosis)
 
-NOW — INFINITOGRAPHY WEBSITE (infinitography.com)
-            Wing 1 (Discovery) — add ALL 34 papers, accessible versions
-            Wing 2 (ToE) — incorporate synthesis papers (Generator ToE, Multi-Angled ToE)
-            Wing 3 (New Fields) — extract all new fields from all 34 papers
-            Wing 4 (Gnosis) — full rewrite: v1 built, open source, features, discoveries
-            QC Pass all 4 wings
-            Paper 12 upgrade (Subsequent Advancements → Zenodo v2)
+NOW ━━━━━━ STAGE 3b: THE CONVERGENCE CODEX ━━━━━━━━━━━━━━━━━
 
-NOW — AGENTCIV WEBSITE (agentciv.ai)
-            Stage 2 remainder (4a-4c: Science page, paper pages, homepage)
-            Creator Mode dogfood validation ($20-40)
-            Update Papers 5+6 → Zenodo v2
+  ✅ Gnosis v2 (cross-domain, multi-field, recursive cascade, 81 fields)
+  ✅ Logos AI (2,162 lines, Lean 4 formalisation, 5-layer adversarial validation)
+  ✅ Synthesis AI (1,448 lines, publication-quality papers, auto boundaries)
+  ✅ Pipeline Orchestrator (479 lines, thin coordination, checkpoints)
+  ▶  Stage A — RUNNING (266 convergences through Logos, 2 May 2026)
+     Stage A PUBLICATION — ~10-25 papers → Zenodo with DOIs
+     Stage B — Full Codex across 81 fields (6 phases)
+     Stage B PUBLICATION — ~300-500 papers → Zenodo
+     Stage C — Deep formalisation of fixed points
+     Stage C PUBLICATION — Principle papers (crown jewels)
+     Stage D — Testable predictions from principles
+     Stage D PUBLICATION — Pre-registration papers (Higgs mechanism)
+     Stage E — ToE integration
+     Stage E PUBLICATION — THE capstone ToE paper
+     Website — Convergence Codex wing on infinitography.com
+     QC + stamp + ship
 
-THEN        Stage 4 (Polish both projects + Gnosis AI trademark)
-            Stage 5 (QA/QC — the big pre-outreach audit)
-THEN        Stage 6 (Outreach — AgentCiv + Infinitography)
-LATER       Stages 7-9 (Recursive Loop, Colony, Full Stack)
-OPTIONAL    Gnosis v1.1 improvements (depth scoring, parallel, resume)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THEN    Stage 3c — Pansophia wing on infinitography.com
+THEN    Stage 3d — Remaining Infinitography website
+            Papers 1-4 rewrite (user creates content)
+            Homepage update (including Codex references)
+            Full website playtest (all wings + Codex)
+            Paper 12 upgrade
+
+THEN    Stage 2 remainder (AgentCiv: 4a-4c, dogfood, papers 5+6)
+THEN    Stage 4 (Polish both projects + Gnosis AI trademark)
+THEN    Stage 5 (QA/QC — the big pre-outreach audit)
+THEN    Stage 6 (Outreach — AgentCiv + Infinitography + Convergence Codex)
+LATER   Stages 7-9 (Recursive Loop, Colony, Full Stack)
 SEPARATE    Exponential Atlas (unblocked by integrity audit)
 ```
 
