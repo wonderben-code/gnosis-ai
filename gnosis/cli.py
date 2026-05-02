@@ -196,3 +196,311 @@ def survey(ctx, domain_id: str):
         )
 
     console.print(table)
+
+
+# ─── v2 COMMANDS ───
+
+
+@cli.command()
+@click.option("--strategy", "-s", default="cross-category-priority",
+              type=click.Choice(["cross-category-priority", "exhaustive", "transitivity",
+                                 "hub", "random"]),
+              help="Search strategy")
+@click.option("--scope", default="all", help="Field scope: 'all', a category, or comma-separated fields")
+@click.option("--max-cost", type=float, default=50.0, help="Maximum API cost in USD")
+@click.option("--max-hours", type=float, default=12.0, help="Maximum runtime in hours")
+@click.option("--include-multi-field", is_flag=True, help="Also run multi-field after pairwise")
+@click.pass_context
+def codex(ctx, strategy: str, scope: str, max_cost: float, max_hours: float, include_multi_field: bool):
+    """Codex mode: systematic cross-domain discovery with smart search strategies."""
+    from gnosis.orchestrator import Orchestrator
+    from gnosis.strategy import SearchStrategy, StrategyType
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+    from gnosis.data.store import Store
+
+    config = ctx.obj["config"]
+    config.max_cost_usd = max_cost
+    config.max_hours = max_hours
+
+    taxonomy = Taxonomy(config)
+    store = Store(config)
+    corpus = CorpusManager(store, taxonomy)
+
+    # Map CLI strategy name to enum
+    strategy_map = {
+        "cross-category-priority": StrategyType.CROSS_CATEGORY_PRIORITY,
+        "exhaustive": StrategyType.EXHAUSTIVE_PAIRWISE,
+        "transitivity": StrategyType.TRANSITIVITY_PROBE,
+        "hub": StrategyType.HUB_EXPANSION,
+        "random": StrategyType.RANDOM_SAMPLE,
+    }
+    strat = strategy_map[strategy]
+
+    search = SearchStrategy(taxonomy, explored_pairs=corpus.explored_pairs())
+
+    # Generate tasks based on strategy
+    if strat == StrategyType.TRANSITIVITY_PROBE:
+        all_convs = corpus.all_convergences()
+        tasks = search.generate_tasks(strat, convergences=all_convs)
+    elif strat == StrategyType.HUB_EXPANSION:
+        all_convs = corpus.all_convergences()
+        tasks = search.generate_tasks(strat, convergences=all_convs)
+    else:
+        tasks = search.generate_tasks(strat)
+
+    if not tasks:
+        console.print("[yellow]No tasks generated. All pairs may already be explored.[/yellow]")
+        return
+
+    summary = search.summary(tasks)
+    console.print(f"\n[bold]Gnosis AI — Codex Mode[/bold]")
+    console.print(f"Strategy: {strategy}")
+    console.print(f"Tasks: {summary['total_tasks']} ({summary['cross_category']} cross, {summary['within_category']} within, {summary['multi_field']} multi-field)")
+    console.print(f"Budget: {max_hours}h / ${max_cost}")
+    console.print(f"Top priority: {summary['top_priority']:.2f}")
+    console.print()
+
+    # Execute via the orchestrator
+    orch = Orchestrator(config)
+    orch.auto(scope=scope, max_hours=max_hours, max_cost=max_cost)
+
+
+@cli.command()
+@click.option("--strategies", "-s", default="by_domain,by_category,holistic",
+              help="Comma-separated grouping strategies")
+@click.option("--max-levels", type=int, default=5, help="Maximum cascade levels")
+@click.option("--cross-level", is_flag=True, default=True, help="Include cross-level comparisons")
+@click.pass_context
+def cascade(ctx, strategies: str, max_levels: int, cross_level: bool):
+    """Run recursive cascade on the full convergence corpus."""
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+    from gnosis.ci.cascade import CascadeEngine, GroupingStrategy
+    from gnosis.api.claude import ClaudeAPI
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus = CorpusManager(store, taxonomy)
+    api = ClaudeAPI(config)
+
+    # Parse strategies
+    strategy_map = {s.value: s for s in GroupingStrategy}
+    strat_list = []
+    for s in strategies.split(","):
+        s = s.strip()
+        if s in strategy_map:
+            strat_list.append(strategy_map[s])
+        else:
+            console.print(f"[red]Unknown strategy: {s}. Available: {', '.join(strategy_map.keys())}[/red]")
+            return
+
+    all_convs = corpus.all_convergences()
+    if len(all_convs) < 2:
+        console.print("[yellow]Need at least 2 convergences for cascade.[/yellow]")
+        return
+
+    console.print(f"\n[bold]Gnosis AI — Recursive Cascade[/bold]")
+    console.print(f"Convergences: {len(all_convs)}")
+    console.print(f"Strategies: {', '.join(s.value for s in strat_list)}")
+    console.print(f"Max levels: {max_levels}")
+    console.print(f"Cross-level: {'yes' if cross_level else 'no'}")
+    console.print()
+
+    engine = CascadeEngine(api, field_category_fn=corpus.field_category)
+    result = engine.run_cascade(
+        all_convs,
+        strategies=strat_list,
+        max_levels=max_levels,
+        cross_level=cross_level,
+    )
+
+    # Display results
+    console.print(f"\n[bold]Cascade Results[/bold]")
+    console.print(f"Levels reached: {result.levels_reached}")
+    console.print(f"Fixed point: {'YES' if result.fixed_point_reached else 'no'}")
+    console.print(f"Total findings: {len(result.findings)}")
+    console.print(f"Strategy breakdown: {result.strategy_counts}")
+
+    for f in result.findings:
+        term = f" ({f.coined_term})" if f.coined_term else ""
+        strategy_tag = f" [{f.grouping_strategy}]" if f.grouping_strategy else ""
+        console.print(f"\n  [bold magenta]Level {f.level}{term}{strategy_tag}[/bold magenta]")
+        console.print(f"  {f.structural_finding}")
+
+    # Save findings
+    for f in result.findings:
+        store.save_finding(f)
+    console.print(f"\n[dim]Saved {len(result.findings)} findings to store[/dim]")
+
+
+@cli.group()
+@click.pass_context
+def corpus(ctx):
+    """Corpus commands — query and analyse the convergence corpus."""
+    pass
+
+
+@corpus.command()
+@click.pass_context
+def stats(ctx):
+    """Show corpus statistics."""
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus_mgr = CorpusManager(store, taxonomy)
+
+    s = corpus_mgr.stats()
+
+    table = Table(title="Convergence Corpus")
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    table.add_row("Total convergences", str(s["total_convergences"]))
+    table.add_row("Negative (no convergence)", str(s["total_negative"]))
+    table.add_row("Fields explored", str(s["total_fields_explored"]))
+    table.add_row("Category pairs", str(s["total_category_pairs"]))
+    table.add_row("Runs", str(s["total_runs"]))
+    console.print(table)
+
+    if s["by_confidence"]:
+        console.print("\n[bold]By confidence:[/bold]")
+        for tier, count in s["by_confidence"].items():
+            console.print(f"  {tier}: {count}")
+
+    if s["by_comparison_type"]:
+        console.print("\n[bold]By comparison type:[/bold]")
+        for t, count in s["by_comparison_type"].items():
+            console.print(f"  {t}: {count}")
+
+    if s["top_category_pairs"]:
+        console.print("\n[bold]Top category pairs:[/bold]")
+        for pair, count in s["top_category_pairs"]:
+            console.print(f"  {pair}: {count}")
+
+
+@corpus.command()
+@click.option("--min", "min_convs", type=int, default=3, help="Minimum convergences to qualify as hub")
+@click.pass_context
+def hubs(ctx, min_convs: int):
+    """Show hub fields (fields with the most convergences)."""
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus_mgr = CorpusManager(store, taxonomy)
+
+    hub_list = corpus_mgr.hub_fields(min_convergences=min_convs)
+    if not hub_list:
+        console.print(f"[dim]No fields with {min_convs}+ convergences.[/dim]")
+        return
+
+    table = Table(title=f"Hub Fields (≥{min_convs} convergences)")
+    table.add_column("Field", style="cyan")
+    table.add_column("Category", style="dim")
+    table.add_column("Convergences", style="bold")
+
+    for field_id, count in hub_list:
+        fi = taxonomy.get(field_id)
+        name = fi.name if fi else field_id
+        cat = fi.category if fi else "?"
+        table.add_row(name, cat, str(count))
+
+    console.print(table)
+
+
+@corpus.command()
+@click.pass_context
+def transitivity(ctx):
+    """Show transitivity candidates (A↔B and B↔C exist, but not A↔C)."""
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus_mgr = CorpusManager(store, taxonomy)
+
+    candidates = corpus_mgr.transitivity_candidates()
+    if not candidates:
+        console.print("[dim]No transitivity candidates found.[/dim]")
+        return
+
+    console.print(f"\n[bold]Transitivity Candidates ({len(candidates)})[/bold]")
+    console.print("[dim]A↔B and B↔C converge, but A↔C hasn't been explored[/dim]\n")
+
+    for a, b, c in candidates[:20]:
+        fa, fb, fc = taxonomy.get(a), taxonomy.get(b), taxonomy.get(c)
+        a_name = fa.name if fa else a
+        b_name = fb.name if fb else b
+        c_name = fc.name if fc else c
+        console.print(f"  {a_name} ↔ [bold]{b_name}[/bold] ↔ {c_name}")
+
+    if len(candidates) > 20:
+        console.print(f"\n[dim]... and {len(candidates) - 20} more[/dim]")
+
+
+@corpus.command()
+@click.pass_context
+def negatives(ctx):
+    """Show negative convergences (informative absences)."""
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus_mgr = CorpusManager(store, taxonomy)
+
+    negs = corpus_mgr.negatives()
+    if not negs:
+        console.print("[dim]No negative convergences recorded yet.[/dim]")
+        return
+
+    console.print(f"\n[bold]Negative Convergences ({len(negs)})[/bold]")
+    for n in negs:
+        domains = ", ".join(n.domain_names) if n.domain_names else ", ".join(n.domains)
+        console.print(f"  {domains}: {n.structural_claim}")
+
+
+@corpus.command()
+@click.option("--format", "-f", "fmt", type=click.Choice(["logos", "json"]), default="json")
+@click.option("--output", "-o", default=None, help="Output file path")
+@click.pass_context
+def export(ctx, fmt: str, output: str | None):
+    """Export corpus in Logos-compatible format."""
+    import json
+    from dataclasses import asdict
+    from gnosis.data.store import Store
+    from gnosis.data.taxonomy import Taxonomy
+    from gnosis.data.corpus import CorpusManager
+
+    config = ctx.obj["config"]
+    store = Store(config)
+    taxonomy = Taxonomy(config)
+    corpus_mgr = CorpusManager(store, taxonomy)
+
+    convs = corpus_mgr.all_convergences()
+    data = [asdict(c) for c in convs]
+
+    if fmt == "logos":
+        # Filter to formalisable convergences
+        data = [d for d in data if d.get("formalisability_hint") in ("high", "medium", "")]
+
+    json_str = json.dumps(data, indent=2)
+
+    if output:
+        Path(output).write_text(json_str)
+        console.print(f"[green]Exported {len(data)} convergences to {output}[/green]")
+    else:
+        console.print(json_str)

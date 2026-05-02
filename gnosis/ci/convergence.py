@@ -27,13 +27,13 @@ You must be:
 DETECT_PROMPT = """Examine the structural conclusions from these two independent fields and
 identify genuine convergences.
 
-## Field A: {domain_a_name}
+## Field A: {domain_a_name} ({domain_a_category})
 Field-level structural conclusion: {domain_a_conclusion}
 
 Results:
 {domain_a_results}
 
-## Field B: {domain_b_name}
+## Field B: {domain_b_name} ({domain_b_category})
 Field-level structural conclusion: {domain_b_conclusion}
 
 Results:
@@ -66,13 +66,16 @@ Return JSON:
           "structural_conclusion": "What this result contributes to the convergence"
         }}
       ],
+      "mathematical_structures": ["Mathematical frameworks relevant to this convergence, e.g. category theory, measure theory, group theory"],
+      "proposed_equivalence": "The kind of formal relationship claimed: isomorphism, adjunction, functor, structural_analogy, homomorphism, or other",
+      "formalisability_hint": "How feasible is formal proof? high = standard maths, medium = requires work, low = mostly analogical, requires_new_mathematics = beyond current formalism",
       "reasoning": "Brief explanation of why this is a genuine convergence, not a superficial similarity"
     }}
   ],
-  "no_convergence_reason": "If no convergences found, explain why (optional)"
+  "no_convergence_reason": "If no convergences found, explain why"
 }}
 
-If no genuine convergences exist between these fields, return {{"convergences": []}}."""
+If no genuine convergences exist between these fields, return {{"convergences": [], "no_convergence_reason": "Explanation"}}."""
 
 
 def _format_results(domain: Domain) -> str:
@@ -93,19 +96,29 @@ class ConvergenceDetector:
     def __init__(self, api: ClaudeAPI):
         self.api = api
 
-    def detect(self, domain_a: Domain, domain_b: Domain) -> list[Convergence]:
-        """Detect convergences between two surveyed domains."""
+    def detect(self, domain_a: Domain, domain_b: Domain) -> tuple[list[Convergence], str]:
+        """Detect convergences between two surveyed domains.
+
+        Returns (convergences, no_convergence_reason).
+        """
 
         prompt = DETECT_PROMPT.format(
             domain_a_name=domain_a.name,
+            domain_a_category=domain_a.category,
             domain_a_conclusion=domain_a.structural_conclusion,
             domain_a_results=_format_results(domain_a),
             domain_b_name=domain_b.name,
-            domain_b_conclusion=domain_b.structural_conclusion,
+            domain_b_category=domain_b.category,
             domain_b_results=_format_results(domain_b),
+            domain_b_conclusion=domain_b.structural_conclusion,
         )
 
         data = self.api.query_json(prompt, system=SYSTEM_PROMPT, max_tokens=4096)
+
+        # Determine comparison type from categories
+        is_cross = domain_a.category != domain_b.category
+        comp_type = "cross_category" if is_cross else "within_category"
+        source_cats = sorted(set([domain_a.category, domain_b.category]))
 
         convergences = []
         for c in data.get("convergences", []):
@@ -126,10 +139,16 @@ class ConvergenceDetector:
                 supporting_results=supporting,
                 domains=[domain_a.id, domain_b.id],
                 domain_names=[domain_a.name, domain_b.name],
+                comparison_type=comp_type,
+                mathematical_structures=c.get("mathematical_structures", []),
+                proposed_equivalence=c.get("proposed_equivalence", ""),
+                formalisability_hint=c.get("formalisability_hint", ""),
+                source_categories=source_cats,
             )
             convergences.append(conv)
 
-        return convergences
+        no_reason = data.get("no_convergence_reason", "")
+        return convergences, no_reason
 
     def detect_multi(self, domains: list[Domain]) -> list[Convergence]:
         """Detect convergences across all pairs of domains."""
@@ -145,7 +164,7 @@ class ConvergenceDetector:
                     continue
                 seen_pairs.add(pair_key)
 
-                convs = self.detect(da, db)
+                convs, _ = self.detect(da, db)
                 all_convergences.extend(convs)
 
         return all_convergences

@@ -157,6 +157,13 @@ class EAScores:
         return self.confidence
 
 
+class ComparisonType(str, Enum):
+    PAIRWISE = "pairwise"
+    MULTI_FIELD = "multi_field"
+    CROSS_LEVEL = "cross_level"
+    NEGATIVE = "negative"
+
+
 @dataclass
 class Convergence:
     """A structural convergence across domains."""
@@ -171,6 +178,15 @@ class Convergence:
     discovered_at_level: int = 0
     timestamp: str = field(default_factory=_now)
     id: str = field(default_factory=_uid)
+
+    # v2 enriched fields
+    comparison_type: str = "pairwise"  # ComparisonType value
+    mathematical_structures: list[str] = field(default_factory=list)
+    proposed_equivalence: str = ""
+    formalisability_hint: str = ""  # "high" | "medium" | "low" | "requires_new_mathematics"
+    source_categories: list[str] = field(default_factory=list)
+    parent_convergence_ids: list[str] = field(default_factory=list)
+    negative: bool = False
 
     def get_supporting(self) -> list[SupportingResult]:
         return [SupportingResult(**r) for r in self.supporting_results]
@@ -199,6 +215,10 @@ class Finding:
     timestamp: str = field(default_factory=_now)
     id: str = field(default_factory=_uid)
 
+    # v2 cascade fields
+    grouping_strategy: str = ""
+    group_name: str = ""
+
 
 @dataclass
 class RunStats:
@@ -219,6 +239,13 @@ class RunStats:
     estimated_cost_usd: float = 0.0
     cycles_completed: int = 0
     termination_reason: str = ""
+
+    # v2 stats
+    cross_category_convergences: int = 0
+    within_category_convergences: int = 0
+    negative_convergences: int = 0
+    cross_category_pairs: int = 0
+    within_category_pairs: int = 0
 
 
 @dataclass

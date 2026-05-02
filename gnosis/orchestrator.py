@@ -26,6 +26,39 @@ from gnosis.ea.validator import EAValidator
 console = Console()
 
 
+# ─── Category Distance Scoring ───
+# Higher = more disparate = higher discovery value = run first
+CATEGORY_DISTANCE = {
+    ("Biology", "Physics"): 0.95,
+    ("Biology", "Mathematics"): 1.0,
+    ("Mathematics", "Social & Cognitive Sciences"): 0.95,
+    ("Physics", "Social & Cognitive Sciences"): 1.0,
+    ("Biology", "Social & Cognitive Sciences"): 0.85,
+    ("Computer Science", "Biology"): 0.9,
+    ("Computer Science", "Social & Cognitive Sciences"): 0.9,
+    ("Chemistry", "Social & Cognitive Sciences"): 0.85,
+    ("Chemistry", "Mathematics"): 0.8,
+    ("Earth & Space Sciences", "Social & Cognitive Sciences"): 0.85,
+    ("Earth & Space Sciences", "Mathematics"): 0.8,
+    ("Earth & Space Sciences", "Biology"): 0.75,
+    ("Physics", "Earth & Space Sciences"): 0.7,
+    ("Physics", "Chemistry"): 0.6,
+    ("Biology", "Chemistry"): 0.5,
+    ("Physics", "Mathematics"): 0.5,
+    ("Computer Science", "Mathematics"): 0.4,
+    ("Physics", "Computer Science"): 0.5,
+    ("Chemistry", "Earth & Space Sciences"): 0.4,
+}
+
+
+def pair_priority(domain_a: Domain, domain_b: Domain) -> float:
+    """Score a pair by category distance. Higher = more disparate = run first."""
+    if domain_a.category == domain_b.category:
+        return 0.1
+    key = tuple(sorted([domain_a.category, domain_b.category]))
+    return CATEGORY_DISTANCE.get(key, 0.7)
+
+
 class Orchestrator:
     """The main Gnosis AI orchestrator — runs the full discovery pipeline."""
 
@@ -191,13 +224,20 @@ class Orchestrator:
         all_findings = []
         cycle = 0
 
-        # Generate all pairs
+        # Generate all pairs, sorted by category distance (cross-category FIRST)
         pairs = list(itertools.combinations(domains, 2))
-        console.print(f"[dim]Possible combinations: {len(pairs)}[/dim]\n")
+        pairs.sort(key=lambda p: pair_priority(p[0], p[1]), reverse=True)
+
+        n_cross = sum(1 for a, b in pairs if a.category != b.category)
+        n_within = len(pairs) - n_cross
+        console.print(f"[dim]Possible combinations: {len(pairs)} ({n_cross} cross-category, {n_within} within-category)[/dim]")
+        console.print(f"[dim]Processing cross-category pairs first (highest discovery value)[/dim]\n")
 
         # Process in batches
         batch_size = 10
         pair_index = 0
+        cross_found = 0
+        within_found = 0
 
         while pair_index < len(pairs):
             cycle += 1
@@ -214,16 +254,39 @@ class Orchestrator:
             batch_end = min(pair_index + batch_size, len(pairs))
             batch = pairs[pair_index:batch_end]
 
-            console.print(f"[bold]Cycle {cycle}[/bold] — pairs {pair_index+1}-{batch_end} of {len(pairs)}")
+            # Show whether this batch is cross or within category
+            batch_cross = sum(1 for a, b in batch if a.category != b.category)
+            batch_label = "cross" if batch_cross > len(batch) // 2 else "within"
+            console.print(f"[bold]Cycle {cycle}[/bold] — pairs {pair_index+1}-{batch_end} of {len(pairs)} [{batch_label}-category]")
 
             cycle_convergences = []
             for da, db in batch:
                 try:
-                    convs = self.detector.detect(da, db)
+                    convs, no_reason = self.detector.detect(da, db)
+                    is_cross = da.category != db.category
                     for c in convs:
                         c.discovered_in_run = run.id
                     cycle_convergences.extend(convs)
                     stats.combinations_explored += 1
+
+                    if is_cross:
+                        cross_found += len(convs)
+                    else:
+                        within_found += len(convs)
+
+                    # Track negatives
+                    if not convs and no_reason:
+                        neg = Convergence(
+                            structural_claim=f"No convergence: {no_reason}",
+                            convergence_type="none",
+                            domains=[da.id, db.id],
+                            domain_names=[da.name, db.name],
+                            comparison_type="negative",
+                            source_categories=sorted(set([da.category, db.category])),
+                            negative=True,
+                            discovered_in_run=run.id,
+                        )
+                        self.store.save_convergence(neg)
                 except Exception as e:
                     console.print(f"[red]Error comparing {da.name} × {db.name}: {e}[/red]")
 
@@ -272,6 +335,10 @@ class Orchestrator:
         stats.analogical = sum(1 for c in all_convergences if c.convergence_type == "structural_analogy")
         stats.findings_produced = len(all_findings)
         stats.meta_convergences = sum(1 for f in all_findings if f.is_meta_convergence)
+        stats.cross_category_convergences = cross_found
+        stats.within_category_convergences = within_found
+        stats.cross_category_pairs = n_cross
+        stats.within_category_pairs = n_within
         stats.api_calls = self.api.stats.calls
         stats.tokens_used = self.api.stats.input_tokens + self.api.stats.output_tokens
         stats.estimated_cost_usd = round(self.api.stats.cost_usd, 2)
@@ -328,9 +395,14 @@ class Orchestrator:
         stats: RunStats,
         run_id: str,
     ) -> list[Convergence]:
-        """Detect convergences across all domain pairs."""
+        """Detect convergences across all domain pairs, cross-category first."""
         pairs = list(itertools.combinations(domains, 2))
+        # Sort by category distance: most disparate pairs first
+        pairs.sort(key=lambda p: pair_priority(p[0], p[1]), reverse=True)
+
         all_convs = []
+        cross_count = 0
+        within_count = 0
 
         with Progress(
             SpinnerColumn(),
@@ -340,21 +412,50 @@ class Orchestrator:
             task = progress.add_task("Detecting convergences...", total=len(pairs))
 
             for da, db in pairs:
+                is_cross = da.category != db.category
+                marker = "×" if is_cross else "·"
                 progress.update(
                     task,
-                    description=f"Comparing {da.name} × {db.name}...",
+                    description=f"[{'bold' if is_cross else 'dim'}]{da.name} {marker} {db.name}[/]...",
                 )
                 try:
-                    convs = self.detector.detect(da, db)
+                    convs, no_reason = self.detector.detect(da, db)
                     for c in convs:
                         c.discovered_in_run = run_id
                     all_convs.extend(convs)
                     stats.combinations_explored += 1
+
+                    if is_cross:
+                        cross_count += len(convs)
+                    else:
+                        within_count += len(convs)
+
+                    # Track negative (no convergences found)
+                    if not convs and no_reason:
+                        neg = Convergence(
+                            structural_claim=f"No convergence: {no_reason}",
+                            convergence_type="none",
+                            domains=[da.id, db.id],
+                            domain_names=[da.name, db.name],
+                            comparison_type="negative",
+                            source_categories=sorted(set([da.category, db.category])),
+                            negative=True,
+                            discovered_in_run=run_id,
+                        )
+                        self.store.save_convergence(neg)
                 except Exception as e:
                     console.print(f"[red]Error: {da.name} × {db.name}: {e}[/red]")
                 progress.advance(task)
 
-        console.print(f"[green]Found {len(all_convs)} convergences across {len(pairs)} pairs[/green]\n")
+        n_cross_pairs = sum(1 for a, b in pairs if a.category != b.category)
+        n_within_pairs = len(pairs) - n_cross_pairs
+        console.print(
+            f"[green]Found {len(all_convs)} convergences across {len(pairs)} pairs[/green]"
+        )
+        console.print(
+            f"  [cyan]Cross-category: {cross_count} from {n_cross_pairs} pairs | "
+            f"Within-category: {within_count} from {n_within_pairs} pairs[/cyan]\n"
+        )
         return all_convs
 
     def _validate_convergences(
@@ -440,7 +541,12 @@ class Orchestrator:
         table.add_row("Results catalogued", str(stats.results_catalogued))
         table.add_row("Combinations explored", str(stats.combinations_explored))
         table.add_row("Convergences found", str(stats.convergences_found))
+        if stats.cross_category_convergences or stats.within_category_convergences:
+            table.add_row("  Cross-category", str(stats.cross_category_convergences))
+            table.add_row("  Within-category", str(stats.within_category_convergences))
         table.add_row("Meta-convergences", str(stats.meta_convergences))
+        if stats.negative_convergences:
+            table.add_row("Negative (no convergence)", str(stats.negative_convergences))
         if stats.termination_reason:
             table.add_row("Terminated", stats.termination_reason)
         console.print(table)
@@ -454,9 +560,15 @@ class Orchestrator:
                 strength = StrengthCategory.from_score(ea.strength).value.upper()
                 domains = ", ".join(c.domain_names) if c.domain_names else ", ".join(c.domains)
                 color = {"VERIFIED": "green", "SUPPORTED": "blue", "PRELIMINARY": "yellow"}.get(cat, "dim")
-                console.print(f"\n  [{color}]{i}. [{cat}] {c.structural_claim}[/{color}]")
+                cross_tag = " [bold cyan]CROSS[/bold cyan]" if c.comparison_type == "cross_category" else ""
+                console.print(f"\n  [{color}]{i}. [{cat}] {c.structural_claim}[/{color}]{cross_tag}")
                 console.print(f"     Fields: {domains}")
-                console.print(f"     Type: {c.convergence_type} | Strength: {strength} | Confidence: {ea.confidence:.2f}")
+                type_str = f"Type: {c.convergence_type} | Strength: {strength} | Confidence: {ea.confidence:.2f}"
+                if c.formalisability_hint:
+                    type_str += f" | Formalisability: {c.formalisability_hint}"
+                console.print(f"     {type_str}")
+                if c.mathematical_structures:
+                    console.print(f"     [dim]Structures: {', '.join(c.mathematical_structures)}[/dim]")
 
         # Findings
         if findings:
