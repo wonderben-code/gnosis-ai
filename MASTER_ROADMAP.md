@@ -164,7 +164,8 @@ Not just pairwise comparisons — combinatorial at EVERY level:
 | 5c | **Stage A CAPSTONE** — 22 papers across all cascade levels (L5→L1). Genuine ontological claims about reality, precisely scoped, with predictions extending into untested domains. **Papers composed manually with AI (Claude Code) — NOT Synthesis AI.** Each paper individually proofread to top 0.00001% quality. | **8/22 DONE** (2 May) |
 | 5c-i | Clean up 8 completed capstone papers for Zenodo publication | **DONE** (fixed fake IDs, DOIs, headers) |
 | 5c-ii | Publish 8 capstone papers to Zenodo with DOIs (v2 with PDFs) | **DONE** (3 May) |
-| 5c-v | **PROOFREAD all 8 capstone papers to top 0.00001% quality** — Remove all inline hex IDs from body text, write actual formalisation mathematics into papers (not just database references), fix fake Codex DOIs in references, ensure each paper stands alone as a publishable scientific document. One-by-one manual review with AI. | **NEXT** |
+| 5c-0 | **PAPER QUALITY BIBLE** — Write the definitive reference document for capstone paper quality. **The standard: if the claim is later proven correct, a Nobel committee reading this paper would unambiguously establish priority — the paper alone proves we had the discovery first.** Covers: paper structure (exact sections + requirements), mathematical standards (formalisations written out in full, LaTeX, theorem formatting), evidence standards (cite by domain pair not hex ID, honest confidence), prediction format (specific enough that confirmation can only come from this theory), provenance (SHA-256, Bitcoin timestamp, irrefutable proof-of-existence), reference format (no fake DOIs), anti-drift rules, prose standards (standalone scientific paper any physicist could evaluate), honest limitations, 20+ point final checklist. Every paper measured against this before publication. Saved at `convergence-codex/docs/PAPER_QUALITY_BIBLE.md`. | **FIRST** |
+| 5c-v | **PROOFREAD all 8 capstone papers to top 0.00001% quality** — Using the Paper Quality Bible. Remove all inline hex IDs, write actual formalisation mathematics, fix fake Codex DOIs, ensure standalone publishable quality. One-by-one manual review with AI. | **NEXT** |
 | 5c-vi | Publish v3 of 8 proofread capstone papers to Zenodo | NOT DONE |
 | 5c-iii | Compose remaining 14 capstone papers manually with AI (Claude Code) — use cached claims + plans, write each paper directly with actual formalisation mathematics, no Synthesis AI | NOT DONE |
 | 5c-iv | Proofread + publish remaining 14 capstone papers to Zenodo | NOT DONE |
@@ -175,7 +176,7 @@ Not just pairwise comparisons — combinatorial at EVERY level:
 | 7 | **Stage C — THE CROWN JEWELS** — The capstone of capstones. From ALL of Stage A + B, identify the 3-5 MOST terminal, MOST unifying, MOST revolutionary claims — the absolute top of the cascade. These are the claims that, if correct, would each individually transform our understanding of reality. Write the definitive, focused papers for each. Not broad surveys — laser-focused on the single most powerful version of each claim. | NOT DONE |
 | 7b | **Stage C PUBLICATION** — 3-5 crown jewel papers → Zenodo. These are THE papers. | NOT DONE |
 | 8 | **Stage D — HARDEN** — Take Stage C's 3-5 crown jewel claims and make them airtight. Formal mathematical proofs (Lean 4 where possible), exhaustive prediction derivation, detailed experimental proposals, address every possible objection. Close every gap the adversarial review identified. The goal: if a physicist reads this paper, they cannot find a flaw — only test it. | NOT DONE |
-| 8b | **Stage D PUBLICATION** — Hardened crown jewel papers + pre-registration prediction papers, Bitcoin-stamped BEFORE any confirmation | NOT DONE |
+| 8b | **Stage D PUBLICATION** — Publish hardened crown jewel papers as **v2 of the Stage C papers on Zenodo** (same records, new version with formal proofs + predictions added). Pre-registration prediction papers Bitcoin-stamped BEFORE any confirmation. | NOT DONE |
 | 9 | **Stage E — THE GRAND FINALE** — Synthesise EVERYTHING from Stages A through D into one paper. Validate, strengthen, or upgrade the existing Theory of Everything (Paper 15) using the full Codex evidence base. This is where 266+ convergences, thousands of formal conjectures, the cascade structure, the fixed points, the crown jewel claims, and the hardened proofs all converge into a single unified proposal. THE Nobel paper. | NOT DONE |
 | 9b | **Stage E PUBLICATION** — THE capstone paper: the updated, evidence-backed Theory of Everything → Zenodo | NOT DONE |
 | 10 | **Website wing** — Convergence Codex on infinitography.com | NOT DONE |
@@ -387,7 +388,8 @@ NOW ━━━━━━ STAGE 3b: THE CONVERGENCE CODEX ━━━━━━━━�
   ✅ Pipeline Orchestrator (479 lines, thin coordination, checkpoints)
   ✅ Stage A — DONE (256/266 proofs through Logos)
   ▶  Stage A CAPSTONE — 8/22 papers DONE, v2 PDFs on Zenodo (3 May 2026)
-     → NEXT: Proofread all 8 papers to top 0.00001% (manual AI, no API cost)
+     → FIRST: Write Paper Quality Bible (reference doc for every paper)
+     → NEXT: Proofread all 8 papers against the Bible to top 0.00001% (manual AI, no API cost)
      → Publish v3 proofread versions to Zenodo
      → Fix pipeline prompts (no inline hex IDs, include formalisation maths)
      → Compose remaining 14 capstone papers (~$60-80)
