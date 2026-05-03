@@ -14,11 +14,14 @@ console = Console()
 
 
 @click.group()
+@click.option("--max-plan", is_flag=True, default=False,
+              help="Use Claude Code CLI (Max plan) instead of API — $0 cost")
 @click.pass_context
-def cli(ctx):
+def cli(ctx, max_plan: bool):
     """Gnosis AI — Autonomous Knowledge Discovery"""
     ctx.ensure_object(dict)
     ctx.obj["config"] = Config.load()
+    ctx.obj["use_max_plan"] = max_plan
 
 
 @cli.command()
@@ -34,7 +37,7 @@ def guided(ctx, question: str, domains: str, max_depth: int, max_cost: float | N
     config = ctx.obj["config"]
     if max_cost:
         config.max_cost_usd = max_cost
-    orch = Orchestrator(config)
+    orch = Orchestrator(config, use_max_plan=ctx.obj.get("use_max_plan", False))
     domain_list = [d.strip() for d in domains.split(",")]
     orch.guided(question=question, domain_specs=domain_list, max_depth=max_depth)
 
@@ -50,7 +53,7 @@ def explore(ctx, domains: str, max_cost: float | None):
     config = ctx.obj["config"]
     if max_cost:
         config.max_cost_usd = max_cost
-    orch = Orchestrator(config)
+    orch = Orchestrator(config, use_max_plan=ctx.obj.get("use_max_plan", False))
     domain_list = [d.strip() for d in domains.split(",")]
     orch.explore(domain_specs=domain_list)
 
@@ -65,7 +68,7 @@ def auto(ctx, scope: str, max_hours: float | None, max_cost: float | None):
     from gnosis.orchestrator import Orchestrator
 
     config = ctx.obj["config"]
-    orch = Orchestrator(config)
+    orch = Orchestrator(config, use_max_plan=ctx.obj.get("use_max_plan", False))
     orch.auto(scope=scope, max_hours=max_hours, max_cost=max_cost)
 
 
@@ -262,7 +265,7 @@ def codex(ctx, strategy: str, scope: str, max_cost: float, max_hours: float, inc
     console.print()
 
     # Execute via the orchestrator
-    orch = Orchestrator(config)
+    orch = Orchestrator(config, use_max_plan=ctx.obj.get("use_max_plan", False))
     orch.auto(scope=scope, max_hours=max_hours, max_cost=max_cost)
 
 
@@ -278,13 +281,13 @@ def cascade(ctx, strategies: str, max_levels: int, cross_level: bool):
     from gnosis.data.taxonomy import Taxonomy
     from gnosis.data.corpus import CorpusManager
     from gnosis.ci.cascade import CascadeEngine, GroupingStrategy
-    from gnosis.api.claude import ClaudeAPI
+    from gnosis.api.claude import create_api
 
     config = ctx.obj["config"]
     store = Store(config)
     taxonomy = Taxonomy(config)
     corpus = CorpusManager(store, taxonomy)
-    api = ClaudeAPI(config)
+    api = create_api(config, use_max_plan=ctx.obj.get("use_max_plan", False))
 
     # Parse strategies
     strategy_map = {s.value: s for s in GroupingStrategy}

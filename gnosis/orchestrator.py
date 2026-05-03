@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.table import Table
 
-from gnosis.api.claude import ClaudeAPI
+from gnosis.api.claude import ClaudeAPI, MaxPlanAPI, create_api
 from gnosis.ci.surveyor import Surveyor
 from gnosis.ci.convergence import ConvergenceDetector
 from gnosis.ci.meta import MetaConvergenceEngine
@@ -35,9 +35,9 @@ def pair_priority(domain_a: Domain, domain_b: Domain) -> float:
 class Orchestrator:
     """The main Gnosis AI orchestrator — runs the full discovery pipeline."""
 
-    def __init__(self, config: Config):
+    def __init__(self, config: Config, use_max_plan: bool = False):
         self.config = config
-        self.api = ClaudeAPI(config)
+        self.api = create_api(config, use_max_plan=use_max_plan)
         self.store = Store(config)
         self.taxonomy = Taxonomy(config)
         self.surveyor = Surveyor(self.api, self.store)
