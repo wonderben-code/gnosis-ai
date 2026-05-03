@@ -1,4 +1,8 @@
-"""Domain Surveyor — surveys a field and extracts established results."""
+"""Domain Surveyor — surveys a field and extracts established results.
+
+v3: Post-survey verification against 5 external academic databases.
+Unverified results are CULLED from the pipeline.
+"""
 
 from __future__ import annotations
 
@@ -6,6 +10,7 @@ from gnosis.api.claude import ClaudeAPI
 from gnosis.data.models import Domain, Result, _now
 from gnosis.data.store import Store
 from gnosis.data.taxonomy import FieldInfo
+from gnosis.verification.verifier import KnowledgeVerifier
 
 SYSTEM_PROMPT = """You are a component of Gnosis AI, an autonomous knowledge discovery system.
 Your role is the Domain Surveyor: you survey fields of science and mathematics to identify
@@ -74,11 +79,17 @@ Return a JSON object with:
 
 
 class Surveyor:
-    """Surveys domains and extracts established results with structural conclusions."""
+    """Surveys domains and extracts established results with structural conclusions.
 
-    def __init__(self, api: ClaudeAPI, store: Store):
+    v3: After survey, each result is verified against 5 external databases.
+    Unverified results are automatically culled.
+    """
+
+    def __init__(self, api: ClaudeAPI, store: Store, verify: bool = True):
         self.api = api
         self.store = store
+        self.verify = verify
+        self._verifier = KnowledgeVerifier() if verify else None
 
     def survey(
         self,
@@ -137,6 +148,48 @@ class Surveyor:
             survey_timestamp=_now(),
         )
 
+        # v3: Verify results against external databases and cull unverified
+        if self.verify and self._verifier:
+            domain = self._verify_and_cull(domain)
+
         # Cache
         self.store.save_domain(domain)
+        return domain
+
+    def _verify_and_cull(self, domain: Domain) -> Domain:
+        """Verify each result against 5 external databases. Cull unverified.
+
+        Adds _verification metadata to each result.
+        Removes results that cannot be verified externally.
+        """
+        verified_results = []
+        culled = []
+
+        for r_dict in domain.results:
+            name = r_dict.get("name", "")
+            authors = r_dict.get("authors", "")
+            year = r_dict.get("year", 0)
+
+            vr = self._verifier.verify_result(name, authors, year)
+            r_dict["_verification"] = vr.to_dict()
+
+            if vr.verdict in ("VERIFIED", "PARTIALLY_VERIFIED"):
+                verified_results.append(r_dict)
+            else:
+                culled.append(r_dict)
+
+        original_count = len(domain.results)
+        domain.results = verified_results
+
+        # Store culled results and verification stats as metadata
+        if not hasattr(domain, '_verification_stats'):
+            domain.__dict__["_verification_stats"] = {}
+        domain.__dict__["_verification_stats"] = {
+            "original_count": original_count,
+            "verified_count": len(verified_results),
+            "culled_count": len(culled),
+            "verification_rate": len(verified_results) / original_count if original_count else 0,
+            "culled_results": [c.get("name", "") for c in culled],
+        }
+
         return domain
