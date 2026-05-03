@@ -170,7 +170,8 @@ class Surveyor:
             authors = r_dict.get("authors", "")
             year = r_dict.get("year", 0)
 
-            vr = self._verifier.verify_result(name, authors, year)
+            structural_conclusion = r_dict.get("structural_conclusion", "")
+            vr = self._verifier.verify_result(name, authors, year, structural_conclusion)
             r_dict["_verification"] = vr.to_dict()
 
             if vr.verdict in ("VERIFIED", "PARTIALLY_VERIFIED"):

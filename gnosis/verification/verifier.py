@@ -31,6 +31,7 @@ class SourceResult:
     doi: str = ""
     year: int = 0
     url: str = ""
+    abstract: str = ""  # Paper abstract for fidelity checking
     extra: dict = field(default_factory=dict)
 
 
@@ -40,6 +41,7 @@ class VerificationResult:
     result_name: str
     authors: str = ""
     claimed_year: int = 0
+    structural_fidelity: float = 0.0  # How well Claude's interpretation matches external data
     semantic_scholar: SourceResult = field(default_factory=SourceResult)
     crossref: SourceResult = field(default_factory=SourceResult)
     openalex: SourceResult = field(default_factory=SourceResult)
@@ -78,6 +80,59 @@ class VerificationResult:
         cite_score = min(self.max_citations / 500.0, 1.0) if self.max_citations > 0 else 0.0
         return round(source_score * 0.7 + cite_score * 0.3, 3)
 
+    @property
+    def best_abstract(self) -> str:
+        """Return the best available abstract from any source."""
+        for src in [self.semantic_scholar, self.openalex, self.crossref]:
+            if src.abstract:
+                return src.abstract
+        return ""
+
+    def compute_structural_fidelity(self, structural_conclusion: str) -> float:
+        """Score how well Claude's structural interpretation matches external data.
+
+        Compares the structural_conclusion against the actual paper abstract
+        fetched from external databases. The abstract is the external anchor —
+        Claude's interpretation is being checked against ground truth, not itself.
+
+        Returns 0.0-1.0 fidelity score.
+        """
+        abstract = self.best_abstract
+        if not abstract or not structural_conclusion:
+            # Can't check fidelity without external abstract — neutral score
+            self.structural_fidelity = 0.5
+            return 0.5
+
+        # Extract key concepts from both texts
+        abstract_words = set(re.findall(r'\b[a-z]{3,}\b', abstract.lower()))
+        conclusion_words = set(re.findall(r'\b[a-z]{3,}\b', structural_conclusion.lower()))
+
+        # Remove common stop words
+        stop = {'the', 'and', 'that', 'this', 'for', 'are', 'was', 'with', 'has',
+                'have', 'been', 'from', 'will', 'can', 'not', 'but', 'which',
+                'their', 'they', 'its', 'also', 'more', 'than', 'into', 'our',
+                'these', 'such', 'when', 'over', 'some', 'only', 'other', 'about',
+                'between', 'through', 'where', 'each', 'does', 'most', 'show',
+                'may', 'both', 'well', 'result', 'results', 'paper', 'study',
+                'using', 'used', 'based', 'approach', 'method', 'propose', 'proposed'}
+        abstract_words -= stop
+        conclusion_words -= stop
+
+        if not abstract_words or not conclusion_words:
+            self.structural_fidelity = 0.5
+            return 0.5
+
+        # Concept overlap: what fraction of conclusion concepts appear in abstract?
+        overlap = conclusion_words & abstract_words
+        # Bidirectional: both precision and recall matter
+        precision = len(overlap) / len(conclusion_words) if conclusion_words else 0
+        recall = len(overlap) / min(len(abstract_words), 20) if abstract_words else 0
+
+        # Weighted: precision matters more (is Claude's interpretation grounded?)
+        fidelity = precision * 0.7 + recall * 0.3
+        self.structural_fidelity = round(min(1.0, fidelity), 3)
+        return self.structural_fidelity
+
     def to_dict(self) -> dict:
         return {
             "result_name": self.result_name,
@@ -87,6 +142,7 @@ class VerificationResult:
             "sources_confirmed": self.sources_confirmed,
             "max_citations": self.max_citations,
             "confidence": self.confidence,
+            "structural_fidelity": self.structural_fidelity,
             "semantic_scholar": {"found": self.semantic_scholar.found, "citations": self.semantic_scholar.citation_count},
             "crossref": {"found": self.crossref.found, "doi": self.crossref.doi},
             "openalex": {"found": self.openalex.found, "citations": self.openalex.citation_count},
@@ -167,7 +223,7 @@ class KnowledgeVerifier:
                 params={
                     "query": query[:200],
                     "limit": 3,
-                    "fields": "title,citationCount,year,externalIds,authors",
+                    "fields": "title,citationCount,year,externalIds,authors,abstract",
                 },
                 timeout=15,
             )
@@ -176,7 +232,7 @@ class KnowledgeVerifier:
                 resp = self.session.get(
                     "https://api.semanticscholar.org/graph/v1/paper/search",
                     params={"query": query[:200], "limit": 3,
-                            "fields": "title,citationCount,year,externalIds,authors"},
+                            "fields": "title,citationCount,year,externalIds,authors,abstract"},
                     timeout=15,
                 )
             if resp.status_code != 200:
@@ -201,6 +257,7 @@ class KnowledgeVerifier:
                 year=best.get("year", 0) or 0,
                 doi=ext_ids.get("DOI", ""),
                 url=f"https://www.semanticscholar.org/paper/{best.get('paperId', '')}",
+                abstract=best.get("abstract", "") or "",
             )
         except Exception:
             self.stats["errors"] += 1
@@ -298,6 +355,17 @@ class KnowledgeVerifier:
             concepts = best.get("concepts", [])
             concept_names = [c.get("display_name", "") for c in concepts[:5]]
 
+            # Reconstruct abstract from inverted index if available
+            abstract_inv = best.get("abstract_inverted_index", {})
+            abstract_text = ""
+            if abstract_inv:
+                word_positions = []
+                for word, positions in abstract_inv.items():
+                    for pos in positions:
+                        word_positions.append((pos, word))
+                word_positions.sort()
+                abstract_text = " ".join(w for _, w in word_positions)
+
             return SourceResult(
                 found=True,
                 title=best.get("title", "") or "",
@@ -305,6 +373,7 @@ class KnowledgeVerifier:
                 year=best.get("publication_year", 0) or 0,
                 doi=(best.get("doi", "") or "").replace("https://doi.org/", ""),
                 url=best.get("id", ""),
+                abstract=abstract_text,
                 extra={"concepts": concept_names},
             )
         except Exception:
@@ -422,7 +491,8 @@ class KnowledgeVerifier:
     # ─── MAIN VERIFICATION ───
 
     def verify_result(
-        self, name: str, authors: str = "", year: int = 0
+        self, name: str, authors: str = "", year: int = 0,
+        structural_conclusion: str = "",
     ) -> VerificationResult:
         """Verify a single surveyed result against all 5 sources.
 
@@ -430,15 +500,16 @@ class KnowledgeVerifier:
             name: The standard name of the result (e.g., "Bell's theorem")
             authors: Author(s) and year string (e.g., "Bell (1964)")
             year: Publication year
+            structural_conclusion: Claude's interpretation — checked against
+                external paper abstracts for fidelity.
 
         Returns:
-            VerificationResult with verdict: VERIFIED, PARTIALLY_VERIFIED, or UNVERIFIED
+            VerificationResult with verdict, fidelity score, and per-source data.
         """
-        # Build search queries
         primary_query = name
         author_query = f"{name} {authors}".strip() if authors else name
 
-        return VerificationResult(
+        vr = VerificationResult(
             result_name=name,
             authors=authors,
             claimed_year=year,
@@ -448,6 +519,12 @@ class KnowledgeVerifier:
             arxiv=self._search_arxiv(primary_query),
             wikipedia=self._search_wikipedia(primary_query),
         )
+
+        # Compute structural fidelity if we have a structural conclusion
+        if structural_conclusion:
+            vr.compute_structural_fidelity(structural_conclusion)
+
+        return vr
 
     def verify_domain(self, domain_data: dict) -> DomainVerification:
         """Verify all results in a domain survey. Cull unverified results.
