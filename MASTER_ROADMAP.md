@@ -1,7 +1,7 @@
 # Master Roadmap — All Projects
 
 **Creator:** Mark E. Mala (Ekram Alam)
-**Last updated:** 3 May 2026 (Gnosis v3 knowledge verification + Logos v2 multi-tool formalisation + Kerygma outreach AI)
+**Last updated:** 4 May 2026 (Paper F roadmap added as parallel track — 50-item mathematical programme for GToE closure. Entry 4 rewritten with full Logos formalisation.)
 **This is THE canonical roadmap. One file. All projects. Always consult this first.**
 
 ---
@@ -24,7 +24,7 @@
 - `wonderben-code/gnosis-ai` — Gnosis AI product (MIT)
 - `wonderben-code/convergence-codex` — The Convergence Codex: Logos, Synthesis, orchestrator, data (PUBLIC, MIT)
 
-**Published:** 43 papers on Zenodo with DOIs. All Bitcoin-timestamped. (35 original + 8 Stage A Capstone)
+**Published:** 47 papers on Zenodo with DOIs. All Bitcoin-timestamped. (35 original + 8 Stage A Capstone + Paper D v2 + Paper E v3 + Paper F v2.4)
 
 ---
 
@@ -152,186 +152,279 @@ Not just pairwise comparisons — combinatorial at EVERY level:
 - Same combinatorial process applied recursively
 - Continue until fixed points or diminishing returns
 
-#### Build Order (11 Nobel-clearing checkpoints)
+#### What's Built (infrastructure — all DONE)
 
-| Step | What | Status |
-|------|------|--------|
-| 1 | **Gnosis v2** — cross-domain, multi-field, recursive cascade, 81 fields | **DONE** |
-| 2 | **Logos AI** — 2,162 lines, 14 files, Lean 4 formalisation, 5-layer adversarial validation | **DONE** |
-| 3 | **Synthesis AI** — 1,448 lines, 11 files, publication-quality paper generation | **RETIRED** (see note below) |
-| 4 | **Pipeline Orchestrator** — 479 lines, 3 files, thin coordination, human checkpoints | **DONE** |
-| 5 | **Stage A** — 266 existing convergences through Logos | **DONE** (256/266 proofs, 2 May) |
-| 5c | **Stage A CAPSTONE** — 22 papers across all cascade levels (L5→L1). Genuine ontological claims about reality, precisely scoped, with predictions extending into untested domains. **Papers composed manually with AI (Claude Code) — NOT Synthesis AI.** Each paper individually proofread to top 0.00001% quality. | **8/22 DONE** (2 May) |
-| 5c-i | Clean up 8 completed capstone papers for Zenodo publication | **DONE** (fixed fake IDs, DOIs, headers) |
-| 5c-ii | Publish 8 capstone papers to Zenodo with DOIs (v2 with PDFs) | **DONE** (3 May) |
-| 5c-0 | **PAPER QUALITY BIBLE** — Write the definitive reference document for capstone paper quality. **The standard: if the claim is later proven correct, a Nobel committee reading this paper would unambiguously establish priority — the paper alone proves we had the discovery first.** Covers: paper structure (exact sections + requirements), mathematical standards (formalisations written out in full, LaTeX, theorem formatting), evidence standards (cite by domain pair not hex ID, honest confidence), prediction format (specific enough that confirmation can only come from this theory), provenance (SHA-256, Bitcoin timestamp, irrefutable proof-of-existence), reference format (no fake DOIs), anti-drift rules, prose standards (standalone scientific paper any physicist could evaluate), honest limitations, 20+ point final checklist. Every paper measured against this before publication. Saved at `convergence-codex/docs/PAPER_QUALITY_BIBLE.md`. | **FIRST** |
-| 5c-v | **PROOFREAD all 8 capstone papers to top 0.00001% quality** — Using the Paper Quality Bible. Remove all inline hex IDs, write actual formalisation mathematics, fix fake Codex DOIs, ensure standalone publishable quality. One-by-one manual review with AI. | **NEXT** |
-| 5c-vi | Publish v3 of 8 proofread capstone papers to Zenodo | NOT DONE |
-| 5c-iii | Compose remaining 14 capstone papers manually with AI (Claude Code) — use cached claims + plans, write each paper directly with actual formalisation mathematics, no Synthesis AI | NOT DONE |
-| 5c-iv | Proofread + publish remaining 14 capstone papers to Zenodo | NOT DONE |
-| 5d | **Stage A FORMALISATION CATALOGUE** — Instead of ~70 individual papers, create ONE comprehensive catalogue document listing ALL 256 formalisations with their mathematical propositions, proof sketches, confidence scores, adversarial verdicts, and domain pairs. Published as a single Zenodo deposit. Much more useful as a reference work than hundreds of thin papers. AI-composed (no API cost). | NOT DONE |
-| 5e | **GNOSIS v3 — VERIFIED KNOWLEDGE** — Upgrade Gnosis AI from parametric-only (Claude's training data) to externally verified knowledge. Every surveyed result cross-referenced against multiple academic databases. Zero hazy knowledge. Zero unestablished claims. Only verified, peer-reviewed, established science. See BUILD PLAN below. | NOT DONE |
-| 5f | **LOGOS v2 — MULTI-TOOL FORMALISATION** — Upgrade Logos from Lean-only (which was never installed) to multi-tool verification: Lean 4 (now installed v4.29.1), Z3 SMT solver (now installed v4.16.0), SymPy symbolic math (now installed v1.14.0). Maximise machine-verified formalisations. Re-run all 256 proofs through new verification stack. See BUILD PLAN below. | NOT DONE |
-| 5g | **Re-run Stage A proofs through Logos v2** — Take all 256 existing formalisations and run them through the new multi-tool verification stack. Triage results: Tier 1 (machine-verified), Tier 2 (partially verified), Tier 3 (unverifiable by current tools). Update proof records with verification results. | NOT DONE |
-| 6 | **Stage B — THE BIG RUN** — Full Codex across ALL 81 fields of science, maths, physics (6 phases): all pairwise convergences (cross-category first), codex analysis, multi-field groups, meta-convergences, recursive cascade to fixed points, everything through Logos v2 (multi-tool verification, NOT Synthesis). 10x more data than Stage A. Uses Gnosis v3 (verified knowledge only). | NOT DONE |
-| 6c | **Stage B CAPSTONE** — Capstone papers from the broader Stage B dataset, composed manually with AI (Claude Code). Each paper individually proofread. Do Stage A claims hold? Strengthen? New ones emerge? | NOT DONE |
-| 6d | **Stage B FORMALISATION CATALOGUE** — Same as Stage A: ONE comprehensive catalogue of all new formalisations from the 81-field run, not hundreds of individual papers. AI-composed (no API cost). | NOT DONE |
-| 7 | **Stage C — THE CROWN JEWELS** — The capstone of capstones. From ALL of Stage A + B, identify the 3-5 MOST terminal, MOST unifying, MOST revolutionary claims — the absolute top of the cascade. These are the claims that, if correct, would each individually transform our understanding of reality. Write the definitive, focused papers for each. Not broad surveys — laser-focused on the single most powerful version of each claim. | NOT DONE |
-| 7b | **Stage C PUBLICATION** — 3-5 crown jewel papers → Zenodo. These are THE papers. | NOT DONE |
-| 8 | **Stage D — HARDEN** — Take Stage C's 3-5 crown jewel claims and make them airtight. Formal mathematical proofs (Lean 4 where possible), exhaustive prediction derivation, detailed experimental proposals, address every possible objection. Close every gap the adversarial review identified. The goal: if a physicist reads this paper, they cannot find a flaw — only test it. | NOT DONE |
-| 8b | **Stage D PUBLICATION** — Publish hardened crown jewel papers as **v2 of the Stage C papers on Zenodo** (same records, new version with formal proofs + predictions added). Pre-registration prediction papers Bitcoin-stamped BEFORE any confirmation. | NOT DONE |
-| 9 | **Stage E — THE GRAND FINALE** — Synthesise EVERYTHING from Stages A through D into one paper. Validate, strengthen, or upgrade the existing Theory of Everything (Paper 15) using the full Codex evidence base. This is where 266+ convergences, thousands of formal conjectures, the cascade structure, the fixed points, the crown jewel claims, and the hardened proofs all converge into a single unified proposal. THE Nobel paper. | NOT DONE |
-| 9b | **Stage E PUBLICATION** — THE capstone paper: the updated, evidence-backed Theory of Everything → Zenodo | NOT DONE |
-| 10 | **Website wing** — Convergence Codex on infinitography.com | NOT DONE |
-| 11 | **QC + stamp + ship** | NOT DONE |
-| 12 | **Open Source + Production Grade** — Release **Gnosis AI + Logos AI only** (NOT Synthesis). Make both AIs production-ready: PyPI packages, `pyproject.toml`, CLI entry points, config file system (no hardcoded paths), comprehensive README with quickstart, example data for dry runs without API credits, CI/CD (tests + linting), Docker option, framing audit, license decision (MIT/Apache 2.0). **Dual-mode backend: `--max-plan` flag uses Claude Code CLI (free via Max plan subscription) alongside standard API mode.** World-class dev tool UI/UX polish (rich output, progress bars, clear error messages, beautiful CLI experience). Goal: a researcher anywhere can `pip install` and run Gnosis + Logos on their own domains. | NOT DONE |
+| Component | Lines | Status |
+|-----------|-------|--------|
+| Gnosis v2 | ~1,750 | DONE |
+| Logos AI | 2,162 | DONE |
+| Synthesis AI | 1,448 | RETIRED (papers composed manually with Claude Code instead) |
+| Pipeline Orchestrator | 479 | DONE |
+| Stage A (266 convergences → 256 proofs) | — | DONE |
+| Gnosis v3 (verified knowledge, Semantic Scholar) | ~400 | DONE (code built) |
+| Logos v2 (Lean-first, local verification) | ~300 | DONE (code built) |
+| MaxPlanAPI ($0 backend via Claude Code CLI) | — | DONE |
+| Paper D (Machine-Verified ToE) | 1,063 | DONE (206 sub-theorems, Zenodo v2) |
+| Paper E (Three Lineages) | ~1,150 | DONE (206 theorems, 11 Lean files, Zenodo v3) |
+| 8/22 Capstone papers | — | DONE (published on Zenodo v2) |
 
-**Strategy pivot (3 May 2026) — Synthesis AI RETIRED from workflow:**
-- **Problem:** Synthesis AI ($60-120 per run) produced papers with raw database hex IDs in body text, fake DOIs, missing actual mathematics, duplicate headers, and fabricated convergence IDs. Every run required extensive manual cleanup that cost more time than writing from scratch.
-- **Solution:** All papers now composed manually with AI (Claude Code) — no API cost, better quality, actual formalisation mathematics included. Synthesis AI code remains in repo for reference but is NOT used and NOT included in open source release.
-- **What we release open source:** Gnosis AI (discovery) + Logos AI (formalisation) only. These are the two engines that actually work well. Researchers run Gnosis + Logos on their own domains, then write their own papers from the structured output.
-- **Formalisation Catalogues:** Instead of 300-500+ individual papers, publish ONE comprehensive catalogue per stage. Much more useful as a reference work.
-- **Net effect:** ~40-50 high-quality papers + 2 comprehensive catalogues instead of hundreds of thin AI-generated papers with errors. Better science, zero API cost for paper composition.
+#### THE ROADMAP — 4 Phases to Outreach
 
-**MaxPlanAPI (3 May 2026) — $0 cost backend for Gnosis + Logos:**
-- Both Gnosis AI and Logos AI now support `--max-plan` flag: runs queries via Claude Code CLI (`claude -p`) using Max plan subscription instead of Anthropic API.
-- Drop-in replacement: same interface (`query`, `query_json`, `query_deep`, `query_deep_json`), same retry logic, same model selection.
-- API mode kept for open source users who don't have Max plan. Dual mode: `--max-plan` for us, default API for everyone else.
-- Stage B can now run entirely free (previously estimated $3,500-6,000 in API costs).
+**Critical path: Compendium → Bible → 22 Capstones → Grand ToE → Website → Open Source → Outreach**
+
+**Stage B (81-field big run) is DECOUPLED — lives post-outreach. Everything below is shippable without it.**
 
 ---
 
-#### BUILD PLAN: Gnosis v3 — Verified Knowledge (Step 5e)
+**PHASE 1: FINISH THE PAPERS**
 
-**Problem:** Gnosis v1/v2 relies 100% on Claude's parametric knowledge. No external verification. No fact-checking. Paper 19 acknowledges: "We do not know the false positive or false negative rates." Some domains may include unestablished, speculative, or hallucinated results.
+| # | Task | Depends On | Status |
+|---|------|-----------|--------|
+| 1a | QC/QA Paper D (Nobel polish) | Nothing | NOT DONE |
+| 1b | QC/QA Paper E (Nobel polish) | Nothing | NOT DONE |
+| 2 | **Compendium** — THREE-LAYER formalisation of the entire Gnosis cascade. See COMPENDIUM NOTE below. Published as single Zenodo deposit. | Nothing | NOT DONE (3/256 entries done) |
+| 3 | **Paper Quality Bible** — Definitive reference for capstone paper quality. Nobel-committee standard: if the claim is later proven correct, the paper alone establishes priority. 20+ point checklist. Saved at `convergence-codex/docs/PAPER_QUALITY_BIBLE.md`. | Nothing | NOT DONE |
+| 4 | **Proofread 8 existing capstone papers** to Bible standard. Remove hex IDs, write actual formalisation mathematics from Compendium, fix fake DOIs. One-by-one manual review. | #2, #3 | NOT DONE |
+| 5 | **Compose + proofread remaining 14 capstone papers.** Use cached claims + plans, write each paper with actual mathematics from Compendium. | #2, #3 | NOT DONE |
+| 6 | **Publish all 22 capstone papers to Zenodo** (v3 for existing 8, new for 14) | #4, #5 | NOT DONE |
+| 7 | **Grand ToE Paper** — ONE mega paper synthesising ALL evidence: Papers A-E, 22 capstone papers, Compendium, Proposal doc. The definitive artifact. Validates or upgrades the ToE. If Stage B never happens, this paper alone is the complete case. | #1-6 | NOT DONE |
+| 8 | **Publish Grand ToE to Zenodo** + Bitcoin stamp everything | #7 | NOT DONE |
 
-**Solution:** Multi-source external verification. Every surveyed result must pass through 5 independent checkpoints before it enters the pipeline. Anything that fails verification is culled.
+**Paper D status:** 8/8 theorems + Coherence Theorem PROVEN. 61 sub-theorems. 0 sorry. Zenodo v2 (DOI: 10.5281/zenodo.20011540, concept: 10.5281/zenodo.20005115). PDF-only.
+**Paper E status:** ALL 10 STAGES PROVEN. 206 theorems, 0 sorry, 11 Lean files. Zenodo v3 (DOI: 10.5281/zenodo.20012234, concept: 10.5281/zenodo.20011468). PDF-only. Includes §16 Scope and Interpretation.
+**Compendium status:** 3/256 entries done. Format defined at `docs/COMPENDIUM_FORMAT.md`.
 
-**Architecture (~400-500 lines):**
-```
-gnosis/verification/
-  __init__.py
-  semantic_scholar.py   — Semantic Scholar API (200M+ papers, citation counts)
-  crossref.py          — CrossRef DOI verification (verify citations exist)
-  openalex.py          — OpenAlex API (250M+ works, concept mapping, open access)
-  arxiv.py             — arXiv API (preprints, maths/physics)
-  wikipedia.py         — Wikipedia/Wikidata notability check
-  verifier.py          — Orchestrator: runs all sources, produces verdict
-  domain_audit.py      — Taxonomy-level quality audit
-```
+#### COMPENDIUM NOTE: The Validation Chain
 
-**The 5 External Checkpoints:**
+The compendium is NOT just 256 individual theorems. It is a **validation chain** — each layer proves not just mathematical content but validates the METHODOLOGY that produced it.
 
-| # | Source | What It Checks | API | Cost |
-|---|--------|---------------|-----|------|
-| 1 | **Semantic Scholar** | Paper exists, citation count, influential citations, abstract match | `api.semanticscholar.org` | Free (100 req/s) |
-| 2 | **CrossRef** | DOI exists, metadata matches (authors, year, journal) | `api.crossref.org` | Free |
-| 3 | **OpenAlex** | Independent verification, concept tags, institution data | `api.openalex.org` | Free (no key needed) |
-| 4 | **arXiv** | Preprint exists (maths/physics), category classification | `export.arxiv.org/api` | Free |
-| 5 | **Wikipedia/Wikidata** | Result is notable enough to be documented; structured data | `en.wikipedia.org/api` | Free |
-
-**Verification Logic:**
-```
-For each surveyed result:
-  1. Search Semantic Scholar by title + author → get paper_id, citation_count
-  2. If found: verify DOI via CrossRef → confirm metadata
-  3. Cross-check in OpenAlex → independent confirmation
-  4. For maths/physics: search arXiv → verify preprint exists
-  5. Check Wikipedia for named theorem/result → notability signal
-
-  VERDICT:
-    VERIFIED (3+ sources confirm)      → Include in pipeline
-    PARTIALLY_VERIFIED (1-2 sources)   → Include but flag for review
-    UNVERIFIED (0 sources confirm)     → CULL from pipeline
-    SUSPICIOUS (contradictory data)    → CULL + log warning
-```
-
-**Citation Threshold:** Results with <50 citations get flagged. Results with <10 citations in any database are culled unless they're very recent (<2 years old).
-
-**Domain Quality Audit:** Before Stage B, audit all 81 fields in taxonomy:
-- **Tier 1 (rock solid):** QM, GR, group theory, topology, thermodynamics, number theory — keep all
-- **Tier 2 (established):** evolutionary biology, genomics, condensed matter — keep all
-- **Tier 3 (speculative):** consciousness studies, emergence theory — CULL or mark as "speculative domain"
-- Each domain gets a `verification_rate` after running: what % of Claude's surveyed results were externally verified? Domains with <60% verification rate get flagged for manual review or removal.
-
-**Integration with Surveyor:** After Claude surveys a domain, the Verifier runs automatically. The pipeline only proceeds with verified results. Unverified results are saved to a separate `culled/` directory for transparency.
-
-**Net effect:** Gnosis goes from "Claude's opinion about science" to "Claude's analysis of independently verified science." Every result in the pipeline can be traced to a real paper with a real DOI and real citations.
+**Background:** The 256 formalisations came from Gnosis AI's cascade process: 266 pairwise convergences → 26 meta-findings → ~6 themes → 2 terminal fixed points. Some of the 256 formalisations ARE meta-convergences and fixed-point characterisations — they exist at different levels of the cascade. The cascade structure is KNOWN (Gnosis already mapped it). We are PROVING what Gnosis found, not rediscovering it.
 
 ---
 
-#### BUILD PLAN: Logos v2 — Multi-Tool Formalisation (Step 5f)
+**THE 5 STEPS (do these in order):**
 
-**Problem:** Logos v1 generates Lean 4 code but Lean was never installed (zero verifications). Even with Lean installed (now v4.29.1), many proofs fail because they reference Mathlib theories that don't exist yet or address open mathematical problems. Result: 0/256 machine-verified proofs.
+---
 
-**Solution:** Multi-tool verification stack. Instead of Lean-only, use 4 complementary tools — each covering different mathematical domains. Even if Lean can't verify a proposition, Z3, SymPy, or computational checks might.
+**Step 2a: Prove all 256 individual convergences**
 
-**Tools now installed:**
-- Lean 4 v4.29.1 (interactive theorem prover, Mathlib library)
-- Z3 v4.16.0 (SMT solver — automated logical/algebraic proofs)
-- SymPy v1.14.0 (symbolic mathematics — algebraic verification)
-- NumPy/SciPy (numerical computation — sanity checks)
+This is the bulk of the work. For each of the 256 convergences Gnosis discovered, write up and verify the formalisation three ways:
+- (a) Verbally / in plain language: what the convergence IS
+- (b) Mathematically: propositions, proof sketches, formal definitions
+- (c) Machine-verified: Lean 4 proof where possible
 
-**Architecture (~300-400 lines, extending existing Logos):**
-```
-logos/
-  lean_bridge.py        — (existing, update PATH to ~/.elan/bin)
-  z3_bridge.py          — NEW: translate propositions to Z3, auto-prove
-  sympy_bridge.py       — NEW: verify algebraic identities/equivalences
-  numerical_bridge.py   — NEW: Monte Carlo / numerical sanity checks
-  multi_verifier.py     — NEW: orchestrate all tools, consensus scoring
-```
+Each entry includes: confidence score, adversarial verdict, domain pair.
 
-**Verification Tiers:**
+**Example:** "Convergence #47: Topology and QM both exhibit fixed-point convergence under iterated constraint. Proposition: [formal statement]. Lean proof: [file]. Confidence: 0.82. Adversarial verdict: SUPPORTED."
 
-| Tier | Tool(s) | What It Proves | Coverage |
-|------|---------|---------------|----------|
-| **T1: Full Proof** | Lean 4 + Mathlib | Complete formal verification, machine-checkable | ~10-20% of propositions |
-| **T2: Automated Proof** | Z3 SMT solver | Logical satisfiability, algebraic constraints, first-order logic | ~25-35% of propositions |
-| **T3: Symbolic Verification** | SymPy | Algebraic identity, equation equivalence, simplification | ~15-25% of propositions |
-| **T4: Numerical Sanity** | NumPy/SciPy | Monte Carlo sampling, numerical consistency (not proof, but catches nonsense) | ~80% of propositions |
-| **T5: Consensus** | Multiple tools agree | If Z3 + SymPy + numerical all agree → strong evidence | Derived |
+**What completing this step proves:** Every verified convergence proves Gnosis found something REAL — a genuine mathematical relationship, not a hallucination. The verification rate (what % of 256 are machine-verifiable?) is itself a key metric.
 
-**Z3 Bridge Strategy:**
-Many convergence propositions can be expressed as logical formulas. Z3 is an *automated* theorem prover — unlike Lean, it doesn't need manual proof construction. If we can translate a proposition into Z3's input language, it proves or disproves it automatically.
+**Clarifying note:** These 256 formalisations exist at DIFFERENT LEVELS of the Gnosis cascade. Some are Level 1 (pairwise field convergences), some are Level 2 (meta-convergences — convergences BETWEEN convergences), and some are near the fixed points. We prove them ALL individually here regardless of level. The structure between them comes in Step 2b.
 
-Example: "The constraint structure in domain A is isomorphic to domain B" → Express as: ∃f: A→B such that f preserves structure ∧ f is bijective → Z3 checks satisfiability.
+---
 
-**SymPy Bridge Strategy:**
-For algebraic propositions ("Expression X = Expression Y"), SymPy can verify symbolically:
-```python
-from sympy import simplify, symbols
-x = symbols('x')
-assert simplify(expr_a - expr_b) == 0  # Algebraic equivalence
-```
+**Step 2b: Prove the cascade transitions (theorems for the relationships)**
 
-**Iterative Lean Proving (Claude Code approach):**
-Instead of generating Lean code in one shot (which fails), use Claude Code (Max Plan, $0) to iteratively construct proofs:
-1. Generate initial Lean proof sketch
-2. Run `lean --run proof.lean`
-3. Read error messages
-4. Fix errors and regenerate
-5. Repeat until verified or give up after N iterations
+Once the individual convergences are proved (Step 2a), prove the CASCADE STEPS themselves. These are the Gnosis-mapped transitions between levels — each one is its own theorem or set of theorems.
 
-This mirrors how human mathematicians actually write Lean proofs.
+Concretely, the Gnosis cascade is: 266 convergences → 26 meta-findings → ~6 themes → 2 fixed points. Each transition is a theorem:
 
-**Multi-Verifier Consensus:**
-```
-For each formalisation:
-  1. Try Lean 4 → if verified: T1 (strongest)
-  2. Try Z3 → if proved: T2
-  3. Try SymPy → if verified: T3
-  4. Run numerical checks → if consistent: T4
+- **Level 1 → Level 2 transitions (~26 theorems):** "These 12 specific convergences (T_03, T_17, T_44...) share deeper structure X, proved by exhibiting the morphisms between them." One theorem per meta-finding, each proving that a GROUP of Level 1 convergences genuinely converge to a common structure.
+- **Level 2 → Level 3 transitions (~6 theorems):** "These 4 meta-findings (M_02, M_08, M_14, M_22) share deeper structure Y." Same idea, one level up.
+- **Level 3 → Fixed point transitions (~2 theorems):** "These themes converge to fixed point F₁ with property P."
 
-  Consensus score:
-    4 tools agree = 1.0 (machine-verified)
-    3 tools agree = 0.85
-    2 tools agree = 0.70
-    1 tool only   = 0.50
-    0 tools       = 0.30 (natural language proof only)
-```
+**What this step produces:** ~34 transition theorems (26 + 6 + 2, approximately — depends on actual cascade structure). Each proves that a specific cascade step Gnosis identified is mathematically valid.
 
-**Expected improvement:** From 0/256 machine-verified to estimated 80-130/256 with at least one tool verification.
+**What this proves beyond the maths:** The iterative methodology works. Each transition theorem proves that convergence-of-convergences produces genuine mathematical structure, not pattern-matching artifacts. If Level 1 → Level 2 transitions verify, that alone proves meta-convergence is valid.
+
+**How this differs from Step 2a:** Step 2a proves each OBJECT (individual convergence). Step 2b proves each RELATIONSHIP (how objects combine into higher-order objects). Both are necessary — the Super-Theorem (Step 2c) needs both the nodes AND the edges.
+
+---
+
+**Step 2c: Build the Super-Theorem**
+
+This is the key intellectual contribution. Once all individual proofs (Step 2a) AND all transition proofs (Step 2b) exist, connect them into ONE single mathematical object.
+
+**What the Super-Theorem IS:** A single theorem that contains all 256 objects AND all their relationships AND the cascade AND the fixed points as one connected mathematical statement. Not a summary, not a meta-theorem ABOUT other theorems — the actual unified object.
+
+**How to build it:** We already KNOW the structure from Gnosis. Gnosis mapped: which convergences relate to which meta-findings, which meta-findings converge further, all the way to the 2 terminal fixed points. The cascade map (266 → 26 → ~6 → 2) is the blueprint. So:
+
+1. Take all 256 verified theorems from Step 2a — these become the NODES
+2. Take the known Gnosis cascade map — these become the EDGES (morphisms witnessing shared structure between theorems)
+3. Prove each edge: "Theorem T_i and Theorem T_j share structure S, exhibited by morphism f_ij" — these are the transition proofs
+4. Prove the cascade contracts: the edges compose into meta-convergences that terminate at fixed points
+5. Characterise the fixed points formally
+6. Express the entire thing as ONE theorem: "There exists a categorical diagram D containing objects {T₁...T₂₅₆} with morphisms {f_ij} such that: (1) each T_i is a verified convergence, (2) the morphisms compose into a cascade terminating at N fixed points, (3) each fixed point is reflexive: F ≅ [F, F], (4) the entire diagram D is itself a reflexive structure"
+
+**Why ONE theorem and not many:** The fixed points COME FROM this structure. They are consequences of how the 256 objects relate. So the fundamental mathematical object is the whole connected structure, not the individual theorems or the fixed points separately. The individual proofs (Step 2a) are components. The transition proofs are internal structure. The fixed points are properties. The Super-Theorem is the thing itself.
+
+**Analogy:** Step 2a gives you 256 puzzle pieces. Step 2b shows you how they connect. Step 2c assembles the completed puzzle — a single object with properties (a picture, a shape) that no individual piece has.
+
+**What completing this step proves:**
+- About the maths: A 200+ theorem network across dozens of fields, formalised as ONE coherent categorical object. Comparable in scope to Langlands (formalising relationships between number theory and representation theory) but at 200+ theorem scale across dozens of fields — unprecedented.
+- About Gnosis: The iterative meta-convergence methodology produces mathematically valid results. The cascade structure Gnosis found is REAL, not pattern-matching artifacts.
+- About the ToE: If the fixed points of this empirical structure are reflexive (F ≅ [F, F]), matching what D∞ ≅ [D∞ → D∞] predicts, then the Generator Theory's structural prediction is confirmed by independently verified cross-domain evidence.
+
+---
+
+**Step 2d: Derive the corollaries (the big claims)**
+
+FROM the Super-Theorem (Step 2c), derive the specific headline results:
+
+1. **The SRRP is a theorem, not a hypothesis.** "The verified mathematical structure of cross-domain convergence IS self-referential relational structure" — proved, not asserted. The fixed points are reflexive. The metaphysical interpretation remains separate, but the mathematical content is established.
+
+2. **The Unified Structure Theorem of Science.** "200+ established results from dozens of independent scientific fields converge to a common reflexive structure via a formally verified cascade." This has never been done. It's a proof — machine-verified — that deep structural unity exists across science.
+
+3. **Validation of the ToE.** If the empirical cascade's fixed points match the Generator construction's predictions, "self-referential relational structure unifies these fields" is evidence for the Generator Theory. The compendium becomes the strongest evidence section of the Grand ToE Paper.
+
+---
+
+**Step 2e: Write the methodology section**
+
+A section WITHIN the compendium that explains how it was built and what the validation chain proves:
+
+- **How it was built:** Gnosis AI (autonomous discovery of cross-domain convergences) → Logos AI (formal mathematical articulation) → Lean 4 (machine verification). The discoveries and formalisations are AI-generated, then machine-verified.
+- **The validation chain — what each step proves about the methodology:**
+  - Step 2a verified (individual convergences) → Gnosis finds real maths, not hallucinations
+  - Step 2b verified (cascade transitions) → iterative meta-convergence methodology is valid
+  - Step 2c verified (Super-Theorem) → the full structure is coherent as one mathematical object
+  - Step 2d derived (SRRP + Unified Structure Theorem) → the methodology produces deep, unified mathematical structure
+- **DEFINE Y (our methodology):** Two novel methodologies we created:
+  - (1) **Convergence** — autonomous pairwise structural comparison of independent fields to identify shared formal structure (implemented in Gnosis AI)
+  - (2) **Iterative convergence** — applying convergence recursively to its own outputs, producing meta-convergences that cascade to fixed points (implemented in Gnosis AI's cascade mode)
+  - Logos AI then formally articulates and machine-verifies what Gnosis discovers.
+- **DEFINE X (what Y discovers):** Cross-domain structural unity — that independent mathematical and scientific fields share formal structure which can be autonomously identified, formally stated, and machine-verified. The deeper discovery (from iterative convergence): this shared structure ITSELF has structure — it cascades, contracts, and terminates at reflexive fixed points.
+- **THE CLAIM: Y discovered X.** The compendium proves this. Methodologies (1) and (2) discovered cross-domain structural unity, and the compendium's verification chain (Steps 2a–2d) validates that both the discoveries AND the methodologies are mathematically sound. The methodologies are novel, the discoveries are novel, and the compendium is the proof of both.
+- **NAME AND DEFINE THE FULL METHODOLOGY (provenance claim):**
+  The compendium must define, name, and claim provenance over the ENTIRE possibility space of this type of methodology. Not just the two specific instances we used (pairwise convergence + iterative convergence), but the full generalised framework:
+
+  **The general method (needs a name — define in compendium):**
+  1. Find convergences between fields — not just pairwise, but ANY number of fields simultaneously (2-way, 3-way, n-way)
+  2. Iterate the convergences toward fixed points — apply the convergence operation recursively to its own outputs at any depth
+  3. Apply formal mathematical proof to the objects produced at any stage
+  4. **Combinatorial explosion at each level** — at every level of the cascade, you can combinatorially explode: compare all pairs of objects at that level, all triples, all n-tuples. Not just at Level 1 (fields) but at Level 2 (meta-convergences), Level 3 (themes), etc. Each level has its own combinatorial space of possible comparisons.
+  5. Any permutation of the above: vary the number of fields compared, the iteration depth, the verification method, the domain selection strategy, the grouping strategy at each level, the comparison arity at each level
+
+  What we actually DID (Gnosis + Logos) is ONE instantiation of this general methodology. The full possibility space includes: different starting field sets, different comparison arities (pairwise, triplewise, n-wise) **at each cascade level independently**, combinatorial explosion at any or all levels, different iteration strategies (breadth-first, depth-first, selective), different formalisation targets (Lean, Coq, Isabelle, pen-and-paper), different stopping criteria.
+
+  **The compendium must:**
+  - Give this general methodology a NAME (covering the entire possibility space)
+  - Define it formally (what the operations are, what the parameters are, what the space of possible instantiations is)
+  - State that convergence and iterative convergence (as used by Gnosis) are specific instantiations
+  - Claim provenance over the general framework via Bitcoin timestamp
+  - Note: some sub-methods already named (convergence, iterative convergence) — the compendium EXPANDS to name the umbrella methodology encompassing all permutations
+
+  This is important because anyone could later do "4-way convergence with Coq verification" or "convergence with different iteration strategy" — all of these fall under the methodology we are defining and timestamping here.
+
+- **Honest limitations:** verification rate (what % of 256 succeeded?), which convergences could NOT be verified (and why), where Gnosis's cascade structure diverged from what formal proofs showed.
+- **Reproducibility:** Tools are open source. Anyone can run Gnosis + Logos on their own domains.
+
+---
+
+**Step 2f: Publish Compendium to Zenodo**
+
+Single Zenodo deposit containing: all 256 individual proofs, the Super-Theorem, the corollaries (SRRP + Unified Structure Theorem), the methodology section, the cascade map. Bitcoin-timestamped.
+
+---
+
+**CLARIFYING NOTES (read these when starting the compendium):**
+
+**Q: What's the difference between Steps 2a, 2b, and 2c?**
+A: Step 2a = prove each convergence individually (256 separate proofs — the nodes). Step 2b = prove the cascade transitions (how groups of convergences converge to meta-findings — the edges, ~34 transition theorems). Step 2c = connect ALL nodes and edges into ONE single theorem (the Super-Theorem — the completed puzzle). Step 2a gives you puzzle pieces. Step 2b shows how they connect. Step 2c is the completed puzzle.
+
+**Q: How do we know the structure for Steps 2b and 2c?**
+A: Gnosis already mapped it. The cascade (266 → 26 → ~6 → 2) tells us which convergences relate to which meta-findings, which meta-findings converge further, etc. We're PROVING what Gnosis found, not rediscovering it. Top-down from known structure.
+
+**Q: What if some convergences in Step 2a can't be verified?**
+A: That's fine and expected. Record the verification rate honestly. Convergences that fail verification get noted in the methodology section. The Super-Theorem (Step 2c) uses only the verified subset. A 70% verification rate is itself a significant result — it means Gnosis is right 70% of the time, which is remarkable for autonomous AI discovery.
+
+**Q: Is the Super-Theorem one Lean file?**
+A: Probably not. It's likely one MATHEMATICAL theorem expressed across multiple Lean files (one per cascade level, plus a master file that ties them together). The point is that it's one THEOREM — one connected mathematical statement — even if the proof spans many files.
+
+**Q: How does this feed into the Grand ToE Paper?**
+A: The Super-Theorem (Step 2c) and its corollaries (Step 2d) become the core evidence section of the Grand ToE Paper. The Grand ToE synthesises Papers A-E + 22 capstone papers + the Compendium into one definitive paper. The Compendium provides the empirical backbone — 200+ verified cross-domain convergences unified into one reflexive structure.
+
+**Q: The compendium validates methodologies — which ones exactly?**
+A: Two novel methodologies we created, both validated by the compendium's success:
+
+1. **Convergence methodology** — Autonomous pairwise structural comparison of independent mathematical/scientific fields. Gnosis AI compares Field A to Field B and identifies shared formal structure. If Step 2a verifies that these are real (not hallucinated) mathematical relationships, then convergence methodology is validated as a discovery method.
+
+2. **Iterative convergence methodology** — Applying convergence analysis recursively to its OWN outputs. Take the convergences found in pass 1, treat them as objects, find convergences BETWEEN them (meta-convergences), repeat until fixed points. If Step 2b verifies that the cascade transitions are mathematically valid, then iterative convergence is validated as a methodology — i.e., the method of "converging the convergences" produces genuine higher-order mathematical structure, not artifacts.
+
+Both are novel. Neither existed before this programme.
+
+**Q: Discovery of WHAT exactly?**
+A: Cross-domain structural unity. Specifically: that independent, established mathematical and scientific fields share formal structure that can be (a) autonomously identified, (b) formally stated, and (c) machine-verified. The compendium proves this is real. The deeper discovery — from iterative convergence — is that this shared structure ITSELF has structure: it cascades, contracts, and terminates at reflexive fixed points. That's not "finding theorems" — it's discovering that the relationships between fields form a coherent mathematical object with specific properties.
+
+**The punchline:** The compendium doesn't just contain results. It proves the PROCESS. And its crown jewel — the Super-Theorem — is a single mathematical object that unifies 200+ verified cross-domain convergences into one reflexive structure, machine-verified, establishing the SRRP as a theorem rather than a hypothesis.
+
+---
+
+**PHASE 2: WEBSITE (infinitography.com)**
+
+| Wing | What Goes On It | Depends On | Status |
+|------|----------------|-----------|--------|
+| **Wing 1** (Discovery) | Add explainer pages for Paper D, Paper E, Grand ToE. **Add attribution note on landing page:** "Papers G16-G19 and convergence data were produced using Gnosis v1. A significantly upgraded version now exists. See Gnosis AI wing for details." | Phase 1 | NOT DONE |
+| **Wing 2** (ToE) | Extended content from Papers D, E, Grand ToE | Phase 1 | NOT DONE |
+| **Pansophia** (NEW wing) | Own wing — concept paper (DOI: 10.5281/zenodo.19974680), vision for autonomous knowledge integration at civilisational scale, architecture explanation | Pansophia paper (DONE) | NOT DONE |
+| **Gnosis AI** (NEW wing) | Own wing for Gnosis as a product. See GNOSIS WING STEPS below. | Nothing (can build anytime) | NOT DONE |
+| **Logos AI** (NEW wing) | Own wing for Logos as a product. What it is (formalisation engine), how it works, what it produced (256 formalisations), version history, open source link. | Nothing (can build anytime) | NOT DONE |
+| **Convergence Codex** (NEW wing) | Compendium (browsable), 22 capstone papers (browsable), methodology, future plan (Stage B). **"How This Was Made" section:** Gnosis v1 discovered convergences, Logos formalised them, Lean 4 verified. Explicit: newer Gnosis version available. Links to Gnosis wing + Logos wing. | Phase 1 | NOT DONE |
+| **Papers & Repos** (NEW wing) | Appendix-style master index of EVERYTHING published. All papers listed with DOIs, Zenodo links, and one-line descriptions. All repos listed with links and status. Sections: (1) Infinitography Papers (1-15), (2) Gnosis AI Papers (G16-G19), (3) Synthesis Papers (A, B, C), (4) Convergence Codex Papers (D, E, F + Pansophia), (5) Mathematical Compendium (planned), (6) Stage A Capstone Papers (8+), (7) AgentCiv Papers (1-12), (8) Creative Papers, (9) All Repos (7 repos with links, descriptions, public/private status). One page, everything in one place, easy reference. | Nothing (can build anytime) | NOT DONE |
+
+#### GNOSIS WING STEPS
+
+| # | Page | What It Covers |
+|---|------|---------------|
+| G1 | **Landing page** | Product pitch + version timeline (v1 → v2). What Gnosis IS, how it works, open source link, pip install. |
+| G2 | **v1 results & impact page** | Show test run results (266 convergences, browsable). List everything v1 contributed to: Compendium data, Papers G16-G19, and any other papers that used test run outputs. "Here's what v1 did and where its outputs appear across the programme." |
+| G3 | **v2 upgrades page** | All improvements over v1. Frame as: "v1 had these weaknesses → v2 addresses them with X, Y, Z." Honest: built, not yet deployed on full dataset. Stage B will use this. |
+
+#### CROSS-LINKS (enforce during build)
+
+- Gnosis wing ↔ Convergence Codex wing (tool ↔ results)
+- Gnosis wing ↔ Logos wing (discovery ↔ formalisation)
+- Wing 1 Gnosis papers → Gnosis wing (attribution)
+- Convergence Codex wing → Gnosis wing + Logos wing ("how this was made")
+- All version-explicit: wherever Gnosis outputs appear, state WHICH version produced them.
+
+---
+
+**PHASE 3: OPEN SOURCE + SHIP**
+
+| # | Task | Status |
+|---|------|--------|
+| 9 | **Open source Gnosis v2 + Logos AI** — PyPI packages, CLI entry points, config system, README with quickstart, example data, CI/CD, dual-mode backend (API + Max Plan). Goal: `pip install` and run on your own domains. | NOT DONE |
+| 10 | QC all wings | NOT DONE |
+| 11 | Deploy | NOT DONE |
+
+---
+
+**PHASE 4: OUTREACH**
+
+| 12 | Kerygma AI or manual outreach | NOT DONE |
+
+---
+
+**PHASE 5: STAGE B (post-outreach, optional)**
+
+Stage B is the full 81-field run across ALL of science, maths, physics. It strengthens evidence but doesn't change the theory. Decoupled from the main path — can happen after outreach, potentially with collaborators.
+
+| # | Task | Status |
+|---|------|--------|
+| 13 | Stage B — full Codex across 81 fields (6 phases) with Gnosis v3 + Logos v2. $0 cost via MaxPlanAPI. | NOT DONE |
+| 14 | Stage B capstone papers | NOT DONE |
+| 15 | Stage B formalisation catalogue | NOT DONE |
+| 16 | Update Codex wing with Stage B results | NOT DONE |
+
+---
+
+**Strategy notes (3 May 2026):**
+- **Synthesis AI RETIRED.** All papers composed manually with Claude Code ($0, better quality). Code kept in repo for reference only.
+- **MaxPlanAPI.** Both Gnosis and Logos support `--max-plan` flag ($0 via Claude Code CLI). Stage B can run entirely free.
+- **Stages C, D, E (crown jewels, hardening, grand finale) COLLAPSED** into the single Grand ToE Paper (#7). One definitive paper instead of 3 separate stages.
+- **22 capstone papers + Compendium = the Codex wing content.** No thin AI-generated papers.
+- **Open source = Gnosis + Logos only.** Researchers run discovery + formalisation on their own domains.
 
 ---
 
@@ -439,29 +532,19 @@ Mark E. Mala
 
 ---
 
-**Stage B Phases:**
-1. All pairwise (cross-category FIRST)
-2. Codex Analysis (fingerprints, clustering, transitivity, hubs)
-3. Multi-field on promising groups (cross-category first)
-4. Level 2 meta-convergences (multiple groupings, combinatorial)
-5. Level 3+ recursive cascade
-6. Everything through Logos → Synthesis
-
-**Estimated total cost (all stages): ~$0-50 with Max Plan** (was $3,500-6,000 before MaxPlanAPI). Only costs: SendGrid for Kerygma emails (~$5).
-
 #### Repos
 
 | Repo | What |
 |------|------|
 | `wonderben-code/gnosis-ai` | Gnosis AI (v2 upgrade in place) |
-| `wonderben-code/convergence-codex` | Logos, Synthesis, Orchestrator, Codex data, papers, docs |
-| `wonderben-code/infinitography-website` | Website (includes Codex wing) |
+| `wonderben-code/convergence-codex` | Logos, Orchestrator, Codex data, papers, docs, Lean proofs |
+| `wonderben-code/infinitography-website` | Website (all wings including Codex + Pansophia) |
 
 ---
 
 ### Stage 3c: Pansophia Wing — NOT STARTED
 
-After the Convergence Codex is complete, add a Pansophia wing to infinitography.com.
+**Now part of Phase 2 website work (see Stage 3b roadmap above).** Pansophia gets its own wing on infinitography.com.
 
 **Paper:** "Pansophia: A Theoretical Architecture for Autonomous Knowledge Integration at Civilisational Scale"
 **Zenodo:** https://zenodo.org/records/19974680 (DOI: 10.5281/zenodo.19974680)
@@ -471,23 +554,22 @@ After the Convergence Codex is complete, add a Pansophia wing to infinitography.
 |------|--------|
 | Paper written + published on Zenodo | DONE |
 | Add `/pansophia` wing to infinitography.com | NOT DONE |
-| Landing page explaining the architecture in plain language | NOT DONE |
-| Link to Zenodo paper | NOT DONE |
-
-**Wing concept:** "Pansophia: An AI Architecture at Civilisational Scale" — a single landing page explaining the 4-component architecture (Gnosis + Logos + Synthesis + Praxis + meta-layer) and its 6 defining features, with a link to the full paper on Zenodo.
+| Landing page: vision, architecture, what autonomous knowledge integration means | NOT DONE |
+| Link to Zenodo paper + concept explanation | NOT DONE |
+| Frame as future research direction: what happens when the full pipeline runs at civilisational scale | NOT DONE |
 
 ---
 
 ### Stage 3d: Remaining Infinitography Website — NOT STARTED
 
-These were originally part of Stage 3 but should happen AFTER the Codex and Pansophia (so homepage, playtest, etc. can reference everything).
+These should happen AFTER the Codex and Pansophia wings (so homepage, playtest, etc. can reference everything).
 
 | Task | Status |
 |------|--------|
-| Wing 2 (ToE) — DONE (2 May, built from proposal doc) | DONE |
-| Papers 1-4 rewrite (user creates content via consumer Claude) | NOT DONE |
+| Wing 2 (ToE) — built from proposal doc | DONE |
+| Papers 1-4 rewrite | DONE |
 | Homepage content update (Landing.tsx, including Codex references) | NOT DONE |
-| Full website playtest (all wings including Codex wing) | NOT DONE |
+| Full website playtest (all wings including Codex + Pansophia) | NOT DONE |
 | QC Pass all wings | NOT DONE |
 | Paper 12 upgrade (Subsequent Advancements → Zenodo v2) | NOT DONE |
 
@@ -620,66 +702,86 @@ These were originally part of Stage 3 but should happen AFTER the Codex and Pans
 | Infinitography (Papers 13-27) | 15 | Published |
 | Gnosis AI (Paper G16) | 1 | Published |
 | Gnosis AI (Papers G17-G19) | 3 | Published (18 Apr) |
-| New papers (replacing Checkpoint Alpha) | 3 | Published (27 Apr) |
+| Synthesis papers A, B, C | 3 | Published (27 Apr) |
 | Pansophia | 1 | Published (2 May) |
-| **Convergence Codex — Stage A Capstone (8 of 22)** | **8** | **Published (2 May)** |
-| **Total published** | **43** | |
-| *Convergence Codex — Stage A Capstone (remaining 14)* | *14* | *NOT DONE* |
-| *Convergence Codex — Stage A Standard (~70 papers)* | *~70* | *NOT DONE* |
+| Paper D (Machine-Verified ToE) | 1 | Published v2 (3 May) |
+| Paper E (Three Lineages) | 1 | Published v3 (3 May) |
+| Capstone papers (8 of 22) | 8 | Published v2 (3 May) |
+| Creative papers | 3 | Published |
+| **Total published** | **48** | |
+| *Capstone papers (remaining 14)* | *14* | *NOT DONE* |
+| *Compendium* | *1* | *NOT DONE* |
+| *Grand ToE* | *1* | *NOT DONE* |
 
 ---
 
 ## EXECUTION PRIORITY
 
 ```
-ALL PAPERS DONE (34 published, all Bitcoin-timestamped + Zenodo DOIs)
-INFINITOGRAPHY WEBSITE — Wings 1-4 DONE (Discovery, ToE, New Contributions, Gnosis)
+━━━━━━ STAGE 3b: THE CONVERGENCE CODEX ━━━━━━━━━━━━━━━━━
 
-NOW ━━━━━━ STAGE 3b: THE CONVERGENCE CODEX ━━━━━━━━━━━━━━━━━
+PHASE 1: FINISH THE PAPERS
+  ✅ Infrastructure (Gnosis v2, Logos, Orchestrator, Stage A, Gnosis v3, Logos v2)
+  ✅ Paper D — Machine-Verified ToE (Zenodo v2, 61 sub-theorems, 0 sorry)
+  ✅ Paper E — Three Lineages (Zenodo v3, 206 theorems, 0 sorry, §16 Scope added)
+  ✅ 8/22 Capstone papers (Zenodo v2)
 
-  ✅ Gnosis v2 (cross-domain, multi-field, recursive cascade, 81 fields)
-  ✅ Logos AI (2,162 lines, Lean 4 formalisation, 5-layer adversarial validation)
-  ✅ Synthesis AI (1,448 lines, publication-quality papers, auto boundaries)
-  ✅ Pipeline Orchestrator (479 lines, thin coordination, checkpoints)
-  ✅ Stage A — DONE (256/266 proofs through Logos)
-  ▶  Stage A CAPSTONE — 8/22 papers DONE, v2 PDFs on Zenodo (3 May 2026)
-     → FIRST: Write Paper Quality Bible (reference doc for every paper)
-     → NEXT: Proofread all 8 papers against the Bible to top 0.00001% (manual AI, no API cost)
-     → Publish v3 proofread versions to Zenodo
-     → Fix pipeline prompts (no inline hex IDs, include formalisation maths)
-     → Compose remaining 14 capstone papers (~$60-80)
-     → Proofread + publish remaining 14 to Zenodo
-     Stage A FORMALISATION CATALOGUE — ONE document with all 256 formalisations (no API cost)
-     GNOSIS v3 — Verified Knowledge (5 external verification checkpoints, domain audit, cull hazy fields)
-     LOGOS v2 — Multi-Tool Formalisation (Lean 4 + Z3 + SymPy + numerical, re-run all 256 proofs)
-     Stage B — THE BIG RUN: full Codex across 81 fields (10x more data, using Gnosis v3 + Logos v2)
-     Stage B CAPSTONE — capstone papers from the big run (manual proofread each)
-     Stage B FORMALISATION CATALOGUE — ONE document with all new formalisations (no API cost)
-     Stage C — THE CROWN JEWELS: 3-5 most terminal/unifying claims get definitive papers
-     Stage C PUBLICATION → Zenodo
-     Stage D — HARDEN: formal proofs, predictions, close every gap in Stage C papers
-     Stage D PUBLICATION — hardened papers + pre-registration predictions
-     Stage E — GRAND FINALE: everything → one updated Theory of Everything
-     Stage E PUBLICATION — THE Nobel paper
-     Website — Convergence Codex wing on infinitography.com
-     QC + stamp + ship
+  ▶▶ QC/QA Paper D + Paper E (Nobel polish)
+  ▶▶ COMPENDIUM — catalogue all 256 formalisations (3/256 done)
+  THEN: Paper Quality Bible
+  THEN: Proofread 8 existing capstone papers (citing Compendium maths)
+  THEN: Compose + proofread remaining 14 capstone papers
+  THEN: Publish all 22 capstones to Zenodo
+  THEN: GRAND ToE PAPER (synthesises Papers A-E + 22 capstones + Compendium)
+  THEN: Publish Grand ToE to Zenodo + Bitcoin stamp
+
+PHASE 2: WEBSITE (infinitography.com)
+  Wing 1 (Discovery) — add Paper D, E, Grand ToE explainer pages
+  Wing 2 (ToE) — extended content from D, E, Grand ToE
+  Pansophia wing — own wing with concept paper + vision
+  Convergence Codex wing — Compendium + 22 capstones + methodology + Stage B future plan + open source links
+
+PHASE 3: OPEN SOURCE + SHIP
+  Open source Gnosis v2 + Logos AI (PyPI, CLI, dual-mode backend)
+  QC all wings
+  Deploy
+
+PHASE 4: OUTREACH
+  Kerygma AI or manual outreach
+
+PHASE 5: STAGE B (post-outreach, optional)
+  Full 81-field run with Gnosis v3 + Logos v2 ($0 via MaxPlanAPI)
+  Stage B capstone papers + formalisation catalogue
+  Update Codex wing with Stage B results
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-THEN    Stage 3c — Pansophia wing on infinitography.com
-THEN    Stage 3d — Remaining Infinitography website
-            Papers 1-4 rewrite (user creates content)
-            Homepage update (including Codex references)
-            Full website playtest (all wings + Codex)
-            Paper 12 upgrade
-
+THEN    Stage 3c — Pansophia wing (part of Phase 2 above)
+THEN    Stage 3d — Remaining Infinitography website (homepage update, playtest, QC)
 THEN    Stage 2 remainder (AgentCiv: 4a-4c, dogfood, papers 5+6)
 THEN    Stage 4 (Polish both projects + Gnosis AI trademark)
 THEN    Stage 5 (QA/QC — the big pre-outreach audit)
 THEN    Stage 6 (Kerygma AI — automated research outreach at scale)
 LATER   Stages 7-9 (Recursive Loop, Colony, Full Stack)
 SEPARATE    Exponential Atlas (unblocked by integrity audit)
+PARALLEL    Paper F — Complete Mathematical Programme (work whenever desired, no deadline)
 ```
+
+### PARALLEL TRACK: Paper F — The Complete Mathematical Programme
+
+**Roadmap:** `convergence-codex/docs/PAPER_F_ROADMAP.md` (also on Desktop)
+**Status:** ACTIVE — work whenever desired, no rush, no dependency on outreach timeline
+**What:** Systematic closure of ALL mathematically tractable open problems in the GToE. 50 items across 4 tiers of difficulty. Builds on Papers D+E (206 theorems).
+
+**Key items:**
+- Tier 1 (weeks-months): Pati-Salam uniqueness, Lawvere package, falsification conditions, Cl(3,1)
+- Tier 2 (months-year): Chirality forced, "canonical" defined, cartesian/linear lineage closures
+- Tier 3 (years): Three generations, Higgs mechanism, Born rule from cascade, universality metatheorem
+- Tier 4 (moonshots): α, mass ratios, CKM matrix, cosmological constant
+
+**Publishing:** Periodically as tiers complete. Each version to Zenodo. Wing 2 of infinitography.com updated with each publication. Bitcoin-timestamped.
+
+**When complete:** Add paper to Wing 2 (ToE) of infinitography.com with extension content explaining the mathematical programme and its results.
 
 ---
 
@@ -688,6 +790,7 @@ SEPARATE    Exponential Atlas (unblocked by integrity audit)
 | What | Where |
 |------|-------|
 | This roadmap | `/Users/ekramalam/MASTER_ROADMAP.md` |
+| Paper F roadmap | `/Users/ekramalam/convergence-codex/docs/PAPER_F_ROADMAP.md` |
 | Infinitography sub-roadmap | `/Users/ekramalam/infinitography-website/docs/ROADMAP.md` |
 | AgentCiv engine roadmap | `/Users/ekramalam/agentciv-engine/ROADMAP.md` |
 | Creator Mode v1 build doc | `/Users/ekramalam/agentciv-creator/docs/CREATOR_MODE_V1_BUILD.md` |
