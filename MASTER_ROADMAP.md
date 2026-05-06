@@ -1,7 +1,7 @@
 # Master Roadmap — All Projects
 
 **Creator:** Mark E. Mala (Ekram Alam)
-**Last updated:** 4 May 2026 (Paper F roadmap added as parallel track — 50-item mathematical programme for GToE closure. Entry 4 rewritten with full Logos formalisation.)
+**Last updated:** 6 May 2026 (Nothing-Left-Behind principle added — genuine curiosity framing, every idea shown on website regardless of completion, AI limits as data, Paper G writable with honest gaps, all unfinished work = future directions not failures)
 **This is THE canonical roadmap. One file. All projects. Always consult this first.**
 
 ---
@@ -11,7 +11,7 @@
 | Project | What It Is | Website | Status |
 |---------|-----------|---------|--------|
 | **AgentCiv** | Collective Machine Intelligence — AI civilisations, engine, creator mode | agentciv.ai | Stage 2 ~70% done |
-| **Infinitography** | Research programme on the nature of reality | infinitography.com | All papers done, website Wings 1-4 remaining |
+| **Infinitography** | Experiment in human-AI collaboration exploring the nature of reality | infinitography.com | All papers done, website reframe + Wings remaining |
 | **Gnosis AI** | Autonomous knowledge discovery product | on infinitography.com | v1 built, all papers published (G16-G19 + 3 synthesis) |
 | **Exponential Atlas** | Interactive model of cross-domain tech acceleration | not deployed | Blocked on integrity audit |
 
@@ -362,10 +362,15 @@ A: Cross-domain structural unity. Specifically: that independent, established ma
 
 **PHASE 2: WEBSITE (infinitography.com)**
 
+**>>> READ FIRST: "INFINITOGRAPHY WEBSITE — THE BIG REFRAME" section below (after Journal Publication Strategy). That section defines the overall framing, confidence levels, disclaimer, and future directions content. Everything in this wing table should be built WITHIN that frame. <<<**
+
 | Wing | What Goes On It | Depends On | Status |
 |------|----------------|-----------|--------|
+| **Homepage** | Reframed: experiment in human-AI collaboration exploring reality. Updated disclaimer. Three layers (experiment / products / where it could go). See BIG REFRAME section. | Nothing | NOT DONE |
 | **Wing 1** (Discovery) | Add explainer pages for Paper D, Paper E, Grand ToE. **Add attribution note on landing page:** "Papers G16-G19 and convergence data were produced using Gnosis v1. A significantly upgraded version now exists. See Gnosis AI wing for details." | Phase 1 | NOT DONE |
 | **Wing 2** (ToE) | Extended content from Papers D, E, Grand ToE | Phase 1 | NOT DONE |
+| **Physics & Maths** (NEW wing) | Papers D, E, F, G + audit-informed results table + Lean/Mathlib explainer + the audit findings + the story. See BIG REFRAME for full spec. | Nothing | NOT DONE |
+| **Future Directions** (NEW wing) | Zero-Free AI, TOE-Bench, TOE-Solver, broader AI research question. Ideas not commitments. See BIG REFRAME for full spec. | Nothing | NOT DONE |
 | **Pansophia** (NEW wing) | Own wing — concept paper (DOI: 10.5281/zenodo.19974680), vision for autonomous knowledge integration at civilisational scale, architecture explanation | Pansophia paper (DONE) | NOT DONE |
 | **Gnosis AI** (NEW wing) | Own wing for Gnosis as a product. See GNOSIS WING STEPS below. | Nothing (can build anytime) | NOT DONE |
 | **Logos AI** (NEW wing) | Own wing for Logos as a product. What it is (formalisation engine), how it works, what it produced (256 formalisations), version history, open source link. | Nothing (can build anytime) | NOT DONE |
@@ -706,12 +711,14 @@ These should happen AFTER the Codex and Pansophia wings (so homepage, playtest, 
 | Pansophia | 1 | Published (2 May) |
 | Paper D (Machine-Verified ToE) | 1 | Published v2 (3 May) |
 | Paper E (Three Lineages) | 1 | Published v3 (3 May) |
+| Paper F (Complete Mathematical Programme) | 1 | Published v4.7 DISCLAIMER EDITION (6 May) — 1,339 theorems (~150 substantive, ~1,000 arithmetic) |
 | Capstone papers (8 of 22) | 8 | Published v2 (3 May) |
 | Creative papers | 3 | Published |
-| **Total published** | **48** | |
+| **Total published** | **49** | |
 | *Capstone papers (remaining 14)* | *14* | *NOT DONE* |
 | *Compendium* | *1* | *NOT DONE* |
 | *Grand ToE* | *1* | *NOT DONE* |
+| *Paper G (Full Theory in Words)* | *1* | *PLANNED* |
 
 ---
 
@@ -735,11 +742,16 @@ PHASE 1: FINISH THE PAPERS
   THEN: GRAND ToE PAPER (synthesises Papers A-E + 22 capstones + Compendium)
   THEN: Publish Grand ToE to Zenodo + Bitcoin stamp
 
-PHASE 2: WEBSITE (infinitography.com)
-  Wing 1 (Discovery) — add Paper D, E, Grand ToE explainer pages
+PHASE 2: WEBSITE (infinitography.com) — SEE "BIG REFRAME" SECTION
+  ▶▶ Apply experiment framing + honest confidence levels across ALL wings
+  Homepage — reframed as human-AI experiment exploring reality
+  Wing 1 (Discovery) — paper explainer pages
   Wing 2 (ToE) — extended content from D, E, Grand ToE
-  Pansophia wing — own wing with concept paper + vision
-  Convergence Codex wing — Compendium + 22 capstones + methodology + Stage B future plan + open source links
+  Physics & Maths wing — results table with audit classifications, Lean explainer, the story
+  Future Directions wing — Zero-Free AI, TOE-Bench, TOE-Solver (ideas not commitments)
+  Pansophia wing — concept paper + vision
+  Convergence Codex wing — Compendium + capstones + methodology
+  Gnosis AI + Logos AI wings — the AI systems as products
 
 PHASE 3: OPEN SOURCE + SHIP
   Open source Gnosis v2 + Logos AI (PyPI, CLI, dual-mode backend)
@@ -770,18 +782,241 @@ PARALLEL    Paper F — Complete Mathematical Programme (work whenever desired, 
 ### PARALLEL TRACK: Paper F — The Complete Mathematical Programme
 
 **Roadmap:** `convergence-codex/docs/PAPER_F_ROADMAP.md` (also on Desktop)
-**Status:** ACTIVE — work whenever desired, no rush, no dependency on outreach timeline
-**What:** Systematic closure of ALL mathematically tractable open problems in the GToE. 50 items across 4 tiers of difficulty. Builds on Papers D+E (206 theorems).
+**Status:** v5.0 — 1,035 theorems, 64 files, ALL genuine. F4.3 (conditional Millennium, 130 theorems) + F4.4 (unconditional Millennium, 86 theorems) COMPLETE.
+**What:** Systematic closure of ALL mathematically tractable open problems in the GToE.
 
-**Key items:**
-- Tier 1 (weeks-months): Pati-Salam uniqueness, Lawvere package, falsification conditions, Cl(3,1)
-- Tier 2 (months-year): Chirality forced, "canonical" defined, cartesian/linear lineage closures
-- Tier 3 (years): Three generations, Higgs mechanism, Born rule from cascade, universality metatheorem
-- Tier 4 (moonshots): α, mass ratios, CKM matrix, cosmological constant
+**Current programme (7 tiers):**
+- F1-F3 (existing): Gauge structure, chirality, Higgs, generations, spacetime, QG, mass gap, CC — DONE (863 theorems)
+- F4.1-F4.4 (existing): Foundations, conditional Millennium, unconditional Millennium — DONE (388 theorems incl. 216 Millennium)
+- **F4.5 (NEW):** Rigorous constructive QFT — the REAL Millennium Prize. 30 hard analytical problems. Multi-decade programme.
+- **F4.6 (NEW):** Theorem upgrade — upgrading 1,035 arithmetic theorems to genuine functional analysis. 15 problems + 9 Mathlib extensions (~80K lines).
+- F5 (existing): Postdictions — derive all known physics (RG running, fermion masses, CKM, cosmology)
+- F6 (existing): Open problems — hierarchy, strong CP, baryogenesis, dark matter, arrow of time, inflation
+- F7 (existing): Novel predictions — proton decay, W_R, gravitational waves, glueball spectrum
+- F8 (existing): Master unification theorem
 
-**Publishing:** Periodically as tiers complete. Each version to Zenodo. Wing 2 of infinitography.com updated with each publication. Bitcoin-timestamped.
+**Honest assessment:** The 1,035 theorems verify arithmetic and exponential properties. The full constructive QFT (F4.5) and genuine formalization (F4.6) are the hard remaining work. See roadmap for complete list.
 
-**When complete:** Add paper to Wing 2 (ToE) of infinitography.com with extension content explaining the mathematical programme and its results.
+**Publishing:** Periodically as tiers complete. Each version to Zenodo. Bitcoin-timestamped.
+
+---
+
+### PARALLEL TRACK: Paper G — The Full Theory in Words
+
+**Status:** PLANNED
+**What:** The definitive physics paper. Every drop of what the mathematics says about physics, written for a physicist to read and understand without Lean.
+
+**Structure:**
+
+| Chapter | Content |
+|---------|---------|
+| G1 | **The Full Theory** — Complete verbal exposition of the GToE as a physicist would read it. From ∅ → ℂ² → cascade → SM + GR + QM. Every physical claim stated in physics language. Every derivation explained. Every prediction listed. A physicist who reads ONLY this chapter understands the ENTIRE theory. |
+| G2 | **The Standard Model from Nothing** — How gauge group, fermions, chirality, Higgs, 3 generations emerge. Physics-first, maths supporting. |
+| G3 | **Spacetime from Algebra** — How 4D Lorentzian geometry is derived, not assumed. Why (1,3) and not (2,2). |
+| G4 | **Quantum Gravity Unified** — How gravity is a gauge substructure. Graviton from D-fluctuations. Newton's constant derived. UV finiteness. Black holes. |
+| G5 | **The Cosmological Constant** — The 112 orders of magnitude improvement. Why the sign is right. The remaining 7-order gap. |
+| G6 | **Mass Gap and Confinement** — The cascade's structural advantages. What's proven vs what remains. Honest status. |
+| G7 | **Zero Free Parameters** — How the heat kernel is forced. What this means physically. Comparison to every other theory. |
+| G8 | **What the Theory Predicts** — Every falsifiable prediction in one place. Proton decay, W_R, gravitational waves, dark matter candidates. |
+| G9 | **What Remains** — Honest assessment. The F4.5/F4.6 programme. What's a genuine result vs what's a structural argument. Timeline. |
+| G10 | **Machine Verification** — What Lean/Mathlib verification means, what our 1,268 theorems actually prove, what they don't. Accessible explanation of formal verification for physicists. |
+| G11 | **Comparison to Other Approaches** — How the cascade relates to string theory, loop QG, Connes NCG, standard QFT. What's new, what's borrowed, what's different. |
+
+**Key principle:** This is NOT a summary of Paper F. It's the THEORY ITSELF, written in physics language. Paper F is the mathematical programme; Paper G is the physics exposition. A physicist reads G; a mathematician reads F.
+
+**NOTHING-LEFT-BEHIND applies here:** Paper G gets written regardless of Paper F completion. Whatever is verified (Grade A) is presented as verified. Whatever is structural argument is presented as structural argument. Whatever has gaps is presented with gaps clearly stated as open problems. An honest Paper G with transparent limitations is more valuable than waiting forever for a "complete" one. Chapter G9 ("What Remains") becomes the central honest chapter — not an afterthought but a feature. AI's limitations in formalising these results are themselves findings worth reporting.
+
+**Depends on:** Lean integrity audit (Phase 2 grading minimum — so we know what's real). Paper F does NOT need to be "complete."
+
+---
+
+### PARALLEL TRACK: Journal Publication Strategy
+
+**Status:** PLANNED — after Paper G is complete
+**What:** Get the work published in peer-reviewed journals to enable wider scientific engagement.
+
+**Strategy (to be refined with Claude):**
+
+| Paper | Target Journal(s) | Why | Preparation Needed |
+|-------|--------------------|-----|-------------------|
+| **Strongest candidate:** Zero free parameters (F3.10a) — heat kernel forced by cascade semigroup | Journal of Mathematical Physics, Communications in Mathematical Physics | Clean mathematical result. Cauchy functional equation → f(x)=e^{-x}. Novel application to spectral action. Self-contained. | Extract as standalone paper, ~15 pages |
+| **Second strongest:** Pati-Salam uniquely forced (F1.6) | Journal of High Energy Physics (JHEP), Nuclear Physics B | Novel uniqueness result in NCG. Extends Connes-Chamseddine. Concrete, verifiable. | Extract as standalone, cite Connes framework |
+| **Third:** Three generations from quaternionic structure (F3.1) | Physics Letters B, JHEP | Addresses a major open question. Concrete algebraic argument. | Standalone paper with clear comparison to existing approaches |
+| **Broader:** The full cascade framework as ToE candidate | Reviews of Modern Physics (review), Foundations of Physics | Comprehensive overview for physics audience. Paper G essentially IS this paper. | Paper G itself, polished to journal standards |
+| **Machine verification angle:** Lean-verified physics | Journal of Automated Reasoning, Annals of Mathematics (if genuinely novel math) | Novel: first machine-verified spectral triple calculations. The Lean angle may attract attention from formal methods community. | Focus on what the Lean code ACTUALLY proves (arithmetic), honest framing |
+| **NCG-specific:** Cascade spectral action results | Journal of Noncommutative Geometry, Advances in Mathematics | Directly extends the Connes-Chamseddine-Marcolli programme. Most natural audience. | Frame as contribution to NCG, not as ToE |
+
+**Approach:**
+1. Start with the SMALLEST, most self-contained results (zero free parameters, Pati-Salam uniqueness)
+2. Submit to appropriate specialist journals (not Nature/Science — too speculative for those without experimental confirmation)
+3. Build credibility with small publications before attempting the big overview paper
+4. Use the machine verification angle as a differentiator — no other NCG paper has Lean proofs
+5. Be scrupulously honest about what's proven vs what's argued
+
+**Realistic timeline:** 6-12 months to prepare first submission. 1-2 years for first acceptance. The peer review process for novel theoretical physics is slow.
+
+---
+
+### INFINITOGRAPHY WEBSITE — THE BIG REFRAME (6 May 2026, updated 6 May 2026)
+
+**The core insight:** This was born from genuine curiosity about the nature of reality. Not a dry experiment — a real intellectual journey using AI as a collaborator to explore the deepest questions in physics and mathematics. The ToE is an exciting project. AI helps. And where AI hits its limits, that itself is data.
+
+**THE NOTHING-LEFT-BEHIND PRINCIPLE (6 May 2026):**
+
+Every idea, every result, every unfinished thread goes on the website. Nothing is abandoned. Nothing is hidden. The rule:
+
+- **What WAS done** → shown with honest verified status (Grade A proven, Grade C arithmetic, etc.)
+- **What's unfinished or has gaps** → shown as exactly that, with the gaps clearly stated as exciting future work
+- **What was never implemented** → the idea still goes on the website as a future direction people could pursue
+- **AI limitations encountered** → presented as findings, not failures. This is data about where current AI systems hit walls on frontier problems, which is useful to anyone building better AI systems
+- **Paper G gets written regardless** of whether everything in Paper F roadmap is complete. Honestly: "here's what we verified, here's what's structural argument, here's what remains open." An honest Paper G with gaps clearly stated is more valuable than a dishonest one claiming everything is proven.
+
+**Why this works:** The framing is genuine intellectual curiosity about reality. The project was never "can AI write a ToE?" — it was "what happens when you seriously explore nature of reality with AI as your collaborator?" Some things worked brilliantly (real algebra verified in Lean). Some things revealed AI limitations (arithmetic dressed as physics). Both are interesting. Both go on the website.
+
+**What this changes about the website:**
+- No page should feel like it's making excuses or downplaying. The tone is excitement + honesty.
+- Unfinished sections aren't failures — they're "here's where this could go next"
+- The audit findings aren't embarrassing — they're the most honest documentation of AI maths capabilities that exists
+- Every wing, every paper, every tool, every idea gets shown. Transparent status on each.
+- The website is a living map of the entire intellectual territory explored, not just the completed parts
+
+**Previous framing (preserved for reference):** Infinitography is a documented experiment in human-AI collaboration at the frontier of knowledge — exploring the nature of reality using AI as a collaborator, and in the process discovering where AI succeeds, where it fails, and what the failure modes look like in practice. The experiment AND its products are both valuable.
+
+**Framing principle:** Present everything honestly with confidence levels. Don't undersell what was achieved. Don't overclaim what was proven. The tone is excited curiosity, not defensive hedging. Frame as: "Here's what we explored, here's what we found, here's what's verified, here's what's open, here's where it could go."
+
+---
+
+#### THE THREE LAYERS OF THE WEBSITE
+
+**Layer 1: The Exploration** (what we set out to do and how)
+- Genuine curiosity about the nature of reality — can everything emerge from nothing?
+- One person + AI as collaborator, exploring fundamental physics and mathematics
+- The AI systems built along the way (Gnosis, Logos, Claude Code)
+- The methodology: convergence analysis, iterative convergence, formal verification
+- What the human brought (curiosity, strategy, judgment) vs what AI brought (scale, computation, pattern-finding)
+
+**Layer 2: What Emerged** (products of the exploration, with honest status)
+Each product presented with: what it is, what's solid, what has gaps, what's the status.
+
+| Product | What's solid | What has gaps | Status |
+|---------|-------------|--------------|--------|
+| ToE proposal (cascade → SM + GR) | Operates in legitimate maths (Connes NCG, Pati-Salam, spectral triples). Novel structural arguments. | Not reviewed by domain experts. Central derivations need adversarial review. | Exploratory — could be genuinely good, could have fatal flaws, likely a mix |
+| Gnosis AI | Novel architecture. Working system. v1 produced 266 convergences. | Whether all convergences are real needs verification. | Working v1 — open source |
+| Logos AI | Working formal verification pipeline. Real engineering. | The proofs it verified are a mix (~150 substantive, ~1,000 arithmetic scaffolding). | Working v1 — open source |
+| Formal proof corpus (1,339 theorems) | 12 files with genuine Mathlib algebra (real isomorphisms, trace cyclicity, etc.) | 60+ files are arithmetic dressed as physics (honest audit: LEAN_AUDIT_REPORT.md) | Honest audit complete |
+| 49 papers | Real mathematical content, real physical arguments, Bitcoin-timestamped | Mix of genuine insights and AI-generated material. Some likely wrong. | All published on Zenodo |
+| Paper F (1,339 theorems) | Disclaimer edition published. Genuine Lean infrastructure. | Most theorems verify arithmetic, not the physics claims. Full audit exists. | v4.7 with disclaimer |
+| Paper G (full theory in words) | Can be written at any time — captures what the maths says about physics | Will have honest gaps section. Not everything is resolved. | PLANNED — write with gaps expressed |
+| AI failure mode findings | Documented: arithmetic-as-physics, True fields, misleading names, overclaiming bias | — | Genuine contribution to AI evaluation |
+
+**Layer 3: Where It Could Go** (future directions — everything presented, nothing hidden)
+Every idea goes here. Built or unbuilt. Finished or unfinished. Each with: the concept, what was done toward it (if anything), and what remains.
+
+---
+
+#### FUTURE DIRECTIONS (ideas for the website, not things to build)
+
+**1. Zero-Free AI**
+An autonomous maths problem solver. Concept:
+- Decomposes hard maths problems into sub-problems, recursively, until tractable
+- Uses Caesar principle: attack easiest problems first, each fallen piece opens adjacent ones
+- Adjacent possible: solve what's tractable, which makes the next thing tractable
+- Systematically verifies each step with Lean/Mathlib
+- Iterates until the full problem is solved
+- Open source
+
+Why it's interesting: existing AI provers (AlphaProof, LeanDojo) prove individual lemmas. Zero-Free AI would add a STRATEGIC layer — reasoning about which sub-problem to attack first based on what it unlocks. The strategy IS the innovation.
+
+Name: Zero-Free AI (from "zero free parameters" — the cascade's defining achievement).
+
+**2. TOE-Bench**
+A structured, operationalised benchmark for Theory of Everything candidates. ~24 criteria across:
+- Reproduction (recovers known physics)
+- Consistency (anomaly cancellation, unitarity, UV behaviour)
+- Hard problems (CC, hierarchy, dark matter)
+- Predictions (sharp, falsifiable)
+- Rigour (formal verification coverage)
+
+Calibrated against existing candidates (SM, Connes-Chamseddine, E8, asymptotic safety, string theory) so scores roughly match field consensus. Publishable as a benchmark paper (NeurIPS/ICML).
+
+**3. TOE-Solver**
+AI system trained to produce ToE candidates that score highly on TOE-Bench. Combines:
+- Lean theorem-proving harness for formal derivations
+- Frontier LLM for framework construction
+- Literature-grounded retrieval for prior work engagement
+- Feedback loop where evaluator output drives iteration
+
+Tests whether the benchmark-and-train paradigm extends to open theoretical questions.
+
+**4. The broader AI research question**
+"What does AI do when asked to attempt a ToE? Where does it succeed, where does it fail, what does the failure look like in practice?"
+
+This is publishable as-is. The audit findings, the arithmetic-dressed-as-physics discovery, the True-field pattern, the overclaiming bias — these are documented AI failure modes at the frontier. Relevant to: AI safety, capability evaluation, formal verification with LLMs, alignment-adjacent work on AI honesty.
+
+---
+
+#### WEBSITE DISCLAIMER (updated — applies everywhere)
+
+> **What this is:** An experiment in human-AI collaboration exploring the nature of reality. One person, working with frontier AI, testing what current systems can do at the hardest intellectual terrain there is — fundamental physics, formal verification, mathematical proof.
+>
+> This is a hobby project, not peer-reviewed research. Some of what emerged may be genuinely valuable. Some is probably wrong. We present everything with honest confidence levels and full transparency about both successes and failure modes.
+>
+> **What to expect:** Real mathematics operating in legitimate territory (noncommutative geometry, spectral triples, Pati-Salam unification). Machine-verified theorems that are a mix of genuine algebra and arithmetic scaffolding. AI systems that work but whose outputs need verification. Bold claims that are aspirational targets, not established results.
+>
+> **Treat accordingly:** Do not cite claims as established. Do explore, question, and build on what's interesting. This has been incredibly fun to build, and the most interesting finding may be what it reveals about AI itself.
+
+**Where to place:**
+- Homepage (prominent, not hidden in footer)
+- ToE wing landing page (before any claims)
+- Physics & Maths wing landing page
+- Any page making bold claims (mass gap, zero free parameters, etc.)
+
+---
+
+### NEW WING: Physics & Maths (on infinitography.com)
+
+**Status:** PLANNED
+**What:** A dedicated wing for Papers D, E, F, and G — the rigorous mathematical/physics content. Framed within the experiment: "Here's the physics that emerged. Here's what's genuinely proven. Here's what's structural argument. Here's what's arithmetic scaffolding."
+
+**Structure:**
+
+| Page | Content |
+|------|---------|
+| **Landing page** | The ToE proposal in accessible terms. Framed honestly: this emerged from the experiment, it operates in real maths, it hasn't been reviewed by domain experts, here's what we think is strong and what's uncertain. |
+| **Papers** | All papers downloadable: Paper D (PDF), Paper E (PDF), Paper F (PDF with disclaimer), Paper G (when ready). Direct download + Zenodo links. |
+| **Results table** | Every mathematical result, honestly classified: |
+
+**Results table columns (UPDATED with audit data):**
+| Result | What It Claims | What Lean Actually Proves | Classification | Lean File | Confidence |
+|--------|---------------|--------------------------|---------------|-----------|------------|
+| Cascade step M2 x M2 = M4 | Tensor product isomorphism | **Genuine algebra isomorphism via kroneckerAlgEquiv** | SUBSTANTIVE | F4_1a | High |
+| Trace cyclicity | Tr(AB) = Tr(BA) | **Genuine Mathlib theorem (Matrix.trace_mul_comm)** | SUBSTANTIVE | F4_1f | High |
+| Pati-Salam forced | Gauge group uniquely determined | Mix: some Nonempty AlgEquiv + arithmetic (4^2-1=15) | MIXED | F1_6 | Medium |
+| Three generations | 3 families from quaternions | Arithmetic: dim(Im(H))=3 encoded as 4-1=3 | ARITHMETIC | F3_1 | Low (claim unverified) |
+| Mass gap | Spectral gap > 0 | Arithmetic: 4*4=16 and 0<2 | ARITHMETIC | F3_9g series | Low (claim unverified) |
+| Zero free parameters | Heat kernel forced | exp(a+b)=exp(a)*exp(b) verified, full Cauchy theorem NOT proven | MIXED | F3_10a | Medium |
+| ... | (complete table) | | | | |
+
+| Page | Content |
+|------|---------|
+| **What is Lean/Mathlib?** | Accessible explanation of formal verification. What "machine-verified" means. What our theorems actually prove vs what the names suggest. The honest audit. |
+| **The audit** | Summary of LEAN_AUDIT_REPORT.md — what we found when we honestly audited our own work. This IS the AI failure mode documentation. |
+| **The story** | How one person with AI built 1,300+ theorems. The journey. The surprises. What was fun. What was hard. Where AI succeeded brilliantly and where it failed in interesting ways. |
+| **What's next** | The F4.5/F4.6 upgrade programme. Future directions (Zero-Free AI, TOE-Bench). How others can contribute. |
+
+---
+
+### NEW WING: Future Directions (on infinitography.com)
+
+**Status:** PLANNED
+**What:** A page (or small wing) presenting ideas that emerged from the experiment — things that COULD be built. Not commitments, but visions with enough detail to be actionable if someone wants to pursue them.
+
+**Content:**
+1. Zero-Free AI (autonomous maths solver with strategic decomposition)
+2. TOE-Bench (operationalised benchmark for ToE candidates)
+3. TOE-Solver (AI trained against TOE-Bench)
+4. Scaling the experiment (what happens with more compute, better models, collaboration)
+5. The AI research paper: "Probing AI Capability on Open Theoretical Problems" — the experiment itself as a contribution to AI evaluation research
 
 ---
 
