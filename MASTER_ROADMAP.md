@@ -1,7 +1,7 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 13 May 2026 — Two-track structure. Infinitography + AgentCiv ship together with joint QA/QC and joint outreach. Added AgentCiv ethical interview and Library of Humania.
+**Last updated:** 13 May 2026 — Two-track structure + optional GPT 5.5 bonus stress test before joint QA/QC. Infinitography + AgentCiv ship together with joint QA/QC and joint outreach. AgentCiv ethical interview and Library of Humania added.
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
@@ -63,7 +63,7 @@ Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those unt
 
 ```
 TRACK A (Infinitography)  ─┐
-                            ├──→  STAGE J1 (Joint QA/QC)  ──→  STAGE J2 (Joint Outreach)
+                            ├──→  [BONUS — GPT 5.5 stress test, optional]  ──→  J1 Joint QA/QC  ──→  J2 Joint Outreach
 TRACK B (AgentCiv)        ─┘
 ```
 
@@ -214,6 +214,51 @@ A new concept being staked: each AI civilisation has its own library that stores
 - Creator Mode spawns civilisations
 - The library could be a configurable input to spawned civs
 - Future build: expose library form/content as a parameter in Creator Mode
+
+---
+
+# OPTIONAL BONUS — GPT 5.5 Stress Test
+
+Sits between the two tracks completing and Joint QA/QC. Runs **only if there's time/energy**. Time-boxed to a single session. Cannot block outreach.
+
+## BONUS-1 GPT 5.5 on the 90 Lean files + the unsolved problems
+
+### BONUS-1.1 What gets tested
+- **The 90 Lean files** — every file in `convergence-codex/lean_verify/` (Phase 7 paused state, Git `22837dd`). Test each one **individually**: can GPT 5.5 replace arithmetic scaffolding with genuine Mathlib proofs?
+- **The unsolved problems** — the open problems embedded in the Tree of Reality at their exact causal positions (Yang-Mills mass gap, Bakry-Émery curvature, GNS, L² spectral theory, and any others tagged SPECULATIVE / PARTIAL in `TREE_OF_REALITY_STRUCTURE.md`).
+
+### BONUS-1.2 Success criteria (strict)
+- **Lean files:** `lake build` succeeds with **0 sorry**, **0 native_decide**, **0 boolean encoding** — only genuine Mathlib proofs. Per existing rule: genuine proofs only.
+- **Unsolved problems:** a verifiable proof (Lean-formalised OR rigorously written math that we can subsequently formalise).
+- Partial wins are partial wins — record exactly which files / problems solved, which not.
+
+### BONUS-1.3 Method
+- One file at a time per existing rule ("Lean proofs one at a time")
+- For each file: feed file + Mathlib context → GPT 5.5 → check build → record result
+- For unsolved problems: dedicated prompts, capture full attempt + assessment
+- Log everything (per data provenance rule): git-commit attempts + results
+
+### BONUS-1.4 Branching outcomes
+
+**If genuine wins (any file solved OR any unsolved problem cracked):**
+- Add a new page or wing to infinitography.com showcasing the breakthrough
+  - Provisional placement: under Theory of Everything wing as `/theory-of-everything/verification` OR standalone wing `/breakthrough`
+  - Content: what was tested, what was solved, the proofs themselves, honest framing of what remains
+  - Update Maths Org status from "paused" to "partially unblocked"
+  - Update Tree of Reality predictions: mark resolved problems
+- Re-QC the new content (folds into J1 if timing aligns; otherwise a quick J1.5 pass)
+- Update the outreach email to lead with this result
+
+**If no genuine wins:**
+- Record results internally (memory file: `project_gpt55_stress_test.md`)
+- No website changes
+- Maths Org stays paused
+- Proceed directly to J1 unchanged
+- It was just a test session — useful data either way
+
+### BONUS-1.5 Time-box
+- One session. Hard stop.
+- If it's running away, halt and capture state. Genuine wins so far → small website addition. No wins → straight to J1.
 
 ---
 
