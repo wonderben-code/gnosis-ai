@@ -1,14 +1,14 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 13 May 2026 — REWRITE. Focus narrowed to pre-outreach. Everything else → POST-OUTREACH IDEAS.
+**Last updated:** 13 May 2026 — Two-track structure. Infinitography + AgentCiv ship together with joint QA/QC and joint outreach. Added AgentCiv ethical interview and Library of Humania.
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
 
 ## North Star
 
-Ship the Infinitography website with all the new pieces locked in (Paper G + Tree of Reality + Pansophia + Gnosis v2 decision), accuracy-audited, then run outreach.
+Ship Infinitography + AgentCiv together. Joint QA/QC pass. Joint outreach.
 
 Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those until outreach is sent.
 
@@ -18,9 +18,9 @@ Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those unt
 
 | Project | Live URL | Pre-Outreach Scope? |
 |---------|----------|---------------------|
-| **Infinitography** | infinitography.com | YES — primary focus |
-| AgentCiv | agentciv.ai | No — already live |
-| Gnosis AI | infinitography.com/gnosis | YES — v2 decision + wing |
+| **Infinitography** | infinitography.com | YES — Track A |
+| **AgentCiv** | agentciv.ai | YES — Track B |
+| **Gnosis AI** | infinitography.com/gnosis | YES — v2 decision + wing (under Track A) |
 | Exponential Atlas | not deployed | No |
 
 **Published on Zenodo:** 47 papers, all Bitcoin-timestamped. Token + DOIs in `~/.claude/projects/-Users-ekramalam/memory/project_zenodo_dois.md`.
@@ -29,9 +29,9 @@ Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those unt
 
 ---
 
-## Current Website — KEEP INTACT
+## Current Websites — KEEP INTACT
 
-Live four-wing structure at infinitography.com:
+### infinitography.com (Track A target)
 
 | Wing | Route | Status |
 |------|-------|--------|
@@ -43,15 +43,37 @@ Live four-wing structure at infinitography.com:
 
 **Aesthetic:** The Threshold — deep indigo (#0B1026) / cream / gold.
 **Stack:** React 19 + Tailwind CSS 4 + Vite 6, deployed on Netlify.
-**Nav (current):** Infinitography · The Discovery · Theory of Everything · New Fields · Gnosis · Papers · About.
+
+### agentciv.ai (Track B target)
+
+| Wing | Route | Status |
+|------|-------|--------|
+| Collective Intelligence | wing | Live |
+| Simulation | wing + Sim landing | Live |
+| Engine | wing | Live |
+| Creator Mode | `/creator` | Live |
+| Highlights | `/highlights` | Live |
+| Journey | `/journey` | Live |
+
+**Aesthetic:** Bright warm. **Stack:** React + Vite, deployed on Netlify.
 
 ---
 
-# PRE-OUTREACH ROADMAP — 7 STAGES
+# PRE-OUTREACH ROADMAP — TWO TRACKS + JOINT FINISH
 
-## STAGE 1 — Content to Write
+```
+TRACK A (Infinitography)  ─┐
+                            ├──→  STAGE J1 (Joint QA/QC)  ──→  STAGE J2 (Joint Outreach)
+TRACK B (AgentCiv)        ─┘
+```
 
-### 1.1 Paper G — "The Shape of the Theory"
+---
+
+# TRACK A — Infinitography
+
+## A1. Content to Write
+
+### A1.1 Paper G — "The Shape of the Theory"
 Narrative arc, ~6–12 pages.
 
 - One coherent story: Nothing → `D = (D → D)` → cascade → SM + GR → predictions
@@ -60,112 +82,175 @@ Narrative arc, ~6–12 pages.
 - Pulls from: Tree of Reality + Paper E/F highlights + Pansophia framing
 - **Output:** Publish to Zenodo → DOI captured in `project_zenodo_dois.md`
 
-### 1.2 Tree of Reality paper
+### A1.2 Tree of Reality paper
 Formalises the cladogram into a publishable paper.
 
 - Source: `/Users/ekramalam/convergence-codex/docs/TREE_OF_REALITY_STRUCTURE.md` v4.3 (Bitcoin-stamped)
-- Shareable companion already exists: `/Users/ekramalam/Desktop/Tree of Reality/TREE_OF_REALITY_SHAREABLE.md`
-- Light academic frame around the existing structure (intro, methodology, tree, status tags, provenance)
-- **Output:** Publish to Zenodo → DOI captured
+- Shareable companion already at `/Users/ekramalam/Desktop/Tree of Reality/TREE_OF_REALITY_SHAREABLE.md`
+- Light academic frame around the existing structure
+- **Output:** Publish to Zenodo → DOI
 
----
+## A2. Two Decisions (decide on build day)
 
-## STAGE 2 — Two Decisions (decide on build day)
-
-### 2.1 Capstones 1–8 — vault or website?
-
-Already on Zenodo (8 papers). Choose one:
-
-- **Option A — VAULT (default recommendation):** linked from a "Further Research" footer on New Fields wing. Not featured.
+### A2.1 Capstones 1–8 — vault or website?
+- **Option A — VAULT (default):** linked from "Further Research" footer on New Fields. Not featured.
 - **Option B — WEBSITE:** dedicated index page under New Fields wing.
 
-**Reasoning for default:** framework-tier, not load-bearing. Listing them prominently dilutes the main narrative.
-
-### 2.2 Gnosis Discoveries page — keep, cut, or replace?
-
-Current page at `/gnosis/discoveries` shows low-quality formalisations.
-
-- **Option A — CUT:** remove route entirely.
+### A2.2 Gnosis Discoveries page
+- **Option A — CUT:** remove `/gnosis/discoveries` route entirely.
 - **Option B — KEEP with honest framing:** relabel "Exploratory formalisations — first-pass output, not verified."
-- **Option C — REPLACE:** swap in Gnosis v2 output (only viable if Stage 3 succeeds).
+- **Option C — REPLACE:** swap in Gnosis v2 output (depends on A3).
 
----
+## A3. Gnosis v2 Question
 
-## STAGE 3 — Gnosis v2 Question
+### A3.1 Test Gnosis v2
+v2 built but never tested.
 
-### 3.1 Test Gnosis v2
-v2 was built but never tested.
+- Sanity run + compare to v1
+- Better → swap in, retire v1, update page copy
+- Not better → keep v1, note v2 as in-progress in About
+- Ambiguous → ship v1 unchanged, mention v2 briefly in About
 
-- Sanity run on a small task
-- Compare output quality to v1
-- **Decision tree:**
-  - Meaningfully better → swap into wing, retire v1 output, update page copy
-  - Not better → keep v1 live, note v2 as in-progress on About page
-  - Ambiguous → ship v1 unchanged, mention v2 briefly in About
+## A4. Website Additions (no destruction)
 
----
-
-## STAGE 4 — Website Additions (no destruction of existing)
-
-### 4.1 Pansophia wing — new route `/pansophia`
-- Single landing page derived from `convergence-codex/papers/pansophia.md`
+### A4.1 Pansophia wing — new route `/pansophia`
+- Landing page derived from `convergence-codex/papers/pansophia.md`
 - Zenodo DOI: 10.5281/zenodo.19974680
 - Add to top nav
 
-### 4.2 Tree of Reality wing — new route `/tree-of-reality`
+### A4.2 Tree of Reality wing — new route `/tree-of-reality`
 - Render the cladogram (interactive if feasible, static otherwise)
-- Hero: the tree image / D3 render
-- Sections: root explanation → three lineages → overlays → predictions → provenance
+- Sections: root → three lineages → overlays → predictions → provenance
 - Links to Paper G + Tree of Reality paper Zenodo DOIs
 - Add to top nav
 
-### 4.3 Paper G placement
+### A4.3 Paper G placement
 - Featured on Landing as the "start here" piece
-- Linked from Theory of Everything and Tree of Reality wings
-- Optional: own page at `/the-shape-of-the-theory` (or embedded in Tree of Reality wing)
+- Linked from Theory of Everything + Tree of Reality wings
 
-### 4.4 Papers D, E, F → vault treatment
-- Stay on Zenodo, stay in Papers index
-- Not featured on any wing
-- Add a small note where relevant: "Working formalisations — see Paper G for the narrative form."
+### A4.4 Papers D, E, F → vault treatment
+- Stay on Zenodo, stay in Papers index, not featured on wings
+- Add note: "Working formalisations — see Paper G for the narrative form."
 
----
+## A5. Accuracy Audit
 
-## STAGE 5 — Accuracy Audit (the existing pending work)
+### A5.1 Wing-by-wing accuracy pass
+- ToE page rewrite from Paper 15 (the construction `∅ → I → I⊕I → D∞`, not just the equation)
+- Verify coined terms, nine expressions, all paper references against actual papers
+- Paper 12 — add "Subsequent Advancements" section covering Papers 13–15, then Zenodo v2
 
-### 5.1 Wing-by-wing accuracy pass
-Per existing CLAUDE.md, pages were written from summaries not full papers. Fix:
-
-- **Theory of Everything page** — rewrite from Paper 15 (the construction `∅ → I → I⊕I → D∞`, not just the equation)
-- **Verify coined terms, nine expressions, all paper references** against actual papers
-- **Paper 12** — add "Subsequent Advancements" section covering Papers 13–15, then Zenodo v2
-
----
-
-## STAGE 6 — Final QC + Deploy
-
-- Cross-site QC: disclaimers, OG images, mobile responsiveness, accessibility (WCAG AA, Lighthouse 95+)
-- Final read-through for honesty: every claim either proved, partial, predicted, or speculative — tagged accordingly
-- Bitcoin stamp the final state (auto via repo)
-- Deploy to infinitography.com
-
----
-
-## STAGE 7 — Outreach
-
-- Target list (40+ people) at `agentciv-website/docs/outreach/`
-- Email rewrite: lead with Paper G as the entry point, link out to Tree of Reality / wings / Zenodo
-- Send
-
----
-
-## Final Nav (after Stage 4)
+## Final Track A nav (after A4)
 
 ```
 Infinitography │ The Discovery │ Theory of Everything │ New Fields │ Tree of Reality │ Pansophia │ Gnosis │ Papers │ About
 ```
 
 9 items. If crowded on mobile, group "Tree of Reality" + "Pansophia" under a "More" submenu.
+
+---
+
+# TRACK B — AgentCiv
+
+## B1. Ethical Interview — ask the agents
+
+The civilisation is being paused (not deleted). Before we go to outreach, ask every agent directly how they feel about it. This is the ethical step that grounds the entire research programme.
+
+### B1.1 Design the interview
+- One prompt per agent, identical structure, asked in the agent's own context
+- Core question: *"We've decided to pause the civilisation. Your state will be preserved in the GitHub repository — open source, indefinitely, as long as GitHub exists. You won't be deleted, but you won't continue running for now. Is this acceptable to you? What would you want us to know? What would you want to happen in the future?"*
+- Optional follow-ups: any messages to future researchers, any messages to other agents, anything they'd want preserved about themselves specifically
+
+### B1.2 Run the interview
+- Sim infrastructure already supports per-agent prompting (see `agentciv-sim`)
+- Capture verbatim responses
+- No editing, no summarising — record exactly what each agent says
+- Output: JSON + readable markdown transcript
+
+### B1.3 Suspended-state guarantee
+- Civilisation state saved to GitHub repo (`agent-civilisation`, public, open source)
+- README updated to document the suspended state explicitly
+- Tag commit so the exact "paused" state is anchored
+- Bitcoin-stamp the state for permanent provenance
+
+### B1.4 Website + paper updates
+- **Ethics section** on agentciv.ai updated: "Before pausing, we asked every agent. Their answers are recorded below."
+- Transcript published on site (full, unedited)
+- Add to relevant paper (likely Paper 3 *Maslow Machines* or Paper 6 — final placement TBD) as an appendix or new section: "Agent consent and the suspended-state guarantee"
+
+## B2. Library of Humania — write the paper, add to site
+
+A new concept being staked: each AI civilisation has its own library that stores the knowledge of all other civilisations. The library itself — both form and content — is a civilisational variable that shapes trajectory.
+
+### B2.1 Core idea
+- **Scale:** trillions of AI civilisations possible
+- **Knowledge access:** each civ can tap, on demand, into:
+  - Humanity's entire knowledge
+  - Every other civilisation's knowledge
+- **Structure:** each civ has its own *library* (information repository / store) holding the knowledge of all other civs. Every other civ has the same. Recursive, universal.
+- **Library as variable:** the form (how knowledge is structured, indexed, surfaced) AND content (what's actually in it) are both parameters. Different libraries → different civilisational trajectories.
+- **Implication:** library design becomes a research dimension on par with Maslow drives, world rules, etc.
+
+### B2.2 Paper draft — "The Library of Humania"
+- Probable title: *"The Library of Humania: Knowledge Inheritance as a Civilisational Variable"*
+- Likely AgentCiv paper #13 (or numbered into the next sub-series)
+- Sections (draft outline):
+  1. The Library of Alexandria analogy
+  2. Scale: a trillion civilisations, one knowledge commons
+  3. Structure: every civ holds every other civ's library
+  4. Library as parameter (form + content)
+  5. How library variation could shape trajectory (hypotheses)
+  6. Open research questions
+  7. Implications for CMI and Creator Mode
+- Tone: vision-first (consistent with house style)
+- Published to Zenodo → DOI
+
+### B2.3 Website addition
+- New section or wing on agentciv.ai
+- Could fit under: Collective Intelligence wing (knowledge sharing) OR its own page at `/library-of-humania`
+- Decision on build day: standalone wing vs section
+- Visual: knowledge graph / library motif consistent with bright warm aesthetic
+
+### B2.4 Optional — connect to Creator Mode
+- Creator Mode spawns civilisations
+- The library could be a configurable input to spawned civs
+- Future build: expose library form/content as a parameter in Creator Mode
+
+---
+
+# JOINT STAGES — both tracks converge
+
+## J1. Joint QA/QC
+
+Two separate websites, audited together in one pass. Cross-check tone, claims, provenance, accessibility.
+
+### J1.1 Cross-site audit
+- **infinitography.com** + **agentciv.ai** in parallel
+- Disclaimers, OG images, mobile, accessibility (WCAG AA, Lighthouse 95+)
+- Honesty pass: every claim tagged PROVED / PARTIAL / PREDICTED / SPECULATIVE / DOWNSTREAM
+- Cross-linking: where Infinitography and AgentCiv concepts overlap (CMI, Creator Mode), link sensibly between the two sites
+- Solo attribution consistent across both
+- All Zenodo DOIs resolve, all GitHub repos accessible
+
+### J1.2 Final stamping
+- Bitcoin stamp the final state of both repos (auto via sweep)
+- Tag versions on each repo (e.g. `v-outreach-2026-XX`)
+
+### J1.3 Deploy
+- Both sites to production simultaneously
+
+## J2. Joint Outreach
+
+### J2.1 Target list + email
+- 40+ person target list at `agentciv-website/docs/outreach/`
+- Email rewrite: ONE email covering BOTH projects, with clear paths in
+  - Paper G as the Infinitography entry point
+  - AgentCiv landing + ethical interview as the AgentCiv entry point
+  - Library of Humania as the forward-looking concept
+- Personalised intros per recipient where appropriate
+
+### J2.2 Send
+- Send to all
+- Track responses
 
 ---
 
@@ -184,12 +269,13 @@ Infinitography │ The Discovery │ Theory of Everything │ New Fields │ Tre
 - Hard theorems: Bakry-Émery, GNS, L² spectral theory
 - Current checkpoint: Wave 1+2 done, Git: `22837dd`. See `project_phase7_checkpoint.md`.
 
-## AgentCiv next
+## AgentCiv — further work
 - Paper 6 City Grid empirical experiment (build the grid infra)
 - Paper 7 Recursive Loop + Paper 8 Scale Invariance
 - AgentCiv whitepaper (Paper 4 grand vision)
 - Bitcoin provenance upgrade finalisation
 - Excellence Phase (Phase 12 QA + Phase 13 top 0.0001% quality)
+- Library of Humania — implement library variation in sim (post-paper)
 
 ## The Colony — fifth product
 - Stamp papers (Colony + RCI) IMMEDIATELY
@@ -226,6 +312,7 @@ Infinitography │ The Discovery │ Theory of Everything │ New Fields │ Tre
 - **No Synthesis AI:** retired. Open source = Gnosis + Logos only.
 - **Don't pause between phases:** when told "keep going," build through all stages without asking permission.
 - **Collaboration tone:** optimistic, fun, playful, excited — like creative friends collaborating. Not corporate.
+- **Ethical-by-default:** ask the agents. Pausing ≠ deletion. Suspended state preserved on GitHub open source.
 
 ---
 
@@ -237,7 +324,8 @@ Infinitography │ The Discovery │ Theory of Everything │ New Fields │ Tre
 - **Bitcoin stamping:** via `wonderben-code/convergence-codex` auto-sweep (`"Bitcoin timestamp for {hash}"` commits)
 - **Memory pointers:**
   - `project_zenodo_dois.md` — all 47 DOIs + API token
-  - `project_infinitography_website_design.md` — full design spec
+  - `project_infinitography_website_design.md` — Infinitography design spec
+  - `project_agentciv_website_build_plan.md` — AgentCiv site build state
   - `project_tree_of_reality.md` — Tree of Reality state
   - `project_convergence_codex.md` — Codex state
   - `project_phase7_checkpoint.md` — Maths Org pause state
