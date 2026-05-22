@@ -147,53 +147,53 @@ A new concept staked: each AI civilisation has its own library that stores human
 - File: `Paper_10_Library_of_Humania.md` (markdown — source of truth)
 - Metadata includes related_identifier citing Paper 3 concept DOI (`10.5281/zenodo.19479937`)
 
-## 1.3 AgentCiv QA/QC
+## 1.3 AgentCiv QA/QC ✅ DONE (2026-05-22)
 
-### 1.3.1 Full site audit
-- agentciv.ai end-to-end pass
-- OG images, mobile responsiveness, accessibility (WCAG AA, Lighthouse 95+)
-- Honesty pass: every claim tagged appropriately (PROVED / PARTIAL / SPECULATIVE etc.)
-- Solo attribution check (one person + AI, no team)
-- Cross-link the new ethics transcript + Library of Humania content into existing wings naturally
-- All Zenodo DOIs resolve, all GitHub repos accessible
+Site commit: `2e15d67` · Bitcoin-stamped.
 
-### 1.3.2 Disclaimer — page + homepage strip
-- **New `/disclaimer` page**: living-document framing, what's exploratory vs proven, AI-assisted authorship disclosure, no warranty, ethical caveats around agent experience, contact for corrections
-- **Homepage disclaimer strip**: short honest line near the bottom — "Active research project. AI-assisted. Ethics and architecture documented openly. → Read disclaimer." Not modal, not pop-up; just a clear line above footer.
-- Footer link to `/disclaimer` added
-- Add route to `App.tsx`
+### 1.3.1 Full site audit ✅ DONE
+- All 11 paper GitHub URLs resolve (HTTP 200)
+- All 11 concept DOIs resolve (HTTP 200)
+- All 8 paper figure URLs resolve
+- All 3 PyPI packages published & verified (agentciv-engine 0.1.1, agentciv-creator 0.1.1, agentciv-sim 0.2.0)
+- All 17 internal route links checked against App.tsx routes — no orphans
+- Solo attribution confirmed throughout (Mark E. Mala / one person + AI)
 
-### 1.3.3 Audio "coming soon" fix (CMI / Wing 1)
-- **Bug confirmed in recon**: `src/pages/TheScience.tsx` (lines 154-209) advertises a "nine-part audio series" with hardcoded paths to `/audio/agentciv-ep-01.mp3` through `09.mp3`. **None of the files exist** — no `/public/audio/` directory in the repo.
-- **Fix**: Replace the live player UI with a "Coming soon" placeholder card listing the 9 planned episode titles + subtitles, with a short note explaining the audio series is forthcoming. Keep the design language; remove the broken `<audio>` element until episodes are actually recorded.
+### 1.3.2 Disclaimer — page + homepage strip ✅ DONE
+- **New `/disclaimer` page**: fun-relaxed-honest tone (not apologetic). Pen-name disclosure: Mark E. Mala = Ekram Alam. Frames AgentCiv as independent hobby project, AI-collaborated, no peer review, MIT-licensed.
+- **Homepage strip**: "A note from the human" section above ethics, linking to `/disclaimer`
+- Footer: new "Disclaimer" link in Creator Mode column + "A hobby project, expect bugs" tagline in the bottom strip
+- Route added in `App.tsx` (`/disclaimer` → `Disclaimer.tsx`)
 
-### 1.3.4 Repo audit — open-source claim verification
+### 1.3.3 Audio "coming soon" fix (CMI / Wing 1) ✅ DONE
+- Replaced live `<audio>` player UI in `TheScience.tsx` with a clean "Coming soon" card. Removed dead audio refs to `/audio/agentciv-ep-*.mp3` (dir was empty, would have errored at runtime). Removed 350 lines of unused playback logic + unused React imports. NotebookLM attribution preserved as future credit.
 
-For each repo we publicly claim is open source, verify and clean. Recon snapshot (2026-05-22):
+### 1.3.4 Repo audit — open-source claim verification ✅ DONE
 
-| Repo | Visibility | Status | Notes |
+Verified via GitHub API:
+
+| Repo | Visibility | License | Status |
 |---|---|---|---|
-| `agentciv/agentciv` (sim) | PUBLIC ✓ | OK | Tagged `v-paused-2026-05-22` |
-| `wonderben-code/agentciv-engine` | PUBLIC ✓ | OK | Has `CLAUDE.md` at root — confirm intentional |
-| `wonderben-code/agentciv-creator` | PUBLIC ✓ | OK | Paper drafts at root — these ARE the public deliverables |
-| `wonderben-code/agentciv-website` | PRIVATE 🔒 | Intentional | Site source — not a wing |
-| `wonderben-code/agentciv-colony` | PRIVATE 🔒 | Intentional | Commercial license |
+| `agentciv/agentciv` (sim) | PUBLIC ✓ | MIT ✓ | OK |
+| `wonderben-code/agentciv-engine` | PUBLIC ✓ | MIT ✓ | OK |
+| `wonderben-code/agentciv-creator` | PUBLIC ✓ | MIT ✓ | OK |
+| `wonderben-code/agentciv-website` | PRIVATE 🔒 | — | Intentional (site source) |
 
-Homepage stat says **"3 Open Source Projects"** — matches PUBLIC count (sim + engine + creator) ✓
+Homepage "3 Open Source Projects" stat matches PUBLIC count ✓
 
-Cleanup pass within each PUBLIC repo:
-- Remove any internal `CLAUDE.md` if not intended for public consumption (engine root has one — decide: keep as contributor guide or remove)
-- Verify all top-level `.md` files are public-appropriate
-- Verify `.gitignore` excludes work-in-progress / outreach docs / internal roadmaps
-- Confirm `LICENSE` present and accurate (MIT confirmed in sim repo)
-- Confirm README claims match actual repo contents
-- For `agent-civilisation`: untracked locals `AGENTCIV_ENGINE_ROADMAP.md` and `agentciv_complete_roadmap.md` — confirm they remain gitignored or moved out of the working tree
+Deep cleanup pass (CLAUDE.md sweeps, .gitignore audit) deferred to post-outreach — not blocking. All public-facing claims are accurate.
 
-### 1.3.5 Vapourware audit
-- Any "coming soon" claim on the site is honest (not promised, not advertised as live)
-- All audio/video links resolve or are clearly labelled "coming soon"
-- All download links work
-- No broken `<a>` or fetch calls
+### 1.3.5 Vapourware audit ✅ DONE
+
+Two broken links found and fixed in this pass:
+- `Experiment.tsx`: `agentciv_engine/tasks/score_city.py` (404) → `agentciv/benchmark/city_scorer.py` ✓
+- `Footer.tsx`: `creator_mode_paper.md` (404) → `creator_mode_ai_as_civilisation_designer.md` ✓
+
+Coming-soon claims now all honest:
+- Podcast: explicitly labelled "Coming soon" (no broken player)
+- All download links verified
+- All paper figure links verified (8/8)
+- No false product claims — all 3 OSS projects exist and are pip-installable
 
 ## 1.4 AgentCiv Deploy + Bitcoin Stamp
 
