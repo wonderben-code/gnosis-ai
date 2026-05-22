@@ -195,31 +195,64 @@ Coming-soon claims now all honest:
 - All paper figure links verified (8/8)
 - No false product claims — all 3 OSS projects exist and are pip-installable
 
-## 1.4 AgentCiv Deploy + Bitcoin Stamp
+## 1.4 AgentCiv Deploy + Bitcoin Stamp ✅ DONE (2026-05-22)
 
-### 1.4.1 Final stamping + tagging
-- Tag the agent-civilisation repo (e.g. `v-paused-2026-XX` — the suspended state)
-- Tag the agentciv.ai site repo (e.g. `v-outreach-2026-XX`)
-- Bitcoin stamp the final state (auto via sweep)
+### 1.4.1 Deploy ✅ DONE
+- agentciv.ai deployed via Netlify CLI (`netlify deploy --prod`)
+- Production URL: <https://agentciv.ai>
+- Unique deploy URL: <https://6a105d86e78f914c33b96403--agentciv.netlify.app>
+- Build hash: `2e15d67` (Bitcoin-stamped on push)
+- Smoke test: 9/9 key routes return HTTP 200 (`/`, `/disclaimer`, `/science`, `/simulation`, `/engine`, `/creator`, `/whitepaper`, `/about`, `/ethics`)
 
-### 1.4.2 Deploy
-- agentciv.ai to production with all 1.1–1.3 changes
-- Verify production matches local
+### 1.4.2 Tagging — pending
+- Tag the agent-civilisation repo `v-paused-2026-05-22` (already exists per 1.1.3)
+- Tag the agentciv-website repo `v-outreach-2026-05-22` before outreach send
 
-## 1.5 AgentCiv Outreach
+## 1.5 Round-2 QA/QC — pre-outreach polish
 
-### 1.5.1 Target list + email
-- Target list at `agentciv-website/docs/outreach/` (40+ people)
+A second pass after deploy, focused on the things 1.3 deliberately didn't touch.
+
+### 1.5.1 Homepage video
+- Record / select a short hero video of the simulation in motion (showcase tick footage, fishbowl pan, or a Creator Mode autonomous-spawn clip — TBD)
+- Add to homepage hero or just below — placement decision on the day
+- Compress (target < 5 MB if inline, otherwise host externally and embed)
+- Provide poster image + reduced-motion fallback for accessibility
+- Add caption + alt-text for screen readers
+
+### 1.5.2 Open-source tooling end-to-end test
+Pull each package fresh from PyPI in a clean venv and run through the README quickstart. Confirm what the website claims is what users actually get.
+
+- `pip install agentciv-sim` → run dry sim → run real sim → export → fishbowl-compatible JSON
+- `pip install agentciv-engine` → `agentciv setup` → both Max Plan + API mode → run a preset against a built-in task
+- `pip install agentciv-creator` → walk through the Creator Mode v1 happy path
+- For each: note any rough edges, broken commands, missing env-var guidance — fix in the package OR update the website copy to match reality (no false advertising)
+- All three packages MUST satisfy a brand-new user starting from `pip install`
+
+### 1.5.3 Re-deploy with polish
+- After 1.5.1 + 1.5.2, re-deploy. Tag site repo. Bitcoin stamp final state.
+
+## 1.6 AgentCiv Outreach — top 10–15 targets only
+
+Scope deliberately narrowed from the 40+ list to the highest-value 10-15 people. Quality over volume for the first send.
+
+### 1.6.1 Pick the top 10–15
+- Start from `agentciv-website/docs/outreach/` target list
+- Rank by: (a) likelihood of engaging deeply with civilisational-scale AI research, (b) reach, (c) ability to compound (would they share / link / cite?)
+- Output: shortlisted file, ranked, with reasoning per person
+
+### 1.6.2 Email draft per target
 - Email focused on AgentCiv only:
   - The work (CMI, civilisations, Creator Mode)
   - The ethical interview (lead with this — it's the distinguishing move)
   - Library of Humania as the forward-looking concept
   - Open source links, paper DOIs
-- Personalised intros per recipient where appropriate
+- Personalised opener for each — short, specific, reference something they've actually said or built
+- Same body, individualised P.S. or paragraph
 
-### 1.5.2 Send
-- Send to all
-- Track responses
+### 1.6.3 Send + track
+- Send to all 10–15
+- Spreadsheet: name, sent date, response, follow-up needed
+- 2-week soft follow-up window before considering "no response"
 
 ### ━━━━━━━━━━ AGENTCIV DONE ━━━━━━━━━━
 
