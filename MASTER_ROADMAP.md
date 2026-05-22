@@ -102,10 +102,11 @@ The civilisation is being paused (not deleted). Before we go to outreach, ask ev
 - ✅ Committed `3c6a519` to `agentciv/agentciv` main, Bitcoin-stamped (`provenance/commit_3c6a519.ots`).
 - ✅ All 10 paper URLs on website `/the-science` verified resolving HTTP 200 (curl-checked 2026-05-22). GitHub serves Paper 3 v1.1 automatically — `agentciv/agentciv/blob/main/paper/maslow_machines.md` already shows Appendix E + v1.1 footer.
 
-**Zenodo new-version push — SKIPPED (acceptable):**
-- Existing token lost `deposit:write`/`deposit:actions` scopes (403 on all deposit endpoints).
-- Resolution: website links to GitHub (which always serves latest), and the repo+commit+tag is itself Bitcoin-stamped for provenance. No academic citation integrity loss — v1 Zenodo record (`10.5281/zenodo.19479938`) remains the citable snapshot; v1.1 lives at `agentciv/agentciv@v-paused-2026-05-22`.
-- If a fresh deposit-scoped Zenodo token is generated later, push v1.1 as new version under concept DOI `10.5281/zenodo.19479937`. Not a blocker for outreach.
+**Zenodo new-version push — ✅ DONE (2026-05-22):**
+- Fresh deposit-scoped token generated. Old token revoked (had lost scopes).
+- Paper 3 v1.1 pushed as new version under concept DOI `10.5281/zenodo.19479937` (concept always resolves to latest).
+- **Paper 3 v1.1 DOI:** `10.5281/zenodo.20343703` — https://zenodo.org/records/20343703
+- v1 record (`10.5281/zenodo.19479938`) preserved as the v1 snapshot. v1.1 file: `Paper_03_Maslow_Machines_v1.1.md` (markdown — source of truth, GitHub-linked).
 
 ## 1.2 Library of Humania — write the paper, add to site ✅ DONE (2026-05-22)
 
@@ -140,8 +141,11 @@ A new concept staked: each AI civilisation has its own library that stores human
 ### 1.2.4 Creator Mode connection — DEFERRED (post-outreach)
 - Library as configurable input to spawned civs — Section 7.2 of Paper 10 lays out the conceptual scaffolding. Build deferred to post-outreach as planned.
 
-### 1.2.5 Zenodo — PENDING (user fetching new token)
-- Paper 10 not yet on Zenodo. Will be pushed when user provides fresh deposit-scoped token, alongside Paper 3 v1.1 as new version under concept DOI `10.5281/zenodo.19479937`.
+### 1.2.5 Zenodo — ✅ DONE (2026-05-22)
+- **Paper 10 DOI:** `10.5281/zenodo.20343705` — https://zenodo.org/records/20343705
+- **Paper 10 concept DOI (resolves to latest):** `10.5281/zenodo.20343704`
+- File: `Paper_10_Library_of_Humania.md` (markdown — source of truth)
+- Metadata includes related_identifier citing Paper 3 concept DOI (`10.5281/zenodo.19479937`)
 
 ## 1.3 AgentCiv QA/QC
 
