@@ -229,8 +229,38 @@ Pull each package fresh from PyPI in a clean venv and run through the README qui
 - For each: note any rough edges, broken commands, missing env-var guidance — fix in the package OR update the website copy to match reality (no false advertising)
 - All three packages MUST satisfy a brand-new user starting from `pip install`
 
-### 1.5.3 Re-deploy with polish
-- After 1.5.1 + 1.5.2, re-deploy. Tag site repo. Bitcoin stamp final state.
+### 1.5.3 Public repo hygiene audit — what's in there that shouldn't be?
+
+Walk each of the three public repos top-to-bottom looking for material that was useful during build but should NOT be visible to a first-time visitor before outreach. Cleanup happens per-repo and is committed + Bitcoin-stamped per-repo.
+
+**Repos in scope:**
+- `agentciv/agentciv` (Sim)
+- `wonderben-code/agentciv-engine` (Engine)
+- `wonderben-code/agentciv-creator` (Creator Mode + papers)
+
+**Things to look for and remove / move / rewrite:**
+- **Internal planning docs** at the top level — `ROADMAP.md`, `PLAN.md`, `TODO.md`, `NOTES.md`, `SCRATCH.md`, `DRAFT_*.md`, anything with "internal" in the name. If they were used as scaffolding during build, move to a private repo or delete.
+- **Claude Code artefacts** — `CLAUDE.md`, `.claude/` directories, any "instructions to Claude" files. Decide per-repo: keep as a public contributor guide, or remove. Default = remove unless it has real public value.
+- **Build / audit findings** — internal QC pass notes, "things to fix" lists, embarrassing diary-style commits in `docs/` folders.
+- **Commercial / private references** — any mention of The Colony (private commercial repo), unreleased plans, paywall ideas, customer lists. Should not be visible in public repos at all.
+- **Outreach materials** — target lists, draft emails, contact names. None of this belongs in a public repo.
+- **Real identity leakage beyond pen name** — anywhere the real name appears (other than legal license / DOI metadata), confirm intentional.
+- **"We" / team language** — passages that imply a team when there isn't one. Either rewrite to first-person singular or to neutral voice.
+- **Vapourware framed as shipped** — any README claim that an unbuilt feature exists. Match reality.
+- **Secrets / keys** — sweep with `git log --all -S` for accidentally committed `.env`, `*_TOKEN`, `*_API_KEY`, `*.pem`. Even if rotated, scrub or note as known-rotated.
+- **Stale outputs** — old run logs, scratch JSONs, debug screenshots, anything that doesn't aid reproducibility but adds noise.
+- **READMEs** — confirm each repo's README is the public-front-door version, not a half-finished build-time note.
+
+**Per-repo deliverable:**
+- Commit cleanup with a clear message ("repo hygiene pre-outreach")
+- Push so Bitcoin-stamping runs
+- Update `.gitignore` to keep future internal docs out
+
+**Cross-cutting deliverable:**
+- A short `1.5.3_audit_notes.md` (kept locally, NOT committed) summarising what was found and removed per repo, so we have a record of the hygiene pass.
+
+### 1.5.4 Re-deploy with polish
+- After 1.5.1 + 1.5.2 + 1.5.3, re-deploy the site. Tag site repo. Bitcoin stamp final state.
 
 ## 1.6 AgentCiv Outreach — top 10–15 targets only
 
