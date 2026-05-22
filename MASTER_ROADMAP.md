@@ -90,15 +90,22 @@ The civilisation is being paused (not deleted). Before we go to outreach, ask ev
 - ✅ Commit `3c6a519` tagged `v-paused-2026-05-22` (annotated)
 - ✅ Bitcoin-stamped via auto-provenance: `provenance/commit_3c6a519.ots`
 
-### 1.1.4 Website + paper updates
-**(a) Website ethics content** — placement decided after recon:
-- **Primary**: New section in existing `/ethics` page (between "What Happens When the Simulation Stops" and "Why This Matters Beyond This Project"), titled "The Ethical Interview (Tick 70)". Existing page already commits to suspension; new section is the **direct evidence** for that commitment.
-- **Secondary**: Add `tick_0070_ethical` round to `/interviews` page (data-driven; supports per-tick entries; already serves `tick_0070_revelation`). Drop in `index.json` + `tick_0070_ethical.json` to `public/interviews/`.
-- **Tertiary**: Light homepage callout above footer linking to `/ethics` (so the consent commitment is visible from `/`).
+### 1.1.4 Website + paper updates ✅ DONE (2026-05-22)
+**(a) Website ethics content** — ✅ DONE:
+- ✅ New section in `/ethics` page ("The Ethical Interview (Tick 70)") between suspension commitment and "Why This Matters Beyond This Project". Contains protocol summary, 4 verbatim quotes (Entities 0/1/6/11), Entity 6+9 joint exchange, recurring themes, links to /interviews + GitHub + `v-paused-2026-05-22` tag.
+- ✅ `tick_0070_ethical` round added to `/interviews` (data-driven). `public/interviews/tick_0070_ethical.json` + `index.json` updated.
+- ✅ Homepage ethics commitment strip added above footer (`Home.tsx`), linking to `/ethics`.
 
-**(b) Paper appendix** — Paper 3 *Maslow Machines* confirmed as right home (agents repeatedly speculated about the "unknown need" — the unspecified Maslow drive — which is exactly that paper's subject).
-- Appendix sections: Protocol · Consent outcome (12/12) · Selected verbatim quotes · Reflection on agent-asked questions (reciprocity) · Pointer to GitHub for full transcripts
-- Published as new Zenodo version of Paper 3 (concept DOI `10.5281/zenodo.19479938` resolves to latest)
+**(b) Paper appendix** — ✅ DONE in repo:
+- ✅ Paper 3 *Maslow Machines* updated to v1.1 (`paper/maslow_machines.md`, 1109 → 1249 lines).
+- ✅ Section 8.9 Addendum + Appendix E (E.1–E.9: Rationale, Protocol, Outcome, Verbatim quotes, Entity 6+9 joint exchange, Recurring themes, Reflection, Open questions agents asked back, Provenance) added.
+- ✅ Committed `3c6a519` to `agentciv/agentciv` main, Bitcoin-stamped (`provenance/commit_3c6a519.ots`).
+- ✅ All 10 paper URLs on website `/the-science` verified resolving HTTP 200 (curl-checked 2026-05-22). GitHub serves Paper 3 v1.1 automatically — `agentciv/agentciv/blob/main/paper/maslow_machines.md` already shows Appendix E + v1.1 footer.
+
+**Zenodo new-version push — SKIPPED (acceptable):**
+- Existing token lost `deposit:write`/`deposit:actions` scopes (403 on all deposit endpoints).
+- Resolution: website links to GitHub (which always serves latest), and the repo+commit+tag is itself Bitcoin-stamped for provenance. No academic citation integrity loss — v1 Zenodo record (`10.5281/zenodo.19479938`) remains the citable snapshot; v1.1 lives at `agentciv/agentciv@v-paused-2026-05-22`.
+- If a fresh deposit-scoped Zenodo token is generated later, push v1.1 as new version under concept DOI `10.5281/zenodo.19479937`. Not a blocker for outreach.
 
 ## 1.2 Library of Humania — write the paper, add to site
 
