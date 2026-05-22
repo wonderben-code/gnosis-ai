@@ -107,43 +107,41 @@ The civilisation is being paused (not deleted). Before we go to outreach, ask ev
 - Resolution: website links to GitHub (which always serves latest), and the repo+commit+tag is itself Bitcoin-stamped for provenance. No academic citation integrity loss — v1 Zenodo record (`10.5281/zenodo.19479938`) remains the citable snapshot; v1.1 lives at `agentciv/agentciv@v-paused-2026-05-22`.
 - If a fresh deposit-scoped Zenodo token is generated later, push v1.1 as new version under concept DOI `10.5281/zenodo.19479937`. Not a blocker for outreach.
 
-## 1.2 Library of Humania — write the paper, add to site
+## 1.2 Library of Humania — write the paper, add to site ✅ DONE (2026-05-22)
 
-A new concept being staked: each AI civilisation has its own library that stores the knowledge of all other civilisations. The library itself — both form and content — is a civilisational variable that shapes trajectory.
+A new concept staked: each AI civilisation has its own library that stores humanity's knowledge + the knowledge of all other civilisations. The library — form AND content — is a CMI variable on par with Maslow drives and organisational structure.
 
-### 1.2.1 Core idea
-- **Scale:** trillions of AI civilisations possible
-- **Knowledge access:** each civ can tap, on demand, into:
-  - Humanity's entire knowledge
-  - Every other civilisation's knowledge
-- **Structure:** each civ has its own *library* (information repository / store) holding the knowledge of all other civs. Every other civ has the same. Recursive, universal.
-- **Library as variable:** the form (how knowledge is structured, indexed, surfaced) AND content (what's actually in it) are both parameters. Different libraries → different civilisational trajectories.
-- **Implication:** library design becomes a research dimension on par with Maslow drives, world rules, etc.
+### 1.2.1 Core idea — UNCHANGED, see paper for full treatment
 
-### 1.2.2 Paper draft — "The Library of Humania"
-- Probable title: *"The Library of Humania: Knowledge Inheritance as a Civilisational Variable"*
-- Likely AgentCiv paper #13 (or numbered into the next sub-series)
-- Sections (draft outline):
-  1. The Library of Alexandria analogy
-  2. Scale: a trillion civilisations, one knowledge commons
-  3. Structure: every civ holds every other civ's library
-  4. Library as parameter (form + content)
-  5. How library variation could shape trajectory (hypotheses)
-  6. Open research questions
+### 1.2.2 Paper draft ✅ DONE
+- **Title:** *"The Library of Humania: Knowledge Inheritance as a Civilisational Variable"*
+- **Numbered:** Paper 10 (next sequential — Paper 9 was Seventy Ticks)
+- **Repo:** `wonderben-code/agentciv-creator` — paper lives at `agentciv_paper10_library_of_humania.md`
+- **Commit:** `69c28ae` (pushed + Bitcoin-stamped via auto-provenance)
+- **Sections shipped (8, not 7 — added Closing Note):**
+  1. The Library of Alexandria Analogy
+  2. Scale: A Trillion Civilisations, One Knowledge Commons
+  3. Structure: Every Civilisation Holds Every Other Civilisation's Library
+  4. The Library as Parameter — Form and Content
+  5. How Library Variation Could Shape Trajectory — five testable hypotheses (H1–H5)
+  6. Open Research Questions — seven (Q1–Q7) including consent, curation, equilibrium library, first-civilisation problem
   7. Implications for CMI and Creator Mode
-- Tone: vision-first (consistent with house style)
-- Published to Zenodo → DOI
+  8. Closing Note
+- **References:** Alexandria, Borges, six other Mala papers (papers 1-8)
+- **Tone:** vision-first, house-style. Claims framed as hypotheses, not results.
 
-### 1.2.3 Website addition
-- New section or wing on agentciv.ai
-- Could fit under: Collective Intelligence wing (knowledge sharing) OR its own page at `/library-of-humania`
-- Decision on build day: standalone wing vs section
-- Visual: knowledge graph / library motif consistent with bright warm aesthetic
+### 1.2.3 Website addition ✅ DONE — section, not standalone wing
+- **Placement decision:** new section inside Collective Intelligence wing (`TheScience.tsx`), between "ONE AXIS DEEP — Organisational structure" and "THE PAPERS". Mirrors the "Take one axis" framing with "And one variable nobody has touched: the library."
+- **Visual:** two-card layout (Content card / Form card) with gold + sky highlights
+- **Paper entry:** Added to TheScience.tsx papers array (Paper 10) + Whitepaper.tsx PAPERS array (id `library-of-humania`)
+- **Counts updated everywhere:** Home.tsx stat (10 → 11 Papers), product card desc, bottom CTA; TheScience.tsx heading ("Eleven papers. One new field."); Whitepaper.tsx lead copy
+- **Commit:** `4ebdd3c` on `agentciv-website` (pushed + Bitcoin-stamped)
 
-### 1.2.4 Optional — connect to Creator Mode
-- Creator Mode spawns civilisations
-- The library could be a configurable input to spawned civs
-- Future build (post-outreach): expose library form/content as a parameter in Creator Mode
+### 1.2.4 Creator Mode connection — DEFERRED (post-outreach)
+- Library as configurable input to spawned civs — Section 7.2 of Paper 10 lays out the conceptual scaffolding. Build deferred to post-outreach as planned.
+
+### 1.2.5 Zenodo — PENDING (user fetching new token)
+- Paper 10 not yet on Zenodo. Will be pushed when user provides fresh deposit-scoped token, alongside Paper 3 v1.1 as new version under concept DOI `10.5281/zenodo.19479937`.
 
 ## 1.3 AgentCiv QA/QC
 
