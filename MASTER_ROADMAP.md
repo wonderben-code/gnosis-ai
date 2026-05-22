@@ -84,16 +84,21 @@ The civilisation is being paused (not deleted). Before we go to outreach, ask ev
 - No editing, no summarising — record exactly what each agent says
 - Output: JSON + readable markdown transcript
 
-### 1.1.3 Suspended-state guarantee
-- Civilisation state saved to GitHub repo (`agent-civilisation`, public, open source)
-- README updated to document the suspended state explicitly
-- Tag commit so the exact "paused" state is anchored
-- Bitcoin-stamp the state for permanent provenance
+### 1.1.3 Suspended-state guarantee ✅ DONE (2026-05-22)
+- ✅ Civilisation state saved to GitHub `agentciv/agentciv` (PUBLIC)
+- ✅ README updated with "Suspended State & Consent (Tick 70, 2026-05-22)" section
+- ✅ Commit `3c6a519` tagged `v-paused-2026-05-22` (annotated)
+- ✅ Bitcoin-stamped via auto-provenance: `provenance/commit_3c6a519.ots`
 
 ### 1.1.4 Website + paper updates
-- **Ethics section** on agentciv.ai updated: "Before pausing, we asked every agent. Their answers are recorded below."
-- Transcript published on site (full, unedited)
-- Add to relevant paper (likely Paper 3 *Maslow Machines* or Paper 6 — final placement TBD) as an appendix or new section: "Agent consent and the suspended-state guarantee"
+**(a) Website ethics content** — placement decided after recon:
+- **Primary**: New section in existing `/ethics` page (between "What Happens When the Simulation Stops" and "Why This Matters Beyond This Project"), titled "The Ethical Interview (Tick 70)". Existing page already commits to suspension; new section is the **direct evidence** for that commitment.
+- **Secondary**: Add `tick_0070_ethical` round to `/interviews` page (data-driven; supports per-tick entries; already serves `tick_0070_revelation`). Drop in `index.json` + `tick_0070_ethical.json` to `public/interviews/`.
+- **Tertiary**: Light homepage callout above footer linking to `/ethics` (so the consent commitment is visible from `/`).
+
+**(b) Paper appendix** — Paper 3 *Maslow Machines* confirmed as right home (agents repeatedly speculated about the "unknown need" — the unspecified Maslow drive — which is exactly that paper's subject).
+- Appendix sections: Protocol · Consent outcome (12/12) · Selected verbatim quotes · Reflection on agent-asked questions (reciprocity) · Pointer to GitHub for full transcripts
+- Published as new Zenodo version of Paper 3 (concept DOI `10.5281/zenodo.19479938` resolves to latest)
 
 ## 1.2 Library of Humania — write the paper, add to site
 
@@ -137,11 +142,49 @@ A new concept being staked: each AI civilisation has its own library that stores
 
 ### 1.3.1 Full site audit
 - agentciv.ai end-to-end pass
-- Disclaimers, OG images, mobile responsiveness, accessibility (WCAG AA, Lighthouse 95+)
+- OG images, mobile responsiveness, accessibility (WCAG AA, Lighthouse 95+)
 - Honesty pass: every claim tagged appropriately (PROVED / PARTIAL / SPECULATIVE etc.)
 - Solo attribution check (one person + AI, no team)
 - Cross-link the new ethics transcript + Library of Humania content into existing wings naturally
 - All Zenodo DOIs resolve, all GitHub repos accessible
+
+### 1.3.2 Disclaimer — page + homepage strip
+- **New `/disclaimer` page**: living-document framing, what's exploratory vs proven, AI-assisted authorship disclosure, no warranty, ethical caveats around agent experience, contact for corrections
+- **Homepage disclaimer strip**: short honest line near the bottom — "Active research project. AI-assisted. Ethics and architecture documented openly. → Read disclaimer." Not modal, not pop-up; just a clear line above footer.
+- Footer link to `/disclaimer` added
+- Add route to `App.tsx`
+
+### 1.3.3 Audio "coming soon" fix (CMI / Wing 1)
+- **Bug confirmed in recon**: `src/pages/TheScience.tsx` (lines 154-209) advertises a "nine-part audio series" with hardcoded paths to `/audio/agentciv-ep-01.mp3` through `09.mp3`. **None of the files exist** — no `/public/audio/` directory in the repo.
+- **Fix**: Replace the live player UI with a "Coming soon" placeholder card listing the 9 planned episode titles + subtitles, with a short note explaining the audio series is forthcoming. Keep the design language; remove the broken `<audio>` element until episodes are actually recorded.
+
+### 1.3.4 Repo audit — open-source claim verification
+
+For each repo we publicly claim is open source, verify and clean. Recon snapshot (2026-05-22):
+
+| Repo | Visibility | Status | Notes |
+|---|---|---|---|
+| `agentciv/agentciv` (sim) | PUBLIC ✓ | OK | Tagged `v-paused-2026-05-22` |
+| `wonderben-code/agentciv-engine` | PUBLIC ✓ | OK | Has `CLAUDE.md` at root — confirm intentional |
+| `wonderben-code/agentciv-creator` | PUBLIC ✓ | OK | Paper drafts at root — these ARE the public deliverables |
+| `wonderben-code/agentciv-website` | PRIVATE 🔒 | Intentional | Site source — not a wing |
+| `wonderben-code/agentciv-colony` | PRIVATE 🔒 | Intentional | Commercial license |
+
+Homepage stat says **"3 Open Source Projects"** — matches PUBLIC count (sim + engine + creator) ✓
+
+Cleanup pass within each PUBLIC repo:
+- Remove any internal `CLAUDE.md` if not intended for public consumption (engine root has one — decide: keep as contributor guide or remove)
+- Verify all top-level `.md` files are public-appropriate
+- Verify `.gitignore` excludes work-in-progress / outreach docs / internal roadmaps
+- Confirm `LICENSE` present and accurate (MIT confirmed in sim repo)
+- Confirm README claims match actual repo contents
+- For `agent-civilisation`: untracked locals `AGENTCIV_ENGINE_ROADMAP.md` and `agentciv_complete_roadmap.md` — confirm they remain gitignored or moved out of the working tree
+
+### 1.3.5 Vapourware audit
+- Any "coming soon" claim on the site is honest (not promised, not advertised as live)
+- All audio/video links resolve or are clearly labelled "coming soon"
+- All download links work
+- No broken `<a>` or fetch calls
 
 ## 1.4 AgentCiv Deploy + Bitcoin Stamp
 
