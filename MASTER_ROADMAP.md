@@ -213,11 +213,12 @@ Coming-soon claims now all honest:
 A second pass after deploy, focused on the things 1.3 deliberately didn't touch.
 
 ### 1.5.1 Homepage video
-- Record / select a short hero video of the simulation in motion (showcase tick footage, fishbowl pan, or a Creator Mode autonomous-spawn clip — TBD)
-- Add to homepage hero or just below — placement decision on the day
-- Compress (target < 5 MB if inline, otherwise host externally and embed)
-- Provide poster image + reduced-motion fallback for accessibility
-- Add caption + alt-text for screen readers
+- Video already produced via Gemini Omni — just needs to be added to the site
+- Place in homepage hero or just below — exact placement decided on the day
+- Compress to web-friendly size (target < 5 MB inline; otherwise host externally and embed)
+- Add poster image + `prefers-reduced-motion` fallback for accessibility
+- Caption + alt-text for screen readers
+- Confirm the video accurately reflects what the site claims (no over-promising)
 
 ### 1.5.2 Open-source tooling end-to-end test
 Pull each package fresh from PyPI in a clean venv and run through the README quickstart. Confirm what the website claims is what users actually get.
@@ -248,11 +249,24 @@ Scope deliberately narrowed from the 40+ list to the highest-value 10-15 people.
   - Open source links, paper DOIs
 - Personalised opener for each — short, specific, reference something they've actually said or built
 - Same body, individualised P.S. or paragraph
+- **No follow-ups.** Single send, then we move on. (Anyone who wants to respond will respond. Chasing dilutes signal.)
 
-### 1.6.3 Send + track
-- Send to all 10–15
-- Spreadsheet: name, sent date, response, follow-up needed
-- 2-week soft follow-up window before considering "no response"
+### 1.6.3 Post-outreach credibility pass — on the site
+
+A two-part credibility update made AFTER the outreach send. No follow-up emails; instead, the credentialling happens *on the site itself* as transparent record-of-distribution.
+
+**Part A — Distribution note (added to `/disclaimer` and/or homepage)**
+- Short line in the spirit of: *"AgentCiv has been shared with engineers and researchers at [list of highest-credential institutional labels — e.g. OpenAI, Anthropic, the Y Combinator internal community, etc.] as part of open distribution to the wider AI community."*
+- **Strict rules**: only the highest-credential institutional descriptor (e.g. "Anthropic"), never a name, never a role, never anything identifiable. Recipients get full anonymity by default.
+- Only include institutions where outreach actually went; honest list, no padding.
+- Tone matches existing disclaimer voice: relaxed, factual, not boastful.
+
+**Part B — Zenodo / CERN credibility note**
+- Where papers are currently said to be "open access on Zenodo", upgrade to "open access on Zenodo, CERN's open research repository" (or equivalent phrasing).
+- Update locations: at least `Disclaimer.tsx`, `Whitepaper.tsx` intro, and `TheScience.tsx` papers section. One-time pass, consistent wording.
+- This is for credibility — Zenodo is operated by CERN, and most readers don't know that. State it once cleanly.
+
+After Part A + B, re-deploy. Bitcoin stamp the credibility update. That's the final state pre-Phase-2.
 
 ### ━━━━━━━━━━ AGENTCIV DONE ━━━━━━━━━━
 
