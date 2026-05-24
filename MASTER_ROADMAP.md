@@ -1,7 +1,7 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 24 May 2026 — Sequential structure. Finish AgentCiv completely (including outreach) BEFORE starting Infinitography. Two clean phases, two distinct completion ceremonies. AgentCiv first because smaller scope = faster momentum. Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
+**Last updated:** 24 May 2026 (eve) — Outreach drafts COMPLETE. 20 personalised emails written, tone-passed (humble + authentic + non-AI), saved to `/Users/ekramalam/Desktop/agentciv-outreach/`. Ready to send. Pickup tomorrow at 1.6.2 → send all 20, then 1.6.3 (credibility note on site), then 1.6.4 (bookface post). Sequential structure overall: finish AgentCiv completely (including outreach) BEFORE starting Infinitography. Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
@@ -288,24 +288,34 @@ Walk each of the three public repos top-to-bottom looking for material that was 
 ### 1.5.4 Re-deploy with polish
 - After 1.5.1 + 1.5.2 + 1.5.3, re-deploy the site. Tag site repo. Bitcoin stamp final state.
 
-## 1.6 AgentCiv Outreach — top 10–15 targets only
+## 1.6 AgentCiv Outreach — top 20 targets
 
-Scope deliberately narrowed from the 40+ list to the highest-value 10-15 people. Quality over volume for the first send.
+Scope narrowed from the 40+ list to the highest-value 20 people. Quality over volume for the first send. Covers all 5 frontier labs + 7 elite universities + 4 research institutes — enough institutional coverage to support the post-outreach credibility note (1.6.3 Part A).
 
-### 1.6.1 Pick the top 10–15
-- Start from `agentciv-website/docs/outreach/` target list
-- Rank by: (a) likelihood of engaging deeply with civilisational-scale AI research, (b) reach, (c) ability to compound (would they share / link / cite?)
-- Output: shortlisted file, ranked, with reasoning per person
+**━━━ NEXT-SESSION PICKUP (if memory wiped) ━━━**
 
-### 1.6.2 Email draft per target
-- Email focused on AgentCiv only:
-  - The work (CMI, civilisations, Creator Mode)
-  - The ethical interview (lead with this — it's the distinguishing move)
-  - Library of Humania as the forward-looking concept
-  - Open source links, paper DOIs
-- Personalised opener for each — short, specific, reference something they've actually said or built
-- Same body, individualised P.S. or paragraph
-- **No follow-ups.** Single send, then we move on. (Anyone who wants to respond will respond. Chasing dilutes signal.)
+- All 20 personalised email drafts are written, tone-passed, and live at: **`/Users/ekramalam/Desktop/agentciv-outreach/`**
+- Folder contents (use `00_README.md` first):
+  - `00_README.md` — ranked top 20 list, anchor papers, contacts, institutional coverage table
+  - `_talking_points.md` — full content harvest (all 11 papers, 12 innovations, ethics transcripts, Paper 6 results) — swap-in pool if a hook needs changing
+  - `01_leibo.md` through `20_prorok.md` — one draft per recipient, ready to copy-paste
+- Tone pass already applied: em-dashes cut ~60%, contractions added, one I-voice sentence per draft, three rotating closing variants, "independent hobby project, one human and one AI collaborator" framing in every draft
+- Sign-off convention: "Mark E. Mala / *(pen name of Ekram Alam)* / agentciv.ai"
+- Next action: open each draft in order, paste into mail client, send. No follow-ups.
+
+### 1.6.1 Pick the top 20 ✅ DONE (24 May 2026)
+- Sourced from `agentciv-website/docs/outreach/outreach_target_list.md` (65+ targets)
+- Ranked by: (a) likelihood of engaging deeply with civilisational-scale AI research, (b) reach, (c) ability to compound (would they share / link / cite?)
+- Output: `/Users/ekramalam/Desktop/agentciv-outreach/00_README.md` — top 20 ranked with anchor paper, contact, and reasoning
+- **Coverage:** OpenAI · Anthropic · Google DeepMind · Meta FAIR · Microsoft Research · MIT · Stanford · Oxford · Harvard · Berkeley · CMU · Cambridge · Max Planck · Santa Fe Institute · Alan Turing Institute · Vector Institute. Enough institutional breadth to honestly write the 1.6.3 Part A distribution note after sending.
+
+### 1.6.2 Email draft per target ✅ DONE (24 May 2026) — READY TO SEND
+- 20 personalised drafts written at `/Users/ekramalam/Desktop/agentciv-outreach/01_leibo.md` through `20_prorok.md`
+- Each draft structure: subject line · personalised opener (references something the recipient specifically said or built) · 1–2 strongest hooks for that recipient · anchor paper DOI · site link · open-source disclosure · hobby/AI-collaborator framing · soft CTA · Mark E. Mala sign-off
+- Anchor papers vary per recipient (Maslow Machines · Seventy Ticks · Paper 6 · Library of Humania · Ethics page) — picked for tightest overlap with each person's known work
+- Tone characteristics: short (~250–350 words), reduced em-dash density, contractions present, one I-voice sentence per draft, three rotating "humility close" variants so no two recipients see identical templating. Filter applied: respectful, authentic, kind, honest, real. No theatrics, no flattery, no "ultrathink" voice.
+- **No follow-ups.** Single send, then move on. Anyone who wants to respond will respond. Chasing dilutes signal.
+- **To send:** open each `.md`, copy the body block (from Subject line down to sign-off), paste into mail client. Use the contact at the top of each file.
 
 ### 1.6.3 Post-outreach credibility pass — on the site
 
