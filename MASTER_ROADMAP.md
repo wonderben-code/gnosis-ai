@@ -1,7 +1,7 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 22 May 2026 — Sequential structure. Finish AgentCiv completely (including outreach) BEFORE starting Infinitography. Two clean phases, two distinct completion ceremonies. AgentCiv first because smaller scope = faster momentum.
+**Last updated:** 24 May 2026 — Sequential structure. Finish AgentCiv completely (including outreach) BEFORE starting Infinitography. Two clean phases, two distinct completion ceremonies. AgentCiv first because smaller scope = faster momentum. Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
@@ -316,6 +316,7 @@ A two-part credibility update made AFTER the outreach send. No follow-up emails;
 - **Strict rules**: only the highest-credential institutional descriptor (e.g. "Anthropic"), never a name, never a role, never anything identifiable. Recipients get full anonymity by default.
 - Only include institutions where outreach actually went; honest list, no padding.
 - Tone matches existing disclaimer voice: relaxed, factual, not boastful.
+- **Optional cheeky closer** (author's note — keep only if it lands in voice, cut if it reads boastful): a one-liner in the spirit of *"If the frontier labs start adding organisation as a variable, or shipping self-organising agent teams — you know where they got the idea. 😉"* The point isn't to claim credit, it's to flag the timestamped record cheerfully. Trial in draft; if it deflates the rest of the strip, drop it.
 
 **Part B — Zenodo / CERN credibility note**
 - Where papers are currently said to be "open access on Zenodo", upgrade to "open access on Zenodo, CERN's open research repository" (or equivalent phrasing).
@@ -323,6 +324,16 @@ A two-part credibility update made AFTER the outreach send. No follow-up emails;
 - This is for credibility — Zenodo is operated by CERN, and most readers don't know that. State it once cleanly.
 
 After Part A + B, re-deploy. Bitcoin stamp the credibility update. That's the final state pre-Phase-2.
+
+### 1.6.4 Bookface post — LAST
+
+Public broadcast goes out **after** the private email round (1.6.2) and the on-site credibility pass (1.6.3) have both landed. Reasoning: a public post is high-anxiety up front, but easy and natural once the private confidence-building work is in. Private emails feel more confidence-inducing — let them do their job first, then go public.
+
+- **Order:** 1.6.2 (private emails) → 1.6.3 (credibility pass on site) → 1.6.4 (bookface post). Do not invert.
+- **Single post** to Facebook — short, warm, link to agentciv.ai. Personal tone, not corporate.
+- **Content angle:** lead with the question ("what happens when AI agents form civilisations?"), then the four projects, then the hobby-project framing. Same voice as the site disclaimer.
+- **No follow-up posts.** Same single-send discipline as the emails. Anyone who wants to engage will engage.
+- Optional: a separate, even shorter post when the credibility note (1.6.3 Part A) goes live — but only if it doesn't feel like flexing.
 
 ### ━━━━━━━━━━ AGENTCIV DONE ━━━━━━━━━━
 
