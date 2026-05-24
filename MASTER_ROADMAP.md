@@ -1,16 +1,16 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 24 May 2026 (eve) — Outreach drafts COMPLETE. 20 personalised emails written, tone-passed (humble + authentic + non-AI), saved to `/Users/ekramalam/Desktop/agentciv-outreach/`. Ready to send. Pickup tomorrow at 1.6.2 → send all 20, then 1.6.3 (credibility note on site), then 1.6.4 (bookface post). Sequential structure overall: finish AgentCiv completely (including outreach) BEFORE starting Infinitography. Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
+**Last updated:** 24 May 2026 (eve) — Outreach drafts COMPLETE. 20 personalised emails written, tone-passed (humble + authentic + non-AI), saved to `/Users/ekramalam/Desktop/agentciv-outreach/`. Ready to send. Pickup tomorrow at 1.6.2 → send all 20, then 1.6.3 (credibility note on site), then 1.6.4 (bookface post). Sequential structure overall: finish AgentCiv completely (including outreach) BEFORE starting Infinitography BEFORE starting Emma Lark outreach (new Phase 3, added 24 May eve). Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
 
 ## North Star
 
-Finish **AgentCiv** completely (build → QA → deploy → outreach). Then finish **Infinitography** completely (build → QA → deploy → outreach). One project at a time, full focus, clean completion.
+Finish **AgentCiv** completely (build → QA → deploy → outreach). Then finish **Infinitography** completely (build → QA → deploy → outreach). Then run the **Emma Lark** music + AI + neuroscience outreach round (Phase 3). One project at a time, full focus, clean completion.
 
-Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those until both phases are sent.
+Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those until all three phases are sent.
 
 ---
 
@@ -62,7 +62,7 @@ Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those unt
 # PRE-OUTREACH ROADMAP — SEQUENTIAL
 
 ```
-PHASE 1 — AGENTCIV  ──→  AgentCiv DONE  ──→  PHASE 2 — INFINITOGRAPHY  ──→  Infinitography DONE
+PHASE 1 — AGENTCIV  ──→  AgentCiv DONE  ──→  PHASE 2 — INFINITOGRAPHY  ──→  Infinitography DONE  ──→  PHASE 3 — EMMA LARK OUTREACH  ──→  Emma Lark DONE
 ```
 
 ---
@@ -500,7 +500,40 @@ Sits between content/audit complete and QA/QC. Runs **only if there's time/energ
 
 ### ━━━━━━━━━━ INFINITOGRAPHY DONE ━━━━━━━━━━
 
-Both phases complete. Move to post-outreach work.
+Phase 2 complete. Move to Phase 3.
+
+---
+
+# PHASE 3 — EMMA LARK OUTREACH (start AFTER Infinitography sent)
+
+A separate artist-side outreach round for **Emma Lark's** two albums (*Dissolve* and *Humanity*) plus the accompanying papers, framing the work as a new innovation at the intersection of **music, AI, and neuroscience**. Targets: industry press and awards bodies in music, AI-music, and music-neuroscience.
+
+This is its own phase, not a sub-step of Infinitography. Different audience, different message, different tone. Do NOT start until 2.9 (Infinitography outreach sent) is complete.
+
+## 3.1 Research + target list
+
+- Identify 10–15+ targeted recipients across: music industry press · music-AI publications · music-neuroscience outlets · relevant awards / academies (e.g. Grammy nominating bodies, AI Song Contest, electronic-music awards, music-tech innovation awards) · individual journalists and critics writing at the music-AI intersection
+- Research with Claude to fill gaps in contact info and align hooks per recipient
+- Output: ranked target list file mirroring the AgentCiv `00_README.md` format — name, outlet/organisation, best contact, anchor (which album + which paper), reasoning
+- Save to `/Users/ekramalam/Desktop/emmalark-outreach/00_README.md`
+
+## 3.2 Email drafts per target
+
+- Lead with the angle: a new innovation at the music + AI + neuroscience intersection
+- Anchor on the two albums (*Dissolve* and *Humanity*) and the papers written on them
+- Personalised opener per recipient — reference something the journalist / outlet / awards body has actually covered or championed
+- Same tone discipline as AgentCiv / Infinitography outreach: respectful, authentic, kind, honest, real. No theatrics, no flattery, no "ultrathink" voice
+- Save drafts to `/Users/ekramalam/Desktop/emmalark-outreach/01_*.md` through `15_*.md` (or more) for copy-paste sending
+
+## 3.3 Send
+
+- Single send, no follow-ups (same discipline as Phases 1 + 2)
+- Track responses
+- Optional: a short post once enough coverage lands (mirroring the AgentCiv 1.6.4 bookface step) — only if it doesn't feel like flexing
+
+### ━━━━━━━━━━ EMMA LARK OUTREACH DONE ━━━━━━━━━━
+
+All three phases complete. Move to post-outreach work.
 
 ---
 
