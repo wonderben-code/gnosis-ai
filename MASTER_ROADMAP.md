@@ -212,22 +212,48 @@ Coming-soon claims now all honest:
 
 A second pass after deploy, focused on the things 1.3 deliberately didn't touch.
 
-### 1.5.1 Homepage video
-- Video already produced via Gemini Omni — just needs to be added to the site
-- Place in homepage hero or just below — exact placement decided on the day
-- Compress to web-friendly size (target < 5 MB inline; otherwise host externally and embed)
-- Add poster image + `prefers-reduced-motion` fallback for accessibility
-- Caption + alt-text for screen readers
-- Confirm the video accurately reflects what the site claims (no over-promising)
+### 1.5.1 Homepage video ✅ DONE (24 May 2026)
+- Source: `Cool agentciv video.mp4` from Desktop (Gemini Omni). 1280×720, 24fps, 10s, 4.6 MB.
+- Copied to `agentciv-website/public/video/hero.mp4` + extracted first-frame poster `hero-poster.jpg`.
+- Placed between hero headline and the 4 product cards (cinematic visual answer to the headline question). Max-width 5xl, rounded-2xl, shadow-2xl, bordered.
+- Autoplay, muted, looped, playsInline, lazy preload, poster fallback.
+- `prefers-reduced-motion` → renders static poster instead of video (with live media query listener).
+- `aria-label` + alt-text set.
+- Production build verified clean. Not yet deployed (waiting on 1.5.4).
 
-### 1.5.2 Open-source tooling end-to-end test
-Pull each package fresh from PyPI in a clean venv and run through the README quickstart. Confirm what the website claims is what users actually get.
+### 1.5.2 Open-source tooling end-to-end test ✅ DONE (24 May 2026)
+Fresh `python -m venv` at `/tmp/agentciv_tooling_test/venv`. All three packages installed clean from PyPI.
 
-- `pip install agentciv-sim` → run dry sim → run real sim → export → fishbowl-compatible JSON
-- `pip install agentciv-engine` → `agentciv setup` → both Max Plan + API mode → run a preset against a built-in task
-- `pip install agentciv-creator` → walk through the Creator Mode v1 happy path
-- For each: note any rough edges, broken commands, missing env-var guidance — fix in the package OR update the website copy to match reality (no false advertising)
-- All three packages MUST satisfy a brand-new user starting from `pip install`
+**agentciv-sim 0.2.0** — `agentciv-sim` CLI works. Subcommands: run/create/describe/interview/story/configs/dimensions/experiment/info. `configs` lists all 12 presets cleanly. `describe --preset quick` confirms config preview pipeline works. Site copy matches reality. ✓
+
+**agentciv-engine 0.1.1** — CLI binary is `agentciv` (not `agentciv-engine`). Subcommands: solve/experiment/test-tasks/history/setup/info/mcp. `agentciv info` shows 13 organisational presets matching site claim. `agentciv setup --help` matches `EngineLanding.tsx` copy. ✓
+
+**agentciv-creator 0.1.1** — Intentionally MCP-only (no CLI binary, by design). Top-level package is `creator/` (not `agentciv_creator/`). `python -m creator.mcp` launches FastMCP server matching the website's `claude mcp add agentciv-creator -- python -m creator.mcp` instruction. ✓
+
+**One fix shipped:** server actually ships **9** MCP tools (creator_info, creator_status, creator_knowledge, creator_explore, creator_spawn_directed, creator_spawn_emergent, creator_analyze, creator_recursive, creator_dogfood) — website claimed **7**. Fixed both occurrences in `CreatorLanding.tsx`.
+
+### 1.5.3 Public repo hygiene audit ✅ DONE (24 May 2026)
+
+Archive repo created: `wonderben-code/agentciv-internal-archive` (PRIVATE, commit `2867e34`). 23 files / 10,348 lines preserved before removal from public repos.
+
+**Engine repo (`wonderben-code/agentciv-engine`)** — commit `b39a60a` removed 27 files (10,265 lines):
+- `CLAUDE.md` (not functionally required — verified `agentciv setup` hardcodes its own text via `agentciv/cli.py:617-633`)
+- `ROADMAP.md` (internal master roadmap, real-name authored)
+- `docs/` × 9 internal planning docs (WEBSITE_PLAN, BENCHMARK_*, EXPERIMENT_PAGE_PLAN, PAPER_PLAN, PAPER_SEVENTY_TICKS_PLAN, APPLE_STYLE_GUIDE, CREATOR_MODE) + `paper6_draft_v1.md` duplicate
+- `benchmark_results/internal/` (10 early run JSONs, dir literally named "internal")
+- 4 empty placeholder `.gitkeep` dirs (gpqa/humaneval/swebench/comparative) — vapourware-flavoured; site does NOT reference them so removal creates no broken claims
+- Tightened `.gitignore` to block these patterns going forward
+
+**Sim repo (`agentciv/agentciv`)** — already publicly clean. Commit `7db652a` only tightened `.gitignore` defensively (added `*ROADMAP.md`, `CLAUDE.md`, `.claude/`, `.clauderc` — local untracked files exist but were never in git history).
+
+**Creator repo (`wonderben-code/agentciv-creator`)** — commit `5ef8651` shipped 3 fixes that sync source with the already-published PyPI 0.1.1 wheel:
+- `creator/mcp/__main__.py` (enables `python -m creator.mcp`; was in wheel but missing from repo)
+- `README.md` install instruction modernised (git+https → `pip install agentciv-creator`) + macOS pip3 note
+- `pyproject.toml` version bump 0.1.0 → 0.1.1
+
+**Secrets sweep:** all three repos clean (no committed `.env`, no API keys in tracked files, no `.env` in history).
+
+Local-only audit record: `/Users/ekramalam/1.5.3_audit_notes.md` (NOT committed anywhere).
 
 ### 1.5.3 Public repo hygiene audit — what's in there that shouldn't be?
 
