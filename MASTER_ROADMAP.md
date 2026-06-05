@@ -353,6 +353,54 @@ Pause. Acknowledge the completion. Then start Phase 2.
 
 # PHASE 2 — INFINITOGRAPHY (start → outreach sent)
 
+## 2.0 Current state of infinitography.com (5 Jun 2026 refresh)
+
+Calibration after re-reading the site, the proposal document, the Tree of Reality structure, the Pansophia paper, and the project sub-roadmap. The site is materially further along than the earlier draft of this Phase 2 assumed. The remaining work is sharper as a result.
+
+**Already live and current:**
+- Landing (528 lines), Discovery wing with 22 paper explainers (Infinitography 1–15 + Gnosis 16–19 + Synthesis A–C), Wing 3 / New Fields as 121-entry Master Catalogue, Wing 4 / Gnosis landing (1,345 lines) + Discoveries Explorer (865 lines), Papers index, About, Paper Detail template.
+- **Wing 2 / Theory of Everything has already been rewritten from `the_proposal.md`** (commit `87f0290`, 2 May 2026, 2,394 lines, PartNavigator + progressive disclosure). The §2.5 "ToE rewrite" item below is therefore already done at the wing level — what remains is the wider accuracy pass against all 22 papers and the Paper 12 "Subsequent Advancements" upgrade.
+- 22 papers published on Zenodo with DOIs, all Bitcoin-timestamped.
+- Project-internal sub-roadmap: `infinitography-website/docs/ROADMAP.md` — keep in sync with this section.
+
+**Not yet on the site (true remaining work):**
+1. Home-page experimental-AI disclaimer strip + `/disclaimer` page (§2.4.0).
+2. Paper G — **the paper itself**, written, Bitcoin-stamped, Zenodo-published with DOI (§2.1.1).
+3. Tree of Reality paper — **the paper itself**, written, Bitcoin-stamped, Zenodo-published with DOI (§2.1.2).
+4. `/tree-of-reality` wing rendering the cladogram with PROVED/PARTIAL/CLAIMED/PREDICTED/SPECULATIVE/DOWNSTREAM/META status tags (§2.4.2). Cladogram HTML draft already exists in `convergence-codex/docs/Tree_of_Reality_cladogram.html`.
+5. `/pansophia` wing — landing for the four-component architecture (Gnosis + Logos + Synthesis + Praxis) (§2.4.1). Paper exists at `convergence-codex/papers/pansophia.md`, DOI `10.5281/zenodo.19974680`.
+6. Paper G + Tree paper as featured "start here" pieces on Landing (§2.4.3).
+7. Gnosis v2 dual-display section on `/gnosis` (§2.3) — Gnosis v2 lives in `convergence-codex/` with `GNOSIS_V2_SPEC.md` + `GNOSIS_V2_TECHNICAL_PLAN.md`, in active development.
+8. Paper 12 "Subsequent Advancements" upgrade → Zenodo v2 (§2.5.1).
+9. Homepage content refresh + full playtest + QC pass + final deploy + outreach.
+
+## 2.0.1 Execution order (revised 5 Jun 2026)
+
+Sequenced by impact and dependency. Lowest-effort highest-impact first, papers before their derived wings, content before audit, audit before deploy.
+
+```
+A. Home disclaimer strip + /disclaimer page     ← §2.4.0  (quick win, reframes everything)
+B. Paper G written → Zenodo DOI                  ← §2.1.1  (paper first, then site feature)
+C. Tree of Reality paper written → Zenodo DOI    ← §2.1.2  (paper first, then site wing)
+D. /tree-of-reality wing built                   ← §2.4.2
+E. /pansophia wing built                         ← §2.4.1
+F. Paper G + Tree paper featured on Landing      ← §2.4.3
+G. Gnosis v2 dual-display on /gnosis             ← §2.3
+H. Paper 12 "Subsequent Advancements" → Zenodo v2 ← §2.5
+I. Homepage content refresh + Papers D/E/F vault ← §2.4.4 + homepage update
+J. Optional: GPT 5.5 stress test                 ← §2.6  (time-boxed, cannot block)
+K. Full site QA/QC + accuracy audit              ← §2.7
+L. Deploy + Bitcoin stamp + tag                  ← §2.8
+M. Outreach email + send                         ← §2.9
+```
+
+**Convention reminders woven in:**
+- Every paper goes paper → Bitcoin-stamp via codex git → Zenodo DOI → website feature. No shortcuts. Paper G and the Tree paper follow this.
+- Wings are derived content from papers. Build the paper first, then the wing.
+- All work Bitcoin-stamped via convergence-codex auto-sweep on push.
+
+---
+
 ## 2.1 Content to Write
 
 ### 2.1.1 Paper G — "The Shape of the Theory"
@@ -402,7 +450,7 @@ The earlier "swap if better" framing is retired. Both versions stay, both are vi
 A prominent strip on the homepage — placed near the top, not buried in About — that frames the entire programme as experimental AI-collaborative exploration. Carries the load so the bold claims (`D ≅ [D, D]`, zero free parameters, theory of everything) can land cleanly without each one having to hedge itself.
 
 - **Voice match:** the AgentCiv "A note from the human" strip pattern. Warm, factual, not apologetic, not boastful.
-- **Substance (draft, refine on build):** *"Highly experimental. One human in collaboration with frontier AI, exploring physics and the nature of reality across 27 papers. Some of this will be genuine discovery. Some will be errors or hallucinations from the AI collaborator. Everything is open, Bitcoin-timestamped, and falsifiable — verify what you find, challenge what you doubt."*
+- **Substance (draft, refine on build):** *"Highly experimental. One human in collaboration with frontier AI, exploring physics and the nature of reality across 22 papers. Some of this will be genuine discovery. Some will be errors or hallucinations from the AI collaborator. Everything is open, Bitcoin-timestamped, and falsifiable — verify what you find, challenge what you doubt."*
 - **Placement:** between hero (Section 1: The Framing) and Section 2: The Answer. Reader sees the question, then the honesty frame, then the answer.
 - **Link target:** clicking the strip goes to a dedicated `/disclaimer` page (mirroring agentciv.ai) with the full version.
 - **Tone discipline:** matches Apple-style design rule #7 "radical honesty is a design element."
@@ -429,8 +477,8 @@ A prominent strip on the homepage — placed near the top, not buried in About �
 ## 2.5 Accuracy Audit
 
 ### 2.5.1 Wing-by-wing accuracy pass
-- ToE page rewrite from Paper 15 (the construction `∅ → I → I⊕I → D∞`, not just the equation)
-- Verify coined terms, nine expressions, all paper references against actual papers
+- ✅ ToE page rewrite from Paper 15 / `the_proposal.md` (construction `∅ → I → I⊕I → D∞`, not just the equation) — **DONE 2 May 2026, commit 87f0290**. Re-audit during QC pass against latest `the_proposal.md` only if material changes have landed since.
+- Verify coined terms, nine expressions, all paper references against actual papers (audit run during QC pass §2.7)
 - Paper 12 — add "Subsequent Advancements" section covering Papers 13–15, then Zenodo v2
 
 ## 2.6 OPTIONAL BONUS — GPT 5.5 Stress Test
