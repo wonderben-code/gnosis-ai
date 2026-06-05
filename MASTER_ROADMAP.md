@@ -1,7 +1,7 @@
 # Master Roadmap — Pre-Outreach Build Plan
 
 **Creator:** Mark E. Mala (pen name of Ekram Alam)
-**Last updated:** 24 May 2026 (eve) — Outreach drafts COMPLETE. 20 personalised emails written, tone-passed (humble + authentic + non-AI), saved to `/Users/ekramalam/Desktop/agentciv-outreach/`. Ready to send. Pickup tomorrow at 1.6.2 → send all 20, then 1.6.3 (credibility note on site), then 1.6.4 (bookface post). Sequential structure overall: finish AgentCiv completely (including outreach) BEFORE starting Infinitography BEFORE starting Emma Lark outreach (new Phase 3, added 24 May eve). Outreach order locked: private emails first, bookface post last (confidence builds privately before going public).
+**Last updated:** 5 Jun 2026 — Phase 1 AgentCiv COMPLETE. 20 outreach emails sent + Bookface post live + on-site credibility pass deployed + Bitcoin-stamped (site commit `35ed311`, tag `v-credibility-2026-05-28`). Phase 2 Infinitography opens. Two framing decisions added on resumption: (a) keep Gnosis v1 as canonical historical record, show v2 alongside as experimental upgrade (do not swap); (b) add prominent home-page experimental-AI disclaimer strip — "frontier AI exploring physics + nature of reality, some real discovery, some hallucinations, everything timestamped and falsifiable." Reflected in §2.2.2, §2.3, and §2.4.
 **This is THE canonical roadmap. One file. All projects. Always consult first.**
 
 ---
@@ -18,9 +18,9 @@ Everything else lives in **POST-OUTREACH IDEAS** below. Do not work on those unt
 
 | Project | Live URL | Phase |
 |---------|----------|-------|
-| **AgentCiv** | agentciv.ai | **PHASE 1** (now) |
-| **Infinitography** | infinitography.com | PHASE 2 (after AgentCiv outreach sent) |
-| **Gnosis AI** | infinitography.com/gnosis | PHASE 2 — v2 decision + wing (under Infinitography) |
+| **AgentCiv** | agentciv.ai | ✅ Phase 1 DONE (5 Jun 2026) |
+| **Infinitography** | infinitography.com | **PHASE 2** (now) |
+| **Gnosis AI** | infinitography.com/gnosis | PHASE 2 — v1 canonical + v2 experimental upgrade (dual display under Infinitography) |
 | Exponential Atlas | not deployed | Not in scope |
 
 **Published on Zenodo:** 47 papers, all Bitcoin-timestamped. Token + DOIs in `~/.claude/projects/-Users-ekramalam/memory/project_zenodo_dois.md`.
@@ -378,22 +378,34 @@ Formalises the cladogram into a publishable paper.
 - **Option A — VAULT (default):** linked from "Further Research" footer on New Fields. Not featured.
 - **Option B — WEBSITE:** dedicated index page under New Fields wing.
 
-### 2.2.2 Gnosis Discoveries page
-- **Option A — CUT:** remove `/gnosis/discoveries` route entirely.
-- **Option B — KEEP with honest framing:** relabel "Exploratory formalisations — first-pass output, not verified."
-- **Option C — REPLACE:** swap in Gnosis v2 output (depends on 2.3).
+### 2.2.2 Gnosis Discoveries page — RESOLVED (5 Jun 2026)
+- **Decision:** KEEP `/gnosis/discoveries` as v1 canonical output with honest "exploratory formalisations — first-pass output, not verified" framing. Add v2 output alongside as a separate experimental section (per new §2.3). This makes v1 the historical record (what the first system actually produced) and v2 the next-generation pass — both visible, neither erased.
 
-## 2.3 Gnosis v2 Question
+## 2.3 Gnosis v1 + v2 Dual Display (UPDATED 5 Jun 2026)
 
-### 2.3.1 Test Gnosis v2
-v2 built but never tested.
+### 2.3.1 New framing — keep v1, show v2 as experimental upgrade
+The earlier "swap if better" framing is retired. Both versions stay, both are visible, both are honestly labelled.
 
-- Sanity run + compare to v1
-- Better → swap in, retire v1, update page copy
-- Not better → keep v1, note v2 as in-progress in About
-- Ambiguous → ship v1 unchanged, mention v2 briefly in About
+- **v1 — canonical first pass:** stays as-is. Marked "Gnosis v1 — first-pass output. Exploratory. Some genuine convergences, some artefacts of an early system." This is the historical record of what the first autonomous-discovery AI produced. Do not erase.
+- **v2 — experimental upgrade:** added alongside v1 as a distinct, clearly-labelled experimental section. Marked "Gnosis v2 — second-generation pass. Higher rigour, multi-tool (Lean + Z3 + SymPy), still under active development." Output presented honestly: some real, some likely wrong, the reader is invited to verify.
+- **Comparison view (optional):** if v1 and v2 produced output on overlapping convergences, show them side-by-side so the reader can see how the system evolved.
+- **Tone:** factual, curious, non-defensive. The point is the journey of an autonomous-discovery AI getting better over time, not "v2 fixed v1's mistakes."
+
+### 2.3.2 Test Gnosis v2 (informational, not gating)
+- Sanity run to confirm v2 actually produces output.
+- Capture v2 output for the new section.
+- No "did it beat v1" decision — both ship regardless.
 
 ## 2.4 Website Additions (no destruction)
+
+### 2.4.0 Home-page experimental-AI disclaimer strip (NEW, 5 Jun 2026)
+A prominent strip on the homepage — placed near the top, not buried in About — that frames the entire programme as experimental AI-collaborative exploration. Carries the load so the bold claims (`D ≅ [D, D]`, zero free parameters, theory of everything) can land cleanly without each one having to hedge itself.
+
+- **Voice match:** the AgentCiv "A note from the human" strip pattern. Warm, factual, not apologetic, not boastful.
+- **Substance (draft, refine on build):** *"Highly experimental. One human in collaboration with frontier AI, exploring physics and the nature of reality across 27 papers. Some of this will be genuine discovery. Some will be errors or hallucinations from the AI collaborator. Everything is open, Bitcoin-timestamped, and falsifiable — verify what you find, challenge what you doubt."*
+- **Placement:** between hero (Section 1: The Framing) and Section 2: The Answer. Reader sees the question, then the honesty frame, then the answer.
+- **Link target:** clicking the strip goes to a dedicated `/disclaimer` page (mirroring agentciv.ai) with the full version.
+- **Tone discipline:** matches Apple-style design rule #7 "radical honesty is a design element."
 
 ### 2.4.1 Pansophia wing — new route `/pansophia`
 - Landing page derived from `convergence-codex/papers/pansophia.md`
