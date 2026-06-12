@@ -37,6 +37,7 @@ class Orchestrator:
 
     def __init__(self, config: Config, use_max_plan: bool = False):
         self.config = config
+        self.use_max_plan = use_max_plan
         self.api = create_api(config, use_max_plan=use_max_plan)
         self.store = Store(config)
         self.taxonomy = Taxonomy(config)
@@ -220,7 +221,12 @@ class Orchestrator:
             if elapsed > max_seconds:
                 stats.termination_reason = f"max_hours ({self.config.max_hours}h)"
                 break
-            if self.api.stats.cost_usd >= self.config.max_cost_usd:
+            # Cost gate: skip in Max-plan mode, where cost is $0 by construction
+            # (time and task-count limits govern instead). A max_cost of 0 there
+            # is the expected cost, not an exhausted budget.
+            if not self.use_max_plan and self.config.max_cost_usd > 0 and (
+                self.api.stats.cost_usd >= self.config.max_cost_usd
+            ):
                 stats.termination_reason = f"max_cost (${self.config.max_cost_usd})"
                 break
 

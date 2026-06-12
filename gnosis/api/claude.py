@@ -285,6 +285,8 @@ class MaxPlanAPI:
         env = os.environ.copy()
         env.pop("CLAUDECODE", None)
         env.pop("CLAUDE_CODE_ENTRYPOINT", None)
+        env.pop("ANTHROPIC_API_KEY", None)
+        env.pop("ANTHROPIC_MODEL", None)
         return env
 
     def _run_cli(self, prompt: str, system: str = "", model: str | None = None) -> str:
