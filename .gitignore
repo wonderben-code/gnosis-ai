@@ -17,3 +17,11 @@ data/findings/*.json
 
 # Config with API keys
 gnosis.json
+
+# internal planning — never publish
+MASTER_ROADMAP.md
+CLAUDE.md
+.claude/
+docs/ROADMAP.md
+docs/*_PLAN.md
+docs/PAPER_PLAN.md
