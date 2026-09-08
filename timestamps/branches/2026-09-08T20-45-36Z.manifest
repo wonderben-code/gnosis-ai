@@ -1,0 +1,5 @@
+# Branch head manifest — 2026-09-08T20-45-36Z
+# repo: wonderben-code/gnosis-ai
+# Each line: <branch> <tab> <head sha>. A commit hash contains its
+# entire ancestry, so stamping these heads stamps all history behind them.
+main	9dfc540590e05fdec4ddcf204f8c2af1b7853051
